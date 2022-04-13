@@ -1,0 +1,3113 @@
+{
+    "status": {
+        "version": "1.0.0",
+        "code": 0,
+        "msg": "SuccessWithResult",
+        "total": 2766,
+        "page": 1,
+        "pagesize": 100,
+        "transactionID": "9c8bedbc42a582438d36e08d23ddf322"
+    },
+    "property": [
+        {
+            "identifier": {
+                "Id": 156464,
+                "fips": "06081",
+                "apn": "070-012-390",
+                "attomId": 156464
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "21 ORCHARD HILLS ST",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "21 ORCHARD HILLS ST, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "5459",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.444944",
+                "longitude": "-122.220097",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0622380, DB0636390, PL0603092, RS0004878629, SB0000070764, SB0000070765, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 157626,
+                "fips": "06081",
+                "apn": "061-340-010",
+                "attomId": 157626
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "196 ENCINAL AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "196 ENCINAL AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3103",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.464545",
+                "longitude": "-122.184684",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0004462659, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 278876,
+                "fips": "06081",
+                "apn": "059-292-080",
+                "attomId": 278876
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "36 RALSTON RD",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "36 RALSTON RD, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3913",
+                "postal3": "C047"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.457169",
+                "longitude": "-122.213249",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0004877289, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 565458,
+                "fips": "06081",
+                "apn": "070-031-100",
+                "attomId": 565458
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "102 ALAMEDA DE LAS PULGAS",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "102 ALAMEDA DE LAS PULGAS, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "6447",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.441489",
+                "longitude": "-122.221003",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0622380, DB0636390, ND0004397810, PL0603092, RS0000507545, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 611084,
+                "fips": "06081",
+                "apn": "059-293-150",
+                "attomId": 611084
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "23 RALSTON RD",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "23 RALSTON RD, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3912",
+                "postal3": "C047"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.458194",
+                "longitude": "-122.212900",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0004877289, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636453,
+                "fips": "06081",
+                "apn": "059-303-050",
+                "attomId": 2636453
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "61 GRESHAM LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "61 GRESHAM LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3918",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.467211",
+                "longitude": "-122.209783",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, PL0603092, RS0000582212, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636454,
+                "fips": "06081",
+                "apn": "070-103-320",
+                "attomId": 2636454
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "372 EL CAMINO REAL",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "372 EL CAMINO REAL, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3825",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.463267",
+                "longitude": "-122.203355",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0004880986, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2022-1-11",
+                "pubDate": "2022-1-11"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636455,
+                "fips": "06081",
+                "apn": "070-110-190",
+                "attomId": 2636455
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "82 ATHERTON AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "82 ATHERTON AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "4019",
+                "postal3": "C047"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.457096",
+                "longitude": "-122.204090",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0004877289, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636456,
+                "fips": "06081",
+                "apn": "059-274-090",
+                "attomId": 2636456
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "298 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "298 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3931",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.453659",
+                "longitude": "-122.217542",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, RS0000507510, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636457,
+                "fips": "06081",
+                "apn": "070-022-520",
+                "attomId": 2636457
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "246 POLHEMUS AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "246 POLHEMUS AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "5439",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.447410",
+                "longitude": "-122.217253",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0622380, DB0636390, PL0603092, RS0000507679, SB0000070764, SB0000070765, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636458,
+                "fips": "06081",
+                "apn": "070-040-330",
+                "attomId": 2636458
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "216 ATHERTON AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "216 ATHERTON AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "5419",
+                "postal3": "C061"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.448965",
+                "longitude": "-122.211734",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0622380, DB0636390, ND0004397811, PL0603092, RS0004877620, SB0000070764, SB0000070765, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636459,
+                "fips": "06081",
+                "apn": "070-120-030",
+                "attomId": 2636459
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "37 TUSCALOOSA AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "37 TUSCALOOSA AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "4014",
+                "postal3": "C047"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.460974",
+                "longitude": "-122.203455",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, PL0603092, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636460,
+                "fips": "06081",
+                "apn": "060-303-020",
+                "attomId": 2636460
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "76 RITTENHOUSE AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "76 RITTENHOUSE AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3836",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.464586",
+                "longitude": "-122.203250",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0000574393, PL0603092, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636462,
+                "fips": "06081",
+                "apn": "059-274-040",
+                "attomId": 2636462
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "270 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "270 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3931",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.454178",
+                "longitude": "-122.218259",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, RS0000507510, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636463,
+                "fips": "06081",
+                "apn": "059-271-100",
+                "attomId": 2636463
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "240 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "240 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3931",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.454934",
+                "longitude": "-122.219323",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397261, RS0000507510, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2022-1-11",
+                "pubDate": "2022-1-11"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636464,
+                "fips": "06081",
+                "apn": "059-303-140",
+                "attomId": 2636464
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "16 STOCKBRIDGE AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "16 STOCKBRIDGE AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3938",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.465407",
+                "longitude": "-122.208834",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0004877289, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636465,
+                "fips": "06081",
+                "apn": "059-321-410",
+                "attomId": 2636465
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "199 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "199 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3959",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.456618",
+                "longitude": "-122.221233",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397261, RS0000507510, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074180, ZI94061"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636466,
+                "fips": "06081",
+                "apn": "059-330-010",
+                "attomId": 2636466
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "168 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "168 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3960",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.459033",
+                "longitude": "-122.219974",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, PL0603092, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 2636467,
+                "fips": "06081",
+                "apn": "070-080-040",
+                "attomId": 2636467
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "139 TUSCALOOSA AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "139 TUSCALOOSA AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "4016",
+                "postal3": "C047"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.454791",
+                "longitude": "-122.207969",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, PL0603092, RS0004877289, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2022-1-11",
+                "pubDate": "2022-1-11"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 3486904,
+                "fips": "06081",
+                "apn": "059-312-140",
+                "attomId": 3486904
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "84 NORA WAY",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "84 NORA WAY, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3940",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.463834",
+                "longitude": "-122.206082",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0000583694, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 7540615,
+                "fips": "06081",
+                "apn": "070-310-120",
+                "attomId": 7540615
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "95 CAMINO POR LOS ARBOLES",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "95 CAMINO POR LOS ARBOLES, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "5940",
+                "postal3": "C001"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.440110",
+                "longitude": "-122.201380",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, ND0000503679, PL0603092, RS0004881304, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 7556060,
+                "fips": "06081",
+                "apn": "070-330-060",
+                "attomId": 7556060
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "222 PARK LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "222 PARK LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "5411",
+                "postal3": "C001"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.447373",
+                "longitude": "-122.202558",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, ND0004397811, PL0603092, RS0004811445, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 7556061,
+                "fips": "06081",
+                "apn": "070-355-070",
+                "attomId": 7556061
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "86 MICHAELS WAY",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "86 MICHAELS WAY, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "4144",
+                "postal3": "C001"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.452039",
+                "longitude": "-122.192476",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0624570, DB0636390, PL0603092, RS0004878310, SB0000071854, SB0000071855, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 7556062,
+                "fips": "06081",
+                "apn": "070-022-170",
+                "attomId": 7556062
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "61 PARKER AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "61 PARKER AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "5415",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.448919",
+                "longitude": "-122.219276",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0622380, DB0636390, PL0603092, RS0004877891, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2022-1-11",
+                "pubDate": "2022-1-11"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 7556063,
+                "fips": "06081",
+                "apn": "070-132-110",
+                "attomId": 7556063
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "35 LINDA VISTA AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "35 LINDA VISTA AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "5428",
+                "postal3": "C061"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.443875",
+                "longitude": "-122.211693",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, ND0004397811, PL0603092, RS0000507379, SB0000071855, SB0000071857, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 7556064,
+                "fips": "06081",
+                "apn": "070-250-070",
+                "attomId": 7556064
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "78 ALEJANDRA AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "78 ALEJANDRA AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "4107",
+                "postal3": "C001"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.454476",
+                "longitude": "-122.196464",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0624570, DB0636390, PL0603092, RS0000507528, SB0000071854, SB0000071855, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 7556065,
+                "fips": "06081",
+                "apn": "070-152-030",
+                "attomId": 7556065
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "48 FAIRVIEW AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "48 FAIRVIEW AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "5427",
+                "postal3": "C061"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.440636",
+                "longitude": "-122.213441",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0624570, DB0636390, PL0603092, RS0000507379, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 7556067,
+                "fips": "06081",
+                "apn": "070-032-070",
+                "attomId": 7556067
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "86 KILROY WAY",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "86 KILROY WAY, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "5405",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.442954",
+                "longitude": "-122.218891",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0622380, DB0636390, ND0004397811, PL0603092, RS0004878913, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 7556068,
+                "fips": "06081",
+                "apn": "073-220-240",
+                "attomId": 7556068
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "311 ATHERTON AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "311 ATHERTON AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "6403",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.438717",
+                "longitude": "-122.217452",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0622380, DB0636390, PL0603092, RS0000507501, SB0000070764, SB0000070765, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 7556069,
+                "fips": "06081",
+                "apn": "073-230-140",
+                "attomId": 7556069
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "2 CALLADO WAY",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "2 CALLADO WAY, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "6450",
+                "postal3": "C061"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.438690",
+                "longitude": "-122.214519",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0622380, DB0636390, ND0004397811, PL0603092, RS0004878341, SB0000070764, SB0000070765, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8285868,
+                "fips": "06081",
+                "apn": "070-103-260",
+                "attomId": 8285868
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "7 ALMENDRAL AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "7 ALMENDRAL AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "4001",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.463911",
+                "longitude": "-122.204638",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0004880986, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2022-1-11",
+                "pubDate": "2022-1-11"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8296596,
+                "fips": "06081",
+                "apn": "070-103-040",
+                "attomId": 8296596
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "30 SOUTHGATE ST",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "30 SOUTHGATE ST, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "4069",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.461691",
+                "longitude": "-122.206347",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0000506643, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8296597,
+                "fips": "06081",
+                "apn": "060-302-040",
+                "attomId": 8296597
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "33 LLOYDEN DR",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "33 LLOYDEN DR, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3854",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.465217",
+                "longitude": "-122.202474",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, PL0603092, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8296598,
+                "fips": "06081",
+                "apn": "060-254-040",
+                "attomId": 8296598
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "50 MARIANNA LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "50 MARIANNA LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3035",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.463952",
+                "longitude": "-122.195940",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0000506201, SB0000071854, SB0000071855, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8296599,
+                "fips": "06081",
+                "apn": "060-321-060",
+                "attomId": 8296599
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "1 ASHFIELD RD",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "1 ASHFIELD RD, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3805",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.461642",
+                "longitude": "-122.198425",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0004798744, SB0000071854, SB0000071855, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8296600,
+                "fips": "06081",
+                "apn": "060-331-020",
+                "attomId": 8296600
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "87 WALNUT AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "87 WALNUT AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3820",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.462395",
+                "longitude": "-122.195334",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0001434462, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8296601,
+                "fips": "06081",
+                "apn": "070-222-060",
+                "attomId": 8296601
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "6 MAPLE AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "6 MAPLE AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "4035",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.460374",
+                "longitude": "-122.198352",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, ND0004397811, PL0603092, RS0004834128, SB0000071854, SB0000071855, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8296602,
+                "fips": "06081",
+                "apn": "059-311-080",
+                "attomId": 8296602
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "49 STOCKBRIDGE AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "49 STOCKBRIDGE AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3937",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.462792",
+                "longitude": "-122.209654",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0000583694, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8296603,
+                "fips": "06081",
+                "apn": "060-210-170",
+                "attomId": 8296603
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "163 FAIR OAKS LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "163 FAIR OAKS LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3031",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.467921",
+                "longitude": "-122.196543",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0000507483, SB0000071854, SB0000071855, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8296604,
+                "fips": "06081",
+                "apn": "060-331-040",
+                "attomId": 8296604
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "77 WALNUT AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "77 WALNUT AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3820",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.462162",
+                "longitude": "-122.195516",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0001434462, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2022-1-11",
+                "pubDate": "2022-1-11"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8296605,
+                "fips": "06081",
+                "apn": "060-331-250",
+                "attomId": 8296605
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "98 MAPLE AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "98 MAPLE AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3815",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.462820",
+                "longitude": "-122.195548",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0624570, DB0636390, PL0603092, RS0001434462, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2022-1-11",
+                "pubDate": "2022-1-11"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8296606,
+                "fips": "06081",
+                "apn": "070-223-020",
+                "attomId": 8296606
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "750 EL CAMINO REAL",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "750 EL CAMINO REAL, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3858",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.460183",
+                "longitude": "-122.197126",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0624570, DB0636390, PL0603092, RS0004834128, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8395600,
+                "fips": "06081",
+                "apn": "060-331-010",
+                "attomId": 8395600
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "99 WALNUT AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "99 WALNUT AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3820",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.462551",
+                "longitude": "-122.195220",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0624570, DB0636390, PL0603092, RS0001434462, SB0000071854, SB0000071855, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8404303,
+                "fips": "06081",
+                "apn": "061-330-030",
+                "attomId": 8404303
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "22 LANE PL",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "22 LANE PL, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3010",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.466515",
+                "longitude": "-122.189826",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0624570, DB0636390, PL0603092, RS0000507506, SB0000071854, SB0000071855, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8404304,
+                "fips": "06081",
+                "apn": "060-172-280",
+                "attomId": 8404304
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "8 HERITAGE CT",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "8 HERITAGE CT, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "2045",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.470349",
+                "longitude": "-122.191214",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0004799629, SB0000071854, SB0000071855, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8404305,
+                "fips": "06081",
+                "apn": "061-330-100",
+                "attomId": 8404305
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "61 LANE PL",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "61 LANE PL, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3009",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.464739",
+                "longitude": "-122.188831",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0000507506, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8404306,
+                "fips": "06081",
+                "apn": "060-172-170",
+                "attomId": 8404306
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "82 HOLBROOK LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "82 HOLBROOK LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "2037",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.471621",
+                "longitude": "-122.191284",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0000580310, SB0000071854, SB0000071855, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2022-1-11",
+                "pubDate": "2022-1-11"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8404307,
+                "fips": "06081",
+                "apn": "060-231-010",
+                "attomId": 8404307
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "199 BURNS AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "199 BURNS AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3029",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.467401",
+                "longitude": "-122.190328",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0000576232, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8495351,
+                "fips": "06081",
+                "apn": "070-012-420",
+                "attomId": 8495351
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "293 STOCKBRIDGE AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "293 STOCKBRIDGE AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "5444",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.444350",
+                "longitude": "-122.223506",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0622380, DB0636390, PL0603092, RS0004880383, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2022-1-11",
+                "pubDate": "2022-1-11"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8509946,
+                "fips": "06081",
+                "apn": "059-271-010",
+                "attomId": 8509946
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "200 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "200 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3931",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.455830",
+                "longitude": "-122.220561",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397261, RS0000507510, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8509947,
+                "fips": "06081",
+                "apn": "059-140-040",
+                "attomId": 8509947
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "80 LOGAN LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "80 LOGAN LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3919",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.463757",
+                "longitude": "-122.214938",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0000506296, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8509948,
+                "fips": "06081",
+                "apn": "059-172-260",
+                "attomId": 8509948
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "2 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "2 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3927",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.468309",
+                "longitude": "-122.211226",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0000583705, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8714082,
+                "fips": "06081",
+                "apn": "060-241-020",
+                "attomId": 8714082
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "101 FAIR OAKS LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "101 FAIR OAKS LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3057",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.465372",
+                "longitude": "-122.198365",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0000507483, SB0000071854, SB0000071855, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2022-3-10",
+                "pubDate": "2022-3-10"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 8717425,
+                "fips": "06081",
+                "apn": "070-223-040",
+                "attomId": 8717425
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "14 ISABELLA AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "14 ISABELLA AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "4032",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.459734",
+                "longitude": "-122.197086",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0624570, DB0636390, PL0603092, RS0004834128, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 10113215,
+                "fips": "06081",
+                "apn": "059-172-310",
+                "attomId": 10113215
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "41 CEBALO LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "41 CEBALO LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3917",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.467778",
+                "longitude": "-122.212766",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, PL0603092, RS0004878636, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 10116323,
+                "fips": "06081",
+                "apn": "070-022-200",
+                "attomId": 10116323
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "43 PARKER AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "43 PARKER AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "5415",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.449267",
+                "longitude": "-122.219978",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0622380, DB0636390, ND0004397811, PL0603092, RS0004877891, SB0000070764, SB0000070765, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 10116324,
+                "fips": "06081",
+                "apn": "060-323-290",
+                "attomId": 10116324
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "60 ASHFIELD RD",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "60 ASHFIELD RD, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3806",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.462455",
+                "longitude": "-122.197325",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0004798744, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 10116325,
+                "fips": "06081",
+                "apn": "070-040-580",
+                "attomId": 10116325
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "220 ATHERTON AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "220 ATHERTON AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "5419",
+                "postal3": "C061"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.448251",
+                "longitude": "-122.212689",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0622380, DB0636390, ND0004397811, PL0603092, RS0004877620, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 10116326,
+                "fips": "06081",
+                "apn": "060-171-100",
+                "attomId": 10116326
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "37 HOLBROOK LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "37 HOLBROOK LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "2036",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.470616",
+                "longitude": "-122.193043",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0624570, DB0636390, PL0603092, RS0000580310, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 10116327,
+                "fips": "06081",
+                "apn": "060-291-080",
+                "attomId": 10116327
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "83 WILBURN AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "83 WILBURN AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3839",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.467162",
+                "longitude": "-122.204197",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0000574393, PL0603092, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 10116328,
+                "fips": "06081",
+                "apn": "060-323-210",
+                "attomId": 10116328
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "50 ASHFIELD RD",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "50 ASHFIELD RD, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3806",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.462260",
+                "longitude": "-122.197422",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0004798744, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 10324322,
+                "fips": "06081",
+                "apn": "070-011-110",
+                "attomId": 10324322
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "46 ALAMEDA DE LAS PULGAS",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "46 ALAMEDA DE LAS PULGAS, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "6444",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.442728",
+                "longitude": "-122.223515",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0622380, DB0636390, PL0603092, RS0004880383, SB0000070764, SB0000070765, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 10331631,
+                "fips": "06081",
+                "apn": "074-012-270",
+                "attomId": 10331631
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "332 CAMINO AL LAGO",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "332 CAMINO AL LAGO, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "6544",
+                "postal3": "C001"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.436608",
+                "longitude": "-122.212729",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0622380, DB0636390, ND0000503679, PL0603092, RS0000507583, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 10331632,
+                "fips": "06081",
+                "apn": "073-183-010",
+                "attomId": 10331632
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "397 FLETCHER DR",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "397 FLETCHER DR, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "6409",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.437875",
+                "longitude": "-122.224387",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0622380, DB0636390, ND0004397810, PL0603092, RS0000506777, SB0000070764, SB0000070765, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 11180353,
+                "fips": "06081",
+                "apn": "074-012-180",
+                "attomId": 11180353
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "351 CAMINO AL LAGO",
+                "line2": "MENLO PARK, CA 94027",
+                "locality": "MENLO PARK",
+                "matchCode": "ExaStr",
+                "oneLine": "351 CAMINO AL LAGO, MENLO PARK, CA 94027",
+                "postal1": "94027",
+                "postal2": "6543",
+                "postal3": "C001"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.435913",
+                "longitude": "-122.212564",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0622380, DB0636390, PL0684536, RS0000507583, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 11180362,
+                "fips": "06081",
+                "apn": "074-012-450",
+                "attomId": 11180362
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "321 CAMINO AL LAGO",
+                "line2": "MENLO PARK, CA 94027",
+                "locality": "MENLO PARK",
+                "matchCode": "ExaStr",
+                "oneLine": "321 CAMINO AL LAGO, MENLO PARK, CA 94027",
+                "postal1": "94027",
+                "postal2": "6543",
+                "postal3": "C001"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.436255",
+                "longitude": "-122.212279",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0622380, DB0636390, ND0000503679, PL0684536, RS0000507583, SB0000070764, SB0000070765, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 14748978,
+                "fips": "06081",
+                "apn": "061-290-040",
+                "attomId": 14748978
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "242 OAK GROVE AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "242 OAK GROVE AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "2218",
+                "postal3": "C075"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.464945",
+                "longitude": "-122.175337",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0624570, DB0636390, PL0603092, RS0000506155, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 14949699,
+                "fips": "06081",
+                "apn": "061-154-090",
+                "attomId": 14949699
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "20 JAMES AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "20 JAMES AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "2010",
+                "postal3": "C019"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.467452",
+                "longitude": "-122.186896",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0624570, DB0636390, PL0603092, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 15496984,
+                "fips": "06081",
+                "apn": "060-231-030",
+                "attomId": 15496984
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "179 BURNS AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "179 BURNS AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3029",
+                "postal3": "C076"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.467988",
+                "longitude": "-122.191560",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, PL0603092, RS0000576232, SB0000071854, SB0000071855, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 15496985,
+                "fips": "06081",
+                "apn": "060-301-040",
+                "attomId": 15496985
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "97 BELLEAU AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "97 BELLEAU AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3850",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.466251",
+                "longitude": "-122.201116",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0000574393, PL0603092, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 15700333,
+                "fips": "06081",
+                "apn": "070-102-020",
+                "attomId": 15700333
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "58 N GATE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "58 N GATE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "4010",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.463060",
+                "longitude": "-122.205065",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0000506643, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 15700334,
+                "fips": "06081",
+                "apn": "070-201-040",
+                "attomId": 15700334
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "90 FAXON RD",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "90 FAXON RD, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "4046",
+                "postal3": "C047"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.448321",
+                "longitude": "-122.206811",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0624570, DB0636390, PL0603092, RS0000507537, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 15969734,
+                "fips": "06081",
+                "apn": "059-302-070",
+                "attomId": 15969734
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "65 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "65 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3926",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.464217",
+                "longitude": "-122.213595",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, PL0603092, RS0004877289, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 15985580,
+                "fips": "06081",
+                "apn": "070-032-290",
+                "attomId": 15985580
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "96 MULBERRY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "96 MULBERRY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "5421",
+                "postal3": "C061"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.441246",
+                "longitude": "-122.218491",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0622380, DB0636390, ND0004397811, PL0603092, RS0000506506, SB0000070764, SB0000070765, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 16363252,
+                "fips": "06081",
+                "apn": "059-281-050",
+                "attomId": 16363252
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "171 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "171 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3959",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.457167",
+                "longitude": "-122.218540",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0004877289, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 16363253,
+                "fips": "06081",
+                "apn": "059-281-040",
+                "attomId": 16363253
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "181 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "181 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3959",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.456785",
+                "longitude": "-122.218847",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, PL0603092, RS0004877289, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 16363254,
+                "fips": "06081",
+                "apn": "059-281-290",
+                "attomId": 16363254
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "165 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "165 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3959",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.457675",
+                "longitude": "-122.218485",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0004877289, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 16363255,
+                "fips": "06081",
+                "apn": "059-330-070",
+                "attomId": 16363255
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "164 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "164 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3960",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.458737",
+                "longitude": "-122.219256",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, PL0603092, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 16363256,
+                "fips": "06081",
+                "apn": "059-281-270",
+                "attomId": 16363256
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "185 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "185 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3959",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.456597",
+                "longitude": "-122.219538",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, PL0603092, RS0004877289, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 16363257,
+                "fips": "06081",
+                "apn": "059-281-070",
+                "attomId": 16363257
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "2 SERRANO DR",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "2 SERRANO DR, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3934",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.458250",
+                "longitude": "-122.218386",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0004817727, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 16363258,
+                "fips": "06081",
+                "apn": "059-321-130",
+                "attomId": 16363258
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "190 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "190 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3960",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.457180",
+                "longitude": "-122.220360",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, PL0603092, RS0004879929, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 16363259,
+                "fips": "06081",
+                "apn": "059-281-080",
+                "attomId": 16363259
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "28 SERRANO DR",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "28 SERRANO DR, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3934",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.457992",
+                "longitude": "-122.217869",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0004817727, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 16363260,
+                "fips": "06081",
+                "apn": "059-330-090",
+                "attomId": 16363260
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "160 SELBY LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "160 SELBY LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3960",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.459164",
+                "longitude": "-122.218580",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0004465424, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 18667800,
+                "fips": "06081",
+                "apn": "059-292-020",
+                "attomId": 18667800
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "157 STOCKBRIDGE AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "157 STOCKBRIDGE AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3942",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.455903",
+                "longitude": "-122.214498",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0004877289, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 20850196,
+                "fips": "06081",
+                "apn": "073-141-320",
+                "attomId": 20850196
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "105 RESERVOIR RD",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "105 RESERVOIR RD, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "6421",
+                "postal3": "C061"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.429552",
+                "longitude": "-122.226063",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0622380, DB0636390, ND0004397810, PL0603092, RS0000507567, SB0000070764, SB0000070765, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 21973708,
+                "fips": "06081",
+                "apn": "059-303-170",
+                "attomId": 21973708
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "30 STOCKBRIDGE AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "30 STOCKBRIDGE AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3938",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.464397",
+                "longitude": "-122.209437",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0000583711, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 21973711,
+                "fips": "06081",
+                "apn": "059-303-060",
+                "attomId": 21973711
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "73 GRESHAM LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "73 GRESHAM LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3918",
+                "postal3": "C013"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.467039",
+                "longitude": "-122.209546",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0004397811, PL0603092, RS0000582212, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 22714272,
+                "fips": "06081",
+                "apn": "061-091-120",
+                "attomId": 22714272
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "45 FREDRICK AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "45 FREDRICK AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "2203",
+                "postal3": "C075"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.472129",
+                "longitude": "-122.170491",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0624570, DB0636390, PL0603092, RS0000506081, SB0000071855, SB0000071856, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 23981928,
+                "fips": "06081",
+                "apn": "060-294-100",
+                "attomId": 23981928
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "2 WILBURN AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "2 WILBURN AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3840",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.465062",
+                "longitude": "-122.205144",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, PL0603092, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 24115272,
+                "fips": "06081",
+                "apn": "070-060-070",
+                "attomId": 24115272
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "111 ALMENDRAL AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "111 ALMENDRAL AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "4003",
+                "postal3": "C047"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.457367",
+                "longitude": "-122.209604",
+                "distance": 0.0,
+                "geoid": "CO06081, DB0632130, DB0636390, PL0603092, RS0004877289, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 24115273,
+                "fips": "06081",
+                "apn": "060-312-110",
+                "attomId": 24115273
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "55 REDWOOD WAY",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "55 REDWOOD WAY, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3847",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.463812",
+                "longitude": "-122.201001",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0000574393, PL0603092, RS0000506470, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 24115274,
+                "fips": "06081",
+                "apn": "060-294-010",
+                "attomId": 24115274
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "26 WILBURN AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "26 WILBURN AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3840",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.465364",
+                "longitude": "-122.204906",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0000574393, PL0603092, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 24115275,
+                "fips": "06081",
+                "apn": "060-291-420",
+                "attomId": 24115275
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "11 WILBURN AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "11 WILBURN AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3839",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.465426",
+                "longitude": "-122.205573",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0000574393, PL0603092, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 24115276,
+                "fips": "06081",
+                "apn": "060-291-430",
+                "attomId": 24115276
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "23 WILBURN AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "23 WILBURN AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3839",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.465612",
+                "longitude": "-122.205425",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0000574393, PL0603092, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 24115277,
+                "fips": "06081",
+                "apn": "060-291-410",
+                "attomId": 24115277
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "1 WILBURN AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "1 WILBURN AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3839",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.465240",
+                "longitude": "-122.205720",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0000574393, PL0603092, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 24115278,
+                "fips": "06081",
+                "apn": "060-294-090",
+                "attomId": 24115278
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "323 LLOYDEN PARK LN",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "323 LLOYDEN PARK LN, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3810",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.464908",
+                "longitude": "-122.204848",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0000574393, PL0603092, SB0000073061, SB0000073063, SB0000073064, SB0000073069, SB0000074178, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 24115282,
+                "fips": "06081",
+                "apn": "060-294-020",
+                "attomId": 24115282
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "22 RITTENHOUSE AVE",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "22 RITTENHOUSE AVE, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "3836",
+                "postal3": "C065"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.465227",
+                "longitude": "-122.204594",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0632130, DB0636390, ND0000574393, PL0603092, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 26164781,
+                "fips": "06081",
+                "apn": "073-191-040",
+                "attomId": 26164781
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "596 FLETCHER DR",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "596 FLETCHER DR, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.432897",
+                "longitude": "-122.223447",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0622380, DB0636390, ND0004397810, PL0603092, RS0000507567, SB0000070764, SB0000070765, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2022-1-11",
+                "pubDate": "2022-1-11"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 26164782,
+                "fips": "06081",
+                "apn": "073-202-860",
+                "attomId": 26164782
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "587 FLETCHER DR",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "587 FLETCHER DR, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "",
+                "postal3": "C037"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.433935",
+                "longitude": "-122.222793",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0622380, DB0636390, ND0004397810, PL0603092, RS0000507567, SB0000070764, SB0000070765, SB0000074180, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2022-1-11",
+                "pubDate": "2022-1-11"
+            }
+        },
+        {
+            "identifier": {
+                "Id": 26164783,
+                "fips": "06081",
+                "apn": "073-212-070",
+                "attomId": 26164783
+            },
+            "address": {
+                "country": "US",
+                "countrySubd": "CA",
+                "line1": "88 RESERVOIR RD",
+                "line2": "ATHERTON, CA 94027",
+                "locality": "ATHERTON",
+                "matchCode": "ExaStr",
+                "oneLine": "88 RESERVOIR RD, ATHERTON, CA 94027",
+                "postal1": "94027",
+                "postal2": "",
+                "postal3": "C061"
+            },
+            "location": {
+                "accuracy": "Rooftop",
+                "latitude": "37.430149",
+                "longitude": "-122.223458",
+                "distance": 0.0,
+                "geoid": "CO06081, CS0692870, DB0624570, DB0636390, ND0004397811, PL0603092, RS0001434460, ZI94027"
+            },
+            "vintage": {
+                "lastModified": "2021-11-23",
+                "pubDate": "2021-11-23"
+            }
+        }
+    ]
+}
