@@ -3,7 +3,7 @@ class Job
               :salary_max,
               :location,
               :company,
-              :apply,
+              :contact,
               :id
 
   def initialize(job_info)
@@ -14,11 +14,11 @@ class Job
                   "state" => job_info[:location][:area][1]
     }
     @company = job_info[:company][:display_name]
-    @apply = job_info[:redirect_url]
+    @contact = job_info[:redirect_url]
     @id = job_info[:id]
   end
 
-  def salary_avg
+  def salary
     (@salary_max + @salary_min)/2
   end
 end
