@@ -24,8 +24,10 @@ RSpec.describe Job do
 
     expect(job).to be_an_instance_of(Job)
     expect(job.salary_avg).to eq(140000)
-    expect(job.state).to eq("California")
-    expect(job.city).to eq("San Francisco")
+
+    expect(job.location).to be_an_instance_of(Hash)
+    expect(job.location).to eq({"state" => "California", "city" => "San Francisco"})
+
     expect(job.company).to eq("Layer1 Technologies")
     expect(job.apply).to eq("https://www.adzuna.com/land/ad/2844213317?se=Ev-L2YS77BGCEVbsF3PMqw&utm_medium=api&utm_source=5e859b54&v=BF9668CE5FF29CD456CD0952C90E8AC7569EBC86")
     expect(job.id).to eq("2844213317")
