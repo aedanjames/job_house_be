@@ -5,8 +5,7 @@ RSpec.describe 'house service' do
     results = File.read('spec/fixtures/houses_atherton_zip.json')
 
     zipcode = 94027
-    # stub_request(:get, "https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/address?postalcode=94027&page=1&pagesize=100").
-    #   to_return(status: 200, body: results)
+
     stub_request(:get, "https://api.gateway.attomdata.com/property/address?94027=82009&page=1&pagesize=100").
          with(
            headers: {
@@ -17,7 +16,7 @@ RSpec.describe 'house service' do
          to_return(status: 200, body: results, headers: {})
 
      search = HouseService.get_house_info(zipcode)
-     require "pry"; binding.pry
+     
     expect(search).to be_a(Hash)
   end
 end
