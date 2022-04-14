@@ -72,8 +72,8 @@ end
 VCR.configure do |config|
   config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
   config.hook_into :webmock
-  # filters sensitive data for us. Each API key will need it's own line 
-  config.filter_sensitive_data('movie_api_key') { ENV['movie_api_key'] }
+  # filters sensitive data for us. Each API key will need it's own line
+  config.filter_sensitive_data('app_key') { ENV['app_key'] }
   # allows us to use the names of our tests to name cassettes rather than having to manually wrap each test in a block
   # add :vcr do to our test block after the first one
   config.configure_rspec_metadata!
