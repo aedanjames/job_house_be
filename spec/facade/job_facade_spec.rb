@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe 'The Job Facade' do
-  it ".find_jobs" do
+  xit ".find_jobs" do
     results = File.read('spec/fixtures/jobs_sf.json')
 
     stub_request(:get, "https://developer.adzuna.com/v1/api/jobs/us/search/1?app_id=&app_key=&location0=us&location1=california&location2=san%20francisco&salary_max=200000&salary_min=100000").

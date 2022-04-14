@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=5e859b54&app_key=app_key&location0=us&location1=colorado&location2=denver&results_per_page=50&salary_max=10000000&salary_min=0
+    uri: https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=5e859b54&app_key=9b7837242edf32ddec42da936025659e&location0=us&location1=colorado&location2=denver&salary_max=200000&salary_min=100000
     body:
       encoding: US-ASCII
       string: ''
@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 14 Apr 2022 23:33:14 GMT
+      - Thu, 14 Apr 2022 23:50:31 GMT
       Content-Type:
       - application/json; charset=utf8
       Content-Length:
-      - '69866'
+      - '13724'
       Connection:
       - keep-alive
       Server:
@@ -38,505 +38,97 @@ http_interactions:
       - '5.90117'
     body:
       encoding: UTF-8
-      string: '{"results":[{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAyMzcyNDI3NCIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.FiYfASabcWbucVYjX9FviVgL5u_nelEFwUi9w-bodV0","salary_max":250,"salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Arrow
-        Electronics"},"id":"3023724274","created":"2022-04-03T21:32:30Z","category":{"label":"Accounting
-        & Finance Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs"},"__CLASS__":"Adzuna::API::Response::Job","latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3023724274?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=5D5A4BF9729D812354775D68A0FA57C5A92AD045","longitude":-104.99,"title":"Director
-        Financial Services - Credit & Collections","contract_time":"full_time","salary_min":200,"description":"Director
-        Financial Services - Credit & Collections Position: Director Financial Services
-        - Credit & Collections Job Description: We have an excellent opportunity for
-        a Director Financial Services, in our Centennial, CO location. This position
-        provides strategic direction to a team responsible for managing the Americas
-        receivable portfolio. This team provides expertise in leveraging financial
-        options that assist our customers to grow revenue. The ideal candidate will
-        be a team player with strong\u2026","location":{"display_name":"Denver, Colorado","__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"]}},{"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"description":"We are seeking Registered Nurses to assist with
-        the vaccination initiative throughout CO Flexible dates and multiple shifts
-        available (3 hour \u2013 8 hour) Multiple locations spanning from Colorado
-        Springs to Boulder $45/hr Must have active RN license in Colorado in good
-        standing, Active BLS card, and received at least 1 vaccination. If qualified,
-        interested, and available (or know of somebody who is), reply with an updated
-        resume, preferred location, and available start date for immediate consider\u2026","salary_is_predicted":"0","salary_min":86400,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Comcentric
-        Inc."},"id":"2911829644","title":"Vaccination Support RN''s Needed Throughout
-        CO","longitude":-104.99,"salary_max":86400,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/2911829644?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=4708F00E6D61A64CFD4ED39706609E4803D0D90C","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIyOTExODI5NjQ0In0.Ju0j4QEaAgIk57zn78r9Z8aBSjLLh0wSsSfC1y9ZMu8","__CLASS__":"Adzuna::API::Response::Job","category":{"label":"Trade
-        & Construction Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"trade-construction-jobs"},"created":"2022-02-19T19:51:08Z"},{"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3038479636?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=1221DCD6FAFC8470CD2D44269EE94F7F8BF6F04E","longitude":-104.99,"salary_max":288000,"location":{"display_name":"Denver,
-        Colorado","__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"]},"title":"Senior
-        Financial Analyst","company":{"display_name":"Western Union","__CLASS__":"Adzuna::API::Response::Company"},"description":"Are
-        you ready to join a dynamic Finance team responsible for supporting Western
-        Unions digital journey? Do you want to apply your financial analysis skills
-        to the companys strategy? Join Western Union as a Senior Financial Analyst.
-        Motivated by our values: purpose driven, globally minded, and trustworthy
-        & respectful Were a FinTech thats using insight from customers and colleagues
-        worldwide to improve financial services for families, small businesses, multinational
-        corporations, and non-profit \u2026","salary_min":240000,"id":"3038479636","salary_is_predicted":"0","created":"2022-04-08T21:42:03Z","category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDM4NDc5NjM2In0.lDV0cIkVnOlTS_vHYy9QJn700CU_n9fJIkshxD7hx4w","__CLASS__":"Adzuna::API::Response::Job"},{"longitude":-104.99,"salary_max":384000,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3011205667?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=54FE1A735A6BA0642A7104A773066A63B591BEC2","location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"description":"We are currently seeking a Measurement & Verification
-        Services Program Manager to join our team as a member of our growing Rocky
-        Moutain Technical Services division. You will lead the M&V team in delivering
-        M&V services with excellence to McKinstry''s Program Manager, Verification,
-        Measurement, Program, Manager, Technical, Construction","salary_is_predicted":"0","salary_min":288000,"company":{"display_name":"McKinstry
-        Co., LLC","__CLASS__":"Adzuna::API::Response::Company"},"id":"3011205667","title":"Measurement
-        & Verification Services Program Manager","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"engineering-jobs","label":"Engineering
-        Jobs"},"created":"2022-03-30T21:28:58Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAxMTIwNTY2NyIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.PnfsYraQkQulW_oFc3UsV_VIWMEMJ5TxvYE_1BHEnrc","__CLASS__":"Adzuna::API::Response::Job"},{"salary_max":288000,"longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/3031229153?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=4A053B6B6C580BF6FFCFA978CEFDC0913427E483","latitude":39.75,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"salary_min":240000,"description":"Windfall is seeking an experienced
-        Sr. Product Marketing Manager who will help transform Windfall into the leading
-        wealth intelligence solution for commercial businesses and nonprofits. This
-        individual will develop product and vertical solution messaging and positioning,
-        competitive differentiation, and sales enablement. Working closely with many
-        cross-functional teams, and as a close ally to the sales and product organizations,
-        this individual will oversee the development of launch initiatives\u2026","company":{"display_name":"Windfall
-        Data, Inc.","__CLASS__":"Adzuna::API::Response::Company"},"id":"3031229153","salary_is_predicted":"0","title":"Sr.
-        Product Marketing Manager","category":{"label":"Sales Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"sales-jobs"},"created":"2022-04-06T13:44:32Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzMTIyOTE1MyIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.iC6HvKgtIUBj-Rphxxsfw93PTdVulyu7c4AtAsNr6xE","__CLASS__":"Adzuna::API::Response::Job"},{"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Legal
-        Jobs","tag":"legal-jobs"},"created":"2022-04-12T21:40:52Z","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDQ4MjMxMzM1In0.S7Zr3599NMQPTQc3GYKT0470_hi8bbGzCh17-JhB_5w","longitude":-104.99,"salary_max":250,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3048231335?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=B12CD403F71DCC6645C7FAEF79F034A190CBEE4D","description":"You
-        may select from one or more of the criteria below to narrow your search. Background
-        The Public Interest Network operates more than 15 organizations committed
-        to a shared vision of a better world, a set of core values, and a strategic
-        approach to change. These groups include U.S. PIRG, Environment America and
-        National Environmental Law Center, and encompass 400-plus staff. We take a
-        principled, but pragmatic approach to creating change. We build organizations
-        and run campaigns that connect b\u2026","salary_min":200,"salary_is_predicted":"0","company":{"display_name":"Work
-        for Progress","__CLASS__":"Adzuna::API::Response::Company"},"id":"3048231335","title":"Assistant
-        General Counsel","location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"}},{"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/2979853098?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=BBFEE250BE2DC59F9294921693B3DEE59F517FAE","salary_max":384000,"longitude":-104.99,"location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"title":"Sr Director, Corp Compliance","description":"2000 16th
-        Street, Denver, Colorado, 80202, United States of America Job Description
-        At DaVita, we find that our best leaders are those who create an inspiring
-        vision for the future and empowers their team to achieve success. They have
-        always enjoyed tackling difficult problems and believe that the best way to
-        solve them is through collaborative, team efforts. They take ownership of
-        results and instill accountability in those they lead. They are driven, strong
-        communicators, relationship builder\u2026","company":{"display_name":"DaVita
-        Inc.","__CLASS__":"Adzuna::API::Response::Company"},"salary_min":288000,"id":"2979853098","salary_is_predicted":"0","created":"2022-03-17T21:12:48Z","category":{"tag":"healthcare-nursing-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Healthcare
-        & Nursing Jobs"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk3OTg1MzA5OCIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.Qx1EMi1DAzx8H3iSwxVWUIV5pRTSGlaxwOdX8raF_p4","__CLASS__":"Adzuna::API::Response::Job"},{"created":"2022-03-25T21:23:47Z","category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs"},"__CLASS__":"Adzuna::API::Response::Job","latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3000108243?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=A8B37C7BFEF8CE6FF335652F2A1107D56996B1C7","longitude":-104.99,"title":"Senior
-        Manager - Digital Transformation Consulting","description":"Full-time Practice
-        Area: Digital Transformation Company Description We\u2019re a six-time \u201cBest
-        Company to Work For,\u201d where intelligent, talented people come together
-        to do outstanding work\u2014and have a lot of fun while they\u2019re at it.
-        We offer a solution-focused environment full of collaboration and dedication,
-        to our goals and to each other. You\u2019ll have the opportunity to drive
-        your own success in a supportive, globally connected environment. From advanced
-        tools and technology to an immersive company\u2026","salary_min":288000,"contract_time":"full_time","location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAwMDEwODI0MyIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.53nUjV0xKxC0SnxGQMlH3uFPovpS8i5nMKD0tqcUKWU","salary_max":384000,"salary_is_predicted":"0","company":{"display_name":"Logic20/20
-        Inc.","__CLASS__":"Adzuna::API::Response::Company"},"id":"3000108243"},{"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs","tag":"it-jobs"},"created":"2022-03-23T13:21:12Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIyOTkzOTMzNjA3In0.pQD25rKkv3JVp3yrDgVZx4sFthiBvSZs5QDM_FsMO_0","__CLASS__":"Adzuna::API::Response::Job","salary_max":288000,"longitude":-104.99,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/2993933607?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=7EFD42D58C897A0712258D05D3350EF54DF6CAF5","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"description":"\u00b7 Manual Testing of Web Service using REST
-        / SOAP \u00b7 Telecom domain with TIBCO, SQL, Mainframe \u00b7 Interact with
-        Development team to understand the requirement and do the testing. Required:
-        \u00b7 Knowledge in SOA Test (Parasoft\u2019s Tool) \u00b7 Expertise in SOAPUI.
-        Additional Information All your information will be kept confidential according
-        to EEO guidelines.","id":"2993933607","salary_min":240000,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"krg
-        technology inc"},"salary_is_predicted":"0","title":"Test Engineer"},{"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5Mzk0ODU4NCIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.mPYx3c1Ve6QpNsDRDvGgJWLyEN2yv2uTDmBBsWEvBYg","created":"2022-03-23T13:22:21Z","category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs"},"title":"Technical Sales Enablement Manager","salary_min":240000,"description":"Nylas
-        is a pioneer and leading provider of productivity infrastructure solutions
-        for modern software. Over 50,000 developers worldwide use the Nylas platform
-        to quickly and securely build productivity features into their applications.
-        With Nylas, developers get unprecedented access to rich communications data
-        from their end-users, pre-built workflows that automate everyday tasks, embeddable
-        UI/UX components for fast front-end development, and comprehensive security
-        features - all delivered via \u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Nylas"},"id":"2993948584","salary_is_predicted":"0","location":{"display_name":"Denver,
-        Colorado","__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"]},"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/2993948584?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=203891264C24C96762011034230D9EF4EDF7666D","longitude":-104.99,"salary_max":288000},{"salary_max":384000,"longitude":-104.99,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3025999736?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=D495CE2EC3ACADAA2385E7644D936853A6CBBFB8","location":{"display_name":"Denver,
-        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"salary_min":288000,"description":"Choozle
-        is looking for a highly-qualified and motivated Director, Marketing for its
-        Marketing team located in Denver, CO. Ideal candidates will possess strong
-        strategic, organization, communication, writing, technical, leadership, and
-        analytical skills. If you can plan, execute, analyze, and optimize marketing
-        activities across our market while effectively leveraging the advanced knowledge
-        from our internal teams\u2014then keep reading The primary goals of this position
-        are to increase awareness, ex\u2026","id":"3025999736","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Choozle,
-        Inc."},"salary_is_predicted":"0","title":"Director, Marketing","category":{"tag":"pr-advertising-marketing-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"PR,
-        Advertising & Marketing Jobs"},"created":"2022-04-04T21:34:37Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDI1OTk5NzM2In0.vkRrYFaUbeGIiojgthSAQEZ5i571_0ZMPDW021Huv-k","__CLASS__":"Adzuna::API::Response::Job"},{"contract_time":"full_time","salary_min":24264,"description":"2022
-        Team Impact Since first launching its product in late 2013, CareMessage has
-        partnered with 400 healthcare organizations in 43 states across the country,
-        reaching 10M underserved patients. In the past two years, from the beginning
-        of the COVID-19 pandemic to today, the CareMessage team has risen to the occasion
-        to support a 10x growth in our messaging volume, as well as evolving customer
-        needs- from supporting COVID testing and COVID vaccinations, to filling immediate
-        needs for patients tie\u2026","title":"DevOps Engineer II (Remote) | Cloud
-        Infrastructure","location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"longitude":-104.99,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/2935864136?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=C5CED2B829299BF1AE4F2E08A65C3114B51E8EC3","__CLASS__":"Adzuna::API::Response::Job","category":{"label":"IT
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"created":"2022-03-01T11:10:55Z","company":{"display_name":"CareMessage","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","id":"2935864136","salary_max":24264,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkzNTg2NDEzNiIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.278LexM0ol0UoUeGArO55vIYSU6vqnwb2l-58uCa5cU"},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDMxMjIwMDgwIn0.YXFojnvhy9OYx5Q4FymNjSEqVofAKggVer0V0y6fYBk","salary_max":288000,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Marriott
-        International, Inc."},"id":"3031220080","salary_is_predicted":"0","category":{"label":"Engineering
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"engineering-jobs"},"created":"2022-04-06T13:37:12Z","__CLASS__":"Adzuna::API::Response::Job","longitude":-104.99,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3031220080?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=548114C7FE772605452D9D9397A5A13901B31CF2","location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"salary_min":240000,"description":"Posting Date Apr 01, 2022 Job
-        Number 22052378 Job Category Engineering & Facilities Location Sheraton Denver
-        Downtown Hotel, 1550 Court Place, Denver, Colorado, United States VIEW ON
-        MAP Brand Sheraton Hotels & Resorts Schedule Full-Time Relocation? N Position
-        Type Management Located Remotely? N When you join the Sheraton family, you
-        become a member of its global community. We\u2019ve been a place to gather
-        and connect since 1937. At Sheraton, associates create a sense of belonging
-        in more than 400 \u2026","contract_time":"full_time","title":"Assistant Chief
-        Engineer"},{"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIyOTc5ODU0Mzk2In0.eBASsfiU1ZXEKAa-mpR06DLcpeaQ_oxVzEn6QfMdKw8","created":"2022-03-17T21:13:12Z","category":{"tag":"healthcare-nursing-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Healthcare
-        & Nursing Jobs"},"title":"Technical Product Manager - Claims & Attribution
-        Platform, Remote","id":"2979854396","description":"The healthcare system is
-        a mess. Come work for the company that is best positioned to fix it. As a
-        Product Manager on our Data Ingestion team, you\u2019ll help us build and
-        scale some of the most critical pieces of technology to get that job done.
-        Health Care Doesn\u2019t Have to Be So BrokenAt Aledade, we\u2019re upending
-        the perverse incentives in health care. We help doctors keep patients healthy
-        and get paid for the quality of care they give to their patients rather than
-        the number of visits they can cram\u2026","salary_min":288000,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Aledade"},"salary_is_predicted":"0","location":{"display_name":"Denver,
-        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"redirect_url":"https://www.adzuna.com/land/ad/2979854396?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=89AB795E3E7DEAD385ABC28F2BD39BB371D626A2","latitude":39.75,"salary_max":384000,"longitude":-104.99},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk3OTg0NjI0MiIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.YrYycnDfq0BMGnVw7TQ1jWY-mmc2S1DQULV-BAmAXcA","id":"2979846242","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Morgan
-        Stanley"},"salary_is_predicted":"0","salary_max":384000,"__CLASS__":"Adzuna::API::Response::Job","category":{"label":"Accounting
-        & Finance Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs"},"created":"2022-03-17T21:10:42Z","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"salary_min":288000,"description":"Assistant Vice President of
-        Communications Assistant Vice President of Communications Job Description
-        - Assistant Vice President of Communications (3204778) Job Description Assistant
-        Vice President of Communications Job Number: 3204778 Posting Date : Mar 4,
-        2022 Primary Location : Americas-United States of America-Colorado-Denver
-        Education Level : Bachelor''s Degree Job : Wealth Management Employment Type
-        : Full Time Job Level : Assistant Vice President Description Morgan Stanley
-        is a leading gl\u2026","contract_time":"full_time","title":"Assistant Vice
-        President of Communications","longitude":-104.99,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/2979846242?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=F3B735E9422D3C2FFF68981150046A46951DAA65"},{"longitude":-104.99,"salary_max":288000,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3035495560?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=91C2A92B04ABEA2AF76C8670241133C276550370","description":"Job
-        summary At Amazon Web Services (AWS) Professional Services, we\u20ac\u2122re
-        hiring Engagement Managers to lead internal AWS, external partner, and customer
-        teams. Engagement Managers deliver AWS cloud products and services that enable
-        our customers to realize their business outcomes. These professional services
-        engagements focus on AWS solutions to help customers and partners remove constraints
-        and accelerate their journey to AWS. RESPONSIBILITIES AND ABILITIES INCLUDE:
-        DELIVERY \u20ac\u00a2 Collaborate with \u2026","salary_min":240000,"id":"3035495560","company":{"display_name":"Amazon.com","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","title":"Senior
-        Engagement Manager","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs"},"created":"2022-04-07T21:34:09Z","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzNTQ5NTU2MCIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.MNk7w3dBmPQkHZUewaSwAkNkFokBhRx-CwdX8fi9y1c"},{"created":"2022-04-09T21:39:09Z","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs","label":"Accounting
-        & Finance Jobs"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDQwNjY3ODA2In0.rQgEkhnJxvnQs9TqzrptITJq9ov5EYLWU_j-w5vCD7M","__CLASS__":"Adzuna::API::Response::Job","latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3040667806?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=74F7713ABBAE4FC91ECFC4A72464A1F51651A3EB","longitude":-104.99,"salary_max":384000,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"title":"Senior Associate, BTS, Partnerships (AI)","description":"Senior
-        Associate, BTS, Partnerships (AI) Business Title: Senior Associate, BTS, Partnerships
-        (AI) Requisition Number: 82892 - 17 Function: Tax Services Area of Interest:
-        State: CO City: Denver Description: At KPMG, you can become an integral part
-        of a dynamic team at one of the worlds top tax firms. Enjoy a collaborative,
-        future-forward culture that empowers your success. Work with KPMGs extensive
-        network of specialists & enjoy access to our Ignition Centers, where deep
-        industry knowledge merge\u2026","salary_min":288000,"company":{"display_name":"KPMG","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","id":"3040667806"},{"location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"title":"Manager, Organizational Change Management","description":"Location
-        field must contain ''city, state'' or a zip code to perform a radius search
-        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
-        followed by a space (e.g., Houston, TX ) Manager, Organizational Change ManagementDenver,
-        CO, USA hot Manager, Organizational Change Management Description Job : 66589
-        EPAM is a leading global provider of digital platform engineering and development
-        services. We are committed to having a positive impact on our customers, our
-        employees, and \u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"EPAM
-        Systems"},"salary_min":288000,"id":"3044717949","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/3044717949?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=83944CBE853865A5F8EE9FF3AC3E5FA782CFA693","latitude":39.75,"longitude":-104.99,"salary_max":384000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDQ0NzE3OTQ5In0.LadDyVMxVyuX4mrnsx2Exu1_6DAyXwuf_pdZD7JfBGM","__CLASS__":"Adzuna::API::Response::Job","created":"2022-04-11T21:39:09Z","category":{"label":"HR
-        & Recruitment Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"hr-jobs"}},{"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkxMjU5MTgyOCIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.n9zoASZVz8M3bGb1BTxskKSaRGP4CAb6pTcAwTZ1yHo","created":"2022-02-20T03:45:17Z","category":{"label":"Healthcare
-        & Nursing Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"healthcare-nursing-jobs"},"title":"Broker
-        Manager","salary_min":288000,"description":"A bit about us: We\u2019re on
-        a mission to change healthcare \u2014 how it\u2019s paid for, delivered, experienced.
-        We want to put people center stage, not process or profit. We are guided by
-        a deep belief that every person on Medicare should be treated like we would
-        treat a member of our own family: with loving care and a profound commitment
-        to their health and well-being. Why Devoted: Make a difference a big difference.
-        You will have the opportunity, in a unique and dynamic culture, to be a part
-        of somethin\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Devoted
-        Health, Inc."},"id":"2912591828","salary_is_predicted":"0","location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"redirect_url":"https://www.adzuna.com/land/ad/2912591828?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=0FFBCDEE84AAB304B04B5E6CC58C2427DC77D8D9","latitude":39.75,"longitude":-104.99,"salary_max":384000},{"description":"Unit
-        Description Join a great team where our students are at the heart of everything
-        we do Sodexo Universities is seeking an experienced General Manager 4 for
-        Colorado University Dining in Denver, CO. Expectations of the dining management
-        role include, strong leadership client management, continued growth at the
-        unit and development of the team. With a competitive salary, this position
-        is Bonus Eligible through the Annual Incentive Plan and enjoys holidays and
-        campus breaks off Relocation Assis\u2026","salary_min":200,"id":"3005913081","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Sodexo"},"salary_is_predicted":"0","title":"General
-        Manager 4 - Food","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"longitude":-104.99,"salary_max":250,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3005913081?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=433A6C317B7349755160E6561A1C8775CF73ACFA","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAwNTkxMzA4MSIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.aPUlN_KdplvEVgDHKpIwek6r2dDqN61Kcj7oTLYAcvg","category":{"tag":"hospitality-catering-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Hospitality
-        & Catering Jobs"},"created":"2022-03-28T21:22:44Z"},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAyNTk5NTEzNSIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.RNCEO_XTcflb9ONnf8JtyCIkFBG3FCqNrFT0fCkRZTM","__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs","tag":"it-jobs"},"created":"2022-04-04T21:33:18Z","location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"description":"Company DescriptionWe''re a six-time \"Best Company
-        to Work For,\" where intelligent, talented people come together to do outstanding
-        work-and have a lot of fun while they''re at it. We offer a solution-focused
-        environment full of collaboration and dedication, to our goals and to each
-        other. You''ll have the opportunity to drive your own success in a supportive,
-        globally connected environment. From advanced tools and technology to an immersive
-        company culture, working at Logic20/20 means working on \u2026","salary_min":288000,"id":"3025995135","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Logic20/20"},"salary_is_predicted":"0","title":"Senior
-        Manager - Digital Transformation Consulting","longitude":-104.99,"salary_max":384000,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3025995135?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=3B47CF86DC79BCA4B8D255FD17109BB21E837368"},{"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3032395681?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=1EF5FC4750149C769F4624717DB48E360C2A5AEB","longitude":-104.99,"salary_max":384000,"location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"title":"Senior Information Technology Business Partner","id":"3032395681","description":"Senior
-        Information Technology Business Partner Job Description At Boeing, we innovate
-        and collaborate to make the world a better place. From the seabed to outer
-        space, you can contribute to work that matters with a company where diversity,
-        equity and inclusion are shared values. Were committed to fostering an environment
-        for every teammate thats welcoming, respectful and inclusive, with great opportunity
-        for professional growth. Find your future with us. BGS IT Business Partners
-        are seeking a k\u2026","salary_min":288000,"company":{"display_name":"The
-        Boeing Company","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","created":"2022-04-06T21:34:59Z","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzMjM5NTY4MSIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.vnx9VyvLJuExBvwn0-MlcKGN7EaMkVbNI3Rjqkiszms","__CLASS__":"Adzuna::API::Response::Job"},{"created":"2022-04-05T21:39:16Z","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"pr-advertising-marketing-jobs","label":"PR,
-        Advertising & Marketing Jobs"},"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDI5NDE1MTEyIn0.LCaz12hBX_w6tpOf17ApOr5CCrQWeZChZ242dFx-vDk","latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3029415112?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=56753861DE82B5A40E46C47EE1ED7D95A958F907","longitude":-104.99,"salary_max":384000,"title":"Vice
-        President Marketing","description":"Founded in 2014, NuLeaf Naturals is one
-        of Americas top pioneering hemp companies. We are committed to bringing our
-        customers the highest-grade cannabinoid products. Our vision is to pave the
-        way for a line of cannabinoid wellness products that promote a healthy body
-        and mind. Our ultimate goal is to help people and their loved ones live a
-        happier, healthier life. We are looking for tenacious, strategy-driven marketing
-        professional to join our team This is a once-in-a-lifetime opportunity to
-        jo\u2026","salary_min":288000,"id":"3029415112","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"NuLeaf
-        Naturals"},"salary_is_predicted":"0","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"}},{"redirect_url":"https://www.adzuna.com/land/ad/3042478370?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=C5016F040B55FCE2C66D5BAE97FE8C503026636F","latitude":39.75,"longitude":-104.99,"salary_max":384000,"title":"Marketing
-        Operations Manager","salary_min":288000,"description":"Our Mission and OpportunityEarly
-        education is one of the greatest determinants of childhood outcomes, is a
-        must for working families, and has lasting social and economic impact. Brightwheel\u2019s
-        vision is to enable high quality early education for every child \u2014 by
-        giving teachers meaningfully more time with students each day, engaging parents
-        in the development of their kids, and supporting the small businesses that
-        make up the backbone of the $100 billion early education market. Brightwheel
-        is th\u2026","salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Brightwheel"},"id":"3042478370","location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"created":"2022-04-10T21:39:11Z","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"hr-jobs","label":"HR
-        & Recruitment Jobs"},"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0MjQ3ODM3MCIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.78qQdTj2OA3YK9xYxUl-IY1NckCBhEGdZ-qm56zU0gc"},{"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"title":"Lead Execution Management Consultant","description":"We''re
-        Celonis, the global leader in execution management and process mining technology,
-        and one of the 50 most valuable private companies in the world. We believe
-        that every company can unlock its full execution capacity - and for that,
-        we need you to join us as an Execution Management Consultant. The Team: The
-        Celonis Services team conducts customer-facing projects to implement Celonis
-        software and create business value by using our pioneering Process Mining
-        technology. Comprised of key initia\u2026","salary_is_predicted":"0","salary_min":240000,"company":{"display_name":"Celonis","__CLASS__":"Adzuna::API::Response::Company"},"id":"3031222091","latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3031222091?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=0D238534F9EECF583CE7C7C7F8F2FFC9F39DE573","salary_max":288000,"longitude":-104.99,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzMTIyMjA5MSIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.VbwANI2Q19kJugnDNM1awtdP7GBCas_6q4GovJ99sjM","__CLASS__":"Adzuna::API::Response::Job","created":"2022-04-06T13:38:25Z","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs","tag":"it-jobs"}},{"salary_max":384000,"longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/3029393938?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=95F101D1D52CC9840F3103AC323816F774A80201","latitude":39.75,"location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"description":"Career Opportunities with Western Veterinary Partners
-        A great place to work. Careers At Western Veterinary Partners Current job
-        opportunities are posted here as they become available. Subscribe to our RSS
-        feeds to receive instant updates as new positions become available. Director,
-        Financial Planning and Analysis Position Title: Director, Financial Planning
-        and Analysis Reporting To: CFO The Company: Western Veterinary Partners (www.westernvetpartners.com)
-        Company Overview Western Veterinary Pa\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Western
-        Veterinary Partners"},"salary_min":288000,"salary_is_predicted":"0","id":"3029393938","title":"Director,
-        Financial Planning and Analysis","category":{"label":"Accounting & Finance
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs"},"created":"2022-04-05T21:36:24Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAyOTM5MzkzOCIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.DbR7G68bSuK7_Qssfz6IOhKr4z8vbNaj2zqbZMwwMEs","__CLASS__":"Adzuna::API::Response::Job"},{"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDUyNTU5MTE1In0.LIdkh6GqTvop5CPcls1EP7SbjQzAN_YwJ3ISqlkPpus","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs","label":"Accounting
-        & Finance Jobs"},"created":"2022-04-14T13:50:13Z","salary_min":288000,"description":"Location
-        field must contain ''city, state'' or a zip code to perform a radius search
-        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
-        followed by a space (e.g., Houston, TX ) RSM US LLP TAS Quality Risk Management
-        Director Denver , Colorado Apply Now RSM is seeking to hire an experienced
-        director to join our expanding Qualityand Risk Management team within Transaction
-        Advisory Services (TAS). Theposition will support TAS and broader RSM efforts
-        to expand our TAS practicea\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"RSM
-        US LLP"},"id":"3052559115","salary_is_predicted":"0","title":"TAS Quality
-        Risk Management Director","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"salary_max":384000,"longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/3052559115?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=DA773D3DF23C76D863DF88A5A0134CD511CEC4C9","latitude":39.75},{"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"created":"2021-12-09T01:31:13Z","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcwNDM1OSIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.jNM1XcamK1sdm1GlB1xtACfwUl64mqhw-MmHxD5jyH4","longitude":-104.99,"salary_max":384000,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/2722704359?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=B1F3A4F5B69E3F76B78887E6C107204030663B84","description":"Request
-        unsuccessful. Incapsula incident ID: 1446000160263732100-1276296626417566734
-        jobs.smartrecruiters.com - Additional security check is required Why am I
-        seeing this page? The website you are visiting is protected and accelerated
-        by Incapsula. Your computer may have been infected by malware and therefore
-        flagged by the Incapsula network. Incapsula displays this page for you to
-        verify that an actual human is the source of the traffic to this site, and
-        not malicious software. What should I d\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Niche
-        Talent Finders"},"salary_min":288000,"id":"2722704359","salary_is_predicted":"0","title":"CGI
-        Advantage Training Developer Contract or Direct hire","location":{"display_name":"Denver,
-        Colorado","__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"]}},{"created":"2022-03-31T21:32:32Z","category":{"tag":"sales-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Sales
-        Jobs"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAxMzYzNDQyMiIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.c9t7IEZ9k5tj2OqjBpK1N0GJ7kLy1Uq9kGRgX5-aLUQ","__CLASS__":"Adzuna::API::Response::Job","latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3013634422?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=733C0B009216B973BE56C2DA04200FE384CD9DFC","longitude":-104.99,"salary_max":288000,"location":{"display_name":"Denver,
-        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"title":"UX
-        Researcher","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Fivetran"},"description":"Don\u2019t
-        have a Jora account? Register with, What Type 1 or more characters for results.
-        Where Type 1 or more characters for results. About the Role: We are looking
-        for a UX Researcher to join our rapidly growing Design org. You will help
-        shape the future of the Fivetran data pipeline platform for businesses large
-        and small. Our ideal candidate has a balance of research rigor and business
-        focus. We value those that hit the ground running, leading by example on projects
-        and collaborating well cross\u2026","salary_min":240000,"salary_is_predicted":"0","id":"3013634422"},{"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"created":"2022-04-04T21:34:40Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDI2MDAwNjAyIn0.VGwDKts4udlh4lp87wJV0_ldKZx30S7XoQUYNWlHuJc","__CLASS__":"Adzuna::API::Response::Job","salary_max":250,"longitude":-104.99,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3026000602?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=A50B272910F4B82F60C98654F6BD842BB85E130D","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"salary_min":250,"description":"Use Facebook or Google to sign
-        in or register with SimplyHired. AgentSync is built on Salesforce and AWS,
-        effectively leveraging every aspect of those platforms and pushing the edges
-        of what is possible within their ecosystems. We treasure stability, scalability,
-        and customer experience as first-order principles, striving to create thoughtful,
-        delightful user interfaces and seamless workflows. Behind the scenes, we build
-        secure, scaled integrations into licensing database sources of truth (e.g.\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"AgentSync"},"id":"3026000602","salary_is_predicted":"0","title":"Chief
-        Information Security Officer"},{"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"created":"2022-04-08T21:42:03Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDM4NDc5NTUyIn0.zWrTp5GRBDqH7xGLS1Bt6Qnhjs13nWyWf_f7zD7RfWE","__CLASS__":"Adzuna::API::Response::Job","longitude":-104.99,"salary_max":384000,"redirect_url":"https://www.adzuna.com/land/ad/3038479552?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=EF275533FFBDFDD89FCD9D13ACD6DB0977596EB0","latitude":39.75,"location":{"display_name":"Denver,
-        Colorado","__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"]},"description":"Sr.
-        Associate, Life Sciences Consulting- Low Code/Appian Business Title: Sr. Associate,
-        Life Sciences Consulting- Low Code/Appian Requisition Number: 74522 - 17 Function:
-        Advisory Area of Interest: State: CO City: Denver Description: The KPMG Advisory
-        practice is currently our fastest growing practice. We are seeing tremendous
-        client demand, and looking forward we don''t anticipate that slowing down.
-        In this ever-changing market environment, our professionals must be adaptable
-        and thrive in a co\u2026","salary_min":288000,"id":"3038479552","company":{"display_name":"KPMG","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","title":"Sr.
-        Associate, Life Sciences Consulting- Low Code/Appian"},{"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDM1NDk1MjY1In0.omiG-28qIuf3TjJwSGaH3JGRylkkRJdD-bUYakYR9x0","created":"2022-04-07T21:34:08Z","category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs"},"title":"Senior Engagement Manager, NatSec ProServe","id":"3035495265","description":"Job
-        summary AWS Engagement Managers seek to understand our customers\u20ac\u2122
-        needs, their missions, how success is defined, and ensure that we are exceeding
-        expectations in developing and delivering solutions. As an Engagement Manager,
-        you will collaborate across roles to understand a customer\u20ac\u2122s mission
-        objectives and define project goals. You will lead peers, small teams, or
-        groups of teams made up of AWS members, customer Stakeholders/SMEs, and AWS
-        Partners to create and execute a plan to achieve \u2026","salary_min":240000,"company":{"display_name":"Amazon.com","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3035495265?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=6371CCA77B262C3A062D406A1000828F54EC60DB","longitude":-104.99,"salary_max":288000},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDI1OTkzMDk0In0.UyMz3mCo4LJSA3-uLzoxLGWVdN0PMVkOp0Zi3m59Yrk","__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs","label":"Accounting
-        & Finance Jobs"},"created":"2022-04-04T21:33:09Z","location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"company":{"display_name":"Charter School Growth Fund","__CLASS__":"Adzuna::API::Response::Company"},"description":"The
-        Charter School Growth Fund (CSGF) is a leading nonprofit venture philanthropy
-        fund dedicated to identifying the nation\u2019s best public charter schools,
-        investing in their expansion, and helping to increase their impact. Our \u201cportfolio\u201d
-        includes 140 charter school networks that operate 1,100 schools and serve
-        more than 500,000 students. We are committed to expanding the impact of schools
-        that are closing achievement and opportunity gaps. CSGF operates with the
-        same strategies, discipline, and \u2026","salary_min":200,"id":"3025993094","salary_is_predicted":"0","title":"Investment
-        Director, Innovation Team","longitude":-104.99,"salary_max":250,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3025993094?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=EE7A5093A5624FBAA7757B873D561799BFECD3DF"},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDI5Mzk4NjQ3In0.bFk4I5M0KeTKyrdIc6UsLXW-O3ZN9hklAsWNP4_SnhM","__CLASS__":"Adzuna::API::Response::Job","created":"2022-04-05T21:37:02Z","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs","tag":"it-jobs"},"location":{"display_name":"Denver, Colorado","__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"]},"title":"Offensive
-        Security Senior Consultant, AWS Specialist | Remote US","description":"About
-        CoalfireCoalfire is on a mission to make the world a safer place by solving
-        our clients\u2019 toughest cybersecurity challenges. We work at the cutting
-        edge of technology to advise, assess, automate, and ultimately help companies
-        navigate the ever-changing cybersecurity landscape. We are headquartered in
-        Denver, Colorado with offices across the U.S. and U.K., and we support clients
-        around the world. But that\u2019s not who we are \u2013 that\u2019s just what
-        we do. We are thought leaders, consultants, and cy\u2026","company":{"display_name":"Lever","__CLASS__":"Adzuna::API::Response::Company"},"salary_min":288000,"id":"3029398647","salary_is_predicted":"0","latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3029398647?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=7AE93EA53C11E09B78C026B4361842DE20138103","longitude":-104.99,"salary_max":384000},{"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzODQ3ODUwNSIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.tvQQxKsrOhT8ERo99Jqpi_wP1PJuCmZTPWKsfuaxQ-U","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"created":"2022-04-08T21:41:57Z","salary_is_predicted":"0","description":"Senior
-        Business Planner domain Digital Ocean Jobs location_on Denver Date published:
-        2022-04-03 Industry: Other Senior Business Planner domain Digital Ocean Jobs
-        location_on Denver Do you ever wonder what happens inside the cloud? Headquartered
-        in New York but based around the world, DigitalOcean is a dynamic, high-growth
-        technology company that serves a robust and passionate community of developers
-        around the world. Our mission is to simplify cloud computing for every developer.
-        We are working\u2026","salary_min":240000,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Digital
-        Ocean Jobs"},"id":"3038478505","title":"Senior Business Planner","location":{"display_name":"Denver,
-        Colorado","__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"]},"salary_max":288000,"longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/3038478505?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=91DFE5BE8D38973D6A20B4B07C3F789AC347F3AF","latitude":39.75},{"created":"2022-02-03T19:27:43Z","category":{"label":"Hospitality
-        & Catering Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"hospitality-catering-jobs"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIyODY3MzYyMjk4In0.7c8Xumg-DlDYBe7T4RIT0fpFduX82e2c-GrKLnEPUDM","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/2867362298?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=72E4B9E1BF972E08A2E0A6F1D2366D9DA3F72B56","latitude":39.75,"salary_max":250,"longitude":-104.99,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"title":"General Manager","salary_min":200,"description":"In a
-        world full of quick service options, Arby\u2019s is seeking to be different
-        and better. We want to be different for our customers and different for our
-        employees. When you work at Arby\u2019s, it will be more than a job \u2014
-        it will be a place that prioritizes your growth and development while having
-        fun. We are proud of the food we serve, our innovation and our team. Our goal
-        is to be the best in the business, and we can\u2019t do that without great
-        people like you FREE SMALL MEAL to all applicants after y\u2026","id":"2867362298","company":{"display_name":"Arby''s,
-        Inc.","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0"},{"created":"2022-04-11T21:39:07Z","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Consultancy
-        Jobs","tag":"consultancy-jobs"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0NDcxNzQxMSIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.q1DNHEmLckyZbTmKHSkDdWMnkmP2uTgiugljRUT_g00","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/3044717411?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=2788B236DEC0F6C6F618C2715E79640A300FAE94","latitude":39.75,"longitude":-104.99,"salary_max":250,"location":{"display_name":"Denver,
-        Colorado","__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"]},"title":"General
-        Manager - Lakewood Estates","id":"3044717411","description":"Holiday Retirement
-        is an Equal Opportunity Employer. All qualified applicants will receive consideration
-        for employment without regard to race, national origin, age, sex, religion,
-        disability, sexual orientation, marital status, military or veteran status,
-        gender identity or expression, or any other basis protected by local, state,
-        or federal law.In the role of General Manager, you are responsible for the
-        day-to-day operations of an independent senior living community, which includes
-        1) develop\u2026","salary_min":200,"company":{"display_name":"Atria Senior
-        Living","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0"},{"category":{"tag":"accounting-finance-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Accounting
-        & Finance Jobs"},"created":"2022-04-12T21:40:54Z","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDQ4MjMxNDQ2In0.0uubJO52e2bboQMEOa2eMFcMqu2GeCZ42bX3Oh95908","longitude":-104.99,"salary_max":250,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3048231446?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=DD05E6B01DB8A84F45635EED018D619C4CDA4DC4","id":"3048231446","description":"President
-        of Purchasing - Market Research Study - $350 Compensated Consultation Ivy
-        Exec, in partnership with a market research company, is conducting a study
-        with decision-makers for technology accessory purchases. Apply now and fill
-        out a short qualification survey to collect the information necessary for
-        the study. If you choose to participate, you will be part of a 2-hour bulletin
-        board which will be held over the course of 3 days, online , the week of April
-        25th, and you will receive a $35\u2026","salary_min":200,"company":{"display_name":"Ivy
-        Exec","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","title":"President
-        of Purchasing - Market Research Study - $350 Compensated Consultation","location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"}},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDQ4MjMxMDI4In0.tQ4JJKFHDXhFEaUQAt56U6amnUAMUyG8m32uxbNVvsE","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"University
-        of Colorado"},"id":"3048231028","salary_is_predicted":"0","salary_max":288000,"__CLASS__":"Adzuna::API::Response::Job","created":"2022-04-12T21:40:47Z","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"hr-jobs","label":"HR
-        & Recruitment Jobs"},"title":"Compensation and Job Evaluation Director (HR
-        Director)","salary_min":240000,"description":"Location field must contain
-        ''city, state'' or a zip code to perform a radius search (e.g., Denver, CO
-        or 46122 ). City and state must be separated by a comma followed by a space
-        (e.g., Houston, TX ) University of Colorado Compensation and Job Evaluation
-        Director (HR Director) Denver , Colorado Apply Now University of Colorado
-        | CU Anschutz Medical Campus Department: Central Human Resources Job Title:
-        Director of Compensation and Job Evaluation Position 705510 \u2013 Requisition
-        24491 Job Summary: Joi\u2026","contract_time":"full_time","location":{"display_name":"Denver,
-        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3048231028?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=E65EC0AD8E5C293F8A0B5C47AD0588953205734A","longitude":-104.99},{"salary_max":384000,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"The
-        Association of Colorado Independent Schools"},"salary_is_predicted":"0","id":"3052562462","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA1MjU2MjQ2MiIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.ZLMeM0mrb3_s5_7UGJQhCZgB6m74NN4j2O1D_rxhOaA","latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3052562462?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=8A8E748CE68967DA7750AF569345F605D49BB74C","longitude":-104.99,"title":"Director
-        of Admission","description":"The Association of Colorado Independent Schools
-        \u2013 Denver, CO ACIS accredits, supports, and advances the interests of
-        Colorado independent schools. Montessori School of Denver (MSD), located in
-        beautiful Colorado, is seeking a full-time Director of Admission for the 2022-2023
-        school year. The position will begin in July 2022. Job Overview: The Director
-        of Admission leads the admission process and sets the tone and vision for
-        attracting, enrolling, and retaining a strong, diverse, value-matched s\u2026","salary_min":288000,"contract_time":"full_time","location":{"display_name":"Denver,
-        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-04-14T13:51:12Z","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Teaching
-        Jobs","tag":"teaching-jobs"},"__CLASS__":"Adzuna::API::Response::Job"},{"longitude":-104.99,"salary_max":250,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3052559094?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=2675118C1016B00006C04B733DE9D3DBA44AF56E","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Firstleaf"},"description":"Location
-        field must contain ''city, state'' or a zip code to perform a radius search
-        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
-        followed by a space (e.g., Houston, TX ) Firstleaf Director of Software Engineering
-        Denver , Colorado Apply Now Have you ever wanted to disrupt a $70bn industry?
-        Firstleaf is building the most customer-centric wine company. Collaborating
-        with vineyards, winemakers, and source wineries both domestically and internationally,
-        our wines have wo\u2026","salary_min":200,"id":"3052559094","salary_is_predicted":"0","title":"Director
-        of Software Engineering","category":{"label":"IT Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"created":"2022-04-14T13:50:12Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDUyNTU5MDk0In0.EA1VU8uRN5gS1BEckbuM2QC_y14Vi7p1BqdL_d3bApc","__CLASS__":"Adzuna::API::Response::Job"},{"id":"2857023207","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Havenly
-        Inc"},"salary_is_predicted":"0","salary_max":384000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIyODU3MDIzMjA3In0.cQinNjf5orGVl_pDtJroJWVYsWKkfTXqb5LD0nSo8DU","location":{"display_name":"Denver,
-        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"title":"Director
-        of Brand Creative","description":"At Havenly, we believe in making space for
-        better living. From gathering home inspiration, to working with a designer,
-        to shopping curated home products, we collaborate with clients across the
-        country to design spaces they love coming home to. Founded in 2014 and headquartered
-        in Denver, CO, we are a fun, convenient, and affordable solution for designing
-        your home. We are looking for a Director of Brand Creative to join our Creative
-        team, and help bring the Havenly brand to life across all aspe\u2026","salary_min":288000,"contract_time":"full_time","latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/2857023207?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=4BDF5CA25B3B3561E931EFB43D1A10EA8F46AE20","longitude":-104.99,"__CLASS__":"Adzuna::API::Response::Job","created":"2022-01-31T11:26:38Z","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Creative
-        & Design Jobs","tag":"creative-design-jobs"}},{"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIyNzI2NDc5MDk2In0.OYAwcsN_NJAEg70l7ZAcFUrAbugPj9oFE2MUIrmPXt0","created":"2021-12-10T01:37:07Z","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Sales
-        Jobs","tag":"sales-jobs"},"title":"Account Director","salary_min":288000,"description":"Are
-        you a top producer in your organization? Do you have CPG connections and sales
-        experience? Do you want to work for a company that is passionate and places
-        the highest value on its salespeople? Are you excited about the digital space
-        and want to sell products and services that set you apart from your competitors?
-        Then we have the job for you Our client is seeking top talent as they grow
-        and upgrade their sales force. We want smart, agile, creative, tenacious,
-        and energetic salespeople who ha\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"ARI
-        "},"id":"2726479096","salary_is_predicted":"0","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"redirect_url":"https://www.adzuna.com/land/ad/2726479096?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=89F21161FCDE56AE65A130BDE087B940BD7A14F2","latitude":39.75,"salary_max":384000,"longitude":-104.99},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDIzNzMxOTgxIn0.BBEy0H4lYKJjeXxnN0-bd6wfHna5oMFyADVHB84K9jk","__CLASS__":"Adzuna::API::Response::Job","category":{"tag":"sales-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Sales
-        Jobs"},"created":"2022-04-03T21:34:17Z","location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"description":"Propeller\u2019s mission is to provide real time
-        earthworks tracking for everyone. To pave the path to real time, we\u2019re
-        building hardware and software solutions that simplify data collection, processing,
-        and analysis for heavy civil and resource operations. Our customers are essential
-        workers who pave the roads we drive on, design the landfills we use, and manage
-        our natural resources. We\u2019re committed to making their jobs easier by
-        creating products and services which empower them to improve their e\u2026","salary_min":200,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Propeller
-        Aerobotics Pty Ltd"},"salary_is_predicted":"0","id":"3023731981","title":"VP
-        Sales","longitude":-104.99,"salary_max":250,"redirect_url":"https://www.adzuna.com/land/ad/3023731981?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=1C4150AF2CFD75C78230569EB11AB6E35F208F6A","latitude":39.75},{"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/2722726952?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=9FE744D151DA2829D4051A026BA90D82EF2A7CB6","salary_max":384000,"longitude":-104.99,"title":"Global
-        Compensation Director - Denver, CO","salary_min":288000,"description":"TTEC
-        is seeking an experienced Director of Global Compensation to join our Human
-        Capital team at our Global Corporate Headquarters, based in Denver, Colorado.
-        What you''ll be doing: We are looking for someone that has strong variable
-        compensation experience, including sales compensation. In this integral role,
-        you''ll develop a comprehensive rewards strategy that aligns employee rewards
-        with results that support our strategic business objectives. You''ll take
-        ownership of the development of a rang\u2026","salary_is_predicted":"0","company":{"display_name":"North
-        Texas Compensation Association","__CLASS__":"Adzuna::API::Response::Company"},"id":"2722726952","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"created":"2021-12-09T01:35:41Z","category":{"label":"HR & Recruitment
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"hr-jobs"},"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcyNjk1MiIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.6UvjZ-9vFhAUNiak2QHdgAK0xkbTrJQBOJmWf6zA5jk"},{"salary_max":384000,"longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/3051022974?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=94C84B627EF58267EA59D17D6A27D33756032B3A","latitude":39.75,"id":"3051022974","description":"Responsibilities
-        Leading a multi-disciplinary team in the planning, execution and delivery
-        of a variety of user experience research methods and approaches Educating
-        clients on the value of primary research Leading and conducting a variety
-        of research activities, including in-context and remote interviews, surveys,
-        unmoderated studies, concept iteration and usability testing and other forms
-        of formative, iterative, and evaluative research Executing research to ensure
-        a holistic, user-centered ap\u2026","salary_min":288000,"company":{"display_name":"Ogilvy","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","title":"Job
-        Title Lead Experience Researcher","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"category":{"label":"Creative & Design Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"creative-design-jobs"},"created":"2022-04-13T21:48:46Z","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDUxMDIyOTc0In0.NJcE9Hd4NhALzeKCs44gIe2k9eZJLY_gTQJ7kP8HK-c"},{"__CLASS__":"Adzuna::API::Response::Job","created":"2022-04-14T13:50:12Z","category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs"},"location":{"display_name":"Denver, Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"title":"Director
-        of Delivery Excellence","salary_min":240000,"description":"University of Colorado
-        Director of Delivery Excellence Denver , Colorado Apply Now University of
-        Colorado | CU Anschutz Medical Campus Office of Information Technology Director
-        of Delivery Excellence Position 795249 \u2013 Requisition 25374  Applications
-        are accepted electronically ONLY at www.cu.edu/cu-careers The Office of Information
-        Technology has an opening for a full-time University Staff (unclassified)
-        Director of Delivery Excellence position. Does this describe you? A leader
-        who wants to mak\u2026","contract_time":"full_time","latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3052559046?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=EA2E33E6A19F94B0F09BDB28F6E0043FB28BDA0D","longitude":-104.99,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA1MjU1OTA0NiIsInMiOiJDQnJVUUV1ODdCR2hCSVFMR0hQTXF3In0.HNGjXgxWAgFaTJ87mK_b-Oh6eUjkvlzOZYfrW-BpEVQ","company":{"display_name":"University
-        of Colorado","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","id":"3052559046","salary_max":288000},{"salary_min":240000,"description":"Sign-On
-        Bonus os $2,500.00 KinderCare Education is the nation\u2019s leader in early
-        childhood education. We nourish curiosity through purposeful experiences to
-        create a future full of lifelong learners. From our National Support Center
-        to the classrooms where learning comes to life, we\u2019re united by a passion
-        for creating a world of learning, joy, and adventure for more than 161,000
-        children ages six weeks through 12 years every day. If you\u2019re passionate
-        about positively impacting the lives of other\u2026","salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"KinderCare
-        Education"},"id":"3048236182","title":"Center Director Unassigned with Sign
-        On Bonus","location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
-        Colorado"},"salary_max":288000,"longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/3048236182?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=1706C02804E6C8FA58AFBC8FE3F2F29116F6C8DA","latitude":39.75,"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDQ4MjM2MTgyIn0.d7CHivAv1nTM6uXATuRxPYEfan17F5rCixMAZrSdu9w","category":{"tag":"teaching-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Teaching
-        Jobs"},"created":"2022-04-12T21:42:27Z"},{"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIyNzc4OTg4MzUzIn0.5FoD2itVUCAon5hpuF-PKUW9wa-Y1BM42BU-KeX9jMk","created":"2021-12-31T11:02:18Z","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs","label":"Accounting
-        & Finance Jobs"},"title":"Tax Senior Manager","description":"With over 100
-        offices and nearly 5,000 associates throughout the U.S. CBIZ (NYSE: CBZ) delivers
-        top-level financial and employee business services to organizations of all
-        sizes, as well as individual clients, by providing national-caliber expertise
-        combined with highly personalized service delivered at the local level. CBIZ
-        has been honored to be the recipient of several national recognitions: 2020
-        Best Workplaces in Consulting & Professional Services by Great Place to Work\u00ae
-        2020 Workplace Exce\u2026","salary_is_predicted":"0","salary_min":200,"company":{"display_name":"CBIZ,
-        Inc.","__CLASS__":"Adzuna::API::Response::Company"},"id":"2778988353","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/2778988353?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=87A83AED1DE4285EE65EDE26AE3E336FA463ACAF","longitude":-104.99,"salary_max":250},{"title":"Director
-        of Security","description":"Location field must contain ''city, state'' or
-        a zip code to perform a radius search (e.g., Denver, CO or 46122 ). City and
-        state must be separated by a comma followed by a space (e.g., Houston, TX
-        ) Kaiser Permanente Director of Security Denver , Colorado Apply Now The Director
-        of Security-MOC is a member of ESS-Security and whose remit is to support
-        the achievement of Kaiser Permanentes topline goals and the MOCs market level
-        goals through the physical protection of the care environment in thei\u2026","salary_min":288000,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Kaiser
-        Permanente"},"salary_is_predicted":"0","id":"2995789254","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
-        Colorado"},"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/2995789254?se=CBrUQEu87BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=333EF588174D175FA33F72095CBB7C7128BB0CFB","longitude":-104.99,"salary_max":384000,"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiQ0JyVVFFdTg3QkdoQklRTEdIUE1xdyIsImkiOiIyOTk1Nzg5MjU0In0.mJhACGFQo5axzTPAjCCKSrjF08o5aKKsO_3N4lqbdy0","created":"2022-03-24T05:17:28Z","category":{"label":"IT
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"}}],"count":1989,"mean":109223.92,"__CLASS__":"Adzuna::API::Response::JobSearchResults"}'
-  recorded_at: Thu, 14 Apr 2022 23:33:14 GMT
+      string: '{"count":283,"results":[{"longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/2747405406?se=TjZQq0287BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=9853ED85210E65BC84E3F5DFCA52D377BF0AB476","latitude":39.75,"description":"See
+        yourself at Twilio Join the team as our next Staff Security Engineer, Threat
+        Hunt & Research. Who we are & why we\u2019re hiring Twilio powers real-time
+        business communications and data solutions that help companies and developers
+        worldwide build better applications and customer experiences. Although we''re
+        headquartered in San Francisco, we''re on a journey to becoming a globally
+        antiracist company that supports diversity, equity & inclusion wherever we
+        do business. We employ thousands of Twilion\u2026","salary_min":116312,"contract_time":"full_time","title":"Staff
+        Security Engineer, Threat Hunt & Research","location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"created":"2021-12-17T09:01:05Z","__CLASS__":"Adzuna::API::Response::Job","salary_max":182276,"salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Twilio"},"id":"2747405406","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVGpaUXEwMjg3QkdoQklRTEdIUE1xdyIsImkiOiIyNzQ3NDA1NDA2In0.TjbAH-Lhgx8c-j9GtsIa1vbIWAhhg4HbTS4QofYoMqs"},{"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"company":{"display_name":"A R Systems Inc.,","__CLASS__":"Adzuna::API::Response::Company"},"id":"3036243167","salary_is_predicted":"0","description":"Job
+        Title: CPQ Dev/Admin Location: Onsite(Denver, Colorado) Duration: Long term
+        Visa''s: GC, GC-EAD, H4-EAD, USC Skills Required : - The project is looking
+        for a CPQ Dev/Admin onsite in Denver, with 2-3 years of experience (Salesforce
+        Steebricks experience-70% Admin, 30% Dev).","salary_min":172800,"title":"CPQ
+        Dev/Admin","salary_max":172800,"longitude":-104.9932,"latitude":39.7489,"redirect_url":"https://www.adzuna.com/land/ad/3036243167?se=TjZQq0287BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=290270ACAFCA5AEF3CB58050668E8517BCC65777","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzNjI0MzE2NyIsInMiOiJUalpRcTAyODdCR2hCSVFMR0hQTXF3In0.RD6GZXyysdfVGuY3lylAe02IM25GpPICEd5fRMBwsis","__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
+        Jobs"},"created":"2022-04-08T01:46:00Z"},{"__CLASS__":"Adzuna::API::Response::Job","created":"2022-03-19T06:56:50Z","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
+        Jobs"},"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"title":"Full Stack Engineer - U. S. Remote","salary_min":100000,"description":"Shopventory
+        (www.shopventory.com) is an award winning SaaS software focused on empowering
+        small to medium sized businesses to automate their inventory management, receive
+        powerful business intelligence, increase sales and save time. Our customers
+        love our easy UI and outstanding customer service. We have great traction
+        in our market helping tens of thousands of merchants in over 60 countries.
+        And we\u2019re in growth mode Our platform currently integrates with Shopify,
+        Stripe, Square, BigCommerce, W\u2026","contract_time":"full_time","redirect_url":"https://www.adzuna.com/land/ad/2983717182?se=TjZQq0287BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=A814D0EFE5C929758D20904A7664855A3C1DD622","latitude":39.75,"longitude":-104.99,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVGpaUXEwMjg3QkdoQklRTEdIUE1xdyIsImkiOiIyOTgzNzE3MTgyIn0.VNmAqDY0TvdA9x6EUghdS8ym_tD9SEI8YBPTOBgIosw","id":"2983717182","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Shopventory"},"salary_is_predicted":"0","salary_max":125000},{"redirect_url":"https://www.adzuna.com/land/ad/3039605121?se=TjZQq0287BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=8F446F3999F8E85AD7929B8DBDBBAD7390C5D77A","latitude":39.75,"longitude":-104.99,"location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
+        Colorado"},"title":"PL/SQL Oracle DB Engineer","description":"Oracle DB Engineer
+        BillingPlatform is an industry-leading, fast-growing SaaS company in the Denver
+        Tech Hub. Our decision to build the industry-leading revenue management platform
+        was driven by the belief that all industries are facing disruption\u2014digital
+        and physical goods are being sold on a subscription and consumption basis,
+        and in a variety of other formats. Leveraging successful years of product
+        development and customer feedback, aided by leading venture funding (Columbia
+        Capital), we buil\u2026","salary_min":120000,"contract_time":"full_time","created":"2022-04-09T09:25:15Z","category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs"},"__CLASS__":"Adzuna::API::Response::Job","salary_max":160000,"company":{"display_name":"BillingPlatform","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","id":"3039605121","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzOTYwNTEyMSIsInMiOiJUalpRcTAyODdCR2hCSVFMR0hQTXF3In0.mQA9oA66q2L-oZSZDSMN6mCbpAbQg4dIHJ8Y813z4c4"},{"category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs"},"created":"2022-04-11T23:28:08Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVGpaUXEwMjg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDQ1Mzg0NzcxIn0.Yf0TQSiVi5a1RSuYWUAEnXQIKXrNuihnNCxjxgTzY30","__CLASS__":"Adzuna::API::Response::Job","salary_max":170000,"longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/3045384771?se=TjZQq0287BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=B365AB2F4978E0EF7FE8F6600142A55121447C6C","latitude":39.75,"location":{"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"]},"salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"cybercoders"},"id":"3045384771","salary_min":130000,"description":"REMOTE
+        Sr. Software Engineer Job Title: Sr. Software Engineer - Java-Based Desktop
+        Application Location: REMOTE Salary: $130-170K DOE Requirements: Java, Desktop
+        Applications, Hibernate, Spring, MySQL As a leader in manufacturing and WMS
+        software offerings to small and mid-size organizations, we are rapidly growing,
+        both on-site, hybrid on-site, and remotely. We are adding bright and motivated
+        individuals to our team across our three products. Desktop Application, Web
+        Application, and Service-O\u2026","title":"REMOTE Sr. Software Engineer"},{"category":{"label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"created":"2022-04-11T23:28:05Z","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0NTM4NDQzOSIsInMiOiJUalpRcTAyODdCR2hCSVFMR0hQTXF3In0.vjjCEtNMlTTuLoiKO4qD9_k2nVzyJQaBI6l_Okc-ZQ0","salary_max":140000,"longitude":-104.99,"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3045384439?se=TjZQq0287BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=50247C9486C32FA0B53B2035D207270D59E66572","company":{"display_name":"CyberCoders","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","id":"3045384439","salary_min":120000,"description":"DevOps
+        Engineer - Remote Located in the greater Seattle area, we are a global leader
+        in medical device technology that is actively seeking a Senior DevOps Engineer
+        Our team is managing a cloud system for emergency care providers which routes
+        data and provides asset management capabilities for software upgrades, device
+        health, battery, location, etc. We are looking for a DevOps Engineer skilled
+        in AWS Architecture & Terraform, as well as testing, building, designing,
+        deploying, and maintaining C\u2026","title":"DevOps Engineer - Remote","location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"}},{"redirect_url":"https://www.adzuna.com/land/ad/3040801306?se=TjZQq0287BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=E5B1B589054CA31333A1BA270688E8E303D4380A","latitude":39.75,"longitude":-104.99,"salary_max":140000,"title":"Talent
+        Acquisition","company":{"display_name":"cybercoders","__CLASS__":"Adzuna::API::Response::Company"},"salary_min":100000,"id":"3040801306","salary_is_predicted":"0","description":"Talent
+        Acquisition If you are a Talent Acquisition Lead with construction experience,
+        looking for a FULLY REMOTE opportunity, please read on Top Reasons to Work
+        with Us NOTE: This is a salaried internal role for a CyberCoder''s Client.
+        We are looking for a Talent Acquisition Lead to guide our TA Team in delivering
+        creative recruiting solutions. You will enable our organization to attract
+        and hire high top-tier, diverse talent for a company passionate about it''s
+        people. We are a collaborative, ex\u2026","location":{"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"]},"created":"2022-04-09T23:26:44Z","category":{"tag":"hr-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"HR
+        & Recruitment Jobs"},"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0MDgwMTMwNiIsInMiOiJUalpRcTAyODdCR2hCSVFMR0hQTXF3In0.JEuOSZG42jounaBAdmjGuF5m6rHVAV0oa4sT_kVy7FE"},{"location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"title":"Remote-
+        Sr. Frontend Engineer- JavaScript, Vue.js, AWS","company":{"display_name":"cybercoders","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","id":"3045383922","salary_min":120000,"description":"Remote-
+        Sr. Frontend Engineer- JavaScript, Vue.js, AWS If you are a Remote- Sr. Frontend
+        Engineer- JavaScript, AWS with experience, please read on What You Will Be
+        Doing What You''ll Do - Contribute to our newest initiative on a high level
+        and help maintain/enhance existing properties - Participate in requirement
+        gathering, technical specification, and help steer the design and development
+        of complex projects - Build and deliver consistently high-quality products
+        with an attention to detail - En\u2026","latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3045383922?se=TjZQq0287BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=2CC8E9C1BA047DDE2B0054300E26AA6A31D60AE3","longitude":-104.99,"salary_max":170000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0NTM4MzkyMiIsInMiOiJUalpRcTAyODdCR2hCSVFMR0hQTXF3In0.ckV2tsh4VQ-MWeat3Sg8ISII9I9HBIRpxzDZPIETzZ0","__CLASS__":"Adzuna::API::Response::Job","created":"2022-04-11T23:27:59Z","category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs"}},{"title":"Sr. Python/Django Developer - Remote","description":"Shopventory
+        (www.shopventory.com) is an award winning SaaS software focused on empowering
+        small to medium sized businesses to automate their inventory management, receive
+        powerful business intelligence, increase sales and save time. Our customers
+        love our easy UI, amazing customer service and unique features that they are
+        unable to find in any other inventory management application. We have great
+        traction in our market helping tens of thousands of merchants in over 60 countries
+        with billions of\u2026","salary_min":120000,"contract_time":"full_time","location":{"area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
+        Colorado"},"latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/2942909333?se=TjZQq0287BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=17BFBD76F30C1C681AEDC155E4A14580987C9121","longitude":-104.99,"__CLASS__":"Adzuna::API::Response::Job","created":"2022-03-03T11:02:01Z","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"id":"2942909333","company":{"display_name":"Shopventory","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","salary_max":160000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk0MjkwOTMzMyIsInMiOiJUalpRcTAyODdCR2hCSVFMR0hQTXF3In0.iQFpEcY1DKX-VzkiTZKQANuaqdf7KRoRDvEnFfkCibc"},{"salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"cybercoders"},"id":"3048431299","salary_min":130000,"description":"REMOTE
+        Software Engineer Job Title: Golang/Backend Engineer Location: 100% REMOTE
+        Salary: $130-160K DOE with Stock Options/Tokens and more Requirements: Golang,
+        Blockchain/DeFi interest/experience, Open Source Environment We are focused
+        on democratizing financial services and making them openly accessible to anyone,
+        anywhere in the world. We built our blockchain, a foundational platform designed
+        to provide the safest, most secure, and reliable experience for accessing
+        Decentralized Financial(De\u2026","title":"REMOTE Software Engineer","location":{"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"]},"longitude":-104.99,"salary_max":160000,"redirect_url":"https://www.adzuna.com/land/ad/3048431299?se=TjZQq0287BGhBIQLGHPMqw&utm_medium=api&utm_source=5e859b54&v=8B379C6090F561081B513C061B6F67EBB2773FE9","latitude":39.75,"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiVGpaUXEwMjg3QkdoQklRTEdIUE1xdyIsImkiOiIzMDQ4NDMxMjk5In0.4yjGKuf_jVj-XtQumTo6FLQKDXYwEkPPxZc_RxFC1Qo","category":{"tag":"engineering-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Engineering
+        Jobs"},"created":"2022-04-12T23:32:19Z"}],"__CLASS__":"Adzuna::API::Response::JobSearchResults","mean":140844.77}'
+  recorded_at: Thu, 14 Apr 2022 23:50:31 GMT
 recorded_with: VCR 6.1.0

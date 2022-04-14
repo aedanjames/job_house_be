@@ -1,0 +1,148 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=5e859b54&app_key=9b7837242edf32ddec42da936025659e&location0=us&location1=california&location2=san%20francisco&salary_max=200000&salary_min=100000
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Thu, 14 Apr 2022 23:50:32 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '14610'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.14.0 (Ubuntu)
+      Vary:
+      - Content-Type
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Catalyst:
+      - '5.90117'
+    body:
+      encoding: UTF-8
+      string: '{"count":492,"results":[{"salary_max":160000,"created":"2021-11-04T13:31:30Z","latitude":37.761957,"longitude":-122.395222,"location":{"area":["US","California","San
+        Francisco","Potrero Hill"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Potrero
+        Hill, San Francisco"},"category":{"tag":"it-jobs","label":"IT Jobs","__CLASS__":"Adzuna::API::Response::Category"},"id":"2611763157","title":"Senior
+        Software Engineer Platform","contract_time":"full_time","company":{"display_name":"Doximity","__CLASS__":"Adzuna::API::Response::Company"},"description":"Salary
+        130,000 - 160,000 USD per year Requirements: - You\u2019re a software engineer
+        with years of experience and a deep understanding of software engineering
+        practices. You have a deep understanding of container technologies such as
+        Docker and Kubernetes. Bonus points if you have operated containers in production.
+        You\u2019re proficient in Golang. Bonus points if you have written container
+        based tooling in Golang. You are proficient with Unix, AWS, and Git. You are
+        self-motivated and able to manage you\u2026","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/2611763157?se=tLCmq0287BGb_FUCEt2eFw&utm_medium=api&utm_source=5e859b54&v=0324B497E4391F3B000F084A71D07AA322DAAF85","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoidExDbXEwMjg3QkdiX0ZVQ0V0MmVGdyIsImkiOiIyNjExNzYzMTU3In0.f2z3CxcmjnKUUB5FOrrQXNV3xLlLpiBBC8VD_VxdD3o","__CLASS__":"Adzuna::API::Response::Job","salary_min":130000},{"created":"2022-02-18T18:53:13Z","latitude":37.798085,"contract_type":"contract","salary_max":185040,"longitude":-122.466538,"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"San
+        Francisco, California","area":["US","California","San Francisco"]},"category":{"tag":"healthcare-nursing-jobs","label":"Healthcare
+        & Nursing Jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Cross
+        Country Nurses"},"salary_is_predicted":"0","description":"The benefits of
+        taking a travel nursing job with Cross Country Nurses include:  Free Private
+        Housing or Generous Housing Allowance  Comprehensive Health Insurance with
+        Prescription Coverage  Dependent Health Insurance with Prescription Coverage  Competitive
+        Salaries  Referral Bonuses  Travel Reimbursement  Shift Differentials  401(k)
+        Retirement Plan  Direct Deposit/Free Checking  Unlimited Free CE Credits MINIMUM
+        REQUIREMENTS:  At Least 1 Year of Recent Acute Care Experience  ASN, BSN or
+        MSN Re\u2026","id":"2909961189","title":"Registered Nurse - Post Anesthesia
+        Care Unit job in San Francisco, CA","redirect_url":"https://www.adzuna.com/land/ad/2909961189?se=tLCmq0287BGb_FUCEt2eFw&utm_medium=api&utm_source=5e859b54&v=9207AF2D121AC7181532F610709EF6AF1EDD5EE9","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwOTk2MTE4OSIsInMiOiJ0TENtcTAyODdCR2JfRlVDRXQyZUZ3In0.rtHSuqbhRSFbG25YacGeXgZ_kGFqJm7VpAql4kZWcdI","salary_min":185040,"__CLASS__":"Adzuna::API::Response::Job"},{"redirect_url":"https://www.adzuna.com/land/ad/3004846854?se=tLCmq0287BGb_FUCEt2eFw&utm_medium=api&utm_source=5e859b54&v=32333715B808F9F43494EAB1BBDEC63E0DD8AEAF","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAwNDg0Njg1NCIsInMiOiJ0TENtcTAyODdCR2JfRlVDRXQyZUZ3In0.AUp6rEekNKzCU2mygscNv8CzcV12OjuK8Xq19VgVYRM","__CLASS__":"Adzuna::API::Response::Job","salary_min":100000,"id":"3004846854","contract_time":"full_time","title":"Software
+        Engineer - Data","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Kevala"},"description":"Kevala
+        is looking for a Software Engineer with experience in distributed computing
+        and big data to join our growing software development team. This individual
+        will collaborate across the company to translate project requirements into
+        generalized and modular ways of interfacing with all aspects of the electric
+        grid: solar power, electric vehicles, energy efficiency, demand response,
+        batteries, wholesale markets, and more. If you enjoy collaborating with other
+        professionals who believe in acceler\u2026","salary_is_predicted":"0","longitude":-122.466538,"location":{"area":["US","California","San
+        Francisco"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"San
+        Francisco, California"},"category":{"label":"IT Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"salary_max":155000,"created":"2022-03-28T12:07:04Z","latitude":37.798085},{"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Financial
+        District, San Francisco","area":["US","California","San Francisco","Financial
+        District"]},"longitude":-122.394608,"category":{"tag":"it-jobs","label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"latitude":37.788462,"created":"2021-11-04T13:31:30Z","salary_max":160000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoidExDbXEwMjg3QkdiX0ZVQ0V0MmVGdyIsImkiOiIyNjExNzYzMTkwIn0._G2WMx6MtGVRlzGAej7cDoysVww-T-uCkwsqTpQ535k","redirect_url":"https://www.adzuna.com/land/ad/2611763190?se=tLCmq0287BGb_FUCEt2eFw&utm_medium=api&utm_source=5e859b54&v=919595C7D5D346D262973E0D94D048BCDE8F3BC4","salary_min":130000,"__CLASS__":"Adzuna::API::Response::Job","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Modern
+        Treasury"},"description":"Salary 130,000 - 160,000 USD per year Requirements:
+        - Experience building web applications professionally for 2 years Experience
+        working with SQL/Relational databases Responsibilities: - We''re looking for
+        Application Engineers to join our Engineering team. In this role, you will
+        build innovative payments products that delight both engineering and finance
+        teams. As an early member of the engineering team, you will help shape the
+        engineering culture of a fast-growing startup. Technologies: - API \u2026","salary_is_predicted":"0","id":"2611763190","contract_time":"full_time","title":"Application
+        Engineer"},{"salary_max":130000,"latitude":37.761957,"created":"2021-11-04T13:31:30Z","category":{"tag":"it-jobs","label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"location":{"area":["US","California","San
+        Francisco","Potrero Hill"],"display_name":"Potrero Hill, San Francisco","__CLASS__":"Adzuna::API::Response::Location"},"longitude":-122.395222,"title":"Mobile
+        Software Engineer, iOS (Swift)","contract_time":"full_time","id":"2611763166","description":"Salary
+        110,000 - 130,000 USD per year Requirements: - You are proficient in Swift
+        and Xcode You have a strong software engineering background with understanding
+        of computer science fundamentals You have professional experience developing
+        software for the iOS platform Responsibilities: - We have a feature-rich,
+        100% Swift application, which we have recently enhanced to include telemedicine
+        to help doctors and patients communicate during the pandemic. We are looking
+        for a talented iOS Software En\u2026","salary_is_predicted":"0","company":{"display_name":"Doximity","__CLASS__":"Adzuna::API::Response::Company"},"salary_min":110000,"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoidExDbXEwMjg3QkdiX0ZVQ0V0MmVGdyIsImkiOiIyNjExNzYzMTY2In0.6NHIFh0cF4JY09WoTJdKg5RMl05sGAQc0h1-0JxEGwM","redirect_url":"https://www.adzuna.com/land/ad/2611763166?se=tLCmq0287BGb_FUCEt2eFw&utm_medium=api&utm_source=5e859b54&v=A8A20AF32D90D4626C1DB9CDFC07CDAA5D02DAEE"},{"salary_is_predicted":"0","description":"Greetings,
+        This is Shraddha (Healthcare Recruiter) from Talent4Health. We came across
+        your profile for one of our urgent requirements of Licensed Vocational Nurse
+        role in San Francisco, CA with one of our direct clients. Please share your
+        updated resume and BLS/CPR copy if you are interested and do give a call at
+        201-932-1577. Your response would be highly appreciated. Job Details \u2013
+        Title : Licensed Vocational Nurse Location : San Francisco, CA Shift time
+        : 12 hrs/day Duration : 3 months with p\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Talent4health
+        LLC"},"title":"Regarding Licensed Vocational Nurse role in San Francisco,
+        CA","id":"2994735302","salary_min":105600,"__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/2994735302?se=tLCmq0287BGb_FUCEt2eFw&utm_medium=api&utm_source=5e859b54&v=015B6971E095BB326EBB2630A9C5A2261A3083DF","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoidExDbXEwMjg3QkdiX0ZVQ0V0MmVGdyIsImkiOiIyOTk0NzM1MzAyIn0.G0hewjc-17Ohp-MISw9Pwa5qmaiRdo8_04GM8KNHuH4","created":"2022-03-23T18:06:54Z","latitude":37.798085,"contract_type":"permanent","salary_max":105600,"category":{"label":"Healthcare
+        & Nursing Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"healthcare-nursing-jobs"},"longitude":-122.466538,"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"San
+        Francisco, California","area":["US","California","San Francisco"]}},{"created":"2022-03-29T12:18:35Z","latitude":37.773969,"salary_max":130000,"category":{"label":"Engineering
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"engineering-jobs"},"longitude":-122.410448,"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"SoMa,
+        San Francisco","area":["US","California","San Francisco","SoMa"]},"description":"Salary
+        110,000 - 130,000 USD per year Requirements: - - Experience with React or
+        Node - Great communication skills - Hustle Responsibilities: - - Understand
+        the current architecture in detail -Identify the long term improvements needed
+        to our architecture - Propose infrastructure improvements - Create and maintain
+        the necessary written documentation to support all developers - Jump in to
+        assist when solving time sensitive problems Technologies: - MongoDB - React
+        - NodeJS More: To date, we\u2019ve ra\u2026","salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Teamflow"},"title":"Staff
+        Engineer","contract_time":"full_time","id":"3007466033","__CLASS__":"Adzuna::API::Response::Job","salary_min":110000,"redirect_url":"https://www.adzuna.com/land/ad/3007466033?se=tLCmq0287BGb_FUCEt2eFw&utm_medium=api&utm_source=5e859b54&v=674BBCFD37BCDC7087E08EDBC3D01CFF6D5C77EC","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoidExDbXEwMjg3QkdiX0ZVQ0V0MmVGdyIsImkiOiIzMDA3NDY2MDMzIn0.D34QaiJytSsACIpMJDIzX9s8iC-mkGgPkUAWry4d4LI"},{"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Mode"},"salary_is_predicted":"0","description":"Mode
+        is a remote-first company with cross-functional teams based throughout the
+        US. We welcome applicants from all 50 states. Employees based in the San Francisco
+        area also have the option to work out of our office as desired. We''ve built
+        Mode from the ground up to be the best analytics platform for Analysts and
+        Data Scientists. As we''ve grown, an increasingly broad audience\u2014people
+        on teams from Finance to Operations, Marketing to Engineering, and everything
+        in between\u2014has begun to use Mode to \u2026","id":"2930944144","contract_time":"full_time","title":"Product
+        Designer","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoidExDbXEwMjg3QkdiX0ZVQ0V0MmVGdyIsImkiOiIyOTMwOTQ0MTQ0In0.eJQFXE5s1oPZBIFNqGD4MFapSzWTRtSTERdc0uIJjPQ","redirect_url":"https://www.adzuna.com/land/ad/2930944144?se=tLCmq0287BGb_FUCEt2eFw&utm_medium=api&utm_source=5e859b54&v=2AAAE45712B1CE3A5C052777504CD0ED090BA432","salary_min":112500,"__CLASS__":"Adzuna::API::Response::Job","latitude":37.798085,"created":"2022-02-27T10:58:07Z","salary_max":150000,"location":{"display_name":"San
+        Francisco, California","__CLASS__":"Adzuna::API::Response::Location","area":["US","California","San
+        Francisco"]},"longitude":-122.466538,"category":{"tag":"creative-design-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Creative
+        & Design Jobs"}},{"category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs"},"location":{"display_name":"Potrero Hill, San Francisco","__CLASS__":"Adzuna::API::Response::Location","area":["US","California","San
+        Francisco","Potrero Hill"]},"longitude":-122.395222,"salary_max":140000,"latitude":37.761957,"created":"2021-11-04T13:31:30Z","__CLASS__":"Adzuna::API::Response::Job","salary_min":110000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjYxMTc2MzIyMCIsInMiOiJ0TENtcTAyODdCR2JfRlVDRXQyZUZ3In0.esZ-F6wmzgaHtFAiRImM_596BKCQ_wWR7sF8rEEuATQ","redirect_url":"https://www.adzuna.com/land/ad/2611763220?se=tLCmq0287BGb_FUCEt2eFw&utm_medium=api&utm_source=5e859b54&v=3F802AEFE8260FF243D8A0767143EF3D1989997C","title":"Software
+        Engineer, Android (Kotlin)","contract_time":"full_time","id":"2611763220","description":"Salary
+        110,000 - 140,000 USD per year Requirements: - Knowledge of Kotlin and have
+        experience building Android apps Some experience with Clean Architecture is
+        preferred At least 2 years of professional experience with Android development
+        using the Android SDK You stay up-to-date with latest patterns and libraries
+        from the Android community You have some experience with testing on Android
+        You possess an understanding of design patterns and with an eye for detecting
+        their use case in the code Res\u2026","salary_is_predicted":"0","company":{"display_name":"Doximity","__CLASS__":"Adzuna::API::Response::Company"}},{"description":"Director
+        of Content Marketing at BlockFi San Francisco, CA BlockFi is seeking a Director
+        of Content Marketing to join our growing team BlockFi\u2019s mission is to
+        provide liquidity, transparency and efficiency to digital financial markets
+        by creating products that meet the needs of consumers and corporations across
+        the globe. We build bridges between traditional finance and digital markets
+        that enable growth for all participants. We\u2019re a team of builders and
+        strivers, proud to champion financial in\u2026","salary_is_predicted":"0","created":"2022-04-10T12:37:56Z","latitude":37.798085,"company":{"display_name":"BlockFi
+        Lending LLC","__CLASS__":"Adzuna::API::Response::Company"},"title":"Director
+        of Content Marketing","salary_max":192000,"id":"3041596535","salary_min":192000,"__CLASS__":"Adzuna::API::Response::Job","category":{"tag":"pr-advertising-marketing-jobs","label":"PR,
+        Advertising & Marketing Jobs","__CLASS__":"Adzuna::API::Response::Category"},"longitude":-122.466538,"redirect_url":"https://www.adzuna.com/land/ad/3041596535?se=tLCmq0287BGb_FUCEt2eFw&utm_medium=api&utm_source=5e859b54&v=F4BB22131C2835B41B12370B23169E27AAF7E9A8","location":{"area":["US","California","San
+        Francisco"],"display_name":"San Francisco, California","__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0MTU5NjUzNSIsInMiOiJ0TENtcTAyODdCR2JfRlVDRXQyZUZ3In0.E4vgQuyMAd0YeaBZdgV3sneQaIg44s0cBGqrO-4lCaM"}],"mean":148963.99,"__CLASS__":"Adzuna::API::Response::JobSearchResults"}'
+  recorded_at: Thu, 14 Apr 2022 23:50:32 GMT
+recorded_with: VCR 6.1.0
