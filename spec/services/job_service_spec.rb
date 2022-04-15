@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'job service' do
   it 'can connect to a job service api' do
     VCR.use_cassette("sf jobs") do
-      jobs = JobService.get_job_info("california", "san francisco")
+      jobs = JobService.get_job_info("california")
 
       expect(jobs).to be_a(Hash)
     end
