@@ -4,7 +4,7 @@ RSpec.describe 'The Job Facade' do
   it ".find_jobs" do
     VCR.use_cassette("many jobs") do
 
-      jobs = JobFacade.find_jobs("california", "san francisco")
+      jobs = JobFacade.find_jobs("california")
 
       expect(jobs).to be_instance_of(Array)
       jobs.each do |job_info|
