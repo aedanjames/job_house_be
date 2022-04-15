@@ -1,0 +1,52 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.simplyrets.com/properties?authorization=simplyrets&count=true
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Authorization
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, PUT, PATCH, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Total-Count, X-SimplyRETS-LastUpdate, X-SimplyRETS-Media-Type, Link
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 15 Apr 2022 02:15:02 GMT
+      Server:
+      - nginx/1.18.0
+      Vary:
+      - Accept, Accept-Language
+      Www-Authenticate:
+      - Basic realm="SimplyRETS"
+      X-Simplyrets-Media-Type:
+      - vnd.simplyrets-v0.1
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Length:
+      - '77'
+      Connection:
+      - keep-alive
+    body:
+      encoding: UTF-8
+      string: '{"error":"Authentication is required","message":"Authentication is
+        required"}'
+  recorded_at: Fri, 15 Apr 2022 02:15:02 GMT
+recorded_with: VCR 6.1.0
