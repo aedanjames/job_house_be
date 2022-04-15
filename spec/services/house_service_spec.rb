@@ -2,6 +2,7 @@ require 'rails_helper'
 
 RSpec.describe 'house service' do
   it 'can connect to a house api' do
+    
     results = File.read('spec/fixtures/houses_atherton_zip.json')
 
     zipcode = 94027
@@ -16,7 +17,7 @@ RSpec.describe 'house service' do
          to_return(status: 200, body: results, headers: {})
 
      search = HouseService.get_house_info(zipcode)
-     
+
     expect(search).to be_a(Hash)
   end
 end
