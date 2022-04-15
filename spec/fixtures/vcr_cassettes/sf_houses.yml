@@ -1,0 +1,45 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.gateway.attomdata.com/propertyapi/v1.0.0/property/address?postalcode=82009
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 401
+      message: Unauthorized
+    headers:
+      Date:
+      - Fri, 15 Apr 2022 16:09:28 GMT
+      Content-Type:
+      - application/json
+      Content-Length:
+      - '121'
+      Connection:
+      - keep-alive
+      Server:
+      - Microsoft-IIS/10.0
+      Set-Cookie:
+      - TiPMix=78.49546859419215; path=/; HttpOnly; Domain=3scale-gateway.azurewebsites.net;
+        Max-Age=3600; Secure; SameSite=None
+      - x-ms-routing-name=self; path=/; HttpOnly; Domain=3scale-gateway.azurewebsites.net;
+        Max-Age=3600; Secure; SameSite=None
+      Request-Context:
+      - appId=cid-v1:016d62c3-db58-44ca-b967-b1882ece65c5
+      Strict-Transport-Security:
+      - max-age=2592000
+    body:
+      encoding: UTF-8
+      string: '{"Response":{"status":{"version": "1.0.0","code": "401","msg": "Unauthorized","total":
+        "0","page": "0","pagesize": "0"}}}'
+  recorded_at: Fri, 15 Apr 2022 16:09:28 GMT
+recorded_with: VCR 6.1.0

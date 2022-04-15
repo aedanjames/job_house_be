@@ -1,0 +1,83 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.adzuna.com/v1/api/jobs/us/search/1?app_id&app_key&results_per_page=50&salary_max=10000000&salary_min=1&where
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 400
+      message: Bad Request
+    headers:
+      Date:
+      - Fri, 15 Apr 2022 16:09:27 GMT
+      Content-Type:
+      - text/html
+      Content-Length:
+      - '2174'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.14.0 (Ubuntu)
+      Etag:
+      - '"624ac1c5-87e"'
+    body:
+      encoding: UTF-8
+      string: |
+        <!DOCTYPE html>
+        <html>
+        <!-- This file is managed by Chef -->
+            <head>
+                <meta charset="UTF-8">
+                <title>Uh oh, something isn't right</title>
+                <meta name="HandheldFriendly" content="True">
+                <meta name="MobileOptimized" content="320">
+                <meta name="format-detection" content="telephone=no">
+                <meta name="viewport" content="width=device-width, initial-scale=1">
+                <meta http-equiv="cleartype" content="on">
+                <style type="text/css">
+                    html { margin:0; padding:0; }
+                    body {
+                        margin:0; padding:20px;
+                        font-family:Arial, "Helvetica Neue", Helvetica, sans-serif;
+                        font-size:16px; color:#333; line-height:1.4em; text-align:center;
+                    }
+                    h1 { font-size:24px; font-weight:bold; line-height:1.4em; color:black; }
+                    div { max-width:570px; margin:0 auto; }
+                    img { width:100%; max-width:570px; }
+                    p.details { color:#999; font-size: small; }
+                </style>
+            </head>
+            <body>
+                <div>
+                    <img src="//zunamore-abf.kxcdn.com/adzuna_500_rebranded.jpg" alt="Oops" width="570" height="336" />
+                    <h1>Well this is embarrassing...</h1>
+                    <p><strong>Something, somewhere has gone wrong. Sorry for the inconvenience!</strong></p>
+                    <p>Our developers have been notified and are working furiously to fix this.</p>
+                    <p>Please try refreshing this page in a few minutes.</p>
+                    <p class="details">nginx / 400</p>
+                </div>
+            </body>
+            <script>
+              (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+              (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+              m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+              })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+              ga('create', 'UA-20308807-23', 'auto');
+              ga('send', 'pageview');
+              ga('send', 'event', 'error', 'frontend', 'nginx');
+              ga('send', 'event', 'error', 'server_error', '400');
+              ga('send', 'event', 'error', 'server', '127.0.0.1');
+            </script>
+        </html>
+  recorded_at: Fri, 15 Apr 2022 16:09:27 GMT
+recorded_with: VCR 6.1.0

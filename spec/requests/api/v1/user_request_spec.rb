@@ -2,7 +2,7 @@ require 'rails_helper'
 RSpec.describe 'User API' do
   it "returns a selected user" do
     user = User.create!(email: "someemail")
-      get "/api/v1/users/1"
+      get "/api/v1/users?email=someemail"
 
       expect(response).to be_successful
 
