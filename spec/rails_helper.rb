@@ -68,3 +68,15 @@ Shoulda::Matchers.configure do |config|
     with.library :rails
   end
 end
+
+VCR.configure do |config|
+  config.cassette_library_dir = "spec/fixtures/vcr_cassettes"
+  config.hook_into :webmock
+  # filters sensitive data for us. Each API key will need it's own line
+  config.filter_sensitive_data('app_key') { ENV['app_key'] }
+  # allows us to use the names of our tests to name cassettes rather than having to manually wrap each test in a block
+  # add :vcr do to our test block after the first one
+  config.configure_rspec_metadata!
+  # re-record default configuration block (instead of in specific test)
+  config.default_cassette_options = { re_record_interval: 2.days }
+end
