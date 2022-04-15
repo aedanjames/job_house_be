@@ -1,6 +1,6 @@
 class JobFacade
-  def self.find_jobs(state, city)
-    jobs = JobService.get_job_info(state, city)
+  def self.find_jobs(where)
+    jobs = JobService.get_job_info(where)
 
     jobs[:results].map do |job_info|
       Job.new(job_info)
