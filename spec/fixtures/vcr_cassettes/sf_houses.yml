@@ -19,7 +19,9 @@ http_interactions:
       message: Unauthorized
     headers:
       Date:
-      - Fri, 15 Apr 2022 16:09:28 GMT
+
+      - Fri, 15 Apr 2022 16:08:55 GMT
+
       Content-Type:
       - application/json
       Content-Length:
@@ -29,7 +31,9 @@ http_interactions:
       Server:
       - Microsoft-IIS/10.0
       Set-Cookie:
-      - TiPMix=78.49546859419215; path=/; HttpOnly; Domain=3scale-gateway.azurewebsites.net;
+
+      - TiPMix=40.971070424767184; path=/; HttpOnly; Domain=3scale-gateway.azurewebsites.net;
+
         Max-Age=3600; Secure; SameSite=None
       - x-ms-routing-name=self; path=/; HttpOnly; Domain=3scale-gateway.azurewebsites.net;
         Max-Age=3600; Secure; SameSite=None
@@ -41,5 +45,7 @@ http_interactions:
       encoding: UTF-8
       string: '{"Response":{"status":{"version": "1.0.0","code": "401","msg": "Unauthorized","total":
         "0","page": "0","pagesize": "0"}}}'
-  recorded_at: Fri, 15 Apr 2022 16:09:28 GMT
+
+  recorded_at: Fri, 15 Apr 2022 16:08:55 GMT
+
 recorded_with: VCR 6.1.0
