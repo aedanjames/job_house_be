@@ -2,7 +2,9 @@
 http_interactions:
 - request:
     method: get
+
     uri: https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=5e859b54&app_key=9b7837242edf32ddec42da936025659e&results_per_page=50&salary_max=10000000&salary_min=1&where
+
     body:
       encoding: US-ASCII
       string: ''
@@ -15,6 +17,7 @@ http_interactions:
       - "*/*"
   response:
     status:
+
       code: 200
       message: OK
     headers:
@@ -24,10 +27,12 @@ http_interactions:
       - application/json; charset=utf8
       Content-Length:
       - '73271'
+
       Connection:
       - keep-alive
       Server:
       - nginx/1.14.0 (Ubuntu)
+
       Vary:
       - Content-Type
       Access-Control-Allow-Headers:
