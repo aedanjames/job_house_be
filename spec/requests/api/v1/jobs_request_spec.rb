@@ -45,8 +45,12 @@ RSpec.describe 'jobs api' do
     job_data = JSON.parse(response, symbolize_names: true)
 
     post "/api/v1/jobs"
-
+    jobject = Job.find_by(api_job_id: job_data[:id])
+    # user = User.find_by(email: job_data[:email])
+    # user_job = UserJob.find_by(job_id: jobject.id, user_id: user.id)
     # expect(response).to be_successful
-    expect(Job.find_by(api_job_id: job_data[:id]))
+    expect(jobject.api_job_id).to eq(job_data[:id].to_i)
+    # expect(user.email).to eq(job_data[:email])
+    # expect(user_job).to be_a(UserJob)
   end
 end
