@@ -8,7 +8,7 @@ RSpec.describe 'The Job Facade' do
 
       expect(jobs).to be_instance_of(Array)
       jobs.each do |job_info|
-        expect(job_info).to be_a Job
+        expect(job_info).to be_a JobPoro
         expect(job_info.company).to be_a String
         expect(job_info.contact).to be_a String
         expect(job_info.id).to be_a String
