@@ -1,4 +1,4 @@
-class Job
+class JobPoro
   attr_reader :salary_min,
               :salary_max,
               :location,
