@@ -46,7 +46,7 @@ RSpec.describe 'jobs api' do
 
     post "/api/v1/jobs"
 
-    expect(response).to be_successful
-    expect(Job.find(job_data[:id]))
+    # expect(response).to be_successful
+    expect(Job.find_by(api_job_id: job_data[:id]))
   end
 end
