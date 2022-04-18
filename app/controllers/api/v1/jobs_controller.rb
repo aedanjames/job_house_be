@@ -9,16 +9,17 @@ class Api::V1::JobsController < ApplicationController
     job_data = JSON.parse(response, symbolize_names: true)
     user = User.find_by(email: params[:email])
 
-    if Job.find_by(api_job_id: job_data[:id].to_i)
+    if Job.find_by(api_job_id: job_data[:api_job_id].to_i)
       # if exists, validate not a duplicate
       # if doesn't exist, create UserJob
       # send 201 response
     else
-      Job.create!(job_data)
+      Job.create!(salary: job_data[:salary], contact: job_data[:contact], company: job_data[:company], api_job_id: job_data[:id], location: "#{job_data[:city]}, #{job_data[:state]}")
       # if doesnt exist, create Job
       # create UserJob
       # send 201 response
     end
   end
+
 
 end
