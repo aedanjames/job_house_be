@@ -10,10 +10,18 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_04_13_020459) do
+ActiveRecord::Schema.define(version: 2022_04_18_161631) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "jobs", force: :cascade do |t|
+    t.string "company"
+    t.string "location"
+    t.string "contact"
+    t.string "salary_min"
+    t.string "salary_max"
+  end
 
   create_table "user_job_houses", force: :cascade do |t|
     t.bigint "user_job_id"
@@ -23,7 +31,8 @@ ActiveRecord::Schema.define(version: 2022_04_13_020459) do
 
   create_table "user_jobs", force: :cascade do |t|
     t.bigint "user_id"
-    t.integer "job_id"
+    t.bigint "job_id"
+    t.index ["job_id"], name: "index_user_jobs_on_job_id"
     t.index ["user_id"], name: "index_user_jobs_on_user_id"
   end
 
@@ -33,5 +42,6 @@ ActiveRecord::Schema.define(version: 2022_04_13_020459) do
   end
 
   add_foreign_key "user_job_houses", "user_jobs"
+  add_foreign_key "user_jobs", "jobs"
   add_foreign_key "user_jobs", "users"
 end
