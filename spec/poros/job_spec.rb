@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe Job do
+RSpec.describe JobPoro do
   it "exists with attributes" do
     data = {:contract_type=>"permanent",
             :salary_max=>160000,
@@ -20,9 +20,9 @@ RSpec.describe Job do
             :salary_min=>120000,
             :location=>{:area=>["US", "California", "San Francisco", "Panhandle"], :__CLASS__=>"Adzuna::API::Response::Location", :display_name=>"Panhandle, San Francisco"}}
 
-    job = Job.new(data)
+    job = JobPoro.new(data)
 
-    expect(job).to be_an_instance_of(Job)
+    expect(job).to be_an_instance_of(JobPoro)
     expect(job.salary).to eq(140000)
 
     expect(job.location).to be_an_instance_of(Hash)
