@@ -5,6 +5,8 @@
     + Returns a list of jobs matching the city param
   + Get `/users?email=someemailadress.com`
     + returns the specific user requested by email address, if one does not exist, creates a new one and returns that user
+  + Post `/jobs`
+    + creates a job entry in our database, or locates on if it already exists, and assigns a relationship to an existing userS
 
 
 ## Versions
