@@ -3,7 +3,7 @@ class HouseFacade
     # max_price = mortgage_calculator(salary)
     houses = HouseService.get_house_info(location, max_price)
     houses.map do |house_info|
-      House.new(house_info)
+      HousePoro.new(house_info)
     end
   end
 
