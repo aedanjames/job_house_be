@@ -4,7 +4,8 @@ class JobPoro
               :location,
               :company,
               :contact,
-              :id
+              :id,
+              :title
 
   def initialize(job_info)
     @salary_min = job_info[:salary_min]
@@ -16,6 +17,7 @@ class JobPoro
     @company = job_info[:company][:display_name]
     @contact = job_info[:redirect_url]
     @id = job_info[:id]
+    @title = job_info[:title]
   end
 
   def salary
