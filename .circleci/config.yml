@@ -30,3 +30,8 @@ workflows:
         filters:
           branches:
             only: main
+deployment:
+  staging:
+    branch: main
+    heroku:
+      appname: gentle-beach-60003

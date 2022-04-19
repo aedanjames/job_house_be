@@ -9,7 +9,6 @@ class JobService
       faraday.params[:results_per_page] = 50
     end
     response = conn.get(url)
-
     help_me = JSON.parse(response.body, symbolize_names: true)
   end
 
