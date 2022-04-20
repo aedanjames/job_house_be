@@ -27,7 +27,7 @@
 * Rails - 5.2.7
 
 ## DB Schema
-![schema](app/assets/images/image.png)
+![schema](app/assets/images/schema.png)
 ## CONTRIBUTORS
 * [Aedan](https://github.com/aedanjames)
 * [Eldridge](https://github.com/Eldridge-Turambi)
