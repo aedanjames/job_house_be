@@ -7,9 +7,9 @@ class HouseFacade
     end
   end
 
-  # def mortgage_calculator(salary)
-  #   monthly_budget = (salary * 0.3)/12
-  #   house_price = (monthly_budget * 5.022575) / (0.005 * 6.022575)
-  #   return house_price
-  # end
+  def mortgage_calculator(salary)
+    monthly_budget = (salary * 0.3)/12
+    house_price = (monthly_budget * 5.022575) / (0.005 * 6.022575)
+    return house_price
+  end
 end
