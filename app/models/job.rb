@@ -13,8 +13,7 @@ class Job < ApplicationRecord
   end
 
   def mortgage_calculator
-    salary = (self.salary_min.to_i + self.salary_max.to_i) / 2
-    monthly_budget = (salary * 0.3) / 12
+    monthly_budget = (self.salary * 0.3) / 12
     house_price = (monthly_budget * 5.022575) / (0.005 * 6.022575)
     return house_price.to_i
   end

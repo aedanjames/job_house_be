@@ -1,0 +1,603 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=5e859b54&app_key=9b7837242edf32ddec42da936025659e&results_per_page=50&salary_max=10000000&salary_min=1&where
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 20 Apr 2022 23:18:24 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '73421'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.14.0 (Ubuntu)
+      Vary:
+      - Content-Type
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Catalyst:
+      - '5.90117'
+    body:
+      encoding: UTF-8
+      string: '{"results":[{"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
+        Jobs"},"contract_type":"permanent","salary_max":180000,"created":"2021-11-25T03:01:05Z","location":{"display_name":"Draper,
+        Salt Lake County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Utah","Salt
+        Lake County","Draper"]},"redirect_url":"https://www.adzuna.com/land/ad/2678592004?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=6984782E7161900D24550B8104C9B8BBF43DCFD7","description":"Nav
+        is democratizing small business financing. In other words, we give small business
+        owners access and control. Yes, this challenges the norm, but it means working
+        with curious, purpose driven, dedicated, and inquisitively smart people who
+        push themselves, our company and the community to the next level (and every
+        level after that). We are the people behind the tech. And when it\u2019s good,
+        we look for better. We don\u2019t over think the value we bring nor spend
+        time trying to revamp mantras. We also \u2026","__CLASS__":"Adzuna::API::Response::Job","longitude":-111.8692,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Nav"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyNjc4NTkyMDA0In0.ZUnv7D6YI190-dAutMVLiKe03vqtIxHqXzO5Z3jzK9U","salary_is_predicted":"0","title":"Principal/Senior
+        Staff Backend Engineer - Remote Within In The US or In Office (PA, UT, CA)","id":"2678592004","latitude":40.5081,"salary_min":165000},{"contract_time":"part_time","salary_min":38400,"latitude":43.076108,"id":"3048834212","title":"Independent
+        Delivery Driver","salary_is_predicted":"0","company":{"display_name":"goPuff","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIzMDQ4ODM0MjEyIn0.MpxqVcWLHVU8q6Rs6C3OpFxhM3f9lUViVtbeXk9VV2Q","longitude":-89.199559,"description":"goPuff
+        is currently looking for delivery partners for goDrive, an app that connects
+        delivery drivers with customers who want access to the daily essentials they
+        need, such as food, drinks, household items, etc. Partnering with goPuff is
+        a great opportunity for anyone looking for a flexible schedule. goPuff\u2019s
+        big advantages over similar services is the central hub for deliveries \u2013
+        as a delivery driver, you won\u2019t have to drive all around town to gather
+        orders, instead you\u2019ll be picking things up \u2026","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/3048834212?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=147CF0E6B56B652CBA072DF922FAD6136C798B1E","location":{"display_name":"Cottage
+        Grove, Dane County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Wisconsin","Dane
+        County","Cottage Grove"]},"created":"2022-04-13T04:15:41Z","salary_max":38400,"category":{"tag":"travel-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Travel
+        Jobs"},"contract_type":"contract"},{"title":"Principal/Senior Staff Backend
+        Engineer - Remote Within In The US or In Office (PA, UT, CA)","id":"3031508002","company":{"display_name":"Nav","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzMTUwODAwMiIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.Nena13QrIoBjTNQvz7mPbRKg-giVn-rk-cuQAUHBiSs","salary_is_predicted":"0","latitude":40.5081,"salary_min":165000,"created":"2022-04-06T15:29:07Z","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Washington,
+        Washington, D.C.","area":["US","Washington, D.C.","Washington"]},"contract_type":"permanent","category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs"},"salary_max":180000,"longitude":-111.8692,"redirect_url":"https://www.adzuna.com/land/ad/3031508002?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=74567CA8AD0198B0D6CF50FC06F1C2A4C1184A06","__CLASS__":"Adzuna::API::Response::Job","description":"Nav
+        is democratizing small business financing. In other words, we give small business
+        owners access and control. Yes, this challenges the norm, but it means working
+        with curious, purpose driven, dedicated, and inquisitively smart people who
+        push themselves, our company and the community to the next level (and every
+        level after that). We are the people behind the tech. And when it\u2019s good,
+        we look for better. We don\u2019t over think the value we bring nor spend
+        time trying to revamp mantras. We also \u2026"},{"salary_max":260000,"category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs"},"contract_type":"permanent","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Church
+        Street, Manhattan","area":["US","New York","New York City","Manhattan","Church
+        Street"]},"created":"2022-04-20T12:43:55Z","__CLASS__":"Adzuna::API::Response::Job","description":"Gemini
+        is a crypto exchange and custodian that allows customers to buy, sell, store,
+        and earn more than 30 cryptocurrencies like bitcoin, bitcoin cash, ether,
+        litecoin, and Zcash. Gemini is a New York trust company that is subject to
+        the capital reserve requirements, cybersecurity requirements, and banking
+        compliance standards set forth by the New York State Department of Financial
+        Services and the New York Banking Law. Gemini was founded in 2014 by twin
+        brothers Cameron and Tyler Winklevoss to\u2026","redirect_url":"https://www.adzuna.com/land/ad/3065602479?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=74430BED6DF270F44FD3500B027FA5A50F0D2E11","longitude":-74.008038,"salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Gemini"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIzMDY1NjAyNDc5In0.sgqEKCdyHpZUAkUcKcyTJWPIgB9TSOhZbyi1A_jlRrg","id":"3065602479","title":"Principal
+        Data Engineer - REMOTE","salary_min":220000,"latitude":40.713515},{"contract_type":"permanent","category":{"label":"Admin
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs"},"salary_max":74150,"created":"2022-02-17T17:15:43Z","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Mesa,
+        Maricopa County","area":["US","Arizona","Maricopa County","Mesa"]},"redirect_url":"https://www.adzuna.com/land/ad/2906550957?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=F806D83D59FCAA6CD4F5DB1DD872A34AF68F76E6","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","longitude":-111.844935,"company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MDk1NyIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.gg0kREhmeA1IXHPPImrrdw8JIOIyVeTkvyVGvKGoh1M","salary_is_predicted":"0","title":"Postal
+        Clerk","id":"2906550957","latitude":33.432953,"salary_min":41740,"contract_time":"full_time"},{"id":"2906551090","title":"Postal
+        Clerk","salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MTA5MCIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.ZseMVu1ui-vX_Cuk9mEfGda7mV6t6-zvitkgs2ahOjs","contract_time":"full_time","salary_min":41740,"latitude":29.198796,"location":{"display_name":"Daytona
+        Beach, Volusia County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Florida","Volusia
+        County","Daytona Beach"]},"created":"2022-02-17T17:15:44Z","salary_max":74150,"category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"contract_type":"permanent","longitude":-81.042343,"__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","redirect_url":"https://www.adzuna.com/land/ad/2906551090?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=16B176642C4C4F0B81A2F5B15C8FE051FD2F5C1F"},{"category":{"label":"Admin
+        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"contract_type":"permanent","salary_max":74150,"created":"2021-08-05T11:51:37Z","location":{"area":["US","North
+        Carolina","Iredell County","Statesville"],"display_name":"Statesville, Iredell
+        County","__CLASS__":"Adzuna::API::Response::Location"},"redirect_url":"https://www.adzuna.com/land/ad/2362838768?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=8A9CED57585A2CADC95110F9B70B04B7D6B49C36","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","longitude":-80.891066,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjM2MjgzODc2OCIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.vKgZQ3NchkS5pL_22SSpgWna7kj5y7bHNAsUbxJl6s0","salary_is_predicted":"0","title":"Postal
+        Clerk","id":"2362838768","latitude":35.888144,"contract_time":"full_time","salary_min":41740},{"salary_is_predicted":"0","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MTkyOSIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.kt9FgQyALb_GYU9yeJm0q4ck3MdVi6Qq2mhSY9u3olU","id":"2906551929","title":"Postal
+        Clerk","salary_min":41740,"contract_time":"full_time","latitude":41.994194,"salary_max":74150,"contract_type":"permanent","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
+        Jobs"},"location":{"area":["US","Illinois","Kane County","South Elgin"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"South
+        Elgin, Kane County"},"created":"2022-02-17T17:15:49Z","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","redirect_url":"https://www.adzuna.com/land/ad/2906551929?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=677DADE07C83AFB2DB3DA25ECB2CF8E704F4322D","longitude":-88.2923},{"longitude":-79.796052,"redirect_url":"https://www.adzuna.com/land/ad/2906551925?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=32AB55229C2FED43B0FECACB7D0D1EA45F3A5865","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","created":"2022-02-17T17:15:49Z","location":{"area":["US","North
+        Carolina","Randolph County","Asheboro"],"display_name":"Asheboro, Randolph
+        County","__CLASS__":"Adzuna::API::Response::Location"},"contract_type":"permanent","category":{"label":"Admin
+        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_max":74150,"latitude":35.709666,"salary_min":41740,"contract_time":"full_time","title":"Postal
+        Clerk","id":"2906551925","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTUxOTI1In0.iYTuLsRSzg9EUds-mU6eOMJmELgRgvLSek7df6wbT9g","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0"},{"salary_max":74150,"contract_type":"permanent","category":{"label":"Admin
+        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Corona
+        Del Mar, Orange County","area":["US","California","Orange County","Corona
+        Del Mar"]},"created":"2022-02-17T17:15:48Z","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","redirect_url":"https://www.adzuna.com/land/ad/2906551813?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=4EF8B5903791F45B481FC5E3126BA19A4AD97AFE","longitude":-117.863377,"salary_is_predicted":"0","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MTgxMyIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.n3FQzZTGDYBIvOTx2UnYFqf3DreaQIv7YUpob1wEiNo","id":"2906551813","title":"Postal
+        Clerk","salary_min":41740,"contract_time":"full_time","latitude":33.603906},{"contract_time":"full_time","salary_min":41740,"latitude":38.197014,"id":"2906554895","title":"Postal
+        Clerk","salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1NDg5NSIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.uMFXeSF6tzcM5fspTztiKYYYv9VYnDTzBCGeETcMnL0","longitude":-85.663294,"__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","redirect_url":"https://www.adzuna.com/land/ad/2906554895?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=FA377565363C81ED087782D397CCCDDF7DEC4F05","location":{"area":["US","Kentucky","Jefferson
+        County","West Buechel"],"display_name":"West Buechel, Jefferson County","__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-02-17T12:16:06Z","salary_max":74150,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
+        Jobs"},"contract_type":"permanent"},{"latitude":42.8668,"salary_min":41740,"contract_time":"full_time","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1NDU2NSIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.2Ps8-J1uBuLzazorrdGLTlfYNqX12qkFKyYwb_fgn_4","salary_is_predicted":"0","title":"Postal
+        Clerk","id":"2906554565","redirect_url":"https://www.adzuna.com/land/ad/2906554565?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=6FF6FD4EC0C794A259B2C1516C6FEB0D450FAE3C","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","longitude":-106.3125,"contract_type":"permanent","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
+        Jobs"},"salary_max":74150,"created":"2022-02-17T12:16:04Z","location":{"area":["US","Wyoming","Natrona
+        County","Hiland"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Hiland,
+        Natrona County"}},{"latitude":41.500857,"salary_min":41740,"contract_time":"full_time","title":"Postal
+        Clerk","id":"2906553866","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1Mzg2NiIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.ZjHm-Z7pO-1rVqiieQoNqcQRHtEFddh7cdTUpbUwGxU","salary_is_predicted":"0","longitude":-81.602199,"redirect_url":"https://www.adzuna.com/land/ad/2906553866?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=9E649EE301BEA1FBB7A6C682736F87D3872C2AFC","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","created":"2022-02-17T12:16:00Z","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Cleveland
+        Heights, Cuyahoga County","area":["US","Ohio","Cuyahoga County","Cleveland
+        Heights"]},"contract_type":"permanent","category":{"label":"Admin Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs"},"salary_max":74150},{"created":"2022-02-17T17:15:44Z","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Mount
+        Air, Franklin County","area":["US","Ohio","Franklin County","Mount Air"]},"category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"contract_type":"permanent","salary_max":74150,"longitude":-83.013326,"redirect_url":"https://www.adzuna.com/land/ad/2906551100?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=6E3F2261152E3ACEC9ED0049042EA21B814772B5","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","title":"Postal Clerk","id":"2906551100","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTUxMTAwIn0.q6kxlAB94FvfEJUy5GJkqO_72xOtz355VynGCTPJ5JU","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","latitude":40.103446,"contract_time":"full_time","salary_min":41740},{"longitude":-105.170723,"redirect_url":"https://www.adzuna.com/land/ad/2906551005?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=03DE77F8E4EEE9A7558DEBC16AD1F34DC569CEAE","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","created":"2022-02-17T17:15:43Z","location":{"area":["US","Colorado","Larimer
+        County","Loveland"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Loveland,
+        Larimer County"},"contract_type":"permanent","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
+        Jobs"},"salary_max":74150,"latitude":40.36618,"salary_min":41740,"contract_time":"full_time","title":"Postal
+        Clerk","id":"2906551005","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MTAwNSIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.SBOMO0NUOYSrILAzOBaQhmKeAoMPqI7BYdYo6bC4KG8","salary_is_predicted":"0"},{"latitude":39.993144,"salary_min":41740,"contract_time":"full_time","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTU0MDcwIn0.TfudsLB7XP9UBmuHAkODXmoLTXy2YIw492_mpPgBg4o","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","title":"Postal
+        Clerk","id":"2906554070","redirect_url":"https://www.adzuna.com/land/ad/2906554070?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=5780E375DC1BBC6812467D9AD57B744FD4191FE0","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","longitude":-74.787939,"contract_type":"permanent","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
+        Jobs"},"salary_max":74150,"created":"2022-02-17T12:16:02Z","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Mount
+        Holly, Burlington County","area":["US","New Jersey","Burlington County","Mount
+        Holly"]}},{"title":"Postal Clerk","id":"2906551597","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTUxNTk3In0.JvYY4FmxYg6WmweYa1OUU3Tfdjbwl5dsHjVOUi2dmns","salary_is_predicted":"0","latitude":39.88838,"salary_min":41740,"contract_time":"full_time","created":"2022-02-17T17:15:47Z","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"New
+        Augusta, Marion County","area":["US","Indiana","Marion County","New Augusta"]},"contract_type":"permanent","category":{"label":"Admin
+        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_max":74150,"longitude":-86.239984,"redirect_url":"https://www.adzuna.com/land/ad/2906551597?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=AFC3AACBA44A0A21F044CE70524D1E6A7F1C196D","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026"},{"latitude":39.74915,"salary_min":41740,"contract_time":"full_time","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTU0MTUxIn0.RP1n31QW4Wlwem_N-CCfum-j3iZa_fYyg_ULEjuTI1U","salary_is_predicted":"0","title":"Postal
+        Clerk","id":"2906554151","redirect_url":"https://www.adzuna.com/land/ad/2906554151?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=6F383FB1EC98EE09A9B55D87F4431CDDE66ED0B0","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","longitude":-75.329557,"contract_type":"permanent","category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"salary_max":74150,"created":"2022-02-17T12:16:02Z","location":{"display_name":"Auburn,
+        Gloucester County","__CLASS__":"Adzuna::API::Response::Location","area":["US","New
+        Jersey","Gloucester County","Auburn"]}},{"salary_max":74150,"contract_type":"permanent","category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Hattiesburg,
+        Forrest County","area":["US","Mississippi","Forrest County","Hattiesburg"]},"created":"2021-08-05T11:51:41Z","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/2362839055?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=FB45738EAF8138AD9D551E91CDC339A9FB72234B","longitude":-89.272298,"salary_is_predicted":"0","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjM2MjgzOTA1NSIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.Lp6-Th4t3WuNI_srC_6wSHSt1RjGcU3-rR3o8cQyLW0","id":"2362839055","title":"Postal
+        Clerk","salary_min":41740,"contract_time":"full_time","latitude":31.241113},{"longitude":-94.554677,"__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","redirect_url":"https://www.adzuna.com/land/ad/2906555038?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=D4442E3B36A0FB4B390C38649601C984A615DAE9","location":{"area":["US","Missouri","Clay
+        County","Gladstone"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Gladstone,
+        Clay County"},"created":"2022-02-17T12:16:07Z","salary_max":74150,"contract_type":"permanent","category":{"label":"Admin
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs"},"salary_min":41740,"contract_time":"full_time","latitude":39.203892,"id":"2906555038","title":"Postal
+        Clerk","salary_is_predicted":"0","company":{"display_name":"USA Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTU1MDM4In0.B4DUgmtrc-qc_iWEEfuLYo30Mo4uRpIqZGa6N4Me0aM"},{"latitude":35.076814,"salary_min":41740,"contract_time":"full_time","title":"Postal
+        Clerk","id":"2906553998","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1Mzk5OCIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.XDm2jqRKn0Ea8yMtDFJRuqlh0cZlH3ymFz_k2C7hLRs","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"salary_is_predicted":"0","longitude":-80.669235,"redirect_url":"https://www.adzuna.com/land/ad/2906553998?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=9C4C3EF82203D776E42483F09BED9FB8C54C60AF","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","created":"2022-02-17T12:16:01Z","location":{"area":["US","North
+        Carolina","Union County","Indian Trail"],"display_name":"Indian Trail, Union
+        County","__CLASS__":"Adzuna::API::Response::Location"},"contract_type":"permanent","category":{"label":"Admin
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs"},"salary_max":74150},{"salary_min":41740,"contract_time":"full_time","latitude":33.988902,"salary_is_predicted":"0","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTU1NDMyIn0.4k-5mFlz6eZDzRCfjUA2A0W3xbcSSq1vRhFuu63L04M","id":"2906555432","title":"Postal
+        Clerk","__CLASS__":"Adzuna::API::Response::Job","description":"NO EXPERIENCE
+        REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The Postal Service
+        is the largest government related agency in terms of employees. The Postal
+        Service currently employs nearly 1 million people and is hiring nationwide.
+        There is NO experience required, paid training is provided for all job openings.
+        There are MANY different positions available. The job openings range in starting
+        salary from $21.94 to $38.65 per hour, $72,400/year average pay with full
+        benefits. Benefits include pai\u2026","redirect_url":"https://www.adzuna.com/land/ad/2906555432?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=356E8E290743ABE0C1C7A80A6A5AD4109ED26C69","longitude":-118.353965,"salary_max":74150,"contract_type":"permanent","category":{"label":"Admin
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs"},"location":{"area":["US","California","Los
+        Angeles County","Windsor Hills"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Windsor
+        Hills, Los Angeles County"},"created":"2022-02-17T12:16:09Z"},{"latitude":30.448378,"contract_time":"part_time","salary_min":14400,"title":"Food
+        delivery driver","id":"3040596433","company":{"display_name":"doordash","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0MDU5NjQzMyIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.t6mgQx6UktsfXVfQ5n34sZRBH-iWjn-ZIY3YBHFp4XI","salary_is_predicted":"0","longitude":-91.188708,"redirect_url":"https://www.adzuna.com/land/ad/3040596433?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=476FCAA9231DF3700EE78F4D206C954466ABE4E2","__CLASS__":"Adzuna::API::Response::Job","description":"Do
+        you have a car, scooter or motorcycle? Do you know Baton Rouge, LA like the
+        back of your hand? Then get paid good money just for delivering delicious
+        food to hungry locals whenever you have some spare time. DoorDash lets you
+        decide when you want to work. That\u2019s why hundreds of people are choosing
+        to become Dashers every week - as a Dasher, you will deliver food from restaurants
+        to homes and offices. Dashers don\u2019t have bosses They decide when they
+        want to work and how they want to work themse\u2026","created":"2022-04-09T20:14:28Z","location":{"area":["US","Louisiana","East
+        Baton Rouge Parish","Baton Rouge"],"display_name":"Baton Rouge, East Baton
+        Rouge Parish","__CLASS__":"Adzuna::API::Response::Location"},"category":{"tag":"logistics-warehouse-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Logistics
+        & Warehouse Jobs"},"contract_type":"contract","salary_max":14400},{"salary_max":74150,"category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"contract_type":"permanent","location":{"area":["US","New Jersey","Bergen
+        County","Edgewater"],"display_name":"Edgewater, Bergen County","__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-02-17T12:16:05Z","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/2906554641?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=B0A9231FDEF0CFD04EBDBE90C0111DD401D5EF67","longitude":-73.975694,"salary_is_predicted":"0","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTU0NjQxIn0.9H5c86TCBWwjlRN3Nq1rtlatfEDbkjDWg6dvOD1uEHI","id":"2906554641","title":"Postal
+        Clerk","contract_time":"full_time","salary_min":41740,"latitude":40.827045},{"contract_time":"full_time","salary_min":41740,"latitude":43.26175,"id":"2906554378","title":"Postal
+        Clerk","salary_is_predicted":"0","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTU0Mzc4In0.e8286HpOr2q3h7EW-GrOClxqlFAmp1aw_R0bXkPgCFo","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"longitude":-70.865337,"description":"NO EXPERIENCE REQUIRED
+        \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The Postal Service is the
+        largest government related agency in terms of employees. The Postal Service
+        currently employs nearly 1 million people and is hiring nationwide. There
+        is NO experience required, paid training is provided for all job openings.
+        There are MANY different positions available. The job openings range in starting
+        salary from $21.94 to $38.65 per hour, $72,400/year average pay with full
+        benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/2906554378?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=24C7DFA37FFD2B0352484A48264529DEFCAD1330","location":{"area":["US","New
+        Hampshire","Strafford County","Somersworth"],"display_name":"Somersworth,
+        Strafford County","__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-02-17T12:16:03Z","salary_max":74150,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
+        Jobs"},"contract_type":"permanent"},{"location":{"area":["US","New York","Suffolk
+        County","Patchogue"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Patchogue,
+        Suffolk County"},"created":"2022-02-17T12:16:09Z","salary_max":74150,"category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"contract_type":"permanent","longitude":-73.015108,"description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/2906555475?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=17E5A0107434CC8EE3513AF5EA024A85CBF21F27","id":"2906555475","title":"Postal
+        Clerk","salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTU1NDc1In0.JcapXvb4uf1GrD7d4cMClrYyi0xsbX8BOw4VSdfmYpY","contract_time":"full_time","salary_min":41740,"latitude":40.765654},{"salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTUyMzQ3In0._BwbEkvB-7y7ulMK7xEDBtopvezc_Kfx9Jmdr2Yr8fM","id":"2906552347","title":"Postal
+        Clerk","contract_time":"full_time","salary_min":41740,"latitude":41.8803,"salary_max":74150,"category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"contract_type":"permanent","location":{"display_name":"Fox Valley,
+        DuPage County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Illinois","DuPage
+        County","Fox Valley"]},"created":"2022-02-17T12:15:52Z","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/2906552347?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=8480E8DB262DAEDC7A83D881B599BDBC511261A6","longitude":-88.0152},{"__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","redirect_url":"https://www.adzuna.com/land/ad/2906551980?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=13112CAE5644B0CBE10AD51E400F4456B7CC6E2A","longitude":-111.741113,"salary_max":74150,"contract_type":"permanent","category":{"label":"Admin
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs"},"location":{"area":["US","Arizona","Maricopa
+        County","Fountain Hills"],"display_name":"Fountain Hills, Maricopa County","__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-02-17T17:15:50Z","salary_min":41740,"contract_time":"full_time","latitude":33.60535,"salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MTk4MCIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.2k3qZ3VT_SDTkRbQ0K0-kDZ50QHBtNKna7Ch3TESapw","id":"2906551980","title":"Postal
+        Clerk"},{"salary_max":74150,"contract_type":"permanent","category":{"label":"Admin
+        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"location":{"area":["US","Wisconsin","Milwaukee
+        County","West Allis"],"display_name":"West Allis, Milwaukee County","__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-02-17T17:15:48Z","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","redirect_url":"https://www.adzuna.com/land/ad/2906551735?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=82CF71AB9C9416172610F73422780664A3F63D34","longitude":-88.016741,"salary_is_predicted":"0","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTUxNzM1In0.S0J5TtswnyU17MBemL2py6Md5vXU71KKhT8t2AHAa0Y","id":"2906551735","title":"Postal
+        Clerk","salary_min":41740,"contract_time":"full_time","latitude":43.016937},{"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MDkzMCIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.8S69uHu02LZpmMdGhjbO7cT3IuuTcoxYgt2vn5CKsFA","salary_is_predicted":"0","title":"Postal
+        Clerk","id":"2906550930","latitude":41.18655,"contract_time":"full_time","salary_min":41740,"category":{"label":"Admin
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs"},"contract_type":"permanent","salary_max":74150,"created":"2022-02-17T17:15:43Z","location":{"area":["US","Connecticut","Fairfield
+        County","Bridgeport"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Bridgeport,
+        Fairfield County"},"redirect_url":"https://www.adzuna.com/land/ad/2906550930?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=B96ABDCE75D3AB3CC15212A97283E1BF4E93F4F3","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","longitude":-73.195196},{"created":"2022-02-17T12:16:04Z","location":{"area":["US","Indiana","Lake
+        County","Griffith"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Griffith,
+        Lake County"},"contract_type":"permanent","category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"salary_max":74150,"longitude":-87.42365,"redirect_url":"https://www.adzuna.com/land/ad/2906554547?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=A2C75BB27ACA14E6F73E87660CAC18E147C8AFD4","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","title":"Postal Clerk","id":"2906554547","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1NDU0NyIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.CFJMmvLqDMQxDEFeo5qhuDmgeCjsJBgZkn7eaZaQ8Ws","salary_is_predicted":"0","latitude":41.528369,"salary_min":41740,"contract_time":"full_time"},{"salary_is_predicted":"0","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTUzMjI5In0.CzrA-sV--UjtYJ-TXzuLehxEJZ2ce53y220OJGrsUC4","id":"2906553229","title":"Postal
+        Clerk","contract_time":"full_time","salary_min":41740,"latitude":47.204268,"salary_max":74150,"category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"contract_type":"permanent","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Enumclaw,
+        King County","area":["US","Washington","King County","Enumclaw"]},"created":"2022-02-17T12:15:57Z","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/2906553229?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=CC0AA6334DBFC2994146E7BB1FD766CE2EDCBDFF","longitude":-121.9915},{"created":"2022-02-17T17:15:48Z","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Forest
+        Park, Clayton County","area":["US","Georgia","Clayton County","Forest Park"]},"contract_type":"permanent","category":{"label":"Admin
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs"},"salary_max":74150,"longitude":-84.369092,"redirect_url":"https://www.adzuna.com/land/ad/2906551805?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=F5D09A6CBBF5761546B39BFF0D5489C78AD3F362","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","title":"Postal
+        Clerk","id":"2906551805","company":{"display_name":"USA Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTUxODA1In0.HJ5HGwxA9YxxtcAQXhi7o6Yfr1bbKPyM3zvaegXEF5M","salary_is_predicted":"0","latitude":33.622054,"salary_min":41740,"contract_time":"full_time"},{"title":"Postal
+        Clerk","id":"2906552840","company":{"display_name":"USA Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTUyODQwIn0.0LHk4rq-yvV7t9X4aaBroaeEzcQ7sILFRz3P1shVXYU","salary_is_predicted":"0","latitude":33.551002,"salary_min":41740,"contract_time":"full_time","created":"2022-02-17T12:15:54Z","location":{"area":["US","South
+        Carolina","Horry County","Murrells Inlet"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Murrells
+        Inlet, Horry County"},"contract_type":"permanent","category":{"label":"Admin
+        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_max":74150,"longitude":-79.041426,"redirect_url":"https://www.adzuna.com/land/ad/2906552840?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=69C5596885F88B4B2EAE2E55B37CC46DA668C07C","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job"},{"created":"2021-10-27T13:37:57Z","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Fort
+        Payne, DeKalb County","area":["US","Alabama","DeKalb County","Fort Payne"]},"contract_type":"permanent","category":{"label":"Admin
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs"},"salary_max":74150,"longitude":-85.704552,"redirect_url":"https://www.adzuna.com/land/ad/2584004300?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=2B88749E6CF34AAB7908F65BE86855EDEAB7B633","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","title":"Postal
+        Clerk","id":"2584004300","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjU4NDAwNDMwMCIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.-feW7IrnWdGQdnIq7MV-O-ILJ_t3bxkc8q5xOVmqJeQ","salary_is_predicted":"0","latitude":34.40712,"salary_min":41740,"contract_time":"full_time"},{"salary_max":74150,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
+        Jobs"},"contract_type":"permanent","location":{"area":["US","Mississippi","Jackson
+        County"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Jackson
+        County, Mississippi"},"created":"2021-08-05T11:51:49Z","description":"NO EXPERIENCE
+        REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The Postal Service
+        is the largest government related agency in terms of employees. The Postal
+        Service currently employs nearly 1 million people and is hiring nationwide.
+        There is NO experience required, paid training is provided for all job openings.
+        There are MANY different positions available. The job openings range in starting
+        salary from $21.94 to $38.65 per hour, $72,400/year average pay with full
+        benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/2362839755?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=0B690E3F1714570817ADF919F2FAD248D126B286","longitude":-88.605945,"salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyMzYyODM5NzU1In0.H7RRql25nqhYvwbYm-lX4u4uP2I-ZNiZlFToPIDb-F8","id":"2362839755","title":"Postal
+        Clerk","contract_time":"full_time","salary_min":41740,"latitude":30.477816},{"contract_type":"permanent","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
+        Jobs"},"salary_max":74150,"created":"2022-02-17T12:15:54Z","location":{"display_name":"Fort
+        Lee, Bergen County","__CLASS__":"Adzuna::API::Response::Location","area":["US","New
+        Jersey","Bergen County","Fort Lee"]},"redirect_url":"https://www.adzuna.com/land/ad/2906552767?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=FECF3762175231422A6514B6F72618B95F8CF0DE","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","longitude":-73.970138,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1Mjc2NyIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.IGbeJMqKFDNqY5dthsB8sxyK3lRCRLxh5ISqnvsmxnA","salary_is_predicted":"0","title":"Postal
+        Clerk","id":"2906552767","latitude":40.850933,"salary_min":41740,"contract_time":"full_time"},{"id":"2906553991","title":"Postal
+        Clerk","salary_is_predicted":"0","company":{"display_name":"USA Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTUzOTkxIn0.arVaM51knUMGznkbigi9quSNNrP44AxBZX9PUOmjyQE","contract_time":"full_time","salary_min":41740,"latitude":34.645265,"location":{"area":["US","California","Los
+        Angeles County","Quartz Hill"],"display_name":"Quartz Hill, Los Angeles County","__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-02-17T12:16:01Z","salary_max":74150,"category":{"label":"Admin
+        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"contract_type":"permanent","longitude":-118.218131,"__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","redirect_url":"https://www.adzuna.com/land/ad/2906553991?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=66ED696772F500EE2C9E45080706C607164AEAEF"},{"latitude":41.720589,"salary_min":41740,"contract_time":"full_time","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTUxMjU3In0.vnshHjr_aQOxhf_3Bmz7U3Hl5lAJLRImEP7Da7SIUxw","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"salary_is_predicted":"0","title":"Postal Clerk","id":"2906551257","redirect_url":"https://www.adzuna.com/land/ad/2906551257?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=D0796BDD1917258F76CA9FC327D924CF76B2AC02","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","longitude":-87.701718,"contract_type":"permanent","category":{"label":"Admin
+        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_max":74150,"created":"2022-02-17T17:15:45Z","location":{"area":["US","Illinois","Cook
+        County","Evergreen Park"],"display_name":"Evergreen Park, Cook County","__CLASS__":"Adzuna::API::Response::Location"}},{"contract_time":"full_time","salary_min":41740,"latitude":41.621718,"salary_is_predicted":"0","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTUyNTYxIn0.BTsY9Y7I-IVa7LgJk_XIaVtUhy8X0OgPy-LbwvR_e88","id":"2906552561","title":"Postal
+        Clerk","description":"NO EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED
+        \u2013 JOB SECURITY The Postal Service is the largest government related agency
+        in terms of employees. The Postal Service currently employs nearly 1 million
+        people and is hiring nationwide. There is NO experience required, paid training
+        is provided for all job openings. There are MANY different positions available.
+        The job openings range in starting salary from $21.94 to $38.65 per hour,
+        $72,400/year average pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/2906552561?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=11FC3D8D1984C498A9B035F7AA0C46891013CF7B","longitude":-83.711604,"salary_max":74150,"category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"contract_type":"permanent","location":{"area":["US","Ohio","Lucas
+        County","Holland"],"display_name":"Holland, Lucas County","__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-02-17T12:15:53Z"},{"latitude":43.709628,"salary_min":41740,"contract_time":"full_time","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyMzYyODM5NDE3In0.yYeFzIWE967c8Ak2VHTNtfu_-tO2VAUKg4ItH4NB9M4","salary_is_predicted":"0","title":"Postal
+        Clerk","id":"2362839417","redirect_url":"https://www.adzuna.com/land/ad/2362839417?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=4829E58A7551228593CB5C73A275FE17AF953266","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","longitude":-87.902307,"contract_type":"permanent","category":{"label":"Admin
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs"},"salary_max":74150,"created":"2021-08-05T11:51:45Z","location":{"area":["US","Wisconsin","Sheboygan
+        County"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Sheboygan
+        County, Wisconsin"}},{"company":{"display_name":"USA Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTUyMjU1In0.HhcpsPmufYbapbqHeEb5YBSohk4QlXs-OeUzWCfIypQ","salary_is_predicted":"0","title":"Postal
+        Clerk","id":"2906552255","latitude":33.813905,"salary_min":41740,"contract_time":"full_time","contract_type":"permanent","category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"salary_max":74150,"created":"2022-02-17T12:15:51Z","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Sunkist,
+        Orange County","area":["US","California","Orange County","Sunkist"]},"redirect_url":"https://www.adzuna.com/land/ad/2906552255?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=71B95AA32DEA90D60BEE1CB3D74E5D890C3B7D80","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","longitude":-117.880058},{"contract_time":"full_time","salary_min":41740,"latitude":34.869562,"id":"2906553519","title":"Postal
+        Clerk","salary_is_predicted":"0","company":{"display_name":"USA Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MzUxOSIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.3CtfTC7yqgc21MZ7MJnbYhdMeDNL6BSGttK4GyJ7XkE","longitude":-82.408733,"description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/2906553519?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=5F00A2B16BAAFCB2FC5CA6C1DE3479A69F063C87","location":{"display_name":"Park
+        Place, Greenville County","__CLASS__":"Adzuna::API::Response::Location","area":["US","South
+        Carolina","Greenville County","Park Place"]},"created":"2022-02-17T12:15:58Z","salary_max":74150,"category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"contract_type":"permanent"},{"latitude":35.957392,"salary_min":41740,"contract_time":"full_time","title":"Postal
+        Clerk","id":"2906555124","company":{"display_name":"USA Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1NTEyNCIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.1JRdL4LawwpwJq2Up2gnOEoKC_Ec8SuJGxZNEGFp0JI","salary_is_predicted":"0","longitude":-75.624062,"redirect_url":"https://www.adzuna.com/land/ad/2906555124?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=1A0569053BFD6F2506753E935C7467AE40040A56","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","created":"2022-02-17T12:16:07Z","location":{"display_name":"Nags
+        Head, Dare County","__CLASS__":"Adzuna::API::Response::Location","area":["US","North
+        Carolina","Dare County","Nags Head"]},"contract_type":"permanent","category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"salary_max":74150},{"description":"NO EXPERIENCE REQUIRED \u2013 PAID
+        TRAINING PROVIDED \u2013 JOB SECURITY The Postal Service is the largest government
+        related agency in terms of employees. The Postal Service currently employs
+        nearly 1 million people and is hiring nationwide. There is NO experience required,
+        paid training is provided for all job openings. There are MANY different positions
+        available. The job openings range in starting salary from $21.94 to $38.65
+        per hour, $72,400/year average pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/2906555058?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=9F378E224334DCEC3B07EFD08AF414552BCD607F","longitude":-122.783146,"salary_max":74150,"category":{"label":"Admin
+        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"contract_type":"permanent","location":{"display_name":"Silverton,
+        Marion County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Oregon","Marion
+        County","Silverton"]},"created":"2022-02-17T12:16:07Z","contract_time":"full_time","salary_min":41740,"latitude":45.005121,"salary_is_predicted":"0","company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1NTA1OCIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.DDrHR_fZydyHYCrocyT9SA-sHZMvPU2ofvzWuUGDqDw","id":"2906555058","title":"Postal
+        Clerk"},{"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
+        Jobs"},"contract_type":"permanent","salary_max":180000,"created":"2022-03-03T11:18:44Z","location":{"area":["US","New
+        York","New York City","Manhattan","Church Street"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Church
+        Street, Manhattan"},"redirect_url":"https://www.adzuna.com/land/ad/2942957333?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=6DF84B8171981DA17F7DFE336969A40FCE177AC1","__CLASS__":"Adzuna::API::Response::Job","description":"Ethyca
+        is a high-growth Series A remote startup on a mission to make Trust, Respect,
+        and Privacy a default feature of every tech stack. To accomplish this, we
+        created the Fides open source language for data privacy and its related suite
+        of free developer tools to enforce privacy policies as code, automate users\u2019
+        right to access and erase their data, and much more. We believe software engineers
+        are uniquely equipped to solve modern privacy challenges, but only if we work
+        together on shared stand\u2026","longitude":-74.008038,"company":{"display_name":"Ethyca","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTQyOTU3MzMzIn0.2dY9cuCFR4zC5t3E6pXDZu8XwY4Tq9ao-vPJuypM3LI","salary_is_predicted":"0","title":"Senior
+        Open Source Software Engineer - REMOTE","id":"2942957333","latitude":40.713515,"salary_min":145000},{"redirect_url":"https://www.adzuna.com/land/ad/2906551942?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=0A67515B53508A7304A077DFAC5EB99ABD094E26","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","longitude":-71.190892,"category":{"label":"Admin
+        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"contract_type":"permanent","salary_max":74150,"created":"2022-02-17T17:15:49Z","location":{"area":["US","Massachusetts","Essex
+        County","Methuen"],"display_name":"Methuen, Essex County","__CLASS__":"Adzuna::API::Response::Location"},"latitude":42.726202,"contract_time":"full_time","salary_min":41740,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MTk0MiIsInMiOiIwdF9CTEFEQjdCR04yMlVzR0hQTXF3In0.0Pa5wPLy5MMq81jG9UyWA1i-gqvDeqsoYv8_qAa4Rtk","salary_is_predicted":"0","title":"Postal
+        Clerk","id":"2906551942"},{"company":{"display_name":"USA Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTUzNTc3In0.4CPSdqDFnxYcFvPjbMYVj7Zd7tld2asRyygrbjhbvf4","salary_is_predicted":"0","title":"Postal
+        Clerk","id":"2906553577","latitude":41.182835,"contract_time":"full_time","salary_min":41740,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
+        Jobs"},"contract_type":"permanent","salary_max":74150,"created":"2022-02-17T12:15:59Z","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Niles,
+        Trumbull County","area":["US","Ohio","Trumbull County","Niles"]},"redirect_url":"https://www.adzuna.com/land/ad/2906553577?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=205F957C3659E331850F67AB9FB3692670F2545E","__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","longitude":-80.765358},{"category":{"label":"Admin
+        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"contract_type":"permanent","salary_max":74150,"created":"2022-02-17T12:16:10Z","location":{"area":["US","New
+        Jersey","Sussex County","Franklin"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"Franklin,
+        Sussex County"},"redirect_url":"https://www.adzuna.com/land/ad/2906555626?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=E31155D429DFACFF8E1401D683D14FA8E65BB5D7","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","__CLASS__":"Adzuna::API::Response::Job","longitude":-74.580438,"company":{"display_name":"USA
+        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTU1NjI2In0.W0vTmeCB-7PGLKsY8z4UDGmyMUupIsLxFm1xhQ5n3h4","salary_is_predicted":"0","title":"Postal
+        Clerk","id":"2906555626","latitude":41.122041,"contract_time":"full_time","salary_min":41740},{"__CLASS__":"Adzuna::API::Response::Job","description":"NO
+        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
+        Postal Service is the largest government related agency in terms of employees.
+        The Postal Service currently employs nearly 1 million people and is hiring
+        nationwide. There is NO experience required, paid training is provided for
+        all job openings. There are MANY different positions available. The job openings
+        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
+        pay with full benefits. Benefits include pai\u2026","redirect_url":"https://www.adzuna.com/land/ad/2906555401?se=0t_BLADB7BGN22UsGHPMqw&utm_medium=api&utm_source=5e859b54&v=6F2371AD47AB97A6D032059FD81B1916D7F9BE46","longitude":-85.06705,"salary_max":74150,"category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"contract_type":"permanent","location":{"display_name":"Mountville,
+        Troup County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Georgia","Troup
+        County","Mountville"]},"created":"2022-02-17T12:16:09Z","contract_time":"full_time","salary_min":41740,"latitude":33.03059,"salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
+        Labor Services"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiMHRfQkxBREI3QkdOMjJVc0dIUE1xdyIsImkiOiIyOTA2NTU1NDAxIn0.6BjxJFPDn0vb_H_7yEHfu0jeBCOkA2C5Gl2itpDXarQ","id":"2906555401","title":"Postal
+        Clerk"}],"mean":95012.3,"count":264416,"__CLASS__":"Adzuna::API::Response::JobSearchResults"}'
+  recorded_at: Wed, 20 Apr 2022 23:18:24 GMT
+recorded_with: VCR 6.1.0
