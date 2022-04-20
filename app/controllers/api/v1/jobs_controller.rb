@@ -1,12 +1,11 @@
 class Api::V1::JobsController < ApplicationController
   def index
     jobs = JobFacade.find_jobs(params[:where])
-    require "pry"; binding.pry
     render json: JobSerializer.new(jobs)
   end
 
   def create
-    job_data = JSON.parse(params[:job])
+    job_data = JSON.parse(params[:job], symbolize_names: true)
     user = User.find_by(email: params[:email])
     if user.nil?
       render response: :bad_request
@@ -21,7 +20,7 @@ class Api::V1::JobsController < ApplicationController
         render response: 201
       end
     else
-      job = Job.create!(salary: job_data[:salary], contact: job_data[:contact], company: job_data[:company], api_job_id: job_data[:id], location: "#{job_data[:city]}, #{job_data[:state]}")
+      job = Job.create!(salary: job_data[:salary], title: job_data[:title], contact: job_data[:contact], company: job_data[:company], api_job_id: job_data[:id], location: "#{job_data[:city]}, #{job_data[:state]}")
       user_job = UserJob.create!(job_id: job.id, user_id: user.id)
       if job.save && user_job.save
         render response: 201
