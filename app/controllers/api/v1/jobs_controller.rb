@@ -4,6 +4,15 @@ class Api::V1::JobsController < ApplicationController
     render json: JobSerializer.new(jobs)
   end
 
+  def show
+    job = Job.find(params[:id])
+    if job.nil?
+      render response: :bad_request
+    else
+      render json: JobSerializer.new(job)
+    end
+  end
+
   def create
     job_data = JSON.parse(params[:job], symbolize_names: true)
     user = User.find_by(email: params[:email])
