@@ -16,6 +16,7 @@ class Api::V1::JobsController < ApplicationController
   end
 
   def create
+    # binding.pry
     job_data = JSON.parse(params[:job], symbolize_names: true)
     user = User.find_by(email: params[:email])
     if user.nil?

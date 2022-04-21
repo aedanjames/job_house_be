@@ -40,18 +40,24 @@ RSpec.describe 'jobs api' do
     end
   end
 
-  xit 'can save a job to the database' do
-    response = "{\'id\':\'3031241203\',\'salary\':\'264000\',\'city\':\'Denver\',\'state\':\'Colorado\',\'company\':\'Pinnacol Assurance\',\'contact\':\'https://www.adzuna.com/land/ad/3031241203?se=5nNA3FO_7BGb_FUCEt2eFw\\u0026utm_medium=api\\u0026utm_source=5e859b54\\u0026v=FDB8D528EA6A79B8D27E5BAD6BC29C8B1AFCC7E6\'}"
-    # job_data = JSON.parse(response, symbolize_names: true)
-    # binding.pry
-    post "/api/v1/jobs?job=#{response}"
-    jobject = Job.find_by(api_job_id: job_data[:id])
-    # user = User.find_by(email: job_data[:email])
-    # user_job = UserJob.find_by(job_id: jobject.id, user_id: user.id)
-    # expect(response).to be_successful
-    expect(jobject.api_job_id).to eq(job_data[:id].to_i)
-    # expect(user.email).to eq(job_data[:email])
-    # expect(user_job).to be_a(UserJob)
+  it 'can save a job to the database' do
+    job = Job.create!(salary: 9999999, location: "Houston, TX", company: "Texas Tech", contact: "Brad Chad", api_job_id: 1111, title: "Tech Bro")
+    user = User.create!(email: "someemail")
+    user_job = UserJob.create!(job_id: job.id, user_id: user.id)
+    response = {
+                :id=>1111,
+                :salary=>"9999999",
+                :title=>"Tech Bro",
+                :city=>"Houston",
+                :state=>"TX",
+                :company=>"Texas Tech",
+                :contact=>"Brad Chad",
+                :api_job_id=>1111
+              }
+    post "/api/v1/jobs", :params => { :job => response.to_json, :email => "someemail" }
+
+    jobject = Job.find_by(api_job_id: response[:id])
+    expect(jobject.api_job_id).to eq(response[:id].to_i)
   end
 
   it 'can delete a job' do

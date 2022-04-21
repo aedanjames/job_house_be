@@ -1,5 +1,6 @@
 class Api::V1::JobHousesController < ApplicationController
   def index
+    # binding.pry
     job = Job.find(params[:id])
     #sad path; ID not found
     houses = HouseFacade.find_houses(job.location_hash, job.mortgage_calculator)

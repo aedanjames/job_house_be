@@ -4,7 +4,7 @@ class Job < ApplicationRecord
   validates_presence_of :salary, numericality: true
 
   def location_hash
-    split = location.split(',')
+    split = location.split(', ')
     hash = {
       city: split[0],
       state: split[1]
