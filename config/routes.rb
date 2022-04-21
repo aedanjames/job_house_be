@@ -4,6 +4,7 @@ Rails.application.routes.draw do
       get '/users', to: 'users#show'
       #resources :users, only: [:show]
       resources :jobs, only: [:index, :show, :create]
+      post '/jobs/houses', to: 'job_houses#create'
 
       get '/jobs/:id/houses', to: 'job_houses#index'
     end
