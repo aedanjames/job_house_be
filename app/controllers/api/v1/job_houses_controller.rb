@@ -7,7 +7,6 @@ class Api::V1::JobHousesController < ApplicationController
   end
 
   def show
-    # binding.pry
     user = User.find_by(email: params[:email])
     user_job = UserJob.find_by(user_id: user.id, job_id: params[:job_id])
     houses = user_job.user_job_houses
