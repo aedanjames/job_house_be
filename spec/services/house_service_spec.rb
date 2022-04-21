@@ -9,7 +9,7 @@ RSpec.describe 'house service' do
       }
       houses = HouseService.get_house_info(location, 9999999)
 
-      expect(houses).to be_a(Hash)
+      expect(houses).to be_an(Array)
     end
   end
 end
