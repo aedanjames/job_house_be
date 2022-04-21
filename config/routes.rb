@@ -4,10 +4,11 @@ Rails.application.routes.draw do
       get '/users', to: 'users#show'
       #resources :users, only: [:show]
       delete '/user/:user_id/jobs/:job_id', to: 'user_jobs#destroy'
-      resources :jobs, only: [:index, :show, :create]
       post '/jobs/houses', to: 'job_houses#create'
 
       get '/jobs/:id/houses', to: 'job_houses#index'
+      get '/jobs/houses', to: 'job_houses#show'
+      resources :jobs, only: [:index, :show, :create]
     end
   end
 end
