@@ -6,6 +6,15 @@ class Api::V1::JobHousesController < ApplicationController
     render json: JobHouseSerializer.new(@houses)
   end
 
+  def show
+    # binding.pry
+    user = User.find_by(email: params[:email])
+    user_job = UserJob.find_by(user_id: user.id, job_id: params[:job_id])
+    houses = user_job.user_job_houses
+    @saved_homes = HouseFacade.find_saved_homes(houses)
+    render json: JobHouseSerializer.new(@saved_homes)
+  end
+
   def create
     user = User.find_by(email: params[:email])
     job = Job.find(params[:job_id])

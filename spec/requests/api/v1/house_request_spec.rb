@@ -10,6 +10,7 @@ RSpec.describe 'house request' do
       expect(response).to be_successful
 
       houses = JSON.parse(response.body, symbolize_names: true)
+
       expect(houses).to be_a(Hash)
       expect(houses).to have_key(:data)
       expect(houses[:data]).to be_an(Array)
@@ -51,6 +52,26 @@ RSpec.describe 'house request' do
         expect(house_info[:attributes]).to have_key(:photos)
         expect(house_info[:attributes][:photos]).to be_an(Array)
       end
+    end
+  end
+
+  it "sends a list of saved homes" do
+    VCR.use_cassette("saved houses") do
+      user = User.create!(email: "someemail")
+      job = Job.create!(salary: 1000000, location: "Houston, TX", company: "Texas Tech", contact: "Brad Chad", api_job_id: 1111, title: "Tech Bro")
+      user_job = UserJob.create!(user_id: user.id, job_id: job.id)
+      user_job_house_1 = user_job.user_job_houses.create!(house_id: 1005192)
+      user_job_house_2 = user_job.user_job_houses.create!(house_id: 1005221)
+
+      # houses = UserJob.find_by(user_id: user.id, job_id: job.id).user_job_houses
+
+      get "/api/v1/jobs/houses?email=someemail&job_id=#{job.id}"
+
+      expect(response).to be_successful
+
+      houses = JSON.parse(response.body, symbolize_names: true)
+      
+      binding.pry
     end
   end
 end

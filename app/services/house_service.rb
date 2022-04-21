@@ -10,4 +10,9 @@ class HouseService
     response = conn.get("/properties?q=#{location[:state]}&maxprice=#{max_price}&count=true")
     JSON.parse(response.body, symbolize_names: true)
   end
+
+  def self.get_single_house(mls_id)
+    response = conn.get("/properties/#{mls_id}")
+    JSON.parse(response.body, symbolize_names: true)
+  end
 end
