@@ -20,7 +20,11 @@
 
   + Post `/jobs/houses`
     + creates a `user_job_house` relationship with a house_id from the API, a Job_id, and a user email from the joins table in the database
-
+  + Get `/jobs/houses`
+    + when given params[:email]&params[:job_id]
+      + returns a list of all a users homes saved to a specfic job
+  + Delete `/user/:id/jobs/:id`
+    + destroys a user_job relationship
 
 ## Versions
 * Ruby version - 2.7.4
