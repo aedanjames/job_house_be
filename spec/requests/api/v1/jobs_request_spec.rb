@@ -22,9 +22,6 @@ RSpec.describe 'jobs api' do
         expect(job[:attributes]).to have_key(:location)
         expect(job[:attributes][:location]).to be_an(Hash)
 
-        # expect(job[:attributes][:location]).to have_key(:city)
-        # expect(job[:attributes][:location][:city]).to be_a(String)
-
         expect(job[:attributes][:location]).to have_key(:state)
         expect(job[:attributes][:location][:state]).to be_a(String)
 
@@ -44,7 +41,7 @@ RSpec.describe 'jobs api' do
     job = Job.create!(salary: 9999999, location: "Houston, Texas", company: "Texas Tech", contact: "Brad Chad", api_job_id: 1111, title: "Tech Bro")
     user = User.create!(email: "someemail")
     user_job = UserJob.create!(job_id: job.id, user_id: user.id)
-    response = {
+    responseject = {
                 :id=>1111,
                 :salary=>"9999999",
                 :title=>"Tech Bro",
@@ -54,10 +51,30 @@ RSpec.describe 'jobs api' do
                 :contact=>"Brad Chad",
                 :api_job_id=>1111
               }
-    post "/api/v1/jobs", :params => { :job => response.to_json, :email => "someemail" }
+    post "/api/v1/jobs", :params => { :job => responseject.to_json, :email => "someemail" }
 
-    jobject = Job.find_by(api_job_id: response[:id])
-    expect(jobject.api_job_id).to eq(response[:id].to_i)
+    jobject = Job.find_by(api_job_id: responseject[:id])
+    expect(jobject.api_job_id).to eq(responseject[:id].to_i)
+
+    job = JSON.parse(response.body, symbolize_names: true)
+
+    expect(job[:data]).to have_key(:id)
+    expect(job[:data][:id]).to be_a(String)
+
+    expect(job[:data]).to have_key(:type)
+    expect(job[:data][:type]).to be_a(String)
+
+    expect(job[:data][:attributes]).to have_key(:location)
+    expect(job[:data][:attributes][:location]).to be_a(String)
+
+    expect(job[:data][:attributes]).to have_key(:company)
+    expect(job[:data][:attributes][:company]).to be_a(String)
+
+    expect(job[:data][:attributes]).to have_key(:contact)
+    expect(job[:data][:attributes][:contact]).to be_a(String)
+
+    expect(job[:data][:attributes]).to have_key(:salary)
+    expect(job[:data][:attributes][:salary]).to be_an(Integer)
   end
 
   it 'can delete a job' do

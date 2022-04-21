@@ -16,7 +16,6 @@ class Api::V1::JobsController < ApplicationController
   end
 
   def create
-    # binding.pry
     job_data = JSON.parse(params[:job], symbolize_names: true)
     user = User.find_by(email: params[:email])
     if user.nil?
@@ -25,10 +24,10 @@ class Api::V1::JobsController < ApplicationController
     if Job.find_by(api_job_id: job_data[:id].to_i)
       job = Job.find_by(api_job_id: job_data[:id].to_i)
       if UserJob.find_by(job_id: job.id, user_id: user.id)
-        render response: 201
+        render json: JobSerializer.new(job), response: 201
       else
         UserJob.create!(job_id: job.id, user_id: user.id)
-        render response: 201
+        render json: JobSerializer.new(job), response: 201
       end
     else
       job = Job.create!(salary: job_data[:salary], title: job_data[:title], contact: job_data[:contact], company: job_data[:company], api_job_id: job_data[:id], location: "#{job_data[:city]}, #{job_data[:state]}")
