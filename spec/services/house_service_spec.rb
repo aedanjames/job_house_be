@@ -17,7 +17,6 @@ RSpec.describe 'house service' do
     VCR.use_cassette("House Service MLS") do
       mls_id = 1005252
       house = HouseService.get_single_house(mls_id)
-      binding.pry
       expect(house).to be_a(Hash)
     end
   end
