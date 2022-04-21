@@ -7,6 +7,7 @@ class HouseService
   end
 
   def self.get_house_info(location, max_price)
+    # binding.pry
     response = conn.get("/properties?q=#{location[:state]}&maxprice=#{max_price}&count=true")
     JSON.parse(response.body, symbolize_names: true)
   end

@@ -3,7 +3,11 @@ require 'rails_helper'
 RSpec.describe 'house service' do
   it 'can connect to a house api' do
     VCR.use_cassette("House Service") do
-      houses = HouseService.get_house_info('Houston', 9999999)
+      location = {
+        :city => "Houston",
+        :state => "Texas"
+      }
+      houses = HouseService.get_house_info(location, 9999999)
 
       expect(houses).to be_a(Hash)
     end
