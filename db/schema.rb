@@ -17,10 +17,9 @@ ActiveRecord::Schema.define(version: 2022_04_19_215052) do
 
   create_table "jobs", force: :cascade do |t|
     t.string "company"
+    t.integer "salary"
     t.string "location"
     t.string "contact"
-    t.string "salary_min"
-    t.string "salary_max"
     t.bigint "api_job_id"
     t.string "title"
   end

@@ -53,4 +53,18 @@ RSpec.describe 'jobs api' do
     # expect(user.email).to eq(job_data[:email])
     # expect(user_job).to be_a(UserJob)
   end
+
+  it 'can delete a job' do
+    user = User.create!(email: "someemail")
+    job_1 = Job.create!(salary: 1000000, location: "Houston, TX", company: "Texas Tech", contact: "Brad Chad", api_job_id: 1111, title: "Tech Bro")
+    job_2 = Job.create!(salary: 5000000, location: "Houston, TX", company: "Texas Tech", contact: "Chad Brad", api_job_id: 1112, title: "Tech Person")
+
+    UserJob.create!(user_id: user.id, job_id: job_1.id)
+    UserJob.create!(user_id: user.id, job_id: job_2.id)
+    expect(user.jobs.count).to eq(2)
+
+    delete "/api/v1/user/#{user.id}/jobs/#{job_1.id}"
+
+    expect(user.jobs.count).to eq(1)
+  end
 end
