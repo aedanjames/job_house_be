@@ -41,7 +41,7 @@ RSpec.describe 'jobs api' do
   end
 
   it 'can save a job to the database' do
-    job = Job.create!(salary: 9999999, location: "Houston, TX", company: "Texas Tech", contact: "Brad Chad", api_job_id: 1111, title: "Tech Bro")
+    job = Job.create!(salary: 9999999, location: "Houston, Texas", company: "Texas Tech", contact: "Brad Chad", api_job_id: 1111, title: "Tech Bro")
     user = User.create!(email: "someemail")
     user_job = UserJob.create!(job_id: job.id, user_id: user.id)
     response = {
