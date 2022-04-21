@@ -41,6 +41,8 @@ RSpec.describe 'jobs api' do
   end
 
   xit 'can save a job to the database' do
+
+
     response = "{\'id\':\'3031241203\',\'salary\':\'264000\',\'city\':\'Denver\',\'state\':\'Colorado\',\'company\':\'Pinnacol Assurance\',\'contact\':\'https://www.adzuna.com/land/ad/3031241203?se=5nNA3FO_7BGb_FUCEt2eFw\\u0026utm_medium=api\\u0026utm_source=5e859b54\\u0026v=FDB8D528EA6A79B8D27E5BAD6BC29C8B1AFCC7E6\'}"
     # job_data = JSON.parse(response, symbolize_names: true)
     # binding.pry
@@ -52,5 +54,19 @@ RSpec.describe 'jobs api' do
     expect(jobject.api_job_id).to eq(job_data[:id].to_i)
     # expect(user.email).to eq(job_data[:email])
     # expect(user_job).to be_a(UserJob)
+  end
+
+  it 'can delete a job' do
+    user = User.create!(email: "someemail")
+    job_1 = Job.create!(salary: 1000000, location: "Houston, TX", company: "Texas Tech", contact: "Brad Chad", api_job_id: 1111, title: "Tech Bro")
+    job_2 = Job.create!(salary: 5000000, location: "Houston, TX", company: "Texas Tech", contact: "Chad Brad", api_job_id: 1112, title: "Tech Person")
+
+    UserJob.create!(user_id: user.id, job_id: job_1.id)
+    UserJob.create!(user_id: user.id, job_id: job_2.id)
+    expect(user.jobs.count).to eq(2)
+
+    delete "/api/v1/user/#{user.id}/jobs/#{job_1.id}"
+
+    expect(user.jobs.count).to eq(1)
   end
 end
