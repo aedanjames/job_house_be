@@ -1,6 +1,8 @@
 class Api::V1::JobsController < ApplicationController
   def index
     jobs = JobFacade.find_jobs(params[:where])
+    #sad path; job not found
+    #sad path; where param not found
     render json: JobSerializer.new(jobs)
   end
 
@@ -19,7 +21,6 @@ class Api::V1::JobsController < ApplicationController
     if user.nil?
       render response: :bad_request
     end
-
     if Job.find_by(api_job_id: job_data[:id].to_i)
       job = Job.find_by(api_job_id: job_data[:id].to_i)
       if UserJob.find_by(job_id: job.id, user_id: user.id)
@@ -33,7 +34,7 @@ class Api::V1::JobsController < ApplicationController
       user_job = UserJob.create!(job_id: job.id, user_id: user.id)
       if job.save && user_job.save
         render response: 201
-      else
+      else #can this even happen?
         render response: :bad_request
       end
     end

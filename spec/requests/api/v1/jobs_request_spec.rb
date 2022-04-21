@@ -41,8 +41,6 @@ RSpec.describe 'jobs api' do
   end
 
   xit 'can save a job to the database' do
-
-
     response = "{\'id\':\'3031241203\',\'salary\':\'264000\',\'city\':\'Denver\',\'state\':\'Colorado\',\'company\':\'Pinnacol Assurance\',\'contact\':\'https://www.adzuna.com/land/ad/3031241203?se=5nNA3FO_7BGb_FUCEt2eFw\\u0026utm_medium=api\\u0026utm_source=5e859b54\\u0026v=FDB8D528EA6A79B8D27E5BAD6BC29C8B1AFCC7E6\'}"
     # job_data = JSON.parse(response, symbolize_names: true)
     # binding.pry
