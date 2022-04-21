@@ -434,6 +434,82 @@
           null
         ]
       },
+      "/Users/austinmoore/Turing/3rd_mod/Projects/job_house_be/spec/models/user_job_house_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/austinmoore/Turing/3rd_mod/Projects/job_house_be/app/models/user_job_house.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/austinmoore/Turing/3rd_mod/Projects/job_house_be/spec/models/user_job_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          2,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/austinmoore/Turing/3rd_mod/Projects/job_house_be/app/models/user_job.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/austinmoore/Turing/3rd_mod/Projects/job_house_be/spec/models/user_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          1,
+          2,
+          2,
+          null,
+          null,
+          1,
+          2,
+          2,
+          null,
+          null
+        ]
+      },
+      "/Users/austinmoore/Turing/3rd_mod/Projects/job_house_be/app/models/user.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
       "/Users/austinmoore/Turing/3rd_mod/Projects/job_house_be/spec/poros/house_poro_spec.rb": {
         "lines": [
           1,
@@ -1024,30 +1100,6 @@
           null
         ]
       },
-      "/Users/austinmoore/Turing/3rd_mod/Projects/job_house_be/app/models/user.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/austinmoore/Turing/3rd_mod/Projects/job_house_be/app/models/user_job.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          null
-        ]
-      },
-      "/Users/austinmoore/Turing/3rd_mod/Projects/job_house_be/app/models/user_job_house.rb": {
-        "lines": [
-          1,
-          1,
-          null
-        ]
-      },
       "/Users/austinmoore/Turing/3rd_mod/Projects/job_house_be/app/facades/job_facade.rb": {
         "lines": [
           1,
@@ -1248,6 +1300,6 @@
         ]
       }
     },
-    "timestamp": 1650582117
+    "timestamp": 1650582741
   }
 }
