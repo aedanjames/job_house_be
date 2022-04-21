@@ -34,7 +34,7 @@ class Api::V1::JobsController < ApplicationController
       user_job = UserJob.create!(job_id: job.id, user_id: user.id)
       render response: 200
     else #job and user and user_job exist, no action needed
-      render response: 201
+      render response: 200
     end
   end
 end

@@ -127,7 +127,7 @@ RSpec.describe 'jobs api' do
     expect(response.status).to eq(200)
   end
 
-  it 'create a user_job if not found and has a job and a user' do
+  it 'responds 200 if job, user and user_job exist' do
     user = User.create!(email: "someemail")
     job = Job.create!(salary: 9999999, location: "Houston, Texas", company: "Texas Tech", contact: "Brad Chad", api_job_id: 1111, title: "Tech Bro")
     user_job = UserJob.create!(job_id: job.id, user_id: user.id)
