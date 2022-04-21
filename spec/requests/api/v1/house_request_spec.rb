@@ -114,4 +114,20 @@ RSpec.describe 'house request' do
       end
     end
   end
+
+  it 'can delete a job house' do
+    user = User.create!(email: "someemail")
+    job = Job.create!(salary: 1000000, location: "Houston, TX", company: "Texas Tech", contact: "Brad Chad", api_job_id: 1111, title: "Tech Bro")
+    user_job = UserJob.create!(user_id: user.id, job_id: job.id)
+    user_job_house_1 = user_job.user_job_houses.create!(house_id: 1005192)
+    user_job_house_2 = user_job.user_job_houses.create!(house_id: 1005221)
+
+    expect(UserJobHouse.count).to eq(2)
+    expect(UserJobHouse.first.house_id).to eq(1005192)
+
+    delete "/api/v1/jobs/houses?house_id=1005192&email=someemail&job_id=#{job.id}"
+
+    expect(UserJobHouse.count).to eq(1)
+    expect(UserJobHouse.first.house_id).to eq(1005221)
+  end
 end
