@@ -5,4 +5,12 @@ class Api::V1::JobHousesController < ApplicationController
 
     render json: JobHouseSerializer.new(@houses)
   end
+
+  def create
+    user = User.find_by(email: params[:email])
+    job = Job.find(params[:job_id])
+    user_job = UserJob.find_by(user_id: user.id, job_id: job.id)
+    user_job_house = user_job.user_job_houses.create!(house_id: params[:mls_id])
+    render status: 201
+  end
 end
