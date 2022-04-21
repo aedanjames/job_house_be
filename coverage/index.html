@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2022-04-21T19:22:17-04:00">2022-04-21T19:22:17-04:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2022-04-21T19:55:39-04:00">2022-04-21T19:55:39-04:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  97.4%
+  98.92%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         6.11
+         6.01
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>538</b> relevant lines,
-    <span class="green"><b>524</b> lines covered</span> and
-    <span class="red"><b>14</b> lines missed. </span>
+    <b>556</b> relevant lines,
+    <span class="green"><b>550</b> lines covered</span> and
+    <span class="red"><b>6</b> lines missed. </span>
     (<span class="green">
-  97.4%
+  98.92%
 </span>
 )
   </div>
@@ -83,12 +83,12 @@
         
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#43118b38652347a81aa08b6fe92f969ce9677e29" class="src_link" title="app/controllers/api/v1/jobs_controller.rb">app/controllers/api/v1/jobs_controller.rb</a></td>
-            <td class="red strong cell--number t-file__coverage">52.00 %</td>
-            <td class="cell--number">42</td>
+            <td class="yellow strong cell--number t-file__coverage">84.00 %</td>
+            <td class="cell--number">40</td>
             <td class="cell--number">25</td>
-            <td class="cell--number">13</td>
-            <td class="cell--number">12</td>
-            <td class="cell--number">0.52</td>
+            <td class="cell--number">21</td>
+            <td class="cell--number">4</td>
+            <td class="cell--number">2.00</td>
             
           </tr>
         
@@ -524,11 +524,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#36894c30143dfd5f8849a2981b0acad8fd57b948" class="src_link" title="spec/requests/api/v1/jobs_request_spec.rb">spec/requests/api/v1/jobs_request_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">93</td>
-            <td class="cell--number">54</td>
-            <td class="cell--number">54</td>
+            <td class="cell--number">162</td>
+            <td class="cell--number">72</td>
+            <td class="cell--number">72</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">13.70</td>
+            <td class="cell--number">10.53</td>
             
           </tr>
         
@@ -1134,8 +1134,8 @@
   <div class="header">
     <h3>app/controllers/api/v1/jobs_controller.rb</h3>
     <h4>
-      <span class="red">
-  52.0%
+      <span class="yellow">
+  84.0%
 </span>
 
       lines covered
@@ -1145,8 +1145,8 @@
 
     <div class="t-line-summary">
       <b>25</b> relevant lines.
-      <span class="green"><b>13</b> lines covered</span> and
-      <span class="red"><b>12</b> lines missed.</span>
+      <span class="green"><b>21</b> lines covered</span> and
+      <span class="red"><b>4</b> lines missed.</span>
     </div>
 
     
@@ -1355,8 +1355,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="19">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="6" data-linenumber="19">
+            <span class="hits">6</span>
             
 
             
@@ -1366,8 +1366,8 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="20">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="6" data-linenumber="20">
+            <span class="hits">6</span>
             
 
             
@@ -1377,35 +1377,35 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="21">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="6" data-linenumber="21">
+            <span class="hits">6</span>
             
 
             
 
-            <code class="ruby">    if user.nil?</code>
+            <code class="ruby">    job = Job.find_by(api_job_id: job_data[:id].to_i)</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="22">
+          <li class="never" data-hits="" data-linenumber="22">
             
             
 
             
 
-            <code class="ruby">      render response: :bad_request</code>
+            <code class="ruby">    # user_job = UserJob.find_by(job_id: job.id, user_id: user.id)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="23">
-            
-            
-
+          <li class="covered" data-hits="6" data-linenumber="23">
+            <span class="hits">6</span>
             
 
-            <code class="ruby">    end</code>
+            
+
+            <code class="ruby">    if user.nil? #user not found ; error</code>
           </li>
         </div>
       
@@ -1416,84 +1416,84 @@
 
             
 
-            <code class="ruby">    if Job.find_by(api_job_id: job_data[:id].to_i)</code>
+            <code class="ruby">      render :status =&gt; 404</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="25">
+          <li class="covered" data-hits="5" data-linenumber="25">
+            <span class="hits">5</span>
+            
+
+            
+
+            <code class="ruby">    elsif job.nil? #job not found ; must be created</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="26">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">      job = Job.create(salary: job_data[:salary], title: job_data[:title], contact: job_data[:contact], company: job_data[:company], api_job_id: job_data[:id], location: &quot;#{job_data[:city]}, #{job_data[:state]}&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="2" data-linenumber="27">
+            <span class="hits">2</span>
+            
+
+            
+
+            <code class="ruby">      if job.save #Job created successfully</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="28">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">      job = Job.find_by(api_job_id: job_data[:id].to_i)</code>
+            <code class="ruby">        user_job = UserJob.create!(job_id: job.id, user_id: user.id)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="26">
+          <li class="covered" data-hits="1" data-linenumber="29">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">      if UserJob.find_by(job_id: job.id, user_id: user.id)</code>
+            <code class="ruby">        render response: 200</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="27">
+          <li class="never" data-hits="" data-linenumber="30">
+            
+            
+
+            
+
+            <code class="ruby">      else #Job not created successfully (bad params) ; error</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="31">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">        render json: JobSerializer.new(job), response: 201</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="28">
-            
-            
-
-            
-
-            <code class="ruby">      else</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="29">
-            
-            
-
-            
-
-            <code class="ruby">        UserJob.create!(job_id: job.id, user_id: user.id)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="missed" data-hits="0" data-linenumber="30">
-            
-            
-
-            
-
-            <code class="ruby">        render json: JobSerializer.new(job), response: 201</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="31">
-            
-            
-
-            
-
-            <code class="ruby">      end</code>
+            <code class="ruby">        render :status =&gt; 404</code>
           </li>
         </div>
       
@@ -1504,24 +1504,24 @@
 
             
 
-            <code class="ruby">    else</code>
+            <code class="ruby">      end</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="33">
-            
-            
-
+          <li class="covered" data-hits="3" data-linenumber="33">
+            <span class="hits">3</span>
             
 
-            <code class="ruby">      job = Job.create!(salary: job_data[:salary], title: job_data[:title], contact: job_data[:contact], company: job_data[:company], api_job_id: job_data[:id], location: &quot;#{job_data[:city]}, #{job_data[:state]}&quot;)</code>
+            
+
+            <code class="ruby">    elsif UserJob.find_by(job_id: job.id, user_id: user.id).nil? #job and user found, but no relationship ; must be created</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="34">
-            
+          <li class="covered" data-hits="1" data-linenumber="34">
+            <span class="hits">1</span>
             
 
             
@@ -1531,62 +1531,40 @@
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="35">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="35">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">      if job.save &amp;&amp; user_job.save</code>
+            
+
+            <code class="ruby">      render response: 200</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="36">
+          <li class="never" data-hits="" data-linenumber="36">
             
             
 
             
 
-            <code class="ruby">        render response: 201</code>
+            <code class="ruby">    else #job and user and user_job exist, no action needed</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="37">
-            
-            
-
+          <li class="covered" data-hits="2" data-linenumber="37">
+            <span class="hits">2</span>
             
 
-            <code class="ruby">      else #can this even happen?</code>
+            
+
+            <code class="ruby">      render response: 201</code>
           </li>
         </div>
       
         <div>
-          <li class="missed" data-hits="0" data-linenumber="38">
-            
-            
-
-            
-
-            <code class="ruby">        render response: :bad_request</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="39">
-            
-            
-
-            
-
-            <code class="ruby">      end</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="40">
+          <li class="never" data-hits="" data-linenumber="38">
             
             
 
@@ -1597,7 +1575,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="41">
+          <li class="never" data-hits="" data-linenumber="39">
             
             
 
@@ -1608,7 +1586,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="42">
+          <li class="never" data-hits="" data-linenumber="40">
             
             
 
@@ -12130,8 +12108,8 @@
     
 
     <div class="t-line-summary">
-      <b>54</b> relevant lines.
-      <span class="green"><b>54</b> lines covered</span> and
+      <b>72</b> relevant lines.
+      <span class="green"><b>72</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -12770,24 +12748,24 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="58">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="59">
+          <li class="covered" data-hits="1" data-linenumber="58">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    job = JSON.parse(response.body, symbolize_names: true)</code>
+            <code class="ruby">    expect(response.status).to eq(200)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="59">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -12798,7 +12776,7 @@
 
             
 
-            <code class="ruby">    # binding.pry</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -12809,7 +12787,7 @@
 
             
 
-            <code class="ruby">    expect(job[:data]).to have_key(:id)</code>
+            <code class="ruby">  it &#39;cant save a job with an invalid user&#39; do</code>
           </li>
         </div>
       
@@ -12820,18 +12798,18 @@
 
             
 
-            <code class="ruby">    expect(job[:data][:id]).to be_a(String)</code>
+            <code class="ruby">    job = Job.create!(salary: 9999999, location: &quot;Houston, Texas&quot;, company: &quot;Texas Tech&quot;, contact: &quot;Brad Chad&quot;, api_job_id: 1111, title: &quot;Tech Bro&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="63">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="63">
+            <span class="hits">1</span>
             
 
-            <code class="ruby"></code>
+            
+
+            <code class="ruby">    user = User.create!(email: &quot;someemail&quot;)</code>
           </li>
         </div>
       
@@ -12842,51 +12820,51 @@
 
             
 
-            <code class="ruby">    expect(job[:data]).to have_key(:type)</code>
+            <code class="ruby">    user_job = UserJob.create!(job_id: job.id, user_id: user.id)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="65">
+          <li class="never" data-hits="" data-linenumber="65">
+            
+            
+
+            
+
+            <code class="ruby">    responseject = {</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="66">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    expect(job[:data][:type]).to be_a(String)</code>
+            <code class="ruby">                :id=&gt;1111,</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="66">
+          <li class="never" data-hits="" data-linenumber="67">
             
             
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">                :salary=&gt;&quot;9999999&quot;,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="67">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="68">
+            
             
 
             
 
-            <code class="ruby">    expect(job[:data][:attributes]).to have_key(:location)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="68">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(job[:data][:attributes][:location]).to be_a(String)</code>
+            <code class="ruby">                :title=&gt;&quot;Tech Bro&quot;,</code>
           </li>
         </div>
       
@@ -12897,29 +12875,29 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">                :city=&gt;&quot;Houston&quot;,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="70">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="70">
+            
             
 
             
 
-            <code class="ruby">    expect(job[:data][:attributes]).to have_key(:company)</code>
+            <code class="ruby">                :state=&gt;&quot;TX&quot;,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="71">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="71">
+            
             
 
             
 
-            <code class="ruby">    expect(job[:data][:attributes][:company]).to be_a(String)</code>
+            <code class="ruby">                :company=&gt;&quot;Texas Tech&quot;,</code>
           </li>
         </div>
       
@@ -12930,51 +12908,51 @@
 
             
 
+            <code class="ruby">                :contact=&gt;&quot;Brad Chad&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="73">
+            
+            
+
+            
+
+            <code class="ruby">                :api_job_id=&gt;1111</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="74">
+            
+            
+
+            
+
+            <code class="ruby">              }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="75">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    post &quot;/api/v1/jobs&quot;, :params =&gt; { :job =&gt; responseject.to_json, :email =&gt; &quot;wrongemail&quot; }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="76">
+            
+            
+
+            
+
             <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="73">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(job[:data][:attributes]).to have_key(:contact)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="74">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(job[:data][:attributes][:contact]).to be_a(String)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="75">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="76">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(job[:data][:attributes]).to have_key(:salary)</code>
           </li>
         </div>
       
@@ -12985,7 +12963,7 @@
 
             
 
-            <code class="ruby">    expect(job[:data][:attributes][:salary]).to be_an(Integer)</code>
+            <code class="ruby">    expect(response.status).to eq(404)</code>
           </li>
         </div>
       
@@ -13018,7 +12996,7 @@
 
             
 
-            <code class="ruby">  it &#39;can delete a job&#39; do</code>
+            <code class="ruby">  it &#39;creates a job if not found&#39; do</code>
           </li>
         </div>
       
@@ -13034,13 +13012,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="82">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="82">
+            
             
 
             
 
-            <code class="ruby">    job_1 = Job.create!(salary: 1000000, location: &quot;Houston, TX&quot;, company: &quot;Texas Tech&quot;, contact: &quot;Brad Chad&quot;, api_job_id: 1111, title: &quot;Tech Bro&quot;)</code>
+            <code class="ruby">    responseject = {</code>
           </li>
         </div>
       
@@ -13051,7 +13029,7 @@
 
             
 
-            <code class="ruby">    job_2 = Job.create!(salary: 5000000, location: &quot;Houston, TX&quot;, company: &quot;Texas Tech&quot;, contact: &quot;Chad Brad&quot;, api_job_id: 1112, title: &quot;Tech Person&quot;)</code>
+            <code class="ruby">                :id=&gt;1111,</code>
           </li>
         </div>
       
@@ -13062,40 +13040,40 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">                :salary=&gt;&quot;9999999&quot;,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="85">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="85">
+            
             
 
             
 
-            <code class="ruby">    UserJob.create!(user_id: user.id, job_id: job_1.id)</code>
+            <code class="ruby">                :title=&gt;&quot;Tech Bro&quot;,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="86">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="86">
+            
             
 
             
 
-            <code class="ruby">    UserJob.create!(user_id: user.id, job_id: job_2.id)</code>
+            <code class="ruby">                :city=&gt;&quot;Houston&quot;,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="87">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="87">
+            
             
 
             
 
-            <code class="ruby">    expect(user.jobs.count).to eq(2)</code>
+            <code class="ruby">                :state=&gt;&quot;TX&quot;,</code>
           </li>
         </div>
       
@@ -13106,18 +13084,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">                :company=&gt;&quot;Texas Tech&quot;,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="89">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="89">
+            
             
 
             
 
-            <code class="ruby">    delete &quot;/api/v1/user/#{user.id}/jobs/#{job_1.id}&quot;</code>
+            <code class="ruby">                :contact=&gt;&quot;Brad Chad&quot;,</code>
           </li>
         </div>
       
@@ -13128,23 +13106,56 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">                :api_job_id=&gt;1111</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="91">
+          <li class="never" data-hits="" data-linenumber="91">
+            
+            
+
+            
+
+            <code class="ruby">              }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="92">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    expect(user.jobs.count).to eq(1)</code>
+            <code class="ruby">    post &quot;/api/v1/jobs&quot;, :params =&gt; { :job =&gt; responseject.to_json, :email =&gt; &quot;someemail&quot; }</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="92">
+          <li class="never" data-hits="" data-linenumber="93">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="94">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(response.status).to eq(200)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="95">
             
             
 
@@ -13155,7 +13166,733 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="93">
+          <li class="never" data-hits="" data-linenumber="96">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="97">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;cant create a job if not found and missing params&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="98">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user = User.create!(email: &quot;someemail&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="99">
+            
+            
+
+            
+
+            <code class="ruby">    responseject = {</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="100">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">                :id=&gt;1111,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="101">
+            
+            
+
+            
+
+            <code class="ruby">                :title=&gt;&quot;Tech Bro&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="102">
+            
+            
+
+            
+
+            <code class="ruby">                :city=&gt;&quot;Houston&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="103">
+            
+            
+
+            
+
+            <code class="ruby">                :state=&gt;&quot;TX&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="104">
+            
+            
+
+            
+
+            <code class="ruby">                :company=&gt;&quot;Texas Tech&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="105">
+            
+            
+
+            
+
+            <code class="ruby">                :contact=&gt;&quot;Brad Chad&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="106">
+            
+            
+
+            
+
+            <code class="ruby">                :api_job_id=&gt;1111</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="107">
+            
+            
+
+            
+
+            <code class="ruby">              }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="108">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    post &quot;/api/v1/jobs&quot;, :params =&gt; { :job =&gt; responseject.to_json, :email =&gt; &quot;someemail&quot; }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="109">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="110">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(response.status).to eq(404)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="111">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="112">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="113">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;create a user_job if not found and has a job and a user&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="114">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user = User.create!(email: &quot;someemail&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="115">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    job = Job.create!(salary: 9999999, location: &quot;Houston, Texas&quot;, company: &quot;Texas Tech&quot;, contact: &quot;Brad Chad&quot;, api_job_id: 1111, title: &quot;Tech Bro&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="116">
+            
+            
+
+            
+
+            <code class="ruby">    responseject = {</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="117">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">                :id=&gt;1111,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="118">
+            
+            
+
+            
+
+            <code class="ruby">                :salary=&gt;&quot;9999999&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="119">
+            
+            
+
+            
+
+            <code class="ruby">                :title=&gt;&quot;Tech Bro&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="120">
+            
+            
+
+            
+
+            <code class="ruby">                :city=&gt;&quot;Houston&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="121">
+            
+            
+
+            
+
+            <code class="ruby">                :state=&gt;&quot;TX&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="122">
+            
+            
+
+            
+
+            <code class="ruby">                :company=&gt;&quot;Texas Tech&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="123">
+            
+            
+
+            
+
+            <code class="ruby">                :contact=&gt;&quot;Brad Chad&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="124">
+            
+            
+
+            
+
+            <code class="ruby">                :api_job_id=&gt;1111</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="125">
+            
+            
+
+            
+
+            <code class="ruby">              }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="126">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    post &quot;/api/v1/jobs&quot;, :params =&gt; { :job =&gt; responseject.to_json, :email =&gt; &quot;someemail&quot; }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="127">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(response.status).to eq(200)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="128">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="129">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="130">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;create a user_job if not found and has a job and a user&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="131">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user = User.create!(email: &quot;someemail&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="132">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    job = Job.create!(salary: 9999999, location: &quot;Houston, Texas&quot;, company: &quot;Texas Tech&quot;, contact: &quot;Brad Chad&quot;, api_job_id: 1111, title: &quot;Tech Bro&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="133">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user_job = UserJob.create!(job_id: job.id, user_id: user.id)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="134">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="135">
+            
+            
+
+            
+
+            <code class="ruby">    responseject = {</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="136">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">                :id=&gt;1111,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="137">
+            
+            
+
+            
+
+            <code class="ruby">                :salary=&gt;&quot;9999999&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="138">
+            
+            
+
+            
+
+            <code class="ruby">                :title=&gt;&quot;Tech Bro&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="139">
+            
+            
+
+            
+
+            <code class="ruby">                :city=&gt;&quot;Houston&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="140">
+            
+            
+
+            
+
+            <code class="ruby">                :state=&gt;&quot;TX&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="141">
+            
+            
+
+            
+
+            <code class="ruby">                :company=&gt;&quot;Texas Tech&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="142">
+            
+            
+
+            
+
+            <code class="ruby">                :contact=&gt;&quot;Brad Chad&quot;,</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="143">
+            
+            
+
+            
+
+            <code class="ruby">                :api_job_id=&gt;1111</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="144">
+            
+            
+
+            
+
+            <code class="ruby">              }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="145">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    post &quot;/api/v1/jobs&quot;, :params =&gt; { :job =&gt; responseject.to_json, :email =&gt; &quot;someemail&quot; }</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="146">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(response.status).to eq(200)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="147">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="148">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="149">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &#39;can delete a job&#39; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="150">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    user = User.create!(email: &quot;someemail&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="151">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    job_1 = Job.create!(salary: 1000000, location: &quot;Houston, TX&quot;, company: &quot;Texas Tech&quot;, contact: &quot;Brad Chad&quot;, api_job_id: 1111, title: &quot;Tech Bro&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="152">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    job_2 = Job.create!(salary: 5000000, location: &quot;Houston, TX&quot;, company: &quot;Texas Tech&quot;, contact: &quot;Chad Brad&quot;, api_job_id: 1112, title: &quot;Tech Person&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="153">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="154">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    UserJob.create!(user_id: user.id, job_id: job_1.id)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="155">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    UserJob.create!(user_id: user.id, job_id: job_2.id)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="156">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(user.jobs.count).to eq(2)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="157">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="158">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    delete &quot;/api/v1/user/#{user.id}/jobs/#{job_1.id}&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="159">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="160">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(user.jobs.count).to eq(1)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="161">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="162">
             
             
 

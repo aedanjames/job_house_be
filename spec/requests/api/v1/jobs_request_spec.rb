@@ -55,26 +55,95 @@ RSpec.describe 'jobs api' do
 
     jobject = Job.find_by(api_job_id: responseject[:id])
     expect(jobject.api_job_id).to eq(responseject[:id].to_i)
+    expect(response.status).to eq(200)
+  end
 
-    job = JSON.parse(response.body, symbolize_names: true)
+  it 'cant save a job with an invalid user' do
+    job = Job.create!(salary: 9999999, location: "Houston, Texas", company: "Texas Tech", contact: "Brad Chad", api_job_id: 1111, title: "Tech Bro")
+    user = User.create!(email: "someemail")
+    user_job = UserJob.create!(job_id: job.id, user_id: user.id)
+    responseject = {
+                :id=>1111,
+                :salary=>"9999999",
+                :title=>"Tech Bro",
+                :city=>"Houston",
+                :state=>"TX",
+                :company=>"Texas Tech",
+                :contact=>"Brad Chad",
+                :api_job_id=>1111
+              }
+    post "/api/v1/jobs", :params => { :job => responseject.to_json, :email => "wrongemail" }
 
-    expect(job[:data]).to have_key(:id)
-    expect(job[:data][:id]).to be_a(String)
+    expect(response.status).to eq(404)
+  end
 
-    expect(job[:data]).to have_key(:type)
-    expect(job[:data][:type]).to be_a(String)
+  it 'creates a job if not found' do
+    user = User.create!(email: "someemail")
+    responseject = {
+                :id=>1111,
+                :salary=>"9999999",
+                :title=>"Tech Bro",
+                :city=>"Houston",
+                :state=>"TX",
+                :company=>"Texas Tech",
+                :contact=>"Brad Chad",
+                :api_job_id=>1111
+              }
+    post "/api/v1/jobs", :params => { :job => responseject.to_json, :email => "someemail" }
 
-    expect(job[:data][:attributes]).to have_key(:location)
-    expect(job[:data][:attributes][:location]).to be_a(String)
+    expect(response.status).to eq(200)
+  end
 
-    expect(job[:data][:attributes]).to have_key(:company)
-    expect(job[:data][:attributes][:company]).to be_a(String)
+  it 'cant create a job if not found and missing params' do
+    user = User.create!(email: "someemail")
+    responseject = {
+                :id=>1111,
+                :title=>"Tech Bro",
+                :city=>"Houston",
+                :state=>"TX",
+                :company=>"Texas Tech",
+                :contact=>"Brad Chad",
+                :api_job_id=>1111
+              }
+    post "/api/v1/jobs", :params => { :job => responseject.to_json, :email => "someemail" }
 
-    expect(job[:data][:attributes]).to have_key(:contact)
-    expect(job[:data][:attributes][:contact]).to be_a(String)
+    expect(response.status).to eq(404)
+  end
 
-    expect(job[:data][:attributes]).to have_key(:salary)
-    expect(job[:data][:attributes][:salary]).to be_an(Integer)
+  it 'create a user_job if not found and has a job and a user' do
+    user = User.create!(email: "someemail")
+    job = Job.create!(salary: 9999999, location: "Houston, Texas", company: "Texas Tech", contact: "Brad Chad", api_job_id: 1111, title: "Tech Bro")
+    responseject = {
+                :id=>1111,
+                :salary=>"9999999",
+                :title=>"Tech Bro",
+                :city=>"Houston",
+                :state=>"TX",
+                :company=>"Texas Tech",
+                :contact=>"Brad Chad",
+                :api_job_id=>1111
+              }
+    post "/api/v1/jobs", :params => { :job => responseject.to_json, :email => "someemail" }
+    expect(response.status).to eq(200)
+  end
+
+  it 'create a user_job if not found and has a job and a user' do
+    user = User.create!(email: "someemail")
+    job = Job.create!(salary: 9999999, location: "Houston, Texas", company: "Texas Tech", contact: "Brad Chad", api_job_id: 1111, title: "Tech Bro")
+    user_job = UserJob.create!(job_id: job.id, user_id: user.id)
+
+    responseject = {
+                :id=>1111,
+                :salary=>"9999999",
+                :title=>"Tech Bro",
+                :city=>"Houston",
+                :state=>"TX",
+                :company=>"Texas Tech",
+                :contact=>"Brad Chad",
+                :api_job_id=>1111
+              }
+    post "/api/v1/jobs", :params => { :job => responseject.to_json, :email => "someemail" }
+    expect(response.status).to eq(200)
   end
 
   it 'can delete a job' do
