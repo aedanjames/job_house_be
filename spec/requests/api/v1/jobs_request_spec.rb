@@ -65,7 +65,7 @@ RSpec.describe 'jobs api' do
     UserJob.create!(user_id: user.id, job_id: job_2.id)
     expect(user.jobs.count).to eq(2)
 
-    delete "/api/v1/user/#{user.id}/jobs/#{job_1.id}"
+    delete "/api/v1/user/jobs/#{job_1.id}?user_id=#{user.id}"
 
     expect(user.jobs.count).to eq(1)
   end
