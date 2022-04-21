@@ -14,9 +14,7 @@ RSpec.describe 'User API' do
       expect(user[:data]).to have_key(:attributes)
       expect(user[:data][:type]).to eq("user")
       expect(user[:data][:attributes]).to have_key(:email)
-      expect(user[:data]).to have_key(:relationships)
-      expect(user[:data][:relationships]).to have_key(:jobs)
-      expect(user[:data][:relationships][:jobs]).to have_key(:data)
+      expect(user[:data][:attributes]).to have_key(:jobs)
     end
 
     it 'creates a new user even if one wasnt present' do
@@ -32,9 +30,7 @@ RSpec.describe 'User API' do
       expect(user[:data][:type]).to eq("user")
       expect(user[:data][:attributes]).to have_key(:email)
       expect(user[:data][:attributes][:email]).to eq('someotheremail')
-      expect(user[:data]).to have_key(:relationships)
-      expect(user[:data][:relationships]).to have_key(:jobs)
-      expect(user[:data][:relationships][:jobs]).to have_key(:data)
+      expect(user[:data][:attributes]).to have_key(:jobs)
     end
 
   it 'knows a users user_jobs' do
@@ -53,11 +49,11 @@ RSpec.describe 'User API' do
     expect(user[:data]).to have_key(:attributes)
     expect(user[:data][:type]).to eq("user")
     expect(user[:data][:attributes]).to have_key(:email)
-    expect(user[:data]).to have_key(:relationships)
-    expect(user[:data][:relationships]).to have_key(:jobs)
-    expect(user[:data][:relationships][:jobs]).to have_key(:data)
-    expect(user[:data][:relationships][:jobs][:data].first).to have_key(:id)
-    expect(user[:data][:relationships][:jobs][:data].first).to have_key(:type)
-    expect(user[:data][:relationships][:jobs][:data].first[:id]).to eq(user_1.jobs.first.id.to_s)
+    expect(user[:data][:attributes]).to have_key(:jobs)
+    expect(user[:data][:attributes]).to have_key(:jobs)
+    expect(user[:data][:attributes][:jobs].first).to have_key(:id)
+    expect(user[:data][:attributes][:jobs].first).to have_key(:salary)
+    expect(user[:data][:attributes][:jobs].first).to have_key(:company)
+    expect(user[:data][:attributes][:jobs].first).to have_key(:location)
   end
 end
