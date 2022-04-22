@@ -19,7 +19,7 @@ class Api::V1::JobsController < ApplicationController
     job_data = JSON.parse(params[:job], symbolize_names: true)
     user = User.find_by(email: params[:email])
     job = Job.find_by(api_job_id: job_data[:id].to_i)
-    # user_job = UserJob.find_by(job_id: job.id, user_id: user.id)
+
     if user.nil? #user not found ; error
       render :status => 404
     elsif job.nil? #job not found ; must be created
