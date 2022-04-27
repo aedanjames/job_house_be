@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=5e859b54&app_key=9b7837242edf32ddec42da936025659e&results_per_page=50&salary_max=10000000&salary_min=1&where=california
+    uri: https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=5e859b54&app_key=9b7837242edf32ddec42da936025659e&results_per_page=50&salary_max=10000000&salary_min=10000&where=california
     body:
       encoding: US-ASCII
       string: ''
@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 21 Apr 2022 16:06:05 GMT
+      - Wed, 27 Apr 2022 20:19:58 GMT
       Content-Type:
       - application/json; charset=utf8
       Content-Length:
-      - '71894'
+      - '71919'
       Connection:
       - keep-alive
       Server:
@@ -38,536 +38,518 @@ http_interactions:
       - '5.90117'
     body:
       encoding: UTF-8
-      string: '{"results":[{"salary_max":288000,"company":{"display_name":"KYOCERA
-        SLD Laser, Inc","__CLASS__":"Adzuna::API::Response::Company"},"title":"RF/Opto
-        Test Engineer","created":"2022-04-19T21:46:02Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA2NDM4MDE0OCIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.qka_r6u1P4hgRfKxHGcJBSdsqTOCPBRrlK7EdL-Bi7A","redirect_url":"https://www.adzuna.com/land/ad/3064380148?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=CF57D6ECBBFFA4C02F331AC8EBCFE97AB640E9FA","salary_min":240000,"category":{"label":"Engineering
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"engineering-jobs"},"longitude":-84.263547,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County"},"latitude":38.918677,"__CLASS__":"Adzuna::API::Response::Job","description":"Job
-        Description Company Introduction SLD Laser, a world leader in commercialization
-        of gallium nitride (GaN) based laser light sources, was acquired by KYOCERA
-        Corporation and has commenced operations as a wholly owned subsidiary and
-        group company of KYOCERA Corporation under the name KYOCERA SLD Laser, Inc.
-        (KSLD). KSLD is commercializing a new generation of gallium nitride-based
-        laser light sources. KSLD''s high luminance LaserLightTM sources are utilized
-        in a myriad of applications including \u2026","id":"3064380148","salary_is_predicted":"0"},{"redirect_url":"https://www.adzuna.com/land/ad/2979846060?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=A1C1AD97A71651DA200FE041728AFA5CF3E75779","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk3OTg0NjA2MCIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.UAQBycop5G83PpDYTHlZmLH7Ne200nLMsCyDXXoAAzg","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Mission
-        Search"},"salary_max":384000,"title":"Chief Financial Officer - CFO","created":"2022-03-17T21:10:39Z","id":"2979846060","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","description":"PLEASE
-        CALL (888) 300-1504 FOR IMMEDIATE ASSISTANCE Job Posting Call today to get
-        the best new hires for 2022: 888-300-1504 Job Posting Job Number: 12435 Type:
-        Interim Job Description Seeking Chief Financial Officer for a hospital in
-        Southern California to oversee all day-to-day Financial operations for Acute
-        Care setting. Included Accounting, Billing, Collections, Purchasing, IT, HIM,
-        Plant Operations. Open to all options: interim/temp-to-perm, or perm. Excellent
-        compensation & benefits for pe\u2026","category":{"label":"Accounting & Finance
-        Jobs","tag":"accounting-finance-jobs","__CLASS__":"Adzuna::API::Response::Category"},"longitude":-84.263547,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County"},"latitude":38.918677,"salary_min":288000},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcwMzM0MSIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.HT9xh6FLlBOSBhmgsTfkv_ZhQY23DkqsgnOJeWRA-RE","redirect_url":"https://www.adzuna.com/land/ad/2722703341?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=E78233932FAE8815A2AC41C5054FF3CA490D790B","created":"2021-12-09T01:31:06Z","title":"Pen
-        Tester","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Bridge
-        Technologies and Solutions"},"salary_max":384000,"salary_is_predicted":"0","id":"2722703341","description":"-
-        Conduct black box, white box vulnerability and penetration testing - Setup
-        threat modesla and protocol fuzzers - Experience in architecture & design
-        reviews with developers at all levels - Develop, implement & support security
-        tools and services - Good at assessment of security policies, best practices
-        and recommendations - Experience with vulnerability tracking methods and tools
-        - Conduct secure code review trainings to developers - Understanding of OWASP,
-        SANS, CWE standards, - Experience w\u2026","__CLASS__":"Adzuna::API::Response::Job","latitude":38.918677,"location":{"display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"longitude":-84.263547,"category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs"},"salary_min":288000},{"company":{"display_name":"Hispanic Alliance
-        for Career Enhancement","__CLASS__":"Adzuna::API::Response::Company"},"title":"Partner
-        Business Development","salary_max":250,"created":"2022-04-17T21:45:14Z","redirect_url":"https://www.adzuna.com/land/ad/3060329273?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=731B8CC71EAA2331CD0C819D9190FE54340EF02E","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA2MDMyOTI3MyIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.vhBKoi3wF8iGUG6iuzIbZUcWisfsOuy0SelZUuLX4cM","salary_min":200,"category":{"label":"Sales
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"sales-jobs"},"longitude":-84.263547,"location":{"display_name":"California,
-        Campbell County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"latitude":38.918677,"__CLASS__":"Adzuna::API::Response::Job","description":"Hispanic
-        Alliance for Career Enhancement Description When you join Verizon Verizon
-        is one of the world''s leading providers of technology and communications
-        services, transforming the way we connect across the globe. We''re a diverse
-        network of people driven by our shared ambition to shape a better future.
-        Here, we have the ability to learn and grow at the speed of technology, and
-        the space to create within every role. Together, we are moving the world forward
-        - and you can too. Dream it. Build i\u2026","id":"3060329273","salary_is_predicted":"0"},{"id":"3062128678","salary_is_predicted":"0","description":"Some
-        people go to work. At RingCentral, you\u2019ll change the way the world works.
-        RingCentral is the global leader in cloud-based communications and collaboration
-        software. We are fundamentally changing the nature of human interaction\u2014giving
-        people the freedom to connect powerfully and personally from anywhere, at
-        any time, on any device. We\u2019re a $1.5 billion company that\u2019s growing
-        at 30% annually and we\u2019re expanding our Finance Team to make sure we
-        stay ahead of the competition. We\u2019re currently l\u2026","location":{"display_name":"California,
-        Campbell County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"latitude":38.918677,"contract_time":"full_time","title":"Sales
-        Compensation FP&A Manager","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"RingCentral"},"__CLASS__":"Adzuna::API::Response::Job","category":{"label":"Accounting
-        & Finance Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs"},"longitude":-84.263547,"salary_min":288000,"redirect_url":"https://www.adzuna.com/land/ad/3062128678?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=7A9BE8F097AE2CD61CD530491812E979D1BB0C47","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIzMDYyMTI4Njc4In0.8-AU9QC_MCRzdCA2IAKav3RTj7GoONg2knBYI9HV1eM","salary_max":384000,"created":"2022-04-18T21:53:30Z"},{"company":{"display_name":"PSA
-        ","__CLASS__":"Adzuna::API::Response::Company"},"salary_max":384000,"title":"Senior
-        Manager, FP&A","created":"2022-04-05T21:38:52Z","redirect_url":"https://www.adzuna.com/land/ad/3029412404?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=73BD9832F29A90F3F7937CB7B9D2064BA68290C9","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAyOTQxMjQwNCIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.I7cmUilHdC1m8HxTQGWuYF5mpV2GKuJyKVe2xT-5hx4","salary_min":288000,"category":{"label":"Accounting
-        & Finance Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs"},"latitude":38.918677,"location":{"area":["US","Kentucky","Campbell
-        County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","description":"We
-        are looking for a Manager / Senior Manager of Financial Planning & Analysis
-        (FP&A) to join the Finance team here at Collectors, the leader in third-party
-        grading and authentication services for high-value collectibles. Collectors
-        is part of the privately held Collectors Holdings group which also includes
-        the PSA, PCGS and WATA divisions under the Collectors umbrella. Collectors
-        is headquartered in Santa Ana, CA with offices in Paris, Hong Kong, Tokyo,
-        Shanghai and a NYC area office expected \u2026","id":"3029412404","salary_is_predicted":"0"},{"created":"2022-03-21T21:19:00Z","company":{"display_name":"Prosum","__CLASS__":"Adzuna::API::Response::Company"},"title":"Manager
-        of Helpdesk","salary_max":288000,"redirect_url":"https://www.adzuna.com/land/ad/2989248559?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=A6C150D0444B2D3CFA7789F21BC6D5005E6878DA","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk4OTI0ODU1OSIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.kNJqMvrNJqlt8eKmNByQ-QKBYJIz516kDlhbmTFjjCw","location":{"display_name":"California,
-        Campbell County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"longitude":-84.263547,"latitude":38.918677,"category":{"label":"IT
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"salary_min":240000,"salary_is_predicted":"0","id":"2989248559","description":"Our
-        client is is seeking a dynamic, experienced Helpdesk Manager to provide critical
-        leadership and overall enterprise IT support knowledge to a business critical,
-        growing IT helpdesk / desktop support team. Job Description Key Responsibilities:
-        This position requires extensive interaction with our helpdesk / desktop support
-        team on a daily basis which includes 24/7 support; including scheduling, shift
-        coverage and paid time off requests, providing feedback, coaching/training,
-        and disciplinary \u2026","__CLASS__":"Adzuna::API::Response::Job"},{"redirect_url":"https://www.adzuna.com/land/ad/2722726556?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=521E39149E4A829777227F26620D3769C5E8043C","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyNzIyNzI2NTU2In0.SnlfA5bHNAQCgyC7apvi0ZCLz7wdlQ5UENUeBVU8fH0","created":"2021-12-09T01:35:37Z","salary_max":384000,"company":{"display_name":"USM","__CLASS__":"Adzuna::API::Response::Company"},"title":"Oracle
-        Sales Cloud Architect","salary_is_predicted":"0","id":"2722726556","description":"USM
-        Business Systems Inc. is a quickly developing worldwide System Integrator,
-        Software and Product Development, IT Outsourcing and Technology assistance
-        supplier headquartered in Chantilly, VA. We offer world-class ability in giving
-        most astounding quality and administrations through industry best practices
-        planned to convey remarkable worth to our customers. Utilizing our industry
-        knowledge, administration service offering expertise and innovation abilities,
-        we distinguish new business and in\u2026","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"location":{"display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"latitude":38.918677,"category":{"label":"IT
-        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_min":288000},{"contract_time":"full_time","company":{"display_name":"AMD","__CLASS__":"Adzuna::API::Response::Company"},"title":"Senior
-        Software Development Engineer","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County"},"latitude":38.918677,"id":"3067094111","salary_is_predicted":"0","description":"CBRE
-        Facilities Manager - Atwater, Ca in Atwater, CA Visa Senior Pricing Analyst
-        in Foster City, CA CBRE FM Engineering Operations Manager GWS Local in Santa
-        Clara, CA PetSmart Bather / Groomer Trainee in Lancaster, CA Featured Employers
-        Senior Software Development Engineer Company: AMD Location: SanJose, CA Employment
-        Type: Full Time Date Posted: 04/18/2022 Expire Date: 06/17/2022 Job Categories:
-        Computers, Software, Engineering, Government and Policy, Healthcare, Practitioner
-        and Technician, \u2026","salary_max":288000,"created":"2022-04-20T21:51:19Z","redirect_url":"https://www.adzuna.com/land/ad/3067094111?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=1375B2900523E4684B924F7A00E13D8A5BE7B34B","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIzMDY3MDk0MTExIn0.p1unamWvTBhX5rI2y3ySrjZBLHgbCT2PJES11KWGOfA","category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs"},"longitude":-84.263547,"salary_min":240000,"__CLASS__":"Adzuna::API::Response::Job"},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyOTkzMzEwMzU2In0.WyLlfr3zj2u-UUxep99G0mXnXs4jj3MR3J4fjcPbOsQ","redirect_url":"https://www.adzuna.com/land/ad/2993310356?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=21F83E43FCDA04ABD007814C1A8BCB909224C11B","created":"2022-03-23T05:22:20Z","company":{"display_name":"Hewlett
-        Packard Enterprise Development LP","__CLASS__":"Adzuna::API::Response::Company"},"salary_max":384000,"title":"Solutions
-        Architect - Aruba ESP","salary_is_predicted":"0","id":"2993310356","description":"How
-        You Will Make Your Mark: Solutions architect responsible for developing and
-        marketing networking solutions Closely work with product managers and sales
-        system engineers to understand customer needs and translate them into product/solution
-        requirements Extensively work with multiple disciplines of engineering teams
-        to develop framework for technologies used to build innovative solution offerings
-        Identifies and evaluates new technologies, innovations, and products for alignment
-        with solution \u2026","__CLASS__":"Adzuna::API::Response::Job","location":{"display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"longitude":-84.263547,"latitude":38.918677,"category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs"},"salary_min":288000},{"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"HCL
-        Technologies"},"title":"Software engineer","salary_max":288000,"created":"2022-04-20T21:51:18Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIzMDY3MDk0MDYzIn0.KTZifQnXlH0mvERwTxSk1OP-zU7kXzYg26zmRIlpWEQ","redirect_url":"https://www.adzuna.com/land/ad/3067094063?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=E7C53195E03288C843EB2372EE868B7CCAEE79ED","category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs"},"longitude":-84.263547,"location":{"display_name":"California, Campbell
-        County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"latitude":38.918677,"salary_min":240000,"id":"3067094063","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","description":"Business
-        Line FT | Software engineer | California Job Description Business Line FT
-        | Software engineer | California Job Summary LOCATION: California DESIGNATION:
-        Software engineer JOB DESCRIPTION: To develop and deliver codes for the work
-        assigned in accordance with time, quality and cost standards. (1.) Documentation
-        work (2.) To develop the codes for the project as per work assignation. (3.)
-        To maintain the existing project and resolving the issues occurring in the
-        existing project. (4.) To w\u2026"},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIzMDI1OTk1Mzk5In0.MDGOY_pT2vcrQh7QUKcc9m_x5ms6aZ8a0NIBVtVpGxo","redirect_url":"https://www.adzuna.com/land/ad/3025995399?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=5B39C86E53484B09CE78270B746A9A24EFB3F9E9","created":"2022-04-04T21:33:19Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Abbott
-        Laboratories"},"title":"Senior Director, Medical Affairs","salary_max":250,"salary_is_predicted":"0","id":"3025995399","description":"Abbott
-        is a global healthcare leader that helps people live more fully at all stages
-        of life. Our portfolio of life-changing technologies spans the spectrum of
-        healthcare, with leading businesses and products in diagnostics, medical devices,
-        nutritionals and branded generic medicines. Our 113,000 colleagues serve people
-        in more than 160 countries. Director, Medical Affairs ABOUT ABBOTT Abbott
-        is a global healthcare leader that helps people live more fully at all stages
-        of life. Our portfolio of\u2026","__CLASS__":"Adzuna::API::Response::Job","location":{"display_name":"California,
-        Campbell County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"latitude":38.918677,"longitude":-84.263547,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"scientific-qa-jobs","label":"Scientific
-        & QA Jobs"},"salary_min":200},{"longitude":-84.263547,"location":{"area":["US","Kentucky","Campbell
-        County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"latitude":38.918677,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"engineering-jobs","label":"Engineering
-        Jobs"},"salary_min":240000,"salary_is_predicted":"0","id":"3031220886","description":"Job
-        Summary: The Senior Staff Manufacturing Engineer will be responsible for all
-        aspects related to the manufacturing test process of Gigamon\u2019s products
-        from NPI to sustaining support at our worldwide manufacturing sites. As a
-        seasoned engineer, you will work cross-functionally to ensure that the test
-        processes and their implementation to production provide the highest quality
-        of products through optimal test coverage. You will support the test process
-        for worldwide production, providing timely\u2026","__CLASS__":"Adzuna::API::Response::Job","created":"2022-04-06T13:37:39Z","title":"Sr.
-        Staff Manufacturing Test Engineer","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Gigamon"},"salary_max":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIzMDMxMjIwODg2In0.xyE4wXJKh2MZdwDLGOwflM-TXM88Gm46qg3UPYYvHtQ","redirect_url":"https://www.adzuna.com/land/ad/3031220886?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=D37426400D6E944B6D94961FA98F5A3EEA5A2E59"},{"id":"2959902163","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","description":"Press
-        Tab to Move to Skip to Content Link Join the leader in entertainment innovation
-        and help us design the future. At Dolby, science meets art, and high-tech
-        means more than computer code. As a member of the Dolby team, you\u2019ll
-        see and hear the results of your work everywhere, from movie theaters to smartphones.
-        We continue to revolutionize how people create, deliver, and enjoy entertainment
-        worldwide. To do that, we need the absolute best talent. We\u2019re big enough
-        to give you all the resources\u2026","category":{"tag":"legal-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Legal
-        Jobs"},"latitude":38.918677,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County"},"longitude":-84.263547,"salary_min":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyOTU5OTAyMTYzIn0.GCULqgtFWv-mmuzpHKiKFlqHuUWqNjCNcJusSLSp_-o","redirect_url":"https://www.adzuna.com/land/ad/2959902163?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=106490C3107E033D5AC73559808360B3107BED54","company":{"display_name":"Dolby","__CLASS__":"Adzuna::API::Response::Company"},"salary_max":384000,"title":"Senior
-        Corporate Counsel","created":"2022-03-09T20:14:55Z"},{"redirect_url":"https://www.adzuna.com/land/ad/3067094095?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=84411CD0F87B7316BC106B2BAE3056067CC5A4FF","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIzMDY3MDk0MDk1In0.ErEHBAVoY83Bqur3kA8SofyB73A0JWj9GUIybxbVC9U","salary_max":384000,"created":"2022-04-20T21:51:19Z","__CLASS__":"Adzuna::API::Response::Job","category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs"},"longitude":-84.263547,"salary_min":288000,"contract_time":"full_time","company":{"display_name":"AMD","__CLASS__":"Adzuna::API::Response::Company"},"title":"Sr.
-        Silicon Design Engineer - Power Performance Analysis (PPA) - 140922","id":"3067094095","salary_is_predicted":"0","description":"CBRE
-        Facilities Manager - Atwater, Ca in Atwater, CA Visa Senior Pricing Analyst
-        in Foster City, CA CBRE FM Engineering Operations Manager GWS Local in Santa
-        Clara, CA PetSmart Bather / Groomer Trainee in Lancaster, CA Featured Employers
-        Sr. Silicon Design Engineer - Power Performance Analysis (PPA) - 140922 Company:
-        AMD Location: SantaClara, CA Employment Type: Full Time Date Posted: 04/18/2022
-        Expire Date: 06/17/2022 Job Categories: Architectural Services, Computers,
-        Software, Construction, M\u2026","location":{"area":["US","Kentucky","Campbell
-        County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"latitude":38.918677},{"id":"2722730146","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","description":"Truven
-        Health Analytics delivers the answers that clients need to improve healthcare
-        quality and access while reducing costs. We provide market-leading performance
-        improvement built on data integrity and empirical truth. For more than 30
-        years, our insights and solutions have been providing hospitals and clinicians,
-        employers and health plans, state and federal government agencies, life sciences
-        firms, and policymakers the facts they need to make confident decisions that
-        directly affect the hea\u2026","category":{"label":"IT Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"latitude":38.918677,"location":{"display_name":"California,
-        Campbell County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"longitude":-84.263547,"salary_min":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyNzIyNzMwMTQ2In0.NtXI4HK8wn1DWu5EDtNVcqNapCjyPgCcntatTYRRnaw","redirect_url":"https://www.adzuna.com/land/ad/2722730146?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=8A8F15952014AD5130A22209EB6EBCB1223962E3","salary_max":384000,"company":{"display_name":"Truven
-        Health Analytics","__CLASS__":"Adzuna::API::Response::Company"},"title":"Senior
-        Programmer Analyst (2246)","created":"2021-12-09T01:36:00Z"},{"id":"3055754819","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","description":"Job
-        Responsibilities Supervise and oversee the warehouse staffs, coordinate tasks,
-        enforce programs, safeguard the warehouse Maintain results by coaching, counseling,
-        and disciplining employees; this also involves planning, monitoring, and appraising
-        job results. Plan and implement overall shipping strategy Ensure compliance
-        with federal, state, and local warehousing laws and regulations Suggest solutions
-        for process optimization Inspect labels and barcodes Build and maintain professional
-        relat\u2026","category":{"tag":"logistics-warehouse-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Logistics
-        & Warehouse Jobs"},"latitude":38.918677,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County"},"longitude":-84.263547,"salary_min":288000,"redirect_url":"https://www.adzuna.com/land/ad/3055754819?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=43095017BFBB7DC4204DCF925E05F25F01AE9F05","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA1NTc1NDgxOSIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.g5RrDJJ-wDGqBL7BwQjlGi0On4foFP8QzosTwGxfKsw","salary_max":384000,"company":{"display_name":"PrideStaff","__CLASS__":"Adzuna::API::Response::Company"},"title":"Warehouse
-        Manager","created":"2022-04-15T13:53:11Z"},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzkyMDgyOSIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.p0vuO075EV0yKWt4V_AhHxWM6Zkh9j0zxa60DZTWGyk","redirect_url":"https://www.adzuna.com/land/ad/2993920829?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=E20D3F8318071D55B99C10F0762CC4378CE872E4","title":"Senior
-        Software Engineer, (Javascript, Node.js)","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Prosum"},"salary_max":288000,"created":"2022-03-23T13:16:36Z","id":"2993920829","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","description":"Glendale,
-        CA Contract Job Description Overview: We are urgently looking for a Sr. Software
-        Engineer for our client that will handle the following duties for the company:
-        Maintain website by addressing and fixing site issues and defects Ensure code
-        quality with unit tests by using test-driven development Provide feedback
-        through code reviews and peer programming techniques Document code implementation
-        within the codebase and on the wiki When tools, automation, or innovative
-        functionality is need\u2026","category":{"label":"IT Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"latitude":38.918677,"location":{"display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"longitude":-84.263547,"salary_min":240000},{"salary_max":288000,"company":{"display_name":"Coherent
-        Capital Advisors Limited","__CLASS__":"Adzuna::API::Response::Company"},"title":"Partnership
-        Manager, Spark","created":"2022-04-02T21:33:27Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIzMDIxNjc4NDU1In0.iGUjMb6rooYC_qjBS4k2gxCiDkgMXUTZufffy7y5tyw","redirect_url":"https://www.adzuna.com/land/ad/3021678455?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=9E34BA0543EC391617527DC18E57FE2002886DCC","salary_min":240000,"category":{"label":"IT
-        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"location":{"display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"latitude":38.918677,"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","description":"We
-        are looking for an Partnership Manager who wants to be part of a growing InsurTech
-        that helps insurers break through the constraints of legacy systems with a
-        suite of platforms powered by our Spark technology. The position is highly
-        visible within Coherent and involves frequent interaction with senior leaders
-        internally and externally. The ideal candidate has insurance industry expertise,
-        partner management or management consulting experience, an entrepreneurial
-        mindset and is passionate abo\u2026","id":"3021678455","salary_is_predicted":"0"},{"created":"2022-04-04T21:34:36Z","title":"Head
-        of Multi-Skilled Technicians","company":{"display_name":"City Facilities Management  LLC","__CLASS__":"Adzuna::API::Response::Company"},"salary_max":384000,"redirect_url":"https://www.adzuna.com/land/ad/3025999557?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=607484FC7978F1C593DFAACB3E6929D8E6CA717F","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIzMDI1OTk5NTU3In0.Zd2DCXcGeKuwfUYC4HxxvDquNYFqIxhDL4qlbLHN0qM","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County"},"latitude":38.918677,"longitude":-84.263547,"category":{"label":"Maintenance
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"maintenance-jobs"},"salary_min":288000,"salary_is_predicted":"0","id":"3025999557","description":"Why
-        should you work for City? Because City is a global leader in facilities management
-        for starters. Also, because we have a generous benefits package that includes
-        28 days of PTO along with a 401(k) match with immediate vesting. We don\u2019t
-        just hire anyone at City; we\u2019re looking for loyal team members with personal
-        grit, a deep sense of responsibility, a thirst for constant learning and growth
-        with a willingness to always lend a helping hand. When you join City, you\u2019re
-        committing to making a dif\u2026","__CLASS__":"Adzuna::API::Response::Job"},{"id":"3013622536","salary_is_predicted":"0","description":"Use
-        Facebook or Google to sign in or register with SimplyHired. Sales Consultant
-        for VOLUME Ford Dealership Presidents Award Winner Fremont Ford - 4.0 Newark,
-        CA Full-time $200,000 a year Paid training Health insurance Full Job Description
-        At California Automotive Retail Group, we are committed to an environment
-        where the customer is always treated with respect and dignity. Our associates
-        are our most valuable resource and growth is encouraged through diligence,
-        teamwork & creativity. Above all\u2026","latitude":38.918677,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County"},"contract_time":"full_time","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Fremont
-        Ford"},"title":"Sales Consultant for VOLUME Ford Dealership Presidents Award
-        Winner","__CLASS__":"Adzuna::API::Response::Job","category":{"label":"Sales
-        Jobs","tag":"sales-jobs","__CLASS__":"Adzuna::API::Response::Category"},"longitude":-84.263547,"salary_min":240000,"redirect_url":"https://www.adzuna.com/land/ad/3013622536?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=560326B774B37310B8BE8736267D7886F1A15F48","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAxMzYyMjUzNiIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.bekpKdr7TreW_oaP8-Mm8sAIsxs6pD14W4lZA2KQ22w","salary_max":288000,"created":"2022-03-31T21:30:28Z"},{"salary_max":288000,"created":"2022-04-18T21:52:28Z","redirect_url":"https://www.adzuna.com/land/ad/3062120869?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=7E7EB32B8AC4CCD8DF7AA4B1C96B05A9F618B5DA","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIzMDYyMTIwODY5In0.TiwlEJFfUdLMInGL71oCjvc6lG-E-nfbNqi3YeXG0OY","salary_min":240000,"category":{"label":"Engineering
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"engineering-jobs"},"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Lawrence
-        Berkeley National Laboratory"},"title":"Commissioning Engineer","contract_time":"full_time","latitude":38.918677,"location":{"display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"The
-        Projects and Infrastructure Modernization Division (PIMD ) at Berkeley Lab
-        has an opening for an Internal Commissioning Authority (iCxA) to join the
-        team. Reporting to the PIMD Commissioning Director, you will be responsible
-        for participating on cross-functional teams and applying standard technical
-        principles, theories, and/or concepts to perform professional level validation
-        activities, such as Installation Qualification (IQ), Operational Qualification
-        (OQ) and Performance Qualification (\u2026","id":"3062120869","salary_is_predicted":"0"},{"salary_min":240000,"longitude":-84.263547,"category":{"tag":"creative-design-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Creative
-        & Design Jobs"},"__CLASS__":"Adzuna::API::Response::Job","created":"2022-04-09T21:38:58Z","salary_max":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0MDY2NzIwMiIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.ve4V5jdTMKruT3d4IbRLWwqQcirPpWO82qk1MReADmY","redirect_url":"https://www.adzuna.com/land/ad/3040667202?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=D2D503428BA1B80463BAE8ED4DCF505A0153CFB8","latitude":38.918677,"location":{"display_name":"California,
+      string: '{"mean":206054.94,"results":[{"salary_min":288000,"created":"2021-12-09T01:36:18Z","salary_max":384000,"id":"2722731862","company":{"display_name":"Administrative
+        Resource Options","__CLASS__":"Adzuna::API::Response::Company"},"latitude":38.918677,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIyNzIyNzMxODYyIn0.mbYsgEEvGS5JGNpPYqunf1ju2lpF-HB48zT90b33KV8","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","salary_is_predicted":"0","title":"Legal
+        Copy Center Manager","redirect_url":"https://www.adzuna.com/land/ad/2722731862?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=5B03D9022F1D47064F0F58B7334887F746610C6A","category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"]},"contract_time":"full_time","description":"Administrative
+        Resource Options (ARO) is a leading international outsourcing firm specializing
+        in office services management. We are a privately held, certified woman owned
+        business and have a presence in 28 states nationwide as well as 4 provinces
+        in Canada. Our services include copy/print, mail and package handling, reception,
+        printer/copier fleet management, and office supply management. We offer a
+        full complement of employee benefits including medical, dental, life and 401(k)
+        with employer \u2026"},{"salary_min":288000,"created":"2022-02-20T03:45:23Z","id":"2912592288","salary_max":384000,"latitude":38.918677,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Brookdale"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkxMjU5MjI4OCIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.Yw6S1B6FvoQUFBUTJncacHPwRUnYR252mtn9MH-q6eM","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"salary_is_predicted":"0","title":"Cool
+        For Senior Living Community","category":{"tag":"hospitality-catering-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Hospitality
+        & Catering Jobs"},"redirect_url":"https://www.adzuna.com/land/ad/2912592288?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=9481C9C38D2FCAA01BE39107CC2AFAEEE82B19F9","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"Relationships
+        and integrity are the heart of our culture. They help us create a welcoming
+        and inclusive community among our residents, associates and patients that
+        feels like family. They guide us to be open in our communication with each
+        other, and enable us to make the right decisions for the people who have entrusted
+        us with their care. Our relationships and integrity work together to create
+        a positive impact in the lives of the people we touch. The happiness of those
+        we serve is dependent o\u2026","contract_time":"part_time"},{"latitude":38.918677,"title":"Cloud
+        Solution Architect","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Insight
+        Technology"},"category":{"label":"IT Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3075838132?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=517E3C6ACFA5F3262FEE94EAD12B566AF2FAD3FA","location":{"display_name":"California,
         Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"Press
-        Tab to Move to Skip to Content Link 1250 Burbank, CA, US, 91502 Production
-        Burbank Full-Time Nickelodeon, now in its 42nd year, is the number-one entertainment
-        brand for kids. It has built a diverse, global business by putting kids first
-        in everything it does. The brand includes television programming and production
-        in the United States and around the world, plus consumer products, digital,
-        location based experiences, publishing and feature films. For more information
-        or artwork, visit ht\u2026","salary_is_predicted":"0","id":"3040667202","company":{"display_name":"ViacomCBS","__CLASS__":"Adzuna::API::Response::Company"},"title":"Scripted
-        Development Vice President (Nickelodeon - Live Action)","contract_time":"full_time"},{"category":{"label":"Accounting
-        & Finance Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs"},"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County"},"latitude":38.918677,"longitude":-84.263547,"salary_min":288000,"id":"2993935132","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","description":"The
-        Company: Zebit is an eCommerce and buy-now-pay later company located in San
-        Diego, CA. The Company\u2019s mission is to reinvent how credit is provided
-        to U.S. credit-challenged consumers. Zebit offers everyday consumers a large
-        selection of goods across more than twenty-five product categories, such as
-        electronics, appliances, home d\u00e9cor, furniture, and beauty. With Zebit,
-        consumers have the ability to pay for purchases over six months without any
-        hidden fees or penalties. When it comes to work\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Zebit,
-        Inc."},"salary_max":384000,"title":"Director of Financial Planning and Analysis","created":"2022-03-23T13:21:22Z","redirect_url":"https://www.adzuna.com/land/ad/2993935132?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=A780AEE96F3FA4BFF9AD6B4C2B79B8CAFD30AA8F","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzkzNTEzMiIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.3zsZFW6O8ywSPOPc54aCM9PfBYkw0vUY7hxbLju9z4o"},{"salary_min":240000,"latitude":38.918677,"location":{"display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"longitude":-84.263547,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"description":"Ever wanted to ship amazing experiences in Apple products?
-        Be part of the engineering team that uses sensor signal processing and machine
-        learning to produce the next generation of interaction technologies for iPhone,
-        iPad, AirPods, Macs and future products Our group comes from diverse backgrounds
-        in AI/ML, signal and image processing, statistics, neuroscience and human
-        factors. We seek a manager to lead a team of algorithms experts, and work
-        across the company with a wide range of others over \u2026","__CLASS__":"Adzuna::API::Response::Job","salary_is_predicted":"0","id":"3013634103","created":"2022-03-31T21:32:29Z","title":"Sensor
-        Algorithms Engineering Manager","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Apple"},"salary_max":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIzMDEzNjM0MTAzIn0.iZ9oYi38-M1jVlK7tKDlcn68Q-FVByottHojLdjt2rI","redirect_url":"https://www.adzuna.com/land/ad/3013634103?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=1C751FCF3A9060B029122EF4F16138BB3BC1C8F8"},{"salary_max":384000,"company":{"display_name":"Central
-        Missouri Community Action","__CLASS__":"Adzuna::API::Response::Company"},"title":"Vice
-        President of Finance & Acquisitions","created":"2022-04-20T21:55:22Z","redirect_url":"https://www.adzuna.com/land/ad/3067106909?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=E7C3EEEB727D0356E23FD319F083700BE991AF88","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA2NzEwNjkwOSIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.imcoDnO11T9eiJXLXCjMwtKsembaGBwsVQiBOPbz5xE","salary_min":288000,"category":{"tag":"accounting-finance-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Accounting
-        & Finance Jobs"},"latitude":38.918677,"location":{"display_name":"California,
-        Campbell County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","description":"\"Together,
-        we transform lives and communities\" National Community Renaissance (CORE)
-        is seeking a Finance / Contracts Manager to join our Accounting team. CORE
-        is one of the nation''s largest non-profit affordable housing developers with
-        a 30-year track record in community revitalization. We transform the economic
-        and social future of communities by building quality, affordable housing combined
-        with best practice social services to improve the self-sufficiency of our
-        residents. Benefit Summary: \u2026","id":"3067106909","salary_is_predicted":"0"},{"redirect_url":"https://www.adzuna.com/land/ad/2722725923?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=7D196003374B2C49C2D9696C9CD0CF272EBB8969","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyNzIyNzI1OTIzIn0.wLZ4Ktsfzd46wARty2b-bXqOmmGlY0MyW6P3YuNjLhU","title":"Automation
-        Test Analyst","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Artech
-        Information System LLC"},"salary_max":384000,"created":"2021-12-09T01:35:30Z","id":"2722725923","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","description":"Artech
-        is the 10th Largest IT Staffing Company in the US, according to Staffing Industry
-        Analysts'' 2012 annual report. Artech provides technical expertise to fill
-        gaps in clients'' immediate skill-sets availability, deliver emerging technology
-        skill-sets, refresh existing skill base, allow for flexibility in project
-        planning and execution phases, and provide budgeting/financial flexibility
-        by offering contingent labor as a variable cost. Job Description Job Description:
-        Job Title: Automation Tes\u2026","category":{"label":"IT Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"latitude":38.918677,"location":{"display_name":"California,
-        Campbell County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"longitude":-84.263547,"salary_min":288000},{"salary_max":250,"company":{"display_name":"Atria
-        Group LLC","__CLASS__":"Adzuna::API::Response::Company"},"title":"Oracle HFM/DRM/WF
-        Developer","created":"2021-11-24T13:58:41Z","redirect_url":"https://www.adzuna.com/land/ad/2676094656?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=406AFC2002672F641FEF6D8421F7B1C6AEE8BD25","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjY3NjA5NDY1NiIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.YBN8Md9WHakNCIKXybu3fc3ifMrlG_P9H_csJXYpYks","salary_min":250,"category":{"label":"IT
-        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"location":{"area":["US","Kentucky","Campbell
-        County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"latitude":38.918677,"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","description":"We
-        specialize in Staffing, Consulting, Software Development, and Training along
-        with IT services to small to medium size companies. AG''s primary objective
-        is to help companies maximize their IT resources and meet the ever-changing
-        IT needs and challenges. In addition, AG offers enterprise resource planning
-        and enterprise application integration, supply-chain management, e-commerce
-        solutions, and B2B public exchanges and B2B process integration solutions.
-        Our company provides application analysi\u2026","id":"2676094656","salary_is_predicted":"0"},{"created":"2022-04-06T13:38:12Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Energy
-        Solutions"},"salary_max":288000,"title":"Software Engineer III","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzMTIyMTg1MSIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.5dvap85owj1JU8P4DXRnqXqL6nbwdlU3OxpwtJD-Z4o","redirect_url":"https://www.adzuna.com/land/ad/3031221851?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=18E0BDEF1901CB51566BA6D63F258EA9898BD8A2","salary_min":240000,"latitude":38.918677,"location":{"display_name":"California,
-        Campbell County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"longitude":-84.263547,"category":{"label":"Engineering
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"engineering-jobs"},"description":"Career
-        Opportunities with Energy Solutions A great place to work. Careers At Energy
-        Solutions Are you ready for new challenges and new opportunities? Join our
-        team Current job opportunities are posted here as they become available. Founded
-        in 1995, Energy Solutions is an employee owned energy efficiency and demand
-        management engineering, program design and implementation consulting firm.
-        Our mission is to create large-scale environmental impacts for our clients
-        by implementing market-based solu\u2026","__CLASS__":"Adzuna::API::Response::Job","salary_is_predicted":"0","id":"3031221851"},{"id":"2838561658","salary_is_predicted":"0","description":"94513.
-        Brentwood. , CACommercial Mulberry Farm Chief Executive Officer at Habitera
-        Farms - 13138. Commercial Mulberry Farm Chief Executive Officer at Habitera
-        Farms - 13138. Job Title:. Commercial Mulberry Farm Chief Executive Officer.
-        US. Job Type:. Job. Employment Type:. Full-Time. Job Description:. Habitera
-        Farms is an 84-acre organic farm that grows premium fruits in the farming
-        community of Brentwood in Northern California. We are looking for a leader
-        with 8-10 years of farming experience \u2026","latitude":38.918677,"location":{"display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"contract_time":"full_time","title":"Commercial
-        Mulberry Farm Chief Executive Officer","company":{"display_name":"International
-        Rescue Committee ","__CLASS__":"Adzuna::API::Response::Company"},"__CLASS__":"Adzuna::API::Response::Job","category":{"tag":"logistics-warehouse-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Logistics
-        & Warehouse Jobs"},"longitude":-84.263547,"salary_min":250,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyODM4NTYxNjU4In0.bc4mFeI7cqaHibb2jemYDIWwEt5gLBN5j0XeVwW1BVI","redirect_url":"https://www.adzuna.com/land/ad/2838561658?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=7CBAA7E0B3E237E06B2CA8084A8418DB65E1C6E5","salary_max":250,"created":"2022-01-23T19:43:20Z"},{"contract_time":"full_time","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Diamond
-        Healthcare Corporation"},"title":"Nurse Manager (Psychiatric) - Full-Time","salary_is_predicted":"0","id":"2993935188","description":"We
-        are looking for an experienced Nurse Manager who is a problem-solver and drives
-        outcomes for a brand new adult program with 37-beds in Norwalk, CA. This program
-        is scheduled to open summer 2022 but is already looking at plans for expansion.
-        Position requires an experienced Nurse Manager who will mentor staff, advance
-        the clinical direction of the program, become an integral part of the hospital\u2019s
-        management team and serve as an advocate for patients and families. We are
-        looking for someone w\u2026","location":{"area":["US","Kentucky","Campbell
-        County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"latitude":38.918677,"redirect_url":"https://www.adzuna.com/land/ad/2993935188?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=224D8A4951726C8990B7B532AB93B8779FB2ACCD","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzkzNTE4OCIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.kEpOWYxh4T-L2v7cRtJf6qpnI5hNncLCa88OjNpzEJg","created":"2022-03-23T13:21:22Z","salary_max":288000,"__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"healthcare-nursing-jobs","label":"Healthcare
-        & Nursing Jobs"},"salary_min":240000},{"salary_is_predicted":"0","id":"2989223582","description":"We
-        specialize in Staffing, Consulting, Software Development, and Training along
-        with IT services to small to medium size companies. AG''s primary objective
-        is to help companies maximize their IT resources and meet the ever-changing
-        IT needs and challenges. In addition, AG offers enterprise resource planning
-        and enterprise application integration, supply-chain management, e-commerce
-        solutions, and B2B public exchanges and B2B process integration solutions.
-        Our company provides application analysi\u2026","__CLASS__":"Adzuna::API::Response::Job","location":{"area":["US","Kentucky","Campbell
-        County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"latitude":38.918677,"longitude":-84.263547,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"salary_min":240000,"redirect_url":"https://www.adzuna.com/land/ad/2989223582?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=61B69C9EAD6D90C4CC9AC2BBF9C77D7513714969","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyOTg5MjIzNTgyIn0.s5NubzuqiV78f6oenG4QCJgIww73ttobAGdzGA_rkXA","created":"2022-03-21T21:17:52Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Atria
-        Group LLC"},"salary_max":288000,"title":"Site Catalyst Business Data Analyst"},{"__CLASS__":"Adzuna::API::Response::Job","description":"EROS
-        Technologies was founded with a simple motive of offering the clients exactly
-        what they want, how they want and when they want it. By leveraging for its
-        clients its technological edge and right-sourcing advantage, EROS in a short
-        period of time has grown to become one of the most trusted strategic technology
-        partners. Treating every client as the top priority, we customize our solutions
-        and services to align with the unique needs of each client. Job Description
-        Job Title: System Admin Loca\u2026","id":"2993920438","salary_is_predicted":"0","salary_min":240000,"category":{"label":"IT
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"latitude":38.918677,"location":{"display_name":"California,
-        Campbell County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"longitude":-84.263547,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzkyMDQzOCIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0._8W8b3_2M4rdAHELk5y4-iQX8jxOs-EhNqARGTRrKb4","redirect_url":"https://www.adzuna.com/land/ad/2993920438?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=1415ECC3B99FFD3F40CBC5562B58A68B78055017","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"EROS
-        Technologies Inc."},"title":"System Admin","salary_max":288000,"created":"2022-03-23T13:16:31Z"},{"redirect_url":"https://www.adzuna.com/land/ad/3031229861?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=B907DEA448E7891742F41611BC4C32C9470D92FD","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIzMDMxMjI5ODYxIn0.dBr2mAteXuT7kdiuXzVlUaEpaLLoUB6YghE9PrNHyHs","title":"Production
-        Manager Vancouver, Bc","company":{"display_name":"Lucasfilm Entertainment","__CLASS__":"Adzuna::API::Response::Company"},"salary_max":288000,"created":"2022-04-06T13:44:41Z","__CLASS__":"Adzuna::API::Response::Job","description":"Production
-        Manager (Feature Animation & VFX) Vancouver, BC Job Summary: Description Position
-        at Industrial Light & Magic Production Managers \u201cPM\u2019s\u201d work
-        in tandem with a VFX Producer on a project and are the owners of the show
-        schedule. The PM functions as the Producer\u2019s \u201cright hand\u201d,
-        stepping up to support Producer duties as required and keeping a direct line
-        of communication with the production team and VFX Producer (and/or Executive
-        in Charge of Production) on all aspects of the show. The PM\u2026","id":"3031229861","salary_is_predicted":"0","salary_min":240000,"category":{"label":"Creative
-        & Design Jobs","tag":"creative-design-jobs","__CLASS__":"Adzuna::API::Response::Category"},"location":{"display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"latitude":38.918677,"longitude":-84.263547},{"company":{"display_name":"Kore1","__CLASS__":"Adzuna::API::Response::Company"},"title":"Lead
-        .NET Software Engineer","salary_max":288000,"created":"2022-03-23T13:21:45Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyOTkzOTM5Njc1In0.P9h3FkxmVrJDMpksZjmm5Gqoq8dp-LwXM3NUCJkfw1Y","redirect_url":"https://www.adzuna.com/land/ad/2993939675?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=A3EED923F3A9ED5F8C121006DEED52AE23515E40","salary_min":240000,"category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs"},"location":{"area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"latitude":38.918677,"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","description":"ABOUT
-        KORE1 Specializing in creative and technical recruiting, KORE1 is committed
-        to supporting top IT and Creative professionals in their career paths. We
-        build deep relationships with leading companies, connecting them to exceptional
-        talent every day. With extensive industry expertise and unmatched opportunities,
-        our goal is to provide a unique experience for our contractors and consultants
-        as they prepare for their next role. We are passionate about matching the
-        right people with the right c\u2026","id":"2993939675","salary_is_predicted":"0"},{"redirect_url":"https://www.adzuna.com/land/ad/2993936322?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=4D03A22544264DF19CD4E6FF56DAC85BFB4F8DD1","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzkzNjMyMiIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.IHIYfpq8bqWmSpDC3GGwDAiV7YQoBN5VO2Ywjb4tvPw","created":"2022-03-23T13:21:28Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"SA
-        TECHNOLOGIES"},"salary_max":288000,"title":"Quality Engineer","salary_is_predicted":"0","id":"2993936322","description":"SA
-        Technologies Inc. (www.satincorp.com) is a market leader and one of the fastest
-        growing IT consulting firms with operations in US, Canada, Mexico & India.
-        SAT is an Oracle Gold Partner, SAP Services Partner & IBM Certified enterprise.
-        Job Description Responsible for the QA aspect throughout the software development
-        life cycle. Responsible for following test methodology, test plans and test
-        tools, writing product test documentation (test procedures, test cases, and
-        test results), analyzing te\u2026","__CLASS__":"Adzuna::API::Response::Job","location":{"display_name":"California,
-        Campbell County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"latitude":38.918677,"longitude":-84.263547,"category":{"label":"IT
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"salary_min":240000},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk4OTI5MTY0MyIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.s-EjJu_huTgmd4NUiv21q8M-gbiV7P61yXMySNdGIeI","redirect_url":"https://www.adzuna.com/land/ad/2989291643?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=DF3F4C034BCFC80A6C6459B1B86E80E916ED8BC5","created":"2022-03-21T21:21:31Z","salary_max":250,"__CLASS__":"Adzuna::API::Response::Job","salary_min":200,"longitude":-84.263547,"category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs"},"company":{"display_name":"LinkedIn","__CLASS__":"Adzuna::API::Response::Company"},"title":"Software
-        Engineer - Business Manager","contract_time":"full_time","description":"Visa
-        Financial Analyst in Foster City, CA Deloitte Strategy & Analytics - Business
-        Analyst in Los Angeles, CA Intel JR0202744 - Technical Program Manager in
-        San Jose, CA Deloitte Manager, Chief of Staff, Client Relationship Executive
-        Program in Costa Mesa, CA Company: LinkedIn Location: Sunnyvale (Hybrid),
-        CA Employment Type: Full Time Date Posted: 03/09/2022 Expire Date: 05/09/2022
-        Job Categories: Administrative and Support Services, Computers, Hardware,
-        Computers, Software, Engineering, Finan\u2026","salary_is_predicted":"0","id":"2989291643","location":{"display_name":"California,
-        Campbell County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"latitude":38.918677},{"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County"},"longitude":-84.263547,"latitude":38.918677,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"salary_min":288000,"salary_is_predicted":"0","id":"2722725673","description":"JAVA
-        Developer with Networking (2 positions) at San Jose, CA San Jose, CA Contract
-        Company Description USM Business Systems Inc. is a quickly developing worldwide
-        System Integrator, Software and Product Development, IT Outsourcing and Technology
-        assistance supplier headquartered in Chantilly, VA. We offer world-class ability
-        in giving most astounding quality and administrations through industry best
-        practices planned to convey remarkable worth to our customers. Utilizing our
-        industry knowledge,\u2026","__CLASS__":"Adzuna::API::Response::Job","created":"2021-12-09T01:35:26Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USM"},"salary_max":384000,"title":"JAVA
-        Developer with Networking (2 positions) at San Jose, CA","redirect_url":"https://www.adzuna.com/land/ad/2722725673?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=08EE9343B24FA6DCD5C169962CADD352028E0729","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyNzIyNzI1NjczIn0.4RSn3gW0-2D_YN1kb4tYuD1hK3TJRxkby6YxkbWQMoY"},{"salary_min":240000,"category":{"label":"IT
-        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County"},"longitude":-84.263547,"latitude":38.918677,"__CLASS__":"Adzuna::API::Response::Job","description":"With
-        the acceleration in remote work, we\u2019re seeing a new surge of content
-        creators within businesses who are using video as an effective medium to communicate
-        with internal and external shareholders. Examples of use cases we\u2019re
-        seeing from our customers include code-review walkthrough videos, bug reporting
-        videos, sales pitches to clients etc. As more businesses embrace remote work,
-        we believe this unlocks a huge opportunity for Descript and the content creation
-        space in general. As a member of\u2026","id":"3031223457","salary_is_predicted":"0","title":"Software
-        Engineer - Windows","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Descript"},"salary_max":288000,"created":"2022-04-06T13:39:56Z","redirect_url":"https://www.adzuna.com/land/ad/3031223457?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=4E9610DBAC439131FF7A61BAA263DAE6B0B663D2","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzMTIyMzQ1NyIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.z5_dLfMTePSLaL9svCBQUsNi1HYrE_XGKUhEJytIfLg"},{"salary_min":288000,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"location":{"area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"longitude":-84.263547,"latitude":38.918677,"__CLASS__":"Adzuna::API::Response::Job","description":"Reach
-        me at chaitu AT yochanait DOT com for more information Job Description MUST
-        HAVE Exp: 10yrs Job Title : Technical Lead Project Duration: 1 Year Mandatory
-        Skills: Sales force Certified, Service Cloud Experience Job Description: Service
-        cloud experience is mandatory - Work in close relation with Technical architect
-        - Schedule the developer work and report to technical architect - Develop
-        the complex delivery objects - Lead the SFDC development team in the project
-        aligning with Technical Arc\u2026","id":"2722726720","salary_is_predicted":"0","salary_max":384000,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Yochana
-        IT Solutions Inc"},"title":"Salesforce Lead","created":"2021-12-09T01:35:39Z","redirect_url":"https://www.adzuna.com/land/ad/2722726720?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=C37FA4DCEDC3399764C5A5B814A12C5FFCCCD98B","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcyNjcyMCIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.pdNjQ04WkyYFOfCDfmWU5h_8PglsElhkXuGlCzquRm4"},{"longitude":-84.263547,"location":{"display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"latitude":38.918677,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"salary_min":288000,"salary_is_predicted":"0","id":"2959903199","description":"Hewlett
-        Packard Enterprise is an innovative, dynamic company with a rich past and
-        a promising future. Originally Hewlett-Packard Company, HPE has continuously
-        reinvented itself. Today, HPE is one of the world''s leading technology companies
-        and provides wired and wireless networking, servers, storage, IT and Cloud
-        services for the next generation of IT infrastructure. Aruba is redefining
-        the \"Intelligent Edge\" Aruba is creating new customer experiences by building
-        intelligent spaces and digital \u2026","__CLASS__":"Adzuna::API::Response::Job","created":"2022-03-09T20:15:00Z","salary_max":384000,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Hewlett
-        Packard Enterprise Development LP"},"title":"Sr. Technical Marketing Engineer","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk1OTkwMzE5OSIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.oVaIxkQiBNxOmzsEKWc24RMTQ5K0m3_LORbokBI0f8g","redirect_url":"https://www.adzuna.com/land/ad/2959903199?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=DDDFD689CD0BAD9E3F3211F89BDE89753076E532"},{"redirect_url":"https://www.adzuna.com/land/ad/2993920997?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=6066E9569F17B7DB0811C4E922942D9897F6E0D7","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyOTkzOTIwOTk3In0.PIrEbIg2Z06tlWf4NKEmY58wlocHQX6VHdNknQSLiwY","created":"2022-03-23T13:16:38Z","company":{"display_name":"Match
-        Relevant","__CLASS__":"Adzuna::API::Response::Company"},"salary_max":288000,"title":"QA
-        Engineer","description":"Are you looking to for a remote contract QA Engineer
-        role? We are a growing startup that is bringing a SaaS application to market
-        and looking for have our application tested. To improve your odds of getting
-        interviewed, schedule a time here https://calendly.com/jakevilla-1/intro-call
-        US Citizens or Greencard candidates only (thank you) The Work: Understanding
-        the product and creating a Test Plan with test cases for the entire product
-        Running a round of manual testing for the entire Test Plan Su\u2026","__CLASS__":"Adzuna::API::Response::Job","salary_is_predicted":"0","id":"2993920997","salary_min":240000,"latitude":38.918677,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County"},"longitude":-84.263547,"category":{"label":"IT
-        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"}},{"__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"salary_min":240000,"redirect_url":"https://www.adzuna.com/land/ad/2993924032?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=61ABA52B80F5332335C39E2D7EB736D7F4284169","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzkyNDAzMiIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.7i137FkvG716WCqXiDGUJDOkquPijTtmXmgXTHPqei4","created":"2022-03-23T13:17:21Z","salary_max":288000,"salary_is_predicted":"0","id":"2993924032","description":"EROS
-        Technologies was founded with a simple motive of offering the clients exactly
-        what they want, how they want and when they want it. By leveraging for its
-        clients its technological edge and right-sourcing advantage, EROS in a short
-        period of time has grown to become one of the most trusted strategic technology
-        partners. Treating every client as the top priority, we customize our solutions
-        and services to align with the unique needs of each client. Job Description
-        Hi, Hope you are doing great\u2026","location":{"display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"latitude":38.918677,"contract_time":"full_time","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"EROS
-        Technologies Inc."},"title":"Core Java Technical Lead"},{"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"NovAtel
-        Inc."},"title":"Hardware Engineer","salary_max":288000,"created":"2022-03-23T13:17:05Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyOTkzOTIyOTM1In0.6c26W1MSM3GwjOLSbywdNa_UrK4dp-ADIFfKra3Kie4","redirect_url":"https://www.adzuna.com/land/ad/2993922935?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=412A41F020E3D6ACA9029FE0041A22DF38AC9A34","salary_min":240000,"category":{"label":"Engineering
-        Jobs","tag":"engineering-jobs","__CLASS__":"Adzuna::API::Response::Category"},"longitude":-84.263547,"location":{"display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"latitude":38.918677,"__CLASS__":"Adzuna::API::Response::Job","description":"Hexagon''s
-        Autonomy & Positioning division, is looking for a Hardware Engineer to join
-        our high-tech engineering and manufacturing company that is committed to customer
-        service excellence and continuous improvement. Reporting to the Manager, Digital
-        Hardware , you will be working within the NovAtel Hardware Development team
-        designing, verifying and creating complete customer products. As a key member
-        of this proven team you will adhere and contribute to NovAtel design best
-        practices and design p\u2026","id":"2993922935","salary_is_predicted":"0"},{"category":{"label":"IT
-        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County"},"latitude":38.918677,"longitude":-84.263547,"salary_min":240000,"id":"2993937763","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","description":"Jobsbridge,
+        Tab to Move to Skip to Content Link Insight Canada is building the best professional
+        services practice in the country, and we need our rockstar consultant of the
+        future. Could it be you? In all seriousness, we\u2019re currently seeking
+        a passionate Azure Solutions Architect to join our Public Cloud team. Our
+        team focuses primarily on Apps & Infrastructure, and we take on projects that
+        range from large-scale workload migrations, to helping companies design, build
+        and operationalize their enterp\u2026","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA3NTgzODEzMiIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.ACHxLaCnTjO-2z47FNxybmd8_I0SboSxGYqKef4hnzs","salary_min":240000,"created":"2022-04-24T05:53:37Z","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","id":"3075838132","salary_is_predicted":"0","salary_max":288000},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjczMTEwNSIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.LGapDVfwkdKtKEA685kAsse9Tf3LvlPt4Y193FFffmU","salary_min":288000,"created":"2021-12-09T01:36:08Z","salary_max":384000,"salary_is_predicted":"0","id":"2722731105","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"redirect_url":"https://www.adzuna.com/land/ad/2722731105?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=12B0C38F760196235DFA4EA8F073CE2A33473B93","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"title":"Program Manager","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"PSG
+        Global Solutions"},"latitude":38.918677,"description":"Hireforce is a recruitment
+        firm specializing in recruiting Salesforce talent. Our recruiters hold Salesforce
+        certifications giving us a deeper understanding of the technology. We help
+        Salesforce professionals find their dream job or next consulting project while
+        helping companies hire the most qualified Salesforce professionals. Job Description
+        This is for us bank in san francisco and the candidate will be working directly
+        on-site with US Bank. Ideal candidate will have worked for a bank / fina\u2026","location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"}},{"redirect_url":"https://www.adzuna.com/land/ad/3076914120?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=922A73E145B71CE000E7667C997BC0BEE471B956","category":{"tag":"sales-jobs","label":"Sales
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"title":"Regional Director
+        of Operations","contract_time":"full_time","description":"Use Facebook or
+        Google to sign in or register with SimplyHired. The Regional Director, Retail
+        Stores oversees all aspects of operations for a geographic group of stores
+        in their region. The Regional Director is responsible and accountable for
+        driving business results through the effective coaching of the store management
+        teams within their assigned regional area. Areas of focus include sales and
+        profit growth, expense control, promotional and merchandising execution, store
+        management developmen\u2026","location":{"display_name":"California, Campbell
+        County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDc2OTE0MTIwIn0.uA_BSY2_XAOtWfsJ8JTGLtcpJRWXkYWADIrJ8fn09RM","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"company":{"display_name":"Confidential","__CLASS__":"Adzuna::API::Response::Company"},"latitude":38.918677,"created":"2022-04-24T21:52:52Z","salary_min":288000,"salary_max":384000,"id":"3076914120"},{"latitude":38.918677,"title":"Senior
+        Project Manager opportunities - Commercial Construction and Estate Homes","company":{"display_name":"Acord
+        ","__CLASS__":"Adzuna::API::Response::Company"},"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Trade
+        & Construction Jobs","tag":"trade-construction-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/2997500852?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=B3EA025F12ECDDD3999A04EF87A22A04D828F9ED","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"]},"description":"The
+        SPM will be an integral part of the successful planning and management of
+        commercial construction projects in the $100m to $300m range. The Role Reporting
+        to the project Vice President, the Senior Project Manager is responsible for
+        the management of a single large project, or multiple smaller projects. The
+        SPM manages projects from the inception of the budget phase, through preconstruction,
+        and into construction. Additionally, the SPM is responsible for budget, schedule
+        and quality, managin\u2026","salary_min":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIyOTk3NTAwODUyIn0.OIMgrGOuyRh8ZuRrAWLQHCpIli06J51ozt8iOguRpTc","created":"2022-03-24T21:17:41Z","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","id":"2997500852","salary_is_predicted":"0","salary_max":384000},{"__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"salary_max":288000,"salary_is_predicted":"0","id":"3044715207","salary_min":240000,"created":"2022-04-11T21:38:55Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0NDcxNTIwNyIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.gHaExlAHMCdAFY9-n7drjoJ1PgfFOK-4j_2J6lTgvgs","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"},"description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) NBC Universal Director, Construction
+        Universal City , California Apply Now Business Segment Operations & Technology
+        Posting Category Facilities About Us NBCUniversal owns and operates over 20
+        different businesses across 30 countries including a valuable portfolio of
+        news and entertainment television \u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"NBC
+        Universal"},"title":"Director, Construction","latitude":38.918677,"redirect_url":"https://www.adzuna.com/land/ad/3044715207?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=B6D74FC8227C1EB415208DE4054A53974539992A","category":{"tag":"creative-design-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Creative
+        & Design Jobs"}},{"salary_min":240000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIyOTkzOTM5MDIwIn0.cBkcCgKR66nKnpOfvFAAytIxtugpUMsZyKTgGydCLvk","created":"2022-03-23T13:21:42Z","salary_max":288000,"id":"2993939020","salary_is_predicted":"0","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/2993939020?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=3AC8110EDEF008F90FBDC582293FCEA42C37D235","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"company":{"display_name":"Jobsbridge","__CLASS__":"Adzuna::API::Response::Company"},"title":"Senior
+        Web UI Developer","latitude":38.918677,"description":"Jobsbridge, Inc . is
+        a fast growing Silicon Valley based I.T staffing and professional services
+        company specializing in Web, Cloud & Mobility staffing solutions. Be it core
+        Java, full-stack Java, Web/UI designers, Big Data or Cloud or Mobility developers/architects,
+        we have them all. Job Description \u2022 4 year degree (Computer Science,
+        Information Systems or relational functional field) and/or equivalent combination
+        of education or work experience. \u2022 6 years of UI programming experience
+        with (Adv\u2026","location":{"area":["US","Kentucky","Campbell County","California"],"display_name":"California,
+        Campbell County","__CLASS__":"Adzuna::API::Response::Location"}},{"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"]},"description":"Imagine
+        what you could do here. At Apple, new insights have a way of becoming extraordinary
+        products, services, and customer experiences very quickly. Bring passion and
+        dedication to your job and there''s no telling what you could accomplish.
+        Smart people and inspiring, innovative technologies are the norms here. Do
+        you love working on challenges that no one has solved yet? Are you ready to
+        be part of a team transforming wireless technology? Join us to help deliver
+        the next groundbreaking Apple \u2026","title":"Cellular Platform Software
+        Engineer- CoreBSP Enablement Team","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Apple"},"latitude":38.918677,"redirect_url":"https://www.adzuna.com/land/ad/3031208290?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=2163ABDF86BA3D48E980C826A7C2B9DEC988C51C","category":{"label":"Engineering
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"engineering-jobs"},"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","salary_max":288000,"id":"3031208290","salary_is_predicted":"0","created":"2022-04-06T13:32:45Z","salary_min":240000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDMxMjA4MjkwIn0.CeoP-JuLDX03CcuJF6KLWXCwl1BiQX-eu9m5z8Ip3O0"},{"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"},"description":"Are
+        you passionate about real estate? Fascinated by investment management? Interested
+        in FinTech? If your answer is yes to any of the above, then Unison is the
+        place for you Our mission of optimizing home ownership means as much to you
+        as it does to us. You seek a challenge that requires creative thinking, and
+        rewards inspired thought and effort in building something great. You enjoy
+        building and leading teams, turning strategy into execution, and pitching
+        in to help others when you see an oppo\u2026","latitude":38.918677,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Unison"},"title":"Vice
+        President of Technology","category":{"label":"IT Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3032406611?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=6A6874DEBC14FAC7A689BD891DA961483C88E43C","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","id":"3032406611","salary_is_predicted":"0","salary_max":384000,"salary_min":288000,"created":"2022-04-06T21:37:31Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDMyNDA2NjExIn0.yhZ2x3qhuIKH9wHgjftwx5Z4_4OSjO7DYgJG4W8HaeA"},{"salary_min":288000,"created":"2022-04-23T13:52:18Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA3NDQ2MzMxNCIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.x6IDli7RHkyDrVkDsaT9qft0xKsN5416gdyNas4hUSI","id":"3074463314","salary_is_predicted":"0","salary_max":384000,"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","category":{"label":"Sales
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"sales-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3074463314?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=D0C5D938988A4D596FF46A162DA6F462307D2F6A","latitude":38.918677,"title":"VP
+        of Business Development and Enterprise GTM (Remote)","company":{"display_name":"Skan","__CLASS__":"Adzuna::API::Response::Company"},"description":"Don\u2019t
+        have a Jora account? Register with, What Type 1 or more characters for results.
+        Where Type 1 or more characters for results. VP of Business Development and
+        Enterprise GTM (Remote) As a leader in process intelligence technology, Skan
+        leverages computer vision and machine learning to help organizations be greater
+        at business by triangulating insights from people, processes, and technologies
+        to accelerate business transformation. Location For this position, we are
+        looking for remote candidat\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"}},{"description":"Summary
+        Posted: Mar 11, 2022 Role Number: 200241126 Do you love crafting sophisticated
+        solutions to highly complex challenges? Do you intrinsically see the importance
+        in every detail? As part of our Silicon Technologies group, you\u2019ll help
+        design and manufacture our next-generation, high-performance, power-efficient
+        silicon. You\u2019ll ensure Apple products and services can seamlessly and
+        efficiently handle the tasks that make them beloved by millions. Joining this
+        group means you will craft and bui\u2026","location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"redirect_url":"https://www.adzuna.com/land/ad/3013633586?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=641229E7D13675C1058F70D3A1FC66A268D8BFB2","category":{"tag":"engineering-jobs","label":"Engineering
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Apple"},"title":"Custom
+        Silicon Reliability Engineering Lead","latitude":38.918677,"salary_max":288000,"id":"3013633586","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDEzNjMzNTg2In0.5yJXFw0mFhHXV1ANbudZjpavjbVBmp3-6xmGsUMEecE","salary_min":240000,"created":"2022-03-31T21:32:26Z"},{"created":"2022-04-18T21:53:17Z","salary_min":288000,"id":"3062127084","salary_max":384000,"latitude":38.918677,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"World
+        Savvy"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA2MjEyNzA4NCIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.7sQr2grxnJfIf-Dfm5XX1zo5zeL33WK9MVZ5gLC-CUA","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"category":{"tag":"sales-jobs","label":"Sales
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"redirect_url":"https://www.adzuna.com/land/ad/3062127084?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=EADF654A2448BB1C71EEF976E6169D4A2DCFC42A","title":"Engagement
+        Director- Western Region","description":"Use Facebook or Google to sign in
+        or register with SimplyHired. Full-time $100,000 - $120,000 a year 2 days
+        ago Qualifications Project management Slack Google Suite Full Job Description
+        World Savvy World Savvy is a leading national education nonprofit working
+        to transform teaching, learning and culture in K-12 public education so all
+        students can learn, work and thrive in our rapidly changing world as globally
+        competent citizens. World Savvy is unique in the field for our systems change
+        approac\u2026","contract_time":"full_time","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"}},{"title":"Brokerage
+        Branch Manager","category":{"tag":"sales-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Sales
+        Jobs"},"redirect_url":"https://www.adzuna.com/land/ad/2993926468?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=113103E6BF4883510617950628C5ABDADE065163","location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"description":"Customer
+        Sales/Business Development- Outside Non-Asset (Traditional Brokerage) Our
+        client is a leading third-party and asset-based logistics provider that specializes
+        in transportation solutions throughout United States, Canada, and Mexico.
+        With headquarters in Southern California- our client maintains additional
+        offices in Arkansas, Colorado, Florida, Michigan, Nevada, Ohio, Texas and
+        Mexico. Branch Manager Our client is looking for a Branch Manager to add to
+        their growing team. This position \u2026","contract_time":"full_time","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzkyNjQ2OCIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.unktAitl3iehZ1q0S_syXIvS6z9k0WqGAvlveW2bsBQ","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"salary_is_predicted":"0","latitude":38.918677,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"CS
+        Recruiting"},"created":"2022-03-23T13:17:55Z","salary_min":240000,"id":"2993926468","salary_max":288000},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzkyMzQ2OCIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.qr_GKg0PdVcnkYDcNbIAbB9rnRVUDe6JJS_hR0k4nJ4","salary_min":240000,"created":"2022-03-23T13:17:13Z","id":"2993923468","salary_is_predicted":"0","salary_max":288000,"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","category":{"label":"Admin
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/2993923468?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=7444AEE0F5FCAC92626F7F9810775BA59B333731","latitude":38.918677,"title":"Assistant
+        General Manager/Lifestyle Director","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Seabreeze
+        Management Company"},"description":"Coronavirus - At Seabreeze we are taking
+        steps to protect everyone\u2019s safety and ensure smooth operations. To learn
+        more about our plan to continue serving our communities and receive up-to-date
+        information, please visit our COVID-19 page . Dublin, CA Summary At Seabreeze
+        Management Company, our motto is \u201cPeople, Performance, Passion,\u201d
+        and we live that motto every day. By continually improving the service we
+        offer our customers and providing our team with the resources they need, we
+        have the pow\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"}},{"location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"description":".NET/SQL
+        Application Developer/Architect Company Description Summary We are seeking
+        a highly motivated senior developer / architect to join our software development
+        and application support team. The well rounded individual will help design
+        and program web based business and reporting applications. Candidates must
+        be able to translate business requirements into technical architectures, data
+        models and designs. Candidates should have excellent client facing skills
+        and be able to articulate techni\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Prosum"},"title":".NET/SQL
+        Application Developer/Architect","latitude":38.918677,"redirect_url":"https://www.adzuna.com/land/ad/2722724566?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=1985C54284EBF2BD64C6A7E6AF813C3637F5D251","category":{"tag":"it-jobs","label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","salary_max":384000,"salary_is_predicted":"0","id":"2722724566","created":"2021-12-09T01:35:09Z","salary_min":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIyNzIyNzI0NTY2In0.sV51qI9OGG6qb3WUE8kofaxo4PWeN6W-e2UqZr2hYKA"},{"__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"salary_max":288000,"salary_is_predicted":"0","id":"3038472577","salary_min":240000,"created":"2022-04-08T21:40:52Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDM4NDcyNTc3In0.FCxNcD2Jz-R-oirXtS1pc-i0HByCuInspY7BbyLP3Ww","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"Confluent
+        is pioneering a fundamentally new category of data infrastructure focused
+        on data in motion. Have you ever found a new favorite series on Netflix, picked
+        up groceries curbside at Walmart, or paid for something using Square? That\u2019s
+        the power of data in motion in action\u2014giving organizations instant access
+        to the massive amounts of data that is constantly flowing throughout their
+        business. At Confluent, we\u2019re building the foundational platform for
+        this new paradigm of data infrastructure\u2026","title":"Senior Financial
+        Analyst, R&D","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Confluent
+        Inc"},"latitude":38.918677,"redirect_url":"https://www.adzuna.com/land/ad/3038472577?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=4518042102E4E06EE5B540D15F15C0041A73C573","category":{"label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"}},{"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"},"description":"-
+        Insight Global can help you Find a Job This is a critical role with a wide
+        range of responsibilities, including: Work in an Agile Software Delivery methodology
+        highly focused on developing automated tests within an iteration. Work with
+        the project team to drive Test Driven Development where modules that are being
+        worked on are tested right away for immediate feedback Provide a risk assessment
+        on the defects identified and set the correct priority and severity. Automation
+        is NOT the only mecha\u2026","latitude":38.918677,"title":"Software Test Engineer
+        (Backend)","company":{"display_name":"Insight Global","__CLASS__":"Adzuna::API::Response::Company"},"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3035495459?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=0E728E404A68891F67737BC0E6313BD33A9E1922","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","salary_is_predicted":"0","id":"3035495459","salary_max":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDM1NDk1NDU5In0.9boeMJG6fGdepT3fP0t7xWRRgvFM6iQG4I393NoKVdQ","salary_min":240000,"created":"2022-04-07T21:34:09Z"},{"created":"2022-04-05T21:38:50Z","salary_min":240000,"id":"3029412103","salary_max":288000,"latitude":38.918677,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"U.S.VETS"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDI5NDEyMTAzIn0.n3oxpy1swl123UMAaok6RnKvPcRLNq9n-_njDXPbyGY","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"category":{"label":"PR,
+        Advertising & Marketing Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"pr-advertising-marketing-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3029412103?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=F82BC2543C1C0D26CA5398DF5D3811C953EE33E5","title":"Associate
+        Director of Events & Sponsorships","description":"Job Details Job Location
+        : U.S.VETS National - Los Angeles, CA Position Type : Full Time Education
+        Level : 4 Year Degree Salary Range : Undisclosed Job Category : Nonprofit
+        - Social Services Looking for a rewarding position? How would you like to
+        serve those who served? If you are looking for an opportunity to work for
+        a great organization & make a difference, this is the job for you Come & join
+        our winning team Benefits include Paid Vacation, Sick Time, Paid Holidays,
+        Medical, Dental, Vision a\u2026","contract_time":"full_time","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"}},{"redirect_url":"https://www.adzuna.com/land/ad/2989245675?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=747C08F113982BB6043987741214C8FBE4E9D885","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"title":"Business Data Analyst","company":{"display_name":"SV
+        Tech Systems Inc","__CLASS__":"Adzuna::API::Response::Company"},"latitude":38.918677,"description":"SV
+        Tech Systems prides itself in being the leading provider of recruitment and
+        staffing services for a wide range of industries. We provide staffing services
+        to firms throughout the United States and Canada. We attract the best pool
+        of talent with the aim of nurturing sound work ethics and solid values amongst
+        a highly motivated and diverse workforce. Job Description Required Skills:
+        \u2022 Requirements for BI and Data solutions \u2022 Wire framing on any known
+        tools in the market (Balsamiq, iRise etc) \u2022\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"]},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk4OTI0NTY3NSIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.b3zLgEI2v_7iyrOMh1mb_piewM6RgMTQjkSGGns2zZw","salary_min":240000,"created":"2022-03-21T21:18:52Z","salary_max":288000,"salary_is_predicted":"0","id":"2989245675","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job"},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDM4NDcxMjg3In0.Kwxxc8HRhfaXfh98RPBJf_jsb9AwBDOcgAntVw9XWzY","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","salary_is_predicted":"0","title":"Director","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Scientific
+        & QA Jobs","tag":"scientific-qa-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3038471287?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=559C3C21C674A917719BE49AD86DB4D0DEC23727","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"},"description":"Use
+        Facebook or Google to sign in or register with SimplyHired. Full-time Estimated:
+        $110,000 - $150,000 a year Qualifications Operations management Project management
+        Contracts Bachelor of Science Master of Science Full Job Description At Panorama
+        Environmental, we motivate and inspire our employees to take on the challenges
+        of society including planning for renewable energy, sustainable lithium extraction,
+        water resource resiliency, and fire and fuels management. Our culture is built
+        on the p\u2026","contract_time":"full_time","created":"2022-04-08T21:40:47Z","salary_min":288000,"id":"3038471287","salary_max":384000,"latitude":38.918677,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Panorama
+        Environmental"}},{"latitude":38.918677,"company":{"display_name":"Therapy
+        Travelers","__CLASS__":"Adzuna::API::Response::Company"},"id":"3031221760","salary_max":288000,"salary_min":240000,"created":"2022-04-06T13:38:07Z","description":"Join
+        our family Our therapists are part of our family, and we take care of our
+        family. We''re looking for an exceptional School Speech Language Pathologist
+        for a full-time position in Los Ranchitos, CA who can start on April 18th
+        and work through June 4th. This role will assist roughly 65 middle school
+        students in the resource specialist program and the special day class. This
+        SLP will mainly be conducting the therapy session on-site work for 35 hours
+        per week. Job Requirements for School Speech\u2026","contract_time":"full_time","location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"category":{"tag":"healthcare-nursing-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Healthcare
+        & Nursing Jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3031221760?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=6EF0BB9128081BE1727044973F8B4CE122A6EB73","title":"School
+        Speech Language Pathologist (SLP)","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzMTIyMTc2MCIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.SkgQ69o2Q43K7XAB4-d7-lH3tg140bd57C_sm-35O94"},{"created":"2022-01-27T03:39:31Z","salary_min":288000,"id":"2846739414","salary_max":384000,"latitude":38.918677,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"1
+        Legacy, Inc"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjg0NjczOTQxNCIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.p_FkF308AGEwl9sLVeoX6kpSjc5j2s1uB7Uq6aOHEfM","salary_is_predicted":"0","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Healthcare
+        & Nursing Jobs","tag":"healthcare-nursing-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/2846739414?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=4BA2485EC18904978E5D46FC2DD9D60E18D7A3CD","title":"DIRECTOR
+        OF REHAB (DOR)","description":"A great Skilled Nursing Facility (SNF) is looking
+        for an experienced, hard-working Director of Rehabilitation / Director of
+        Rehab / DOR to join their growing team in CAPERTINO CA The Director of Rehabilitation
+        / Director of Rehab / DOR serves as a resource to the multi-disciplinary therapy
+        staff and collaborates with patients and families to implement rehabilitation
+        plans. Job Description Full-time in a skilled nursing facility Provide skilled
+        therapy services / interventions in accordance with\u2026","contract_time":"full_time","location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"}},{"contract_time":"full_time","description":"Daikin
+        Industries is seeking a professional, skilled individual for our Daikin Territory
+        Sales Manager position. The Daikin Territory Sales Manager plans, organizes,
+        maintains, develops and grows a volume driven and profitable base of Daikin
+        Unitary core dealers. Insures each member of the dealer base is completely
+        aware of the features and benefits of Daikin products and services and that
+        each DCP Plus Dealer completely understands the contents and purpose of the
+        DCP Dealer Manual and program,\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"},"redirect_url":"https://www.adzuna.com/land/ad/2733766848?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=05B5A3E56867D0311A4FEC44F24EBC112C43AC42","category":{"label":"Sales
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"sales-jobs"},"title":"Territory
+        Sales Manager","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIyNzMzNzY2ODQ4In0.Evhde82a2e6Y3ZrrtbqDfu935dAIbp8EA1BXq482wWI","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Daikin
+        Industries, Ltd."},"latitude":38.918677,"salary_max":384000,"id":"2733766848","created":"2021-12-13T01:39:20Z","salary_min":288000},{"salary_max":288000,"id":"2993949768","salary_min":240000,"created":"2022-03-23T13:22:27Z","company":{"display_name":"Southern
+        Medical Recruiters","__CLASS__":"Adzuna::API::Response::Company"},"latitude":38.918677,"__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"salary_is_predicted":"0","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIyOTkzOTQ5NzY4In0.I8YyGTCAaRMcgFSzCFLCybWvv86ghVnHqjhcH1eNvUU","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"]},"contract_time":"full_time","description":"Lompoc,
+        CA Full-time Company Description Clients are general acute care hospitals
+        nationwide. Southern Medical Recruiters is a healthcare/hospital recruitment
+        organization with hospitals clients nationwide. seeking the best in healthcare
+        talent. Candidates must have strong hospital experience as CEO, CNO, COO,
+        CFO, Director of Business Office, Director of Quality, Performance Improvement,
+        Director of Case, Director of Anciallary, Allied, Critical Care, Pediatrics,
+        NICU, CCU, ICU, Cardiac CAth, \u2026","title":"Lab Director , Hospital Lab
+        Management role, CLS, BS, Ca.","redirect_url":"https://www.adzuna.com/land/ad/2993949768?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=CF25461D97D815E2DA69C07E339B156202E48990","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Healthcare
+        & Nursing Jobs","tag":"healthcare-nursing-jobs"}},{"id":"2722706502","salary_is_predicted":"0","salary_max":384000,"__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"created":"2021-12-09T01:31:28Z","salary_min":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcwNjUwMiIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.cBIeOkimptbexRhZG5vASsfKyTXTCwNTxBk9_NlOnOs","description":"Jobsbridge,
         Inc . is a fast growing Silicon Valley based I.T staffing and professional
         services company specializing in Web, Cloud & Mobility staffing solutions.
         Be it core Java, full-stack Java, Web/UI designers, Big Data or Cloud or Mobility
-        developers/architects, we have them all. Job Description  Experience developing
-        and maintaining a variety of J2EE frameworks  5 years of experience working
-        in web application development  5 years working with Java/J2EE, JSP, JavaServer
-        Faces (JSF) and obj\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Jobsbridge"},"title":"Full-Stack
-        Web Application Developer","salary_max":288000,"created":"2022-03-23T13:21:35Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyOTkzOTM3NzYzIn0.PukT06oNPasHGA_36msZX2qzPKlIRnBFUjMzIDnlz-8","redirect_url":"https://www.adzuna.com/land/ad/2993937763?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=810B292BCF8571A2945199A9FB7F6A9B6E5EE190"},{"company":{"display_name":"International
-        Rescue Committee ","__CLASS__":"Adzuna::API::Response::Company"},"title":"Farm
-        Manager & Educator","contract_time":"full_time","description":"Farm Manager
-        & Educator at Midland School - 12135 You are here Job Title: Farm Manager
-        & Educator Midland School 5100 Figueroa Mountain Road US Job Type: Job Employment
-        Type: Full-Time Job Description: Midland School, a distinctive coeducational
-        boarding school for grades 9-12, has an opening for a full-time Farm Manager
-        and Educator. Ideally the candidate would have at least three years of organic
-        farming experience and have past teaching experience with adolescents and
-        be able to strike the a\u2026","salary_is_predicted":"0","id":"2722707106","location":{"area":["US","Kentucky","Campbell
-        County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"latitude":38.918677,"redirect_url":"https://www.adzuna.com/land/ad/2722707106?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=8763DE6BC68738D421A77F11803B5F73571DDF79","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyNzIyNzA3MTA2In0.iSitMspCyjISgvrSWc1llGV4LvEueF4VTDnkWv8dWRc","created":"2021-12-09T01:31:32Z","salary_max":384000,"__CLASS__":"Adzuna::API::Response::Job","salary_min":288000,"longitude":-84.263547,"category":{"tag":"teaching-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Teaching
-        Jobs"}},{"category":{"label":"IT Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"longitude":-84.263547,"location":{"area":["US","Kentucky","Campbell
-        County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"latitude":38.918677,"salary_min":288000,"id":"2722695879","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","description":"\u2022
-        Quality Champion: Owns and drives the overall end-to-end quality for a product
-        \u2022 Influences engineering designs and solutions to ensure quality and
-        testability of products and services \u2022 Defines overall test strategy
-        and plan with emphasis on automating as much as possible \u2022 Creates automated
-        tests for UI and API with reusability in mind \u2022 Reads code to troubleshoot
-        and isolate defects \u2022 Work closely with Development Engineers to build
-        in quality, including actively driving increased code and\u2026","salary_max":384000,"company":{"display_name":"Jobsbridge","__CLASS__":"Adzuna::API::Response::Company"},"title":"Senior
-        Software Engineer In Quality","created":"2021-12-09T01:30:27Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIyNzIyNjk1ODc5In0.TwUqcnPJD2T_fMBh8YiqD-l9OmYvUWTaCDbycAN8FP8","redirect_url":"https://www.adzuna.com/land/ad/2722695879?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=450FB93E99040FCA56B9BCC935417F4501CF7FC7"},{"id":"3029396817","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","description":"The
-        people here at Apple don\u2019t just create products \u2014 they create the
-        kind of wonder that\u2019s revolutionized entire industries. It\u2019s the
-        diversity of those people and their ideas that inspires the innovation that
-        runs through everything we do, from amazing technology to industry-leading
-        environmental efforts. Join Apple, and help us leave the world better than
-        we found it The Engineering Efficiency team is seeking an experienced and
-        creative Senior Biz Ops Manager to deliver scalable and user-fri\u2026","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"latitude":38.918677,"location":{"display_name":"California, Campbell
-        County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"longitude":-84.263547,"salary_min":240000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAyOTM5NjgxNyIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0._7Vqqfq71b-6_kXQGuoQ2vjW99tGpHrQyPkYho9JFl8","redirect_url":"https://www.adzuna.com/land/ad/3029396817?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=17BDD9536313FA48AB075E79EAFA19CCACBE0FF7","title":"Senior
-        Biz Ops Manager","company":{"display_name":"Apple","__CLASS__":"Adzuna::API::Response::Company"},"salary_max":288000,"created":"2022-04-05T21:36:47Z"},{"salary_min":288000,"longitude":-84.263547,"location":{"area":["US","Kentucky","Campbell
-        County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"latitude":38.918677,"category":{"label":"IT Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"description":"Technical
-        Lead, Data Security and Compliance Mountain View R&D Experienced Job ID: SXU2
-        Responsibilities TikTok is the leading destination for short-form mobile video.
-        Our mission is to inspire creativity and bring joy. TikTok has global offices
-        including Los Angeles, New York, London, Paris, Berlin, Dubai, Mumbai, Singapore,
-        Jakarta, Seoul and Tokyo. Our data security and compliance team is missioned
-        to ensure the safety of company-level big data products and compliance with
-        local principals a\u2026","__CLASS__":"Adzuna::API::Response::Job","salary_is_predicted":"0","id":"3038470252","created":"2022-04-08T21:40:43Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"TikTok"},"salary_max":384000,"title":"Technical
-        Lead, Data Security and Compliance","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoicWdTcDhvekI3QkdXeXQxU1doMXJuZyIsImkiOiIzMDM4NDcwMjUyIn0.vwiQvbt7hu-FRjseO_5wjnLpK9aIaUJPediLX-dBJUE","redirect_url":"https://www.adzuna.com/land/ad/3038470252?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=A6904F53FF465133435998815E1807EB832B39A7"},{"title":"Director
-        of Operations (Bay Area Remote/ Office Hybrid)","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Marin
-        Agricultural Land Trust"},"contract_time":"full_time","latitude":38.918677,"location":{"display_name":"California,
+        developers/architects, we have them all. Job Description","location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/2722706502?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=056E9D8CF8D71EEA09F0BCE431C50662DAE9CA49","latitude":38.918677,"title":"Sr
+        Cloud Engineer","company":{"display_name":"Jobsbridge","__CLASS__":"Adzuna::API::Response::Company"}},{"category":{"label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/2993919814?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=B0711AAAB2A23874C2C3425A0FDD68187A0EFCAE","latitude":38.918677,"title":"Senior
+        Cloud Architect","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Glo,
+        Inc."},"description":"Glo is a digital platform for total well-being. We help
+        our community feel their best in body and mind through on-demand and livestream
+        yoga, meditation, Pilates, and fitness classes with world-class teachers.
+        The Senior Cloud Architect will play an essential role in Glo\u2019s mission
+        and vision to connect people through self-care so that, together, we can heal
+        ourselves and our planet. Position Overview As an expert in your field, the
+        Senior Cloud Architect at Glo guides the technological developm\u2026","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-03-23T13:16:22Z","salary_min":240000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIyOTkzOTE5ODE0In0.MFEmYWj3aX3rWLKR_s2QmjZhvMVnt6Rpey2MreFtOwo","id":"2993919814","salary_is_predicted":"0","salary_max":288000,"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job"},{"redirect_url":"https://www.adzuna.com/land/ad/3080743855?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=474BA0B93DAEEED1BC4F6CBEBA2444CD02AB2C13","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Accounting
+        & Finance Jobs","tag":"accounting-finance-jobs"},"title":"Chief Perfusionist","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"St
+        Bernardine Medical Center"},"latitude":38.918677,"description":"Don\u2019t
+        have a Jora account? Register with, What Type 1 or more characters for results.
+        Where Type 1 or more characters for results. St Bernardine Medical Center
+        \u2013 San Bernardino County, CA Overview Founded as a faith-based hospital
+        in 1931 by the Sisters of Charity of the Incarnate Word, Dignity Health \u2013
+        St. Bernardine Medical Center is a 342-bed, acute care, nonprofit hospital
+        located in San Bernardino, California. The hospital offers a full complement
+        of services, including the Inland Empire H\u2026","location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"salary_min":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDgwNzQzODU1In0.CZ8v4l5Sk74r16Vhvs56l8FkSg6m-zT5d8gjbSguHoU","created":"2022-04-26T13:53:46Z","salary_max":384000,"id":"3080743855","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547},{"salary_min":240000,"created":"2022-03-23T13:22:08Z","salary_max":288000,"id":"2993945232","company":{"display_name":"Samsung
+        SDSA","__CLASS__":"Adzuna::API::Response::Company"},"latitude":38.918677,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5Mzk0NTIzMiIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.ZV4lPKk9Jfsui2nskitpKLmoSRx41zp96vKI8VtjHHY","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","salary_is_predicted":"0","title":"Data
+        analytics developer - Java backend, RESTful API, SQL","redirect_url":"https://www.adzuna.com/land/ad/2993945232?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=15E8790E42CCE53273CFF697E01F808B3A907AD1","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"]},"contract_time":"full_time","description":"San
+        Jose, CA, USA, San Jose, CA Full-time Company Description Our Employees Are
+        Among The Most Talented People In Their Fields And The Key To Our Success
+        At Samsung, we encourage our employees to showcase their talent through our
+        diverse corporate culture. Our strength is our people. Each individual makes
+        an impact to the company and plays a vital role in contributing to the company\u2019s
+        success. Our employees are motivated and passionate. We foster innovative
+        thinking through an enthusiastic work\u2026"},{"created":"2022-04-25T21:52:27Z","salary_min":240000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDc5MTAzMTU4In0.uKy7xPXWiwXQRWKUfoObT4I11NHd20LVrwNZ_7wKSVk","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","id":"3079103158","salary_is_predicted":"0","salary_max":288000,"latitude":38.918677,"company":{"display_name":"County
+        of Santa Clara","__CLASS__":"Adzuna::API::Response::Company"},"title":"Senior
+        Epic Systems Analyst - Valley Health Plan","category":{"label":"IT Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3079103158?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=A3340A65EE0FC5C20C1C393D99E7B8ECC0AEA554","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"},"description":"Description
+        Under minimal supervision, to provide direct Epic application support and
+        Epic software development life cycle for the design, development, implementation,
+        testing, updating, integration, and maintenance of system configuration, system
+        setup, and applications tables; to analyze user, system, and application needs,
+        and evaluate alternative approaches to determine the best solution to meet
+        the needs of the organization. Valley Health Plan is seeking an experienced
+        individual with a ba\u2026"},{"salary_min":288000,"created":"2021-12-09T01:31:34Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcwNzI5MSIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.x7j4-X5_wGemcXXZn8pX86cRdW5IfI1bLOOOR6ImPxA","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"salary_is_predicted":"0","id":"2722707291","salary_max":384000,"latitude":38.918677,"company":{"display_name":"TeedCo.
+        Healthcare Recruiting","__CLASS__":"Adzuna::API::Response::Company"},"title":"Director
+        of Hospitalist Program","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Healthcare
+        & Nursing Jobs","tag":"healthcare-nursing-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/2722707291?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=E20163E97764D98B54B16CB1888BC447B2C741D5","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"]},"description":"-
+        Part of one of the top rated health systems in the state - Receive a $400K
+        package - Fully staffed hospitalist department - Census is 50-60 patients
+        a day Login to save this search and get notified of similar positions. Related
+        Jobs: Southern New Hampshire NH Daytime Only Hospitalist- J1 Visa available
+        NH Rural Hospitalist Needed for Excellent Work/Life Balance NH Login to save
+        this search and get notified of similar positions. Proud sponsor of the EMRA
+        Clinical Excellence Award"},{"salary_min":240000,"created":"2022-03-31T21:30:16Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAxMzYyMDgxMyIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.-51yEbw3oToPbH59FV56PzBzu_P-EM2bbnVlDgH6uxA","salary_max":288000,"id":"3013620813","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"redirect_url":"https://www.adzuna.com/land/ad/3013620813?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=A77BA4C9EDA087932E5904B0E2E327EAB62D2720","category":{"label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"title":"Director
+        of Engineering - Data","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Deep
+        6 AI"},"latitude":38.918677,"description":"Deep 6 AI is a fast-growing tech
+        startup headquartered in Los Angeles, California looking for talented, dynamic
+        team members who want to help shape our groundbreaking artificial intelligence
+        platform. This is a remote opportunity, and we have a significant number of
+        team members in Chicago, Seattle, SF Bay Area, NYC and Nashville. We are transforming
+        and accelerating clinical trials, to help get life-saving treatments to patients
+        faster and accelerate innovation in healthcare. To that end, we b\u2026","location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"}},{"latitude":38.918677,"company":{"display_name":"Central
+        Missouri Community Action","__CLASS__":"Adzuna::API::Response::Company"},"salary_min":288000,"created":"2022-04-26T21:52:50Z","id":"3082012660","salary_max":384000,"category":{"label":"Scientific
+        & QA Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"scientific-qa-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3082012660?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=2373504F61A277052AD471608DDF970C2AA1290D","title":"Lead
+        Scientist/Director of R&D","description":"Don\u2019t have a Jora account?
+        Register with, What Type 1 or more characters for results. Where Type 1 or
+        more characters for results. Lead Scientist/Director of R&D Central Missouri
+        Community Action \u2013 Alameda County, CA CellFE is a venture-backed company
+        with a mission to make advanced therapies accessible to all by transforming
+        the way gene therapies are manufactured. The company uses a microfluidics-based
+        cell engineering platform that can be adapted universally to enable low-cost,
+        high-yield ma\u2026","contract_time":"full_time","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"]},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDgyMDEyNjYwIn0.yHqhhUU3MY_WkSCfFO2Aux2AT05dF6HSY4pI1rcUdqk","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547},{"description":"The
+        company, a well-established entertainment company, is looking for software
+        engineers, who will help in developing a custom application for program scheduling.
+        The said application will be used by management to make scheduling decisions
+        for the company based on advertising dollars, viewership, etc. Job Description
+        Skills and Qualifications: There are twoopenings for this project. The Java
+        role is thefirst priority: Here are the core standards/requirements of theSoftware
+        Engineers: Additional\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"},"redirect_url":"https://www.adzuna.com/land/ad/2993922657?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=F1455FF5F8C10E576942B7B566E9490F4EB63719","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Prosum"},"title":"JavaScript
+        Developer","latitude":38.918677,"salary_max":288000,"salary_is_predicted":"0","id":"2993922657","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"salary_min":240000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIyOTkzOTIyNjU3In0.jd4MdNkTkA07V9fIGI7bqiwJQwVrIncxU5VISqpj1ck","created":"2022-03-23T13:17:02Z"},{"latitude":38.918677,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"CASA
+        OF LOS ANGELES"},"id":"3079103586","salary_max":288000,"salary_min":240000,"created":"2022-04-25T21:52:30Z","location":{"display_name":"California,
         Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"Use
         Facebook or Google to sign in or register with SimplyHired. Full-time Estimated:
-        $110,000 - $150,000 a year 4 days ago Health insurance Paid time off Vision
-        insurance Qualifications Accounting Forecasting Full Job Description JOIN
-        US As a pioneering agricultural land trust, MALT operates at the intersection
-        of agriculture and conservation. Our mission is to permanently protect Marin\u2019s
-        agricultural land for agricultural use. And our commitment is to the long-term
-        health of the land itself, a\u2026","salary_is_predicted":"0","id":"3067093442","created":"2022-04-20T21:51:04Z","salary_max":384000,"redirect_url":"https://www.adzuna.com/land/ad/3067093442?se=qgSp8ozB7BGWyt1SWh1rng&utm_medium=api&utm_source=5e859b54&v=9E8ABDA6F173B39A76D914877261C0CF024E9C45","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA2NzA5MzQ0MiIsInMiOiJxZ1NwOG96QjdCR1d5dDFTV2gxcm5nIn0.ZDCG473LgCscXXS643V5uyG2Kolpv_TrfzwCLz0Bp7E","salary_min":288000,"longitude":-84.263547,"category":{"label":"Accounting
-        & Finance Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs"},"__CLASS__":"Adzuna::API::Response::Job"}],"__CLASS__":"Adzuna::API::Response::JobSearchResults","count":1453,"mean":203372.98}'
-  recorded_at: Thu, 21 Apr 2022 16:06:05 GMT
+        $110,000 - $150,000 a year Qualifications ERP systems Senior Professional
+        in Human Resources Leadership Data analysis skills Full Job Description Job
+        Title: Director of Human Resources Reports to: Chief Financial Officer Employment
+        Status: Full-time/Exempt Organization Overview CASA of Los Angeles organizes
+        the community to show up for children and families in LA County\u2019s overburdened
+        child welfare and juvenile\u2026","contract_time":"full_time","title":"Director
+        of Human Resources","category":{"tag":"hr-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"HR
+        & Recruitment Jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3079103586?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=B6F73B05D687620FFF024C88D013D270C03EF5B6","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"salary_is_predicted":"0","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDc5MTAzNTg2In0.2Tvg4lwsPDg21g8XjEVQPLEdhcjhE08_h9c9TD2McCM"},{"title":"Senior
+        Software Engineer Lead","company":{"display_name":"Lucas Group","__CLASS__":"Adzuna::API::Response::Company"},"latitude":38.918677,"redirect_url":"https://www.adzuna.com/land/ad/3076914557?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=E42B7E59ED15E3F356C628994552DCE6B6F918C7","category":{"tag":"it-jobs","label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"},"description":"Lucas
+        Group has partnered with our Information Management Systems client in California.
+        Our client''s vision is to improve quality of life in towns and cities worldwide
+        by optimizing mobility to assist in their professional search of hiring a
+        Senior Software Engineer (Java Full Stack) to join their enthusiastic team
+        of technologist. You will become apart of a team who is powering the future
+        of mobility with platform technology built to reduce congestion and improve
+        travel time with trip planning\u2026","salary_min":240000,"created":"2022-04-24T21:52:56Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDc2OTE0NTU3In0.Mt3HFtC5MsKyAEd2ZBkxbHVD2FLUwjQVXdaQVoq0G6Q","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"salary_max":288000,"id":"3076914557","salary_is_predicted":"0"},{"description":"Sr
+        UX DesignerPay 60hrLocation Los Angeles, CADuration 6 months Contract to hirePlease
+        provide a portfolio linkMust be vaccinated We are currently seeking a Senior
+        UX Designer responsible for creating the best user experience and product
+        design in collaborating with product managers and engineers. Deliverables
+        include various UX Design artifacts such as user behavior research, personas,
+        customer journeys, pain point analysis, sketches, wireframes, user testing,
+        information architecture, design \u2026","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"category":{"label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3076912438?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=67168DC8519955E10394DD7FE57C96B2D571F8A7","latitude":38.918677,"company":{"display_name":"ettain
+        group","__CLASS__":"Adzuna::API::Response::Company"},"title":"ettain group:
+        Sr Ux Designer","salary_is_predicted":"0","id":"3076912438","salary_max":288000,"__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"created":"2022-04-24T21:52:33Z","salary_min":240000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA3NjkxMjQzOCIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.vS7BpelYRG-5WUS0Ktek6YVffI9WQGsSe2N9ZaKPzxw"},{"redirect_url":"https://www.adzuna.com/land/ad/3042479063?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=69076DDD1D0C27C796503FE0417F2D06CEEC78F9","category":{"tag":"it-jobs","label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Amazon"},"title":"Head
+        of Product, X-Ray VOD, Prime Video","latitude":38.918677,"description":"Amazon
+        is offering teams more flexibility on where to work. Read more from Amazon
+        CEO, Andy Jassy. Head of Product, X-Ray VOD, Prime Video Job ID: 1943637 |
+        Amazon.com Services LLC Job summary Do you want to create magic at the intersection
+        of entertainment content and technology? Prime Video''s X-Ray team builds
+        features that run alongside Amazon''s streaming content in Movies, TV, and
+        Live Sports to bring fans closer to the entertainment they love. We are on
+        quest to delight fans with new and i\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"]},"salary_min":288000,"created":"2022-04-10T21:39:24Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0MjQ3OTA2MyIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.duk_hbXnLIttkwC7Tibz6-tkZQkbkve76cfQw1z9K2E","salary_max":384000,"id":"3042479063","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547},{"latitude":38.918677,"title":"Full
+        Stack Engineer","company":{"display_name":"Workila","__CLASS__":"Adzuna::API::Response::Company"},"category":{"label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/2722727476?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=102A4C466DBC5CBE2E34C689A1CE5A6673D90DA9","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"The
+        sheer scale of our capabilities and client engagements and the way we collaborate,
+        operate and deliver value provides an unparalleled opportunity to grow and
+        advance. Choose Workila, and make delivering innovative work part of your
+        extraordinary career. Job Description MUST-HAVES 2 years experience with Node,
+        MongoDB or Coffeescript 3 years JavaScript experience 1 years experience working
+        in a Test Driven Environment Strong background with data structures and algorithms
+        (CS/Mathematics deg)\u2026","created":"2021-12-09T01:35:46Z","salary_min":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcyNzQ3NiIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.d67Ic7wtoqp6GtV8oYrFVppALN7NHrMW065TNzYhm7g","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"id":"2722727476","salary_is_predicted":"0","salary_max":384000},{"category":{"label":"Accounting
+        & Finance Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3079103390?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=F6DBFBFD050D01225C3CFC059F5EF35590E9C5B9","latitude":38.918677,"title":"Capital
+        Regulatory Reporting, Assistant Vice President - Hybrid","company":{"display_name":"MUFG
+        Union Bank","__CLASS__":"Adzuna::API::Response::Company"},"description":"Your
+        potential. Your opportunity.Do you want your voice heard and your actions
+        to count? Discover your opportunity with Mitsubishi UFJ Financial Group (MUFG),
+        the 5th largest financial group in the world. Across the globe, we''re 180,000
+        colleagues, striving to make a difference for every client, organization,
+        and community we serve. We stand for our values, building long-term relationships,
+        serving society, and fostering shared and sustainable growth for a better
+        world.With a vision to be the w\u2026","location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-04-25T21:52:29Z","salary_min":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDc5MTAzMzkwIn0.h_dRBPIRyE0NvY0Ojp6s1TXbzOBnjPCPvUOLBPHDtT0","salary_is_predicted":"0","id":"3079103390","salary_max":384000,"__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547},{"description":"Policy
+        Enforcement Manager, Kids Experiences, Trust and Safety Bachelor\u2019s degree
+        in Business, Engineering, Computer Science, or equivalent practical experience
+        4 years of experience in either trust and safety, scaled or sales operations,
+        vendor management, or process/organizational improvement Experience with data
+        analysis tools (e.g., R, SQL, dashboards, Tableau, and spreadsheet software)
+        Preferred qualifications: Experience reviewing online content for policy violation
+        or abuse Experience wor\u2026","location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"redirect_url":"https://www.adzuna.com/land/ad/3073685001?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=BDE833394C3FE69FBFE228841FD1766A2ED2EA6C","category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs"},"title":"Policy Enforcement Manager, Kids Experiences, Trust and Safety","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Google"},"latitude":38.918677,"salary_max":384000,"salary_is_predicted":"0","id":"3073685001","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDczNjg1MDAxIn0.uoUno-e01J30N9Lfd0koGCJjADchnXI0OHpD4wmt8DA","salary_min":288000,"created":"2022-04-23T05:56:44Z"},{"created":"2021-12-09T01:31:17Z","salary_min":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcwNDk3OCIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.3z2E-z6EKVul2DmZw_NK3Fcyk1H8SuUE3ZcFftUnvkA","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","salary_max":384000,"id":"2722704978","salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Mackenzie
+        Health Care"},"title":"Lead Software Architect","latitude":38.918677,"redirect_url":"https://www.adzuna.com/land/ad/2722704978?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=B6F354F6A784559AF541F683027B744DA1FEC2A7","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"]},"description":"Great
+        talent is both rare and valued the ability to recognize great talent is even
+        more rare The Mackenzie Search Group knows how to position US & International
+        companies for success, from Start-Up Ventures to Small & Medium size organizations
+        to Multi-Divisional International Conglomerates, and builds companies with
+        their most important asset - talent. With a strict focus in these niche areas:
+        HealthCare (Executives, Physicians, Pharmacists, Nurses, Assisted Living,
+        LTC, Therapy), Information \u2026"},{"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"},"description":"Don\u2019t
+        have a Jora account? Register with, What Type 1 or more characters for results.
+        Where Type 1 or more characters for results. Senior Counsel , Business Legal
+        Affairs Senior Counsel, Business and Legal Affairs Support the overall vision,
+        mission and mandates for the company. Position summary: Participant seeks
+        an experienced and intellectually curious attorney to join the Business and
+        Legal Affairs team, with a focus on negotiating, drafting, and advising on
+        matters relating to our campaign\u2026","title":"Senior Counsel , Business
+        Legal Affairs","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Participant
+        Media"},"latitude":38.918677,"redirect_url":"https://www.adzuna.com/land/ad/3079103081?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=E39FFE1A049FBA6E6D644BD3D0EBF086731C3A8D","category":{"tag":"legal-jobs","label":"Legal
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","salary_max":384000,"id":"3079103081","salary_is_predicted":"0","created":"2022-04-25T21:52:26Z","salary_min":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDc5MTAzMDgxIn0.vIxPcLeC8TeBrr0y2qgwGBu_qwHQi4WoVNIGcKzlyyM"},{"salary_max":288000,"salary_is_predicted":"0","id":"3065912108","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","created":"2022-04-20T13:55:49Z","salary_min":240000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA2NTkxMjEwOCIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.3gYqy5BMPYmCEVXzoR67JS5CoeqkQWQK9RqVTr9lnzU","description":"Optum,
+        the fast-growing part of UnitedHealth Group, is a leading information and
+        technology-enabled health services business. Our teams are dedicated to modernizing
+        the health care system and improving the lives of people and communities.
+        Serving virtually every dimension of the health system, we work with a diverse
+        set of clients across 150 countries \u2013 from those who diagnose and treat
+        patients to those who pay for care, deliver health services, and those who
+        supply the cures. Optum maintains \u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"]},"redirect_url":"https://www.adzuna.com/land/ad/3065912108?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=EA7BFFE5B36013B045440EABB0E21275054514DC","category":{"tag":"it-jobs","label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"title":"Associate Director-Automation
+        Lead & Product Owner","company":{"display_name":"United Health Group","__CLASS__":"Adzuna::API::Response::Company"},"latitude":38.918677},{"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"},"description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) Environmental Health & Safety (EHS)
+        Specialist is responsible for implementing and overseeing EHS programs at
+        Chemtrade facilities and activities. These programs include, but are not limited
+        to: environmental, occupational safety, industrial hygiene, product safety,
+        Responsible Care, emergency respon\u2026","title":"EHS Specialist","company":{"display_name":"Chemtrade","__CLASS__":"Adzuna::API::Response::Company"},"latitude":38.918677,"redirect_url":"https://www.adzuna.com/land/ad/3082011506?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=6005245D97DD4794D8819707C47BF5A7C9C8FDB3","category":{"label":"Scientific
+        & QA Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"scientific-qa-jobs"},"__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"salary_max":384000,"id":"3082011506","salary_is_predicted":"0","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDgyMDExNTA2In0.cBX8hgbuzCDwAIRbZcVYX1R7r2nRXgMqvJYvS6q8Y98","salary_min":288000,"created":"2022-04-26T21:52:43Z"},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiRHRhblptZkc3QkdBbWVlRXQ3R1dDZyIsImkiOiIzMDgzNjE1NjQ4In0.FFEG155ELyl87q9lViqd8ImVKQKPmyKpc_ODXNkRYSk","salary_min":240000,"created":"2022-04-27T13:58:33Z","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"salary_is_predicted":"0","id":"3083615648","salary_max":288000,"latitude":38.918677,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Amunix
+        Pharmaceuticals"},"title":"Head of Bioinformatics, Data Analytics and Library
+        Design","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Scientific
+        & QA Jobs","tag":"scientific-qa-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3083615648?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=603F825FD9DDC091E6E2F0E9BC50F0B574251338","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"]},"description":"Don\u2019t
+        have a Jora account? Register with, What Type 1 or more characters for results.
+        Where Type 1 or more characters for results. Head of Bioinformatics, Data
+        Analytics and Library Design Amunix is discovering highly innovative cancer
+        therapies that are based on protease-releasable masking technology (Pro-XTEN).
+        Our discovery process involves the design of large peptide and protein libraries
+        combined with highly-parallel LCMS-based methods of in vitro and in vivo evaluation.
+        We are currently s\u2026"},{"description":"National African-American Insurance
+        Association (NAAIA) Description At MetLife, we''re leading the global transformation
+        of an industry we''ve long defined. United in purpose, diverse in perspective,
+        we''re dedicated to making a difference in the lives of our customers. Role
+        Value Proposition: In Legal Affairs, we strive to attract, develop and retain
+        diverse talent with the potential to be future leaders of our department and
+        of MetLife as a whole. We seek legal and compliance professionals who d\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"},"redirect_url":"https://www.adzuna.com/land/ad/2971763264?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=EBAFE618DA068C9203D5EFFE36FEBC1B12A202A2","category":{"label":"Legal
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"legal-jobs"},"title":"Corporate
+        Counsel - Investments Law","company":{"display_name":"National African American
+        Insurance Association ","__CLASS__":"Adzuna::API::Response::Company"},"latitude":38.918677,"salary_max":384000,"id":"2971763264","salary_is_predicted":"0","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","created":"2022-03-14T21:15:47Z","salary_min":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk3MTc2MzI2NCIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.dVSmGV7s1keTkCjqi-LfLt83unT8QNkWb_x_ALB1ijY"},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA4MzYxNTU0NyIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.euTZ1c7VKZoX4Iay4acP0w-FQ8OPEaDjfKZo2fSnlUQ","salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"redirect_url":"https://www.adzuna.com/land/ad/3083615547?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=325A9A462E836826A5550141F1DA4ADEC7FE5F70","category":{"label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"title":"Senior
+        QA Test Specialist \u2013 Android/Embedded Software","contract_time":"part_time","description":"Don\u2019t
+        have a Jora account? Register with, What Type 1 or more characters for results.
+        Where Type 1 or more characters for results. Senior QA Test Specialist \u2013
+        Android/Embedded Software Currently we are seeking individuals for the following
+        position, please take note that this position is time sensitive, and we advise
+        you to apply immediately and express your skills and abilities that pertains
+        to the job description. If you are a Software Developer with QA experience
+        in Android/Embedded domain l\u2026","location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"salary_min":240000,"created":"2022-04-27T13:58:33Z","salary_max":288000,"id":"3083615547","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"The
+        Bartech Group, Inc."},"latitude":38.918677},{"salary_is_predicted":"0","id":"3062124551","salary_max":384000,"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","salary_min":288000,"created":"2022-04-18T21:53:01Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA2MjEyNDU1MSIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0._sPkiGi5h3jjbx0u8d5FzQOo3ATnXR9Vauv-yxQJYuw","description":"Press
+        Tab to Move to Skip to Content Link BWXT Canada Ltd. is a world leader in
+        design, engineering, manufacture, construction and service of nuclear power
+        generation equipment. As a supplier of innovative, high-quality nuclear components
+        and services we cater to a worldwide customer base. We take great pride in
+        supplying highly engineered solutions that allow our customers to compete
+        within the complex nuclear power generation industry. We are currently recruiting
+        for a Financial Analyst (entr\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"]},"category":{"tag":"accounting-finance-jobs","label":"Accounting
+        & Finance Jobs","__CLASS__":"Adzuna::API::Response::Category"},"redirect_url":"https://www.adzuna.com/land/ad/3062124551?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=477E354A63BAFF6C3900C7AAD33920489A9D5DCD","latitude":38.918677,"company":{"display_name":"BWX
+        Technologies, Inc.","__CLASS__":"Adzuna::API::Response::Company"},"title":"Financial
+        Analyst (entry level)"},{"title":"Staff VP, Customer Success","category":{"label":"Sales
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"sales-jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3076914047?se=DtanZmfG7BGAmeeEt7GWCg&utm_medium=api&utm_source=5e859b54&v=E16FE34688E3D99DE05A2B54AFF805AF12FBECBE","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"Description:
+        Description SHIFT: Day Job SCHEDULE: Full-time Be part of an extraordinary
+        team We are looking for leaders at all levels of the organization who are
+        passionate about making an impact on our members and the communities we serve.
+        You will thrive in a complex and collaborative environment where you take
+        action and ownership to solve problems and lead change. Do you want to be
+        part of a larger purpose and an evolving, high-performance culture that empowers
+        you to make an impact? The St\u2026","contract_time":"full_time","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA3NjkxNDA0NyIsInMiOiJEdGFuWm1mRzdCR0FtZWVFdDdHV0NnIn0.w1koORU3bKTcrXefbofvSLnI-XvB3mBX_LmbhY_pOiM","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","salary_is_predicted":"0","latitude":38.918677,"company":{"display_name":"Anthem
+        Career Site","__CLASS__":"Adzuna::API::Response::Company"},"salary_min":288000,"created":"2022-04-24T21:52:51Z","id":"3076914047","salary_max":384000}],"count":1265,"__CLASS__":"Adzuna::API::Response::JobSearchResults"}'
+  recorded_at: Wed, 27 Apr 2022 20:19:58 GMT
 recorded_with: VCR 6.1.0

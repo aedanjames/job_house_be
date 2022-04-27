@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=5e859b54&app_key=9b7837242edf32ddec42da936025659e&results_per_page=50&salary_max=10000000&salary_min=1&where
+    uri: https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=5e859b54&app_key=9b7837242edf32ddec42da936025659e&results_per_page=50&salary_max=10000000&salary_min&where=denver,co
     body:
       encoding: US-ASCII
       string: ''
@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Thu, 21 Apr 2022 15:36:35 GMT
+      - Wed, 27 Apr 2022 20:20:16 GMT
       Content-Type:
       - application/json; charset=utf8
       Content-Length:
-      - '73126'
+      - '69662'
       Connection:
       - keep-alive
       Server:
@@ -38,540 +38,508 @@ http_interactions:
       - '5.90117'
     body:
       encoding: UTF-8
-      string: '{"count":264633,"__CLASS__":"Adzuna::API::Response::JobSearchResults","mean":94896.28,"results":[{"redirect_url":"https://www.adzuna.com/land/ad/3066412975?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=6602DD97F1E721D63D3A93B850361544F5D8BEE1","salary_min":28800,"latitude":38.827109,"__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","id":"3066412975","title":"Appointment
-        Setter - Sales - Marketing","contract_time":"part_time","category":{"label":"PR,
-        Advertising & Marketing Jobs","tag":"pr-advertising-marketing-jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Renewal
-        by Andersen of KC"},"longitude":-94.789873,"salary_is_predicted":"0","created":"2022-04-20T16:26:52Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIzMDY2NDEyOTc1In0.G2YnUUb9NS7i3tGtDlHvMmMFxgink8emVHTqiE9nILo","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Overland
-        Park, Johnson County","area":["US","Kansas","Johnson County","Overland Park"]},"description":"Apply
-        NOW $1,000 sign on bonus for all qualified candidates Renewal by Andersen
-        is looking for Brand Ambassador candidates to join our Direct Marketing team
-        Our Brand Ambassadors work at trade shows, festivals, fairs, sporting events,
-        malls, retail stores, and some do residential marketing. Brand Ambassadors
-        enjoy a challenging and fun work environment where they make great first impressions,
-        have engaging conversations, and set appointments for Kansas City homeowners
-        to receive no cost consult\u2026","salary_max":67200},{"contract_type":"permanent","id":"2610446014","title":"DevOps
-        Engineeer","__CLASS__":"Adzuna::API::Response::Job","latitude":38.807342,"redirect_url":"https://www.adzuna.com/land/ad/2610446014?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=3CDF96AF97E22C9591B336F96050AA691A299094","salary_min":70000,"description":"Droit
-        is a technology company at the forefront of merging finance and computational
-        law. We build software that digitizes regulations and makes intelligent decisions
-        in real-time transactional systems. Our award-winning platform is providing
-        mission-critical, low-latency services for the world\u2019s most prominent
-        and complex financial institutions. At Droit we seek candidates who are curious,
-        driven and willing to bring their unique skills and perspectives to our work.
-        We offer the opportunity for\u2026","salary_max":150000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjYxMDQ0NjAxNCIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.Blm-X_yyJ3jwfqS7Huz889ah4aPElPq6AROz6KrDIKY","location":{"display_name":"Flint
-        Hill, Rappahannock County","area":["US","Virginia","Rappahannock County","Flint
-        Hill"],"__CLASS__":"Adzuna::API::Response::Location"},"category":{"label":"IT
-        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"display_name":"Droit
-        Financial Technologies","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","created":"2021-11-04T06:30:11Z","longitude":-78.117901},{"description":"Who
-        we are: Droit is a technology company at the forefront of merging finance
-        and computational law . We build software that digitizes regulations and makes
-        intelligent decisions in real-time transactional systems. Our award-winning
-        platform is providing mission-critical, low-latency services for the world\u2019s
-        most prominent and complex financial institutions. At Droit we seek candidates
-        who are curious, driven and willing to bring their unique skills and perspectives
-        to our work. We offer the op\u2026","salary_max":175000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkzMzEwMDQ3NyIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.7eFF4WyS9iXi6MLEOT4JcP7MtkU5-25e1xdQjmPqoTs","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Virginia","Rappahannock
-        County","Flint Hill"],"display_name":"Flint Hill, Rappahannock County"},"category":{"tag":"it-jobs","label":"IT
-        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"display_name":"Droit
-        Financial Technologies","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-02-28T16:13:11Z","salary_is_predicted":"0","longitude":-78.117901,"contract_type":"permanent","id":"2933100477","title":"Front
-        End Developer (ClojureScript) - REMOTE","__CLASS__":"Adzuna::API::Response::Job","latitude":38.807342,"redirect_url":"https://www.adzuna.com/land/ad/2933100477?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=E687C271147ECCB06D8E46F029BAC5713EE08479","salary_min":90000},{"description":"goPuff
-        is currently looking for delivery partners for goDrive, an app that connects
-        delivery drivers with customers who want access to the daily essentials they
-        need, such as food, drinks, household items, etc. Partnering with goPuff is
-        a great opportunity for anyone looking for a flexible schedule. goPuff\u2019s
-        big advantages over similar services is the central hub for deliveries \u2013
-        as a delivery driver, you won\u2019t have to drive all around town to gather
-        orders, instead you\u2019ll be picking things up \u2026","salary_max":38400,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIzMDM2MzYzNTc3In0.zzaJoBERhbJPZI7_0CyQMZqYvFe3uuRHlDu2PArdCyU","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Morrison,
-        Jefferson County","area":["US","Colorado","Jefferson County","Morrison"]},"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"travel-jobs","label":"Travel
-        Jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"goPuff"},"longitude":-105.1911,"salary_is_predicted":"0","created":"2022-04-08T04:13:23Z","contract_time":"part_time","contract_type":"contract","id":"3036363577","title":"Independent
-        Delivery Driver","__CLASS__":"Adzuna::API::Response::Job","latitude":39.653599,"redirect_url":"https://www.adzuna.com/land/ad/3036363577?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=4467A42BED60775EA97554CEFA4A9494E0C6E492","salary_min":38400},{"company":{"display_name":"Gemini","__CLASS__":"Adzuna::API::Response::Company"},"category":{"tag":"it-jobs","label":"IT
-        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_is_predicted":"0","longitude":-121.895225,"created":"2022-04-06T15:29:08Z","description":"Gemini
-        is a crypto exchange and custodian that allows customers to buy, sell, store,
-        and earn more than 30 cryptocurrencies like bitcoin, bitcoin cash, ether,
-        litecoin, and Zcash. Gemini is a New York trust company that is subject to
-        the capital reserve requirements, cybersecurity requirements, and banking
-        compliance standards set forth by the New York State Department of Financial
-        Services and the New York Banking Law. Gemini was founded in 2014 by twin
-        brothers Cameron and Tyler Winklevoss to\u2026","salary_max":230000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzMTUwODAzOSIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.GyIs02o6GNPNpkY9abJ8Tg9UuMDlKRmEhLbcvi-I-Bg","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Washington,
-        Washington, D.C.","area":["US","Washington, D.C.","Washington"]},"latitude":37.295414,"redirect_url":"https://www.adzuna.com/land/ad/3031508039?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=61A38DC05F093358835D546E67C13FDE62CF8886","salary_min":180000,"contract_type":"permanent","title":"Lead
-        Software Engineer, Trust & Security - REMOTE","id":"3031508039","__CLASS__":"Adzuna::API::Response::Job"},{"latitude":40.73448,"salary_min":160000,"redirect_url":"https://www.adzuna.com/land/ad/3031508127?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=279E1CE39E67BEDAED939D69B893727C1F0BC70A","id":"3031508127","title":"Senior
-        Software Engineer (Elixir) - REMOTE","contract_type":"permanent","__CLASS__":"Adzuna::API::Response::Job","salary_is_predicted":"0","longitude":-73.99752,"created":"2022-04-06T15:29:09Z","category":{"tag":"it-jobs","label":"IT
-        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"EnquireLabs"},"salary_max":210000,"description":"Description
-        EnquireLabs is looking for a Senior Elixir Developer to help lead the design
-        and implementation of our next-generation customer insights platform. You''ll
-        be part of a collaborative team creating a first-class user experience on
-        top of a rock-solid technical foundation. About Us Enquire Labs\u2019 mission
-        is to operationalize direct-from-consumer data. We believe that brands\u2013not
-        third parties\u2013should own their relationship with their customers, and
-        we''re building the tools to empower that \u2026","location":{"display_name":"Washington,
-        Washington, D.C.","area":["US","Washington, D.C.","Washington"],"__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzMTUwODEyNyIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.SrkKzsWRJI_Wv8UeAitRkd3WVfXqofFPMNAfCmBSCJY"},{"contract_time":"full_time","category":{"tag":"admin-jobs","label":"Admin
-        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","longitude":-87.903605,"created":"2021-09-23T18:26:13Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyNDg1MzAzNTY3In0.3hZELgkULlXvuoAkYEY70gspR_R2_AxBzHACUkTKwMA","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Alabama","Baldwin
-        County","Daphne"],"display_name":"Daphne, Baldwin County"},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"redirect_url":"https://www.adzuna.com/land/ad/2485303567?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=452C84F2F0AA8404F00DDA88CFB8E72558F12DF8","salary_min":41740,"latitude":30.603526,"__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","id":"2485303567","title":"Postal
-        Clerk"},{"contract_type":"contract","title":"Grocery shopper","id":"3067738792","__CLASS__":"Adzuna::API::Response::Job","latitude":32.212458,"redirect_url":"https://www.adzuna.com/land/ad/3067738792?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=4649CD40CD9A0D9159ED4C5FB9DA3EA7EB523EC1","salary_min":18000,"description":"Deliver
-        groceries in Henderson, TX and earn around $15 an hour with Instacart. You
-        decide which jobs fit in your schedule and when you want to work picking up
-        and dropping off groceries. The requirements to be able to work with Instacart
-        are: 2 years of driving experience, a clean driving record, being 21 years
-        or older, as well as having a car for deliveries.","salary_max":18000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIzMDY3NzM4NzkyIn0.PV_VOp3jJYoY-5kpplsWY-NECzt8IQX5EOGe5-6KfYQ","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Henderson
-        County, Texas","area":["US","Texas","Henderson County"]},"company":{"display_name":"Instacart","__CLASS__":"Adzuna::API::Response::Company"},"category":{"label":"Travel
-        Jobs","tag":"travel-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_is_predicted":"0","longitude":-95.809869,"created":"2022-04-21T02:23:30Z","contract_time":"part_time"},{"salary_is_predicted":"0","created":"2021-08-05T11:51:50Z","longitude":-76.727235,"company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Admin
-        Jobs","tag":"admin-jobs"},"contract_time":"full_time","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","New
-        York","Chemung County","Elmira"],"display_name":"Elmira, Chemung County"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyMzYyODM5ODc4In0.iQRA1geCMSMYPYwQ3k1RF_rVn2LcGi-9AJXADNWE_BM","latitude":42.07487,"salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2362839878?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=6CB2DCBB469EB081BA862C997AC13EF533997061","title":"Postal
-        Clerk","id":"2362839878","contract_type":"permanent","__CLASS__":"Adzuna::API::Response::Job"},{"__CLASS__":"Adzuna::API::Response::Job","title":"Postal
-        Clerk","id":"2362839105","contract_type":"permanent","salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2362839105?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=C960D6F4EC91A4A2C50A1D64A4B2FE4FE25249D4","latitude":42.443961,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","New
-        York","Tompkins County","Ithaca"],"display_name":"Ithaca, Tompkins County"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyMzYyODM5MTA1In0.xj0WdougFxNlFU9rwYLtOf2k95Ph0ljx0gDxA2WTJ9A","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","contract_time":"full_time","created":"2021-08-05T11:51:42Z","salary_is_predicted":"0","longitude":-76.501881,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"}},{"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"longitude":-121.257448,"salary_is_predicted":"0","created":"2021-08-05T11:51:43Z","contract_time":"full_time","description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjM2MjgzOTIwMiIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.x7-N16a5LLyAeWtkxofE99fVXufKEHotQeZjhk6esPk","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Oregon","Deschutes
-        County","Bend"],"display_name":"Bend, Deschutes County"},"latitude":44.086767,"redirect_url":"https://www.adzuna.com/land/ad/2362839202?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=54A7A10097F364E7A69698E1A092D3800D8326A7","salary_min":41740,"contract_type":"permanent","id":"2362839202","title":"Postal
-        Clerk","__CLASS__":"Adzuna::API::Response::Job"},{"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"category":{"label":"Admin Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"created":"2022-02-17T12:16:01Z","salary_is_predicted":"0","longitude":-72.856944,"contract_time":"full_time","description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MzkxNyIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.frOFUe99HNPtGDDYlAOuu-7_nyNoJOSwv2lOVaSdQco","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Plainville,
-        Hartford County","area":["US","Connecticut","Hartford County","Plainville"]},"latitude":41.674722,"redirect_url":"https://www.adzuna.com/land/ad/2906553917?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=0EFADBBE5F016A49702114DA184D2177BD6E8C4C","salary_min":41740,"contract_type":"permanent","title":"Postal
-        Clerk","id":"2906553917","__CLASS__":"Adzuna::API::Response::Job"},{"created":"2022-02-17T12:16:07Z","salary_is_predicted":"0","longitude":-74.156255,"company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Admin
-        Jobs","tag":"admin-jobs"},"contract_time":"full_time","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","location":{"area":["US","New
-        Jersey","Hudson County","Harrison"],"display_name":"Harrison, Hudson County","__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1NTA2MiIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.VqHoTpLtkqF-qEtug2AQrdqkHwCv9DlPvjiR4T3lJgk","latitude":40.74649,"salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906555062?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=A6531A1712348C0E4706B0561870FA976A6DDC61","title":"Postal
-        Clerk","id":"2906555062","contract_type":"permanent","__CLASS__":"Adzuna::API::Response::Job"},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1NDE5MSIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.wTowLC-FdW64q9UwRnVWBEwLzE4A7VvPkrtcBH8PElA","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Wickliffe,
-        Lake County","area":["US","Ohio","Lake County","Wickliffe"]},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"contract_time":"full_time","company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"tag":"admin-jobs","label":"Admin
-        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_is_predicted":"0","created":"2022-02-17T12:16:02Z","longitude":-81.466348,"__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","title":"Postal
-        Clerk","id":"2906554191","redirect_url":"https://www.adzuna.com/land/ad/2906554191?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=2BE4D02321D75565C4E10A86AEBADE68BE5D6D1D","salary_min":41740,"latitude":41.607707},{"contract_type":"permanent","title":"Postal
-        Clerk","id":"2906555026","__CLASS__":"Adzuna::API::Response::Job","latitude":32.001944,"redirect_url":"https://www.adzuna.com/land/ad/2906555026?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=0CE0A4C4D1F0E5B0A038ED58F14F433E35D24915","salary_min":41740,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTU1MDI2In0.ZpTt3rL238aB1HmD82btApPM2yElC5_gbfsN9Ilx3w8","location":{"area":["US","Arizona","Pima
-        County","Vail"],"display_name":"Vail, Pima County","__CLASS__":"Adzuna::API::Response::Location"},"company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"tag":"admin-jobs","label":"Admin
-        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_is_predicted":"0","longitude":-110.700278,"created":"2022-02-17T12:16:07Z","contract_time":"full_time"},{"latitude":21.981111,"salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906553217?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=7C9FE0B5CC9360F23E17AA1BC714EB0EAABDE7DB","id":"2906553217","title":"Postal
-        Clerk","contract_type":"permanent","__CLASS__":"Adzuna::API::Response::Job","salary_is_predicted":"0","created":"2022-02-17T12:15:57Z","longitude":-159.371111,"category":{"label":"Admin
-        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"contract_time":"full_time","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","location":{"area":["US","Hawaii","Kauai","Lihue"],"display_name":"Lihue,
-        Kauai","__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTUzMjE3In0.sJ0QuxqO21HMeitKCQ0Bieaj7XG8O9P6pGE-BTihMfw"},{"salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Illinois","Lake
-        County","Indian Creek"],"display_name":"Indian Creek, Lake County"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTUyMjY1In0.3rNeQwmgVqWC7V2u9UPd3ly4uza59oyeo7okIY-44Ks","longitude":-87.979797,"salary_is_predicted":"0","created":"2022-02-17T12:15:51Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"category":{"label":"Admin Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"contract_time":"full_time","title":"Postal
-        Clerk","id":"2906552265","contract_type":"permanent","__CLASS__":"Adzuna::API::Response::Job","latitude":42.226968,"salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906552265?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=5D203BD2ECC2635C287F618DD1936EBBF54F18F9"},{"location":{"display_name":"Brooksville,
-        Hernando County","area":["US","Florida","Hernando County","Brooksville"],"__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MjcwMyIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.hzJhDFwrcl7zYgXIfwZn4NFAyXWNVz1oGYKaFm_gKMo","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","contract_time":"full_time","longitude":-82.349188,"salary_is_predicted":"0","created":"2022-02-17T12:15:54Z","category":{"label":"Admin
-        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"__CLASS__":"Adzuna::API::Response::Job","id":"2906552703","title":"Postal
-        Clerk","contract_type":"permanent","salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906552703?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=00FC6718D9365E5B278BCE2ECB10A2D1651B8133","latitude":28.591662},{"__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","id":"2906553300","title":"Postal
-        Clerk","redirect_url":"https://www.adzuna.com/land/ad/2906553300?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=B9A25B799163AC85CEBF7F9EB458C7217F76F833","salary_min":41740,"latitude":38.861106,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MzMwMCIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.suO3aZBpgqt2BLz-PO6zw8VKL2bb4dQTU9HjjPoe4d8","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Virginia","Fairfax
-        County","Mosby"],"display_name":"Mosby, Fairfax County"},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"contract_time":"full_time","category":{"tag":"admin-jobs","label":"Admin
-        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"created":"2022-02-17T12:15:57Z","salary_is_predicted":"0","longitude":-77.190622},{"contract_time":"full_time","longitude":-87.569248,"salary_is_predicted":"0","created":"2022-02-17T12:16:02Z","company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"location":{"display_name":"Two Rivers, Manitowoc County","area":["US","Wisconsin","Manitowoc
-        County","Two Rivers"],"__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1NDE4MyIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.rtm6KBn3iS4vFR1VCb3z2dSGmqm0U-QUBVGmtqEVq6I","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906554183?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=6241025E5BEDEA2F5CA44DE22EC6020EF12815AD","latitude":44.153884,"__CLASS__":"Adzuna::API::Response::Job","title":"Postal
-        Clerk","id":"2906554183","contract_type":"permanent"},{"id":"2906552529","title":"Postal
-        Clerk","contract_type":"permanent","__CLASS__":"Adzuna::API::Response::Job","latitude":35.692368,"salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906552529?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=421CE8F7F8B142956A9FE75F55E4CE3451C77890","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","North
-        Carolina","Rowan County","Spencer"],"display_name":"Spencer, Rowan County"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTUyNTI5In0.yyRFFnp9B1kpGgYOD7XnMFaN-arNgnNq8meVTkcmueY","longitude":-80.438215,"salary_is_predicted":"0","created":"2022-02-17T12:15:53Z","category":{"label":"Admin
-        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"contract_time":"full_time"},{"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Cameron
-        County","Villa Nueva"],"display_name":"Villa Nueva, Cameron County"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MzM1OCIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.fSQoAEb03avpX9C72V-MHIH1ikynBWj6yw9mzYTV4PM","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","contract_time":"full_time","salary_is_predicted":"0","longitude":-97.556098,"created":"2022-02-17T12:15:57Z","company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"__CLASS__":"Adzuna::API::Response::Job","title":"Postal Clerk","id":"2906553358","contract_type":"permanent","salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906553358?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=85FCEC51DBF0DF77EC940585E1D582030860D4D2","latitude":25.950913},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTU0ODI0In0.qetqMuLlBvxZpiPdglfSjlrelz6jGWFhBHRz67dSVl8","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Wyoming,
-        Chisago County","area":["US","Minnesota","Chisago County","Wyoming"]},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"contract_time":"full_time","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"category":{"label":"Admin Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"longitude":-92.997163,"salary_is_predicted":"0","created":"2022-02-17T12:16:06Z","__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","title":"Postal
-        Clerk","id":"2906554824","redirect_url":"https://www.adzuna.com/land/ad/2906554824?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=0E7B207BF37950355324F59FE552D300783EBDE7","salary_min":41740,"latitude":45.336355},{"salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906554217?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=E00EC1E517EFD49EB98046AB93186210D86771DC","latitude":40.330188,"__CLASS__":"Adzuna::API::Response::Job","title":"Postal
-        Clerk","id":"2906554217","contract_type":"permanent","contract_time":"full_time","salary_is_predicted":"0","longitude":-79.730701,"created":"2022-02-17T12:16:02Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"category":{"tag":"admin-jobs","label":"Admin Jobs","__CLASS__":"Adzuna::API::Response::Category"},"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"North
-        Huntingdon, Westmoreland County","area":["US","Pennsylvania","Westmoreland
-        County","North Huntingdon"]},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1NDIxNyIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.CTGUqJdvcqY73486QkQktIMQNe3bSDqnRsYqankuMAI","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026"},{"redirect_url":"https://www.adzuna.com/land/ad/2906554536?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=D51646F8B93B430468508BACA9E750B11DDC9F68","salary_min":41740,"latitude":34.362315,"__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","title":"Postal
-        Clerk","id":"2906554536","contract_time":"full_time","company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"label":"Admin
-        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_is_predicted":"0","created":"2022-02-17T12:16:04Z","longitude":-92.812946,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTU0NTM2In0.es-37BCkq5MmLR6eAH0nGS7wIP_-weYA-7Td0TNrQss","location":{"display_name":"Malvern,
-        Hot Spring County","area":["US","Arkansas","Hot Spring County","Malvern"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MzIyNCIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.MjKVv7JmALP0SLLmcCRcQU2z3u6LdOKoX_cfcP04UAc","location":{"area":["US","Vermont","Washington
-        County","Barre Junction"],"display_name":"Barre Junction, Washington County","__CLASS__":"Adzuna::API::Response::Location"},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"contract_time":"full_time","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Admin
-        Jobs","tag":"admin-jobs"},"longitude":-72.484197,"salary_is_predicted":"0","created":"2022-02-17T12:15:57Z","__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","title":"Postal
-        Clerk","id":"2906553224","redirect_url":"https://www.adzuna.com/land/ad/2906553224?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=D7159EEF3CE30843412D8F5AA9E744859DA71D53","salary_min":41740,"latitude":44.185097},{"contract_type":"permanent","id":"2906551989","title":"Postal
-        Clerk","__CLASS__":"Adzuna::API::Response::Job","latitude":42.946329,"redirect_url":"https://www.adzuna.com/land/ad/2906551989?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=D0EB58CE82A1BA3D0219B58BC6A1CD230D006A83","salary_min":41740,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTUxOTg5In0.we76qP8FZxcsB3IRuAkmxM_7CUm3bpN4RpYJx5bwY7I","location":{"display_name":"Bedford,
-        Hillsborough County","area":["US","New Hampshire","Hillsborough County","Bedford"],"__CLASS__":"Adzuna::API::Response::Location"},"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"company":{"display_name":"USA Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","longitude":-71.513201,"created":"2022-02-17T12:15:50Z","contract_time":"full_time"},{"salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906553565?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=EE380AA8E0EFD910590A0EBA8BAEE92CC00F399D","latitude":40.206788,"__CLASS__":"Adzuna::API::Response::Job","id":"2906553565","title":"Postal
-        Clerk","contract_type":"permanent","contract_time":"full_time","salary_is_predicted":"0","longitude":-75.099807,"created":"2022-02-17T12:15:59Z","category":{"tag":"admin-jobs","label":"Admin
-        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Pennsylvania","Bucks
-        County","Warminster"],"display_name":"Warminster, Bucks County"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MzU2NSIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.pV6Ah1HT2bKRTuh8xkHQdD-xv7AkBr-wD0RMkrnR4J0","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026"},{"salary_is_predicted":"0","longitude":-122.399536,"created":"2022-02-17T12:15:51Z","company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"label":"Admin
-        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"contract_time":"full_time","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Camas,
-        Clark County","area":["US","Washington","Clark County","Camas"]},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MjE0NiIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.yDbTmqQlsBMg6CcJaPZNSDjwJJyYppbf1ME1OD-XzS8","latitude":45.587063,"salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906552146?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=8E6FDDE8EDCF728CB6EDCB43BFA34C1BEA9B3D3B","title":"Postal
-        Clerk","id":"2906552146","contract_type":"permanent","__CLASS__":"Adzuna::API::Response::Job"},{"title":"Postal
-        Clerk","id":"2906555905","contract_type":"permanent","__CLASS__":"Adzuna::API::Response::Job","latitude":27.712531,"salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906555905?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=EEA6BFF6AC9DC9C164FC732C185F7968EEF115AE","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","location":{"area":["US","Florida","Hillsborough
-        County","Wimauma"],"display_name":"Wimauma, Hillsborough County","__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTU1OTA1In0.YGz485TGbxKxZQ1bdIWvAIG5p8Dckgw815BRDwI5C-0","longitude":-82.29898,"salary_is_predicted":"0","created":"2022-02-17T12:16:11Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"category":{"label":"Admin Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"contract_time":"full_time"},{"contract_time":"full_time","longitude":-73.088997,"salary_is_predicted":"0","created":"2022-02-17T12:16:07Z","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"location":{"display_name":"Derby, New Haven County","area":["US","Connecticut","New
-        Haven County","Derby"],"__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTU0OTczIn0.bgEfPL7xr23YatXK5v4wh2tCLnJ90hSluLjz-8J6nEE","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906554973?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=56DE78D762C1552B5F6CDC0D896135B19721A2FC","latitude":41.320652,"__CLASS__":"Adzuna::API::Response::Job","id":"2906554973","title":"Postal
-        Clerk","contract_type":"permanent"},{"latitude":43.390264,"salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906555123?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=9F6E2F557A50C1A28A4CCBC95C3328B8F78976C3","title":"Postal
-        Clerk","id":"2906555123","contract_type":"permanent","__CLASS__":"Adzuna::API::Response::Job","longitude":-89.402896,"salary_is_predicted":"0","created":"2022-02-17T12:16:07Z","company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"contract_time":"full_time","salary_max":74150,"description":"NO EXPERIENCE
-        REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The Postal Service
-        is the largest government related agency in terms of employees. The Postal
-        Service currently employs nearly 1 million people and is hiring nationwide.
-        There is NO experience required, paid training is provided for all job openings.
-        There are MANY different positions available. The job openings range in starting
-        salary from $21.94 to $38.65 per hour, $72,400/year average pay with full
-        benefits. Benefits include pai\u2026","location":{"area":["US","Wisconsin","Columbia
-        County","Poynette"],"display_name":"Poynette, Columbia County","__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTU1MTIzIn0.iTnSq-6uRlAvYDORawkZTki6E7k7TVGgBWizoD0vvqA"},{"__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","id":"2906551592","title":"Postal
-        Clerk","redirect_url":"https://www.adzuna.com/land/ad/2906551592?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=4E531A361159D29E9081BAD15ECE69ADAFFDA3CE","salary_min":41740,"latitude":41.313165,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MTU5MiIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.cTDlRl_tuiTFXEt6aYSsKhj3A-ddoHcIRfYU05BVxfo","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Strongsville,
-        Cuyahoga County","area":["US","Ohio","Cuyahoga County","Strongsville"]},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"contract_time":"full_time","category":{"label":"Admin
-        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"salary_is_predicted":"0","created":"2022-02-17T17:15:47Z","longitude":-81.811094},{"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"salary_is_predicted":"0","longitude":-99.740671,"created":"2021-10-27T13:37:48Z","contract_time":"full_time","description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyNTg0MDAzNjY3In0.6J0tF3J2lVmxFcjitUU_gqan9ScUc5-vfrPRU3o5MCQ","location":{"area":["US","Nebraska","Dawson
-        County","Lexington"],"display_name":"Lexington, Dawson County","__CLASS__":"Adzuna::API::Response::Location"},"latitude":40.775007,"redirect_url":"https://www.adzuna.com/land/ad/2584003667?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=6403D27CF97C3BC2798B97A1A533573ACF6568B4","salary_min":41740,"contract_type":"permanent","title":"Postal
-        Clerk","id":"2584003667","__CLASS__":"Adzuna::API::Response::Job"},{"contract_time":"full_time","salary_is_predicted":"0","longitude":-87.896071,"created":"2022-02-17T12:16:07Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Abbott
-        Park, Lake County","area":["US","Illinois","Lake County","Abbott Park"]},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTU0OTcxIn0.wkncYPpG2zNg7QaDsRLr8Jl4N4nOGMUqlGnYj5ovrm8","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906554971?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=F4D22B7539F0FF53C36681BD2F6F41A557EBAFD4","latitude":42.304505,"__CLASS__":"Adzuna::API::Response::Job","title":"Postal
-        Clerk","id":"2906554971","contract_type":"permanent"},{"contract_time":"full_time","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"company":{"display_name":"USA Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","created":"2021-08-05T11:51:41Z","longitude":-92.25231,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjM2MjgzOTAyMiIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.2zZw_EmJn2HSpmFlqixsiVTLlrzNfWTXg1GhSBmm3KU","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Missouri","Boone
-        County","Columbia"],"display_name":"Columbia, Boone County"},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"redirect_url":"https://www.adzuna.com/land/ad/2362839022?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=61F3141B246CB67E0127C29DD2BA4D5267B494D4","salary_min":41740,"latitude":38.882174,"__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","id":"2362839022","title":"Postal
-        Clerk"},{"location":{"area":["US","California","Solano County","Mare Island"],"display_name":"Mare
-        Island, Solano County","__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTUzMjE2In0.9fSIRqu7R2E0uX5QbG3Npsb2McFLIjUuApzPcKcb3Vs","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","contract_time":"full_time","longitude":-122.27233,"salary_is_predicted":"0","created":"2022-02-17T12:15:57Z","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Admin
-        Jobs","tag":"admin-jobs"},"company":{"display_name":"USA Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"__CLASS__":"Adzuna::API::Response::Job","id":"2906553216","title":"Postal
-        Clerk","contract_type":"permanent","salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906553216?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=2A427388C2DF1FA83C97C97DD5B83AB18959E40A","latitude":38.092234},{"contract_time":"full_time","longitude":-119.387066,"salary_is_predicted":"0","created":"2022-02-17T12:16:10Z","category":{"tag":"admin-jobs","label":"Admin
-        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"location":{"area":["US","California","Tulare
-        County","Dinuba"],"display_name":"Dinuba, Tulare County","__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTU1NTIzIn0.drFlTbprqSjicDa9ICSkU1ayOzPEDLiq9Tomorqnes0","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906555523?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=2D84577350305B058A9B916E2A4E0244B1126419","latitude":36.543284,"__CLASS__":"Adzuna::API::Response::Job","id":"2906555523","title":"Postal
-        Clerk","contract_type":"permanent"},{"category":{"tag":"admin-jobs","label":"Admin
-        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"created":"2022-02-17T12:15:59Z","salary_is_predicted":"0","longitude":-84.028276,"contract_time":"full_time","description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTUzNjI5In0.mfRJBzXk4pwQMgD0vLQIIOwlrWiKkyNl5-EikiFzwDE","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Tennessee","Knox
-        County","Powell"],"display_name":"Powell, Knox County"},"latitude":36.03368,"redirect_url":"https://www.adzuna.com/land/ad/2906553629?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=DD3F6C0E531E1544E5A237AB099C0FEEF4A20C70","salary_min":41740,"contract_type":"permanent","id":"2906553629","title":"Postal
-        Clerk","__CLASS__":"Adzuna::API::Response::Job"},{"__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","id":"2906552780","title":"Postal
-        Clerk","redirect_url":"https://www.adzuna.com/land/ad/2906552780?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=5507C4DB0C901EB90D1579127AAC25B98B11C0EB","salary_min":41740,"latitude":40.788662,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTUyNzgwIn0.ieK-2dS_7O4iuS6NmO6GwLSnIP3CMrraKnS8MMn8eBU","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Elida,
-        Allen County","area":["US","Ohio","Allen County","Elida"]},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"contract_time":"full_time","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"created":"2022-02-17T12:15:54Z","salary_is_predicted":"0","longitude":-84.203839},{"latitude":41.490287,"redirect_url":"https://www.adzuna.com/land/ad/2906553047?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=5BFA59965F99262BD0580207FB208747E68A5305","salary_min":41740,"contract_type":"permanent","title":"Postal
-        Clerk","id":"2906553047","__CLASS__":"Adzuna::API::Response::Job","company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"tag":"admin-jobs","label":"Admin
-        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"created":"2022-02-17T12:15:56Z","salary_is_predicted":"0","longitude":-90.47855,"contract_time":"full_time","description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTUzMDQ3In0.8che4YGHtpAhxtwPc1HDGMK6QABd-UWjboiPcEOC1qY","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"South
-        Moline, Rock Island County","area":["US","Illinois","Rock Island County","South
-        Moline"]}},{"contract_time":"full_time","company":{"display_name":"USA Labor
-        Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"tag":"admin-jobs","label":"Admin
-        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_is_predicted":"0","created":"2022-02-17T12:16:09Z","longitude":-74.979338,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTU1Mzc0In0.1sF9IzYL0TOVaYEqoFG8kC-qrIem6zsXNoP6SXJTC2w","location":{"display_name":"Washington,
-        Warren County","area":["US","New Jersey","Warren County","Washington"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"redirect_url":"https://www.adzuna.com/land/ad/2906555374?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=BAAB7217FE7C96048E538ED9F9B5931355193C29","salary_min":41740,"latitude":40.758433,"__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","title":"Postal
-        Clerk","id":"2906555374"},{"created":"2022-02-17T12:15:59Z","salary_is_predicted":"0","longitude":-85.503939,"company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"label":"Admin
-        Jobs","tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category"},"contract_time":"full_time","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","location":{"display_name":"St.
-        Joseph County, Michigan","area":["US","Michigan","St. Joseph County"],"__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTUzNTQ4In0.VnYU0aXKQ_RgaE-FGAE8_gF0pAh0wqrozI3DRG8vpRw","latitude":41.896285,"salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906553548?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=BCD168946DFB380822477196733422AC5F746005","title":"Postal
-        Clerk","id":"2906553548","contract_type":"permanent","__CLASS__":"Adzuna::API::Response::Job"},{"contract_time":"full_time","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"company":{"display_name":"USA Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-02-17T12:15:55Z","salary_is_predicted":"0","longitude":-86.623581,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTUzMDM2In0.KbK1p-GOc9itImN9VXKAoIz7QhZR9QOECaD32VLUvgo","location":{"display_name":"West
-        Destin, Okaloosa County","area":["US","Florida","Okaloosa County","West Destin"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"redirect_url":"https://www.adzuna.com/land/ad/2906553036?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=E12C97771F0ED344AE62D256C0382DFC638B05BE","salary_min":41740,"latitude":30.417505,"__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","id":"2906553036","title":"Postal
-        Clerk"},{"contract_time":"full_time","salary_is_predicted":"0","created":"2022-02-17T12:15:58Z","longitude":-84.493449,"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Admin
-        Jobs","tag":"admin-jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"location":{"display_name":"Village of Indian Springs, Butler
-        County","area":["US","Ohio","Butler County","Village of Indian Springs"],"__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MzQ0OSIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.ztc0cwMKXUaahLKLqz9h-3rK4SRSZMnOA3oJ3YVxb9s","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906553449?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=DC54A2BA0E6B2825EEA720A482DE87E294764F2F","latitude":39.398286,"__CLASS__":"Adzuna::API::Response::Job","id":"2906553449","title":"Postal
-        Clerk","contract_type":"permanent"},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MzY1MCIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.zYm_p2hk2nQtQ8DSGwpud0k0XruH-cLjk97IsU2BKRE","location":{"display_name":"Crest
-        Hill, Will County","area":["US","Illinois","Will County","Crest Hill"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"contract_time":"full_time","company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"created":"2022-02-17T12:15:59Z","salary_is_predicted":"0","longitude":-88.112957,"__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","title":"Postal
-        Clerk","id":"2906553650","redirect_url":"https://www.adzuna.com/land/ad/2906553650?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=A2B31A454FDCE57C6073780791DF7E8879666009","salary_min":41740,"latitude":41.56964},{"contract_time":"full_time","company":{"display_name":"USA
-        Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Admin
-        Jobs","tag":"admin-jobs"},"salary_is_predicted":"0","longitude":-71.251784,"created":"2022-02-17T17:15:47Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiSWlOdDA0akI3QkdQX2pyNmQwNHBCZyIsImkiOiIyOTA2NTUxNTc5In0.iTTKTcc_mQBm-YQirauv5_jpejgsH15LDWK6wd-jOhE","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Massachusetts","Middlesex
-        County","Billerica"],"display_name":"Billerica, Middlesex County"},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"redirect_url":"https://www.adzuna.com/land/ad/2906551579?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=F87D1C0972871847512B50EC1B27226FE998D0C3","salary_min":41740,"latitude":42.546531,"__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","title":"Postal
-        Clerk","id":"2906551579"},{"id":"2906552266","title":"Postal Clerk","contract_type":"permanent","__CLASS__":"Adzuna::API::Response::Job","latitude":45.300118,"salary_min":41740,"redirect_url":"https://www.adzuna.com/land/ad/2906552266?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=95CD628FE9DC379C1310D570C230C62F5054A7CC","salary_max":74150,"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","location":{"display_name":"Newberg,
-        Yamhill County","area":["US","Oregon","Yamhill County","Newberg"],"__CLASS__":"Adzuna::API::Response::Location"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MjI2NiIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.OcWAZoLAs6fXyQfKUWuwgsf1qfJYR_CfWMkGhfyDczw","longitude":-122.973157,"salary_is_predicted":"0","created":"2022-02-17T12:15:51Z","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"company":{"display_name":"USA Labor Services","__CLASS__":"Adzuna::API::Response::Company"},"contract_time":"full_time"},{"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"admin-jobs","label":"Admin
-        Jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"longitude":-104.86606,"salary_is_predicted":"0","created":"2022-02-17T12:15:57Z","contract_time":"full_time","description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MzI2MiIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.7pMw6u8sMtQ_jfycLYqY9eHanQjgKYaEdqm-9IOvB3A","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Henderson,
-        Adams County","area":["US","Colorado","Adams County","Henderson"]},"latitude":39.920218,"redirect_url":"https://www.adzuna.com/land/ad/2906553262?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=CA0CD997C1E64AE9E64C9C756C597C856EB3FB70","salary_min":41740,"contract_type":"permanent","id":"2906553262","title":"Postal
-        Clerk","__CLASS__":"Adzuna::API::Response::Job"},{"__CLASS__":"Adzuna::API::Response::Job","contract_type":"permanent","title":"Postal
-        Clerk","id":"2906552458","redirect_url":"https://www.adzuna.com/land/ad/2906552458?se=IiNt04jB7BGP_jr6d04pBg&utm_medium=api&utm_source=5e859b54&v=E056283C6BD5F8C548619B89E5356B95211CBAD1","salary_min":41740,"latitude":34.281946,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkwNjU1MjQ1OCIsInMiOiJJaU50MDRqQjdCR1BfanI2ZDA0cEJnIn0.xBfQhmwsaHcvxnjgpKZ9sTBsYApnsMvL2vrHXHLCFDA","location":{"display_name":"San
-        Fernando, Los Angeles County","area":["US","California","Los Angeles County","San
-        Fernando"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"NO
-        EXPERIENCE REQUIRED \u2013 PAID TRAINING PROVIDED \u2013 JOB SECURITY The
-        Postal Service is the largest government related agency in terms of employees.
-        The Postal Service currently employs nearly 1 million people and is hiring
-        nationwide. There is NO experience required, paid training is provided for
-        all job openings. There are MANY different positions available. The job openings
-        range in starting salary from $21.94 to $38.65 per hour, $72,400/year average
-        pay with full benefits. Benefits include pai\u2026","salary_max":74150,"contract_time":"full_time","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"USA
-        Labor Services"},"category":{"tag":"admin-jobs","label":"Admin Jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_is_predicted":"0","longitude":-118.438972,"created":"2022-02-17T12:15:52Z"}]}'
-  recorded_at: Thu, 21 Apr 2022 15:36:36 GMT
+      string: '{"results":[{"location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"salary_min":288000,"title":"Advanced
+        Analytics - Lead Analyst","__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA3OTEwMzI1NiIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.PDiZsd4bFexHe_tkECDCARqspkrMcaebVAuTX1n3htk","id":"3079103256","latitude":39.75,"salary_is_predicted":"0","salary_max":384000,"longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/3079103256?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=DD9AA754B81B4C5F1FD93A559F489C29EF679C01","description":"Merkle
+        is a global data-driven, technology-enabled performance marketing agency and
+        the largest independent agency in the US for CRM, digital, and search. For
+        more than 28 years, Fortune 1000 companies and leading nonprofit organizations
+        have partnered with us to build and maximize the value of their customer portfolios.
+        We work with brands like Dell, T-Mobile, Samsung, Geico, Regions, Kimberly-Clark,
+        AARP, Lilly, Sanofi, NBC Universal, DIRECTV, American Cancer Society, Susan
+        G. Komen, and many\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Merkle"},"created":"2022-04-25T21:52:28Z"},{"title":"Senior
+        Software Engineer- Database Reliability (Remote US)","salary_min":240000,"location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"__CLASS__":"Adzuna::API::Response::Job","category":{"label":"IT
+        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_max":288000,"salary_is_predicted":"0","latitude":39.75,"id":"3072870181","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA3Mjg3MDE4MSIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.gjLFVgIHtoadTHngms0T6MMptmRxHYSuSMSII3so0uA","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Mandiant"},"created":"2022-04-22T21:51:45Z","description":"Company
+        Description Since 2004, Mandiant has been a trusted partner to security-conscious
+        organizations. Effective security is based on the right combination of expertise,
+        intelligence, and adaptive technology, and the Mandiant Advantage SaaS platform
+        scales decades of frontline experience and industry-leading threat intelligence
+        to deliver a range of dynamic cyber defense solutions. Mandiant\u2019s approach
+        helps organizations develop more effective and efficient cyber security programs
+        and instill\u2026","redirect_url":"https://www.adzuna.com/land/ad/3072870181?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=22784162077ADDDB1B51A01EE4AA88E9DDD09997","longitude":-104.99},{"latitude":39.75,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzNTQ5NTU2MCIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.m7aNswqAE7qpqYp-t1T5vKd8bpT3V9bFEmEpD1w10yc","id":"3035495560","salary_max":288000,"salary_is_predicted":"0","longitude":-104.99,"created":"2022-04-07T21:34:09Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Amazon.com"},"redirect_url":"https://www.adzuna.com/land/ad/3035495560?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=91C2A92B04ABEA2AF76C8670241133C276550370","description":"Job
+        summary At Amazon Web Services (AWS) Professional Services, we\u20ac\u2122re
+        hiring Engagement Managers to lead internal AWS, external partner, and customer
+        teams. Engagement Managers deliver AWS cloud products and services that enable
+        our customers to realize their business outcomes. These professional services
+        engagements focus on AWS solutions to help customers and partners remove constraints
+        and accelerate their journey to AWS. RESPONSIBILITIES AND ABILITIES INCLUDE:
+        DELIVERY \u20ac\u00a2 Collaborate with \u2026","location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"title":"Senior
+        Engagement Manager","salary_min":240000,"__CLASS__":"Adzuna::API::Response::Job","category":{"tag":"it-jobs","label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"}},{"title":"Senior Corporate
+        Counsel, Litigation","salary_min":288000,"location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"__CLASS__":"Adzuna::API::Response::Job","category":{"tag":"legal-jobs","label":"Legal
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_max":384000,"salary_is_predicted":"0","latitude":39.75,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDM1NDk1NjkwIn0.HnbeO72Vr5-d2-pQEJz7rG5oh0124q8AKmp4C0QpkL8","id":"3035495690","created":"2022-04-07T21:34:10Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Angi"},"description":"Angi\u00ae
+        is transforming the home services industry, creating an environment for homeowners,
+        service professions and employees to feel right at \u201chome.\u201d For most
+        home maintenance needs, our platform makes it easier than ever to find a qualified
+        service professional for most indoor and outdoor jobs, home renovations (or
+        anything in between). We are on a mission to become the home for everything
+        home by helping small businesses thrive and providing solutions to financing
+        and booking home jobs with ju\u2026","redirect_url":"https://www.adzuna.com/land/ad/3035495690?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=21400873D2CE167354CA08BADD403F4886CD027C","longitude":-104.99},{"salary_is_predicted":"0","salary_max":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAyMzcyNDQxMiIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.KCAufFFYPLowbKQjPtFrA-F-yKj6f6v2ycz8-CH7ccs","id":"3023724412","latitude":39.75,"description":"Do
+        what you love. Love what you do. At Workday, we help the world\u2019s largest
+        organizations adapt to what\u2019s next by bringing finance, HR, and planning
+        into a single enterprise cloud. We work hard, and we\u2019re serious about
+        what we do. But we like to have fun, too. We put people first, celebrate diversity,
+        drive innovation, and do good in the communities where we live and work. About
+        the Team Workday is growing and we\u2019re growing fast. Customer satisfaction
+        and a high adoption of the Workday suite of\u2026","redirect_url":"https://www.adzuna.com/land/ad/3023724412?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=0850696EB3D1993B9FDB057CCD1AA90DF5B6FE34","created":"2022-04-03T21:32:31Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Workday,
+        Inc."},"longitude":-104.99,"salary_min":240000,"title":"Sr Manager or Director,
+        Customer Success Scaled Experience","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Customer
+        Services Jobs","tag":"customer-services-jobs"},"__CLASS__":"Adzuna::API::Response::Job"},{"salary_max":250,"salary_is_predicted":"0","latitude":39.75,"id":"3023725229","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDIzNzI1MjI5In0.sORSaBuhMLNyAd_NE9fNkfTcBDilPXqTQL7i5o300yw","created":"2022-04-03T21:32:36Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"DaVita
+        Inc."},"redirect_url":"https://www.adzuna.com/land/ad/3023725229?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=E70C0BE2AD2FBF3DB3CF83AA5429C0767267849D","description":"2000
+        16th Street, Denver, Colorado, 80202, United States of America At DaVita Venture
+        Group, we''re committed to building partnerships with health care innovators
+        to help improve the lives of patients with kidney disease and believe we can
+        transform the future of healthcare. DVG is the innovation arm of DaVita Inc.
+        and is tasked with accelerating the development and adoption of solutions
+        that will transform health care for patients with kidney disease and related
+        chronic illnesses. We work with \u2026","longitude":-104.99,"title":"Assistant
+        General Counsel - Mergers & Acquisitions","salary_min":200,"location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Trade
+        & Construction Jobs","tag":"trade-construction-jobs"},"__CLASS__":"Adzuna::API::Response::Job"},{"id":"2993307078","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzMwNzA3OCIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.GcKwnaHll9zNIomz7G2MBKoStqP-3mudORF2A0hQf-g","latitude":39.75,"salary_is_predicted":"0","salary_max":250,"longitude":-104.99,"description":"Looking
+        for a highly visible, strategic HR role in a forward-focused organization?
+        Mental Health Center of Denver is seeking this skill set in their next VP
+        of HR. This role will coordinate all functional areas of HR to include: recruiting,
+        compensation, benefits, labor, and employee relations. The position will report
+        to the C-suite and work closely with other organizational leaders and managers.
+        An ideal candidate will have a minimum of 10 years in human resource roles,
+        with at least 5 years \u2026","redirect_url":"https://www.adzuna.com/land/ad/2993307078?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=D0DF9C9871411981B4875C5BDF826DCA72F27FA4","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Triaxis"},"created":"2022-03-23T05:20:35Z","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"]},"salary_min":200,"title":"Vice
+        President, Human Resources","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"hr-jobs","label":"HR
+        & Recruitment Jobs"},"__CLASS__":"Adzuna::API::Response::Job"},{"title":"Director,
+        Sales","salary_min":288000,"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"]},"category":{"label":"Sales Jobs","tag":"sales-jobs","__CLASS__":"Adzuna::API::Response::Category"},"__CLASS__":"Adzuna::API::Response::Job","salary_max":384000,"salary_is_predicted":"0","latitude":39.75,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDY0MzgxMTMxIn0.mCZYLQcWbed2qam7u6OsgoyMNIvCMcCIb9lgyQ3PHKw","id":"3064381131","created":"2022-04-19T21:46:07Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Equinix"},"redirect_url":"https://www.adzuna.com/land/ad/3064381131?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=1E50890E52312329D8DC19E7A5F1C4A4BC96FF29","description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) Director, SalesEquinix is the world''s
+        digital infrastructure company, operating200data centers across the globe
+        andproviding interconnections to all thekey clouds and networks.Businesses
+        need one place to simplify and bringtogether fragmented, complex infrastructure
+        that spans private and publiccloud\u2026","longitude":-104.99},{"salary_max":384000,"salary_is_predicted":"0","latitude":39.75,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA1NjY3MjA2MSIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.02vEoM06k-7e3Icy5E2h4kd-g8jXj7IPt49UkfRjLKw","id":"3056672061","created":"2022-04-15T21:44:08Z","company":{"display_name":"Envision
+        Healthcare","__CLASS__":"Adzuna::API::Response::Company"},"description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) Envision Healthcare is a leading
+        national medical group focused on delivering high quality care to patients
+        when and where they need it most. More than 30,000 clinicians and clinical
+        support teammates call Envision home. We welcome teammates of every background
+        and work in communities that reflect th\u2026","redirect_url":"https://www.adzuna.com/land/ad/3056672061?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=E2C92B0CEBA6F0E475BF41DCBCA1260246BE9193","longitude":-104.99,"title":"Senior
+        Director Contracting","salary_min":288000,"location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Healthcare
+        & Nursing Jobs","tag":"healthcare-nursing-jobs"}},{"__CLASS__":"Adzuna::API::Response::Job","category":{"label":"IT
+        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"title":"Director,
+        Product Management","salary_min":200,"longitude":-104.99,"company":{"display_name":"Meta","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-04-24T21:56:19Z","redirect_url":"https://www.adzuna.com/land/ad/3076918236?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=9E9BAFB301AB371F5A3F1EE172F12A81028F18D8","description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) Meta\u2019s Enterprise Products team
+        is responsible for building tooling that focuses on building the most productive
+        company in the world. We are looking for a Director of Product Management
+        to oversee product management across all of Enterprise Products - including
+        Commerce, Finance, Knowledge, and Supp\u2026","latitude":39.75,"id":"3076918236","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA3NjkxODIzNiIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.UecH7YHA4p294Ckn2GWKwTZgfAOnFNJ2q0Z9urQB448","salary_max":250,"salary_is_predicted":"0"},{"title":"Staff
+        Android Engineer","salary_min":200,"location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Engineering
+        Jobs","tag":"engineering-jobs"},"salary_max":250,"salary_is_predicted":"0","latitude":39.75,"id":"2974568104","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIyOTc0NTY4MTA0In0.kZjBd2SARr7dtySiRXeKsJxjYWWq8lZU6N3Dd64SGrg","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Brightwheel"},"created":"2022-03-15T21:09:47Z","redirect_url":"https://www.adzuna.com/land/ad/2974568104?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=14831DC53746CFA049091D49BC8533537F7F7BB7","description":"Our
+        Mission and OpportunityEarly education is one of the greatest determinants
+        of childhood outcomes, is a must for working families, and has lasting social
+        and economic impact. Brightwheel\u2019s vision is to enable high quality early
+        education for every child \u2014 by giving teachers meaningfully more time
+        with students each day, engaging parents in the development of their kids,
+        and supporting the small businesses that make up the backbone of the $100
+        billion early education market. Brightwheel is th\u2026","longitude":-104.99},{"__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"PR,
+        Advertising & Marketing Jobs","tag":"pr-advertising-marketing-jobs"},"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"salary_min":200,"title":"JanSport: Director of Global Product","longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/3074466339?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=87886042BC565D40049ECD2F4A6F837267AD47E8","description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) VF Corporation JanSport: Director
+        of Global Product Denver , Colorado Apply Now As a member of the Americas
+        Packs leadership team, the Director of Global Product at JanSport works collaboratively
+        to provide leadership and vision to drive JanSport\u2019s global product execution.
+        Shapes and creates an orga\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"VF
+        Corporation"},"created":"2022-04-23T13:53:31Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDc0NDY2MzM5In0.xmqXpJu-h5NXf5eyfE9d7Ik54ECZhstjw-2nvNY8eqo","id":"3074466339","latitude":39.75,"salary_is_predicted":"0","salary_max":250},{"longitude":-104.99,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"KPMG"},"created":"2022-03-25T21:21:34Z","description":"Business
+        Title: Director, Industrial Markets Strategy Requisition Number: 82187 - 17
+        Function: Advisory Area of Interest: State: CO City: Denver Description: The
+        KPMG Advisory practice is currently our fastest growing practice. We are seeing
+        tremendous client demand, and looking forward we don''t anticipate that slowing
+        down. In this ever-changing market environment, our professionals must be
+        adaptable and thrive in a collaborative, team-driven culture. At KPMG, our
+        people are our number one pri\u2026","redirect_url":"https://www.adzuna.com/land/ad/3000092417?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=A6F13A51003E1288C1962552F62ABF366022A89A","latitude":39.75,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDAwMDkyNDE3In0.RiULHAHOosWnV4qehhHut16N0zLocusrnzHUQGONwao","id":"3000092417","salary_max":288000,"salary_is_predicted":"0","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Consultancy
+        Jobs","tag":"consultancy-jobs"},"__CLASS__":"Adzuna::API::Response::Job","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"title":"Director, Industrial Markets Strategy","salary_min":240000},{"longitude":-104.99,"description":"PEAK
+        Technical Staffing USA http://cdn.haleymarketing.com/templates/62098/logos/peaktechnical-hml.png
+        http://www.peaktechnical.com/ http://www.peaktechnical.com/ true Information
+        Security Business Partner (ISBP) Denver , CO 80202 Posted: 04/12/2022 2022-04-12
+        2022-05-14 Employment Type: Contract to Direct Category: Information Security
+        Analysts Job Number: 93685 Job Description Primary responsibilities of the
+        Information Security Business Partner include the following: Partner with
+        Business Uni\u2026","redirect_url":"https://www.adzuna.com/land/ad/3055755168?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=F7F6A1F3318D3DE1015C36BC368A0FE9F699192B","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"PEAK
+        Technical Staffing USA"},"created":"2022-04-15T13:53:14Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA1NTc1NTE2OCIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.pmDE9cAiMjv4rVvEJzm4auDML6zkss1BggIwUL28KiU","id":"3055755168","latitude":39.75,"salary_is_predicted":"0","salary_max":384000,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
+        Jobs"},"__CLASS__":"Adzuna::API::Response::Job","location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"salary_min":288000,"title":"Information
+        Security Business Partner (ISBP)"},{"latitude":39.75,"id":"3040666827","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0MDY2NjgyNyIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.1PpRyEO3df1A6tzZWNE_bs7OfA4Exl_JOTmCENQ2Xns","salary_max":384000,"salary_is_predicted":"0","longitude":-104.99,"company":{"display_name":"Handy","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-04-09T21:38:52Z","redirect_url":"https://www.adzuna.com/land/ad/3040666827?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=39A1EDFAFA0BD5F1B751EF29E935116043DA5A95","description":"Handy
+        is a home services marketplace on a mission to disrupt the $400B home services
+        market by seamlessly delivering every service to every home. Handy has fundamentally
+        changed the way the world buys home services by making it as easy to buy a
+        service online as it is to buy a product. We connect customers to vetted,
+        independent local professionals at the tap of a button, while providing upfront
+        pricing, customer choice in scheduling (no more pesky 4 hour windows), cashless
+        payments and a servi\u2026","location":{"display_name":"Denver, Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"title":"Associate
+        Director, Marketing","salary_min":288000,"category":{"label":"PR, Advertising
+        & Marketing Jobs","tag":"pr-advertising-marketing-jobs","__CLASS__":"Adzuna::API::Response::Category"},"__CLASS__":"Adzuna::API::Response::Job"},{"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"hospitality-catering-jobs","label":"Hospitality
+        & Catering Jobs"},"__CLASS__":"Adzuna::API::Response::Job","salary_min":200,"title":"General
+        Manager","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"]},"redirect_url":"https://www.adzuna.com/land/ad/3060326310?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=56D00C7DB21365A34B48228D050966024AF9D99F","description":"We
+        are looking for a General Manager to oversee all staff, budgets and operations
+        of the local business unit. General Manager responsibilities include formulating
+        overall strategy, managing people and establishing policies. To be successful
+        in this role, you should be a thoughtful leader and a confident decision-maker,
+        helping our people develop and be productive, while ensuring our profits are
+        on the rise. Ultimately, you\u2019ll help our company grow and thrive. Responsibilities
+        Direct the employe\u2026","created":"2022-04-17T21:44:21Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"jouyll.com"},"longitude":-104.99,"salary_is_predicted":"0","salary_max":250,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDYwMzI2MzEwIn0.7IS54SA1Jj52AmC52qY07KFXJ833UrRN5RqNNfDMPLg","id":"3060326310","latitude":39.75},{"salary_min":288000,"title":"Director,
+        Business Operations - Mountain West Region","location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"sales-jobs","label":"Sales
+        Jobs"},"__CLASS__":"Adzuna::API::Response::Job","salary_is_predicted":"0","salary_max":384000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDc0NDY4MzQxIn0.fYFmtWXEnOv6pTDu3DrLrvOnIHIH8JOPm2VIEG6-Knk","id":"3074468341","latitude":39.75,"description":"Comcast
+        brings together the best in media and technology. We drive innovation to create
+        the world''s best entertainment and online experiences. As a Fortune 50 leader,
+        we set the pace in a variety of innovative and fascinating businesses and
+        create career opportunities across a wide range of locations and disciplines.
+        We are at the forefront of change and move at an amazing pace, thanks to our
+        remarkable people, who bring cutting-edge products and services to life for
+        millions of customers every\u2026","redirect_url":"https://www.adzuna.com/land/ad/3074468341?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=6723F241047C24672D632D06B6F045F649803F83","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Comcast"},"created":"2022-04-23T13:54:12Z","longitude":-104.99},{"longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/2993941075?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=56F7AFAE66AC9E6E0AB1BA2AEA41BF7DAE836A1B","description":"World
+        class customer service is one of the primary reasons customers choose and
+        love Gusto. We are looking for a visionary engineering leader to empower the
+        engineering team behind the robust and intuitive customer service platforms
+        that enable our customer service teams to provide excellent services in this
+        complex domain. About Gusto Gusto is a modern, online people platform that
+        helps small businesses take care of their teams. On top of full-service payroll,
+        Gusto offers health insurance, 40\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Gusto"},"created":"2022-03-23T13:21:51Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5Mzk0MTA3NSIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.FhmGUibM-NehMHMb1qKBgLkHe9r_A23Fe1ZVNWgrmuc","id":"2993941075","latitude":39.75,"salary_is_predicted":"0","salary_max":288000,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"engineering-jobs","label":"Engineering
+        Jobs"},"__CLASS__":"Adzuna::API::Response::Job","location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"salary_min":240000,"title":"Engineering
+        Manager, Help Journey"},{"title":"CSG Lead Analyst","salary_min":288000,"location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"__CLASS__":"Adzuna::API::Response::Job","category":{"label":"IT
+        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_max":384000,"salary_is_predicted":"0","latitude":39.75,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA2MjEyNTA5NSIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.mtgkQE-9_mBEMV5YfzC4m3D0gTpQAG9VKfC_mlkLID8","id":"3062125095","created":"2022-04-18T21:53:06Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Convergence
+        Acceleration Solutions Group"},"redirect_url":"https://www.adzuna.com/land/ad/3062125095?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=6D5CB2C73C0943DF5AFCF7DBA569DF7FD5854974","description":"Overview:
+        Lead effort of rationalization team on larger project rationalizing data within
+        the CSG application. Analyze CSG data and work with business partners to define/understand
+        rationalization of that data. Work with business partners to understand/explain
+        the business impacts of data rationalization. Data mapping of codes between
+        CSG SPAs as part of rationalization efforts. Lead efforts of other CSG/Billing
+        Analysts Required Skillsets Minimum 5 years of experience with CSG (not singleview)\u2026","longitude":-104.99},{"__CLASS__":"Adzuna::API::Response::Job","category":{"label":"Engineering
+        Jobs","tag":"engineering-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_min":288000,"title":"Measurement
+        & Verification Services Program Manager","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"]},"redirect_url":"https://www.adzuna.com/land/ad/2762824049?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=C15D450B8BC1751C45C7287E2FB57118A89173A2","description":"At
+        McKinstry, we\u2019re proud to be a diverse and passionate group of innovators
+        and problem-solvers, builders and engineers, mentors and students. We believe
+        the world needs curious, forward-thinking, solutions-oriented people who want
+        to make our planet better. We are committed to strengthening our diversity
+        through recruiting, developing, and retaining professionals from all backgrounds,
+        and we believe that promoting diversity, equity, and inclusivity is an integral
+        component of our continuing q\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Fox
+        Rehabilitation"},"created":"2021-12-23T08:25:02Z","longitude":-104.99,"salary_is_predicted":"0","salary_max":384000,"id":"2762824049","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIyNzYyODI0MDQ5In0.wBztzt6n-DmzHbninX4GktXGTNSR8dY34zntiVmpOCg","latitude":39.75},{"longitude":-104.99,"created":"2022-03-24T21:17:44Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Flight
+        Safety International Inc"},"description":"Location field must contain ''city,
+        state'' or a zip code to perform a radius search (e.g., Denver, CO or 46122
+        ). City and state must be separated by a comma followed by a space (e.g.,
+        Houston, TX ) Flight Safety International Inc SUBCONTRACTS MANAGER Denver
+        , Colorado Apply Now Requisition 30791Purpose of PositionThe Subcontracts
+        Managerwill serve as an agent of the company and will beresponsible for liaising
+        and coordinating with all stakeholder organizationsto ensure the subcontract
+        managemen\u2026","redirect_url":"https://www.adzuna.com/land/ad/2997501474?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=97ADDE0C7B7D78ACCA65CBDDB2AE87853B727872","latitude":39.75,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5NzUwMTQ3NCIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.-zeGN2e-U_jd12EUh3kclxJ17r55hEuWm6Sp3MXPgmU","id":"2997501474","salary_max":288000,"salary_is_predicted":"0","__CLASS__":"Adzuna::API::Response::Job","category":{"tag":"engineering-jobs","label":"Engineering
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"title":"SUBCONTRACTS MANAGER","salary_min":240000},{"__CLASS__":"Adzuna::API::Response::Job","title":"Director-Formative
+        and Interim Content Solutions","salary_min":240000,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Pearson"},"redirect_url":"https://www.adzuna.com/land/ad/3031235915?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=D6184203DCC0FE0847F0C8A3ED0FF9D58FA823A7","description":"ease
+        click here: http://www.pearson.com/careers/diversity-and-inclusion.html Pearson
+        Pearson Director-Formative and Interim Content Solutions Denver , Colorado
+        Apply Now Share this job share to linkedin share to twitter share to facebook
+        share by email The role of the Director, Formative and Interim Solutions,
+        requires enthusiasm, agility, creativity, diplomacy, and critical thinking
+        skills. Additionally, the role requires a level of expertise and experience
+        for engaging with internal and exter\u2026","contract_time":"full_time","salary_max":288000,"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"HR
+        & Recruitment Jobs","tag":"hr-jobs"},"location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-04-06T13:45:51Z","longitude":-104.99,"salary_is_predicted":"0","latitude":39.75,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDMxMjM1OTE1In0.JhaKOjsJhujFoCBmo6r_b_ERvd088pAXAkTRgFImXAc","id":"3031235915"},{"category":{"label":"Accounting
+        & Finance Jobs","tag":"accounting-finance-jobs","__CLASS__":"Adzuna::API::Response::Category"},"__CLASS__":"Adzuna::API::Response::Job","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"]},"title":"Audit Senior Manager","salary_min":288000,"longitude":-104.99,"created":"2022-04-07T21:38:46Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"KPMG"},"description":"Business
+        Title: Audit Senior Manager Requisition Number: 83998 - 17 Function: Audit
+        Area of Interest: State: CO City: Denver Description: Known for being a great
+        place to work and build a career, KPMG provides audit, tax and advisory services
+        for organizations in today''s most important industries. Our growth is driven
+        by delivering real results for our clients. It''s also enabled by our culture,
+        which encourages individual development, embraces an inclusive environment,
+        rewards innovative excell\u2026","redirect_url":"https://www.adzuna.com/land/ad/3035510623?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=EF130E2C2604633121A1A16A24CA0D68403EB0EE","latitude":39.75,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzNTUxMDYyMyIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.EhfXuVvcmpR8kI2mJfUlVoH265-TxXFyi9lMPaobUW0","id":"3035510623","salary_max":384000,"salary_is_predicted":"0"},{"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"salary_min":288000,"title":"Senior Java Developer","__CLASS__":"Adzuna::API::Response::Job","category":{"label":"IT
+        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAwNTkxMTY0NSIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.ek4dDU3PbXJSn3PhwDZaDU145JXDnQ_QWWK9G3TYa-g","id":"3005911645","latitude":39.75,"salary_is_predicted":"0","salary_max":384000,"longitude":-104.99,"description":"Senior
+        Java Developer The Senior Java Developer has responsibilities across the full
+        Software Development Life Cycle (SDLC) from business requirements to support,
+        but they are primarily focused on refactoring existing functionality provided
+        by a Spring-based Java application into Python-based AWS Lambda microservices
+        and development of features and functionality within the myColorado mobile
+        application for Android (Java/Kotlin.) Development activities include: working
+        with business analysts and\u2026","redirect_url":"https://www.adzuna.com/land/ad/3005911645?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=104A75AF34A490DFC9650FBD78F99885428BAD7D","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Ampcus
+        Incorporated"},"created":"2022-03-28T21:22:39Z"},{"salary_min":157920,"title":"RN
+        Operating Room job in Lakewood, CO","__CLASS__":"Adzuna::API::Response::Job","salary_max":157920,"redirect_url":"https://www.adzuna.com/land/ad/3076842270?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=5A6E6CE87FB6F319E1C87B187FC5D0F7C160AF74","description":"HOST
+        HEALTHCARE PUTS OUR TRAVELER\u2019S COMFORT FIRST. We realize Travel healthcare
+        isn\u2019t just about finding the perfect job \u2013 it\u2019s about finding
+        your perfect lifestyle. Host Healthcare is ranked as the 1 Travel Healthcare
+        Company in the U.S., because we go to great lengths to take care of our Travelers.
+        If you\u2019re new to the world of travel healthcare, we specialize in ensuring
+        your transition is smooth and comfortable. WHY IS HOST HEALTHCARE RANKED THE
+        1 TRAVEL HEALTHCARE COMPANY:  Responsive, fri\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Host
+        Healthcare"},"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"]},"category":{"label":"Healthcare
+        & Nursing Jobs","tag":"healthcare-nursing-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_is_predicted":"0","contract_type":"contract","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA3Njg0MjI3MCIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.a3NIp-1MNsu-qq4QbwUZPRPDhSSV4e-bNihi8JIEL-w","id":"3076842270","latitude":39.75,"created":"2022-04-24T20:25:57Z","longitude":-104.99},{"salary_min":288000,"title":"Vice
+        President, Innovation Design (Clinical) (Remote)","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"__CLASS__":"Adzuna::API::Response::Job","category":{"label":"IT
+        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_is_predicted":"0","salary_max":384000,"id":"3056672444","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA1NjY3MjQ0NCIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.XrQfLpE22tKyojTziQdE9D32mUYf7nE1lTc_lcFWt0I","latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3056672444?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=BDA7076DD931D23E65603E401BCEE62BF2815856","description":"Olive\u2019s
+        AI workforce is built to fix our broken healthcare system by addressing healthcare\u2019s
+        most burdensome issues  delivering hospitals and health systems increased
+        revenue, reduced costs, and increased capacity. People feel lost in the system
+        today and healthcare employees are essentially working in the dark due to
+        outdated technology that creates a lack of shared knowledge and siloed data.
+        Olive is designed to drive connections, shining a new light on the broken
+        healthcare processes that st\u2026","created":"2022-04-15T21:44:11Z","company":{"display_name":"Olive","__CLASS__":"Adzuna::API::Response::Company"},"longitude":-104.99},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA2OTgwOTE0MCIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.rmEAPrHUdCv1vC9V4rS9zbz-mmPQ8KdFuYxpGLtFr3Q","id":"3069809140","latitude":39.75,"salary_is_predicted":"0","longitude":-104.99,"created":"2022-04-21T21:48:52Z","location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Accounting
+        & Finance Jobs","tag":"accounting-finance-jobs"},"salary_max":288000,"contract_time":"full_time","redirect_url":"https://www.adzuna.com/land/ad/3069809140?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=C4B1DA8148315382CB08756D2895201DB586DEC1","description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) PwC Oracle Alliance Senior Manager
+        Denver , Colorado Apply Now Specialty/Competency: IFS - Internal Firm Services
+        - Other Time Type: Full time Travel Requirements: Up to 20% A career in National
+        Special Functions, within Internal Firm Services, will provide you with the
+        opportunity to support service\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"PwC"},"salary_min":240000,"title":"Oracle
+        Alliance Senior Manager","__CLASS__":"Adzuna::API::Response::Job"},{"__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"pr-advertising-marketing-jobs","label":"PR,
+        Advertising & Marketing Jobs"},"location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"title":"VP of Marketing","salary_min":288000,"longitude":-104.99,"created":"2022-04-14T21:43:49Z","company":{"display_name":"IDR","__CLASS__":"Adzuna::API::Response::Company"},"description":"VP
+        of Marketing Denver, Colorado Job Reference ID: 55439 Category: Marketing
+        Business Sector: Job Type: Direct Hire Location: Denver, Colorado 80209 Post
+        Date: March 13, 2022 IDR is looking for a VP of Marketing for one of our clients
+        in Denver, CO . This position will be a direct hire opportunity, with equity
+        and bonus potential. The ideal candidate will have hands on experience in
+        a B2B Marketing environment. REQUIRED Proven track record of successful B2B
+        Marketing; have led and owned all mar\u2026","redirect_url":"https://www.adzuna.com/land/ad/3053849757?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=8039FCE7672D1BD938864128960712A983B629C1","latitude":39.75,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA1Mzg0OTc1NyIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.p95-4NYnHdo41HZThv5U-sA9hNFOxuG5NqH8E5W1Uv4","id":"3053849757","salary_max":384000,"salary_is_predicted":"0"},{"id":"2977206954","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk3NzIwNjk1NCIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.LiewUUMLnPfCwxM5xxefZvsHZKFj4LSIXqnn0dOkS94","latitude":39.75,"salary_is_predicted":"0","longitude":-104.99,"created":"2022-03-16T21:15:13Z","location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"category":{"label":"Sales
+        Jobs","tag":"sales-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_max":384000,"contract_time":"part_time","redirect_url":"https://www.adzuna.com/land/ad/2977206954?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=B9926B07602D6A7E97156A0391BAF17F36F4A9C5","description":"Retirement
+        Advisory Channel Manager - ePlan Description Wholesales ePlan services other
+        white label products to financial advisors across the country to generate
+        401(k) plan sales. They use inside sales techniques wholesaling, partnering
+        and closing skills to generate proposal opportunities and assist advisors
+        on closing and establishing plans. Achieves corporate objectives in ePlan
+        sales to meet/exceed revenue attainment, plans sales and performance standards.
+        Prospects, cultivates, builds, an\u2026","company":{"display_name":"Paychex
+        Inc","__CLASS__":"Adzuna::API::Response::Company"},"salary_min":288000,"title":"Retirement
+        Advisory Channel Manager - ePlan","__CLASS__":"Adzuna::API::Response::Job"},{"category":{"tag":"hr-jobs","label":"HR
+        & Recruitment Jobs","__CLASS__":"Adzuna::API::Response::Category"},"__CLASS__":"Adzuna::API::Response::Job","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"title":"Vice President of Human Resources","salary_min":200,"longitude":-104.99,"created":"2022-04-23T21:51:07Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Lucas
+        Group"},"description":"Don\u2019t have a Jora account? Register with, What
+        Type 1 or more characters for results. Where Type 1 or more characters for
+        results. Position: Vice President of Human Resources Location: REMOTE Reports
+        to: CHRO Relocation Assistance: N/A Role Overview: Lucas Group has partnered
+        with a rapidly growing construction and renovation company in their search
+        for a Vice President of Human Resources. This role with help build and implement
+        policies and procedures in high-growth, heavy M&A environment. The\u2026","redirect_url":"https://www.adzuna.com/land/ad/3075367497?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=002690EF53D9BF49A828DFA444F51518DCF163CE","latitude":39.75,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA3NTM2NzQ5NyIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.rvjWzteL7PAY26Y_EINr2qOsP1cskrZfGN6gf4SVtPk","id":"3075367497","salary_max":250,"salary_is_predicted":"0"},{"__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs","label":"Accounting
+        & Finance Jobs"},"salary_min":250,"title":"Chief Financial Officer","location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"Central
+        Missouri Community Action \u2013 Denver, CO LightEdision is growing rapidly,
+        and we need an experienced financial leader to administer our company''s financial
+        growth and success. This leader will be instrumental in setting, measuring
+        and achieving company financial standards & objectives as we continue to impact
+        energy infrastructure on a national scale. This executive must have proven
+        expertise in raising capital, managing resources and developing financial
+        policies. They must be dedicated \u2026","redirect_url":"https://www.adzuna.com/land/ad/2956675137?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=3D845D27B259E636CDFA3CBD8A478F544AE2DAE4","company":{"display_name":"Central
+        Missouri Community Action","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-03-08T20:03:34Z","longitude":-104.99,"salary_is_predicted":"0","salary_max":250,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIyOTU2Njc1MTM3In0.6fz-gFftOozcyJkUdeTO4IbYd-jpcoKebk_hkV04sgE","id":"2956675137","latitude":39.75},{"salary_min":288000,"title":"Lead
+        Counsel, Commercial","location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"__CLASS__":"Adzuna::API::Response::Job","category":{"tag":"legal-jobs","label":"Legal
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_is_predicted":"0","salary_max":384000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0ODk4MjYzMCIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.VtPkIu6Ns2k0sWQK2Rg01VtmFOdEjuhW4pbO0Go7BC0","id":"3048982630","latitude":39.75,"redirect_url":"https://www.adzuna.com/land/ad/3048982630?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=7BBADCD83386589B58249555E402E6BF1D52676A","description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) Facebook is seeking a talented, highly
+        motivated and flexible Lead Commercial Counsel to work on commercial transactions
+        and counseling in support of our Strategic Partnerships with key metaverse
+        partners. You will be drafting and negotiating a wide variety of contracts,
+        including services, partnersh\u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Meta"},"created":"2022-04-13T05:43:26Z","longitude":-104.99},{"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"engineering-jobs","label":"Engineering
+        Jobs"},"location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-04-08T21:40:44Z","longitude":-104.99,"salary_is_predicted":"0","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDM4NDcwMzcxIn0.EWPtOrn3JpvN7xgqric3fAXY8mDNZd68uJM_HEjzsCo","id":"3038470371","latitude":39.75,"__CLASS__":"Adzuna::API::Response::Job","salary_min":240000,"title":"Computer
+        System Validation Engineer - Denver, CO","description":"About CAICAI is a
+        100% employee-owned company established in 1996 that has grown to more than
+        700 people worldwide. We provide commissioning, qualification, validation,
+        start-up, project management and other consulting services associated with
+        operational readiness to FDA regulated and other mission-critical industries.
+        Meeting a Higher StandardOur approach is simple; we put the client\u2019s
+        interests first, we do not stop until it is right, and we will do whatever
+        it takes to get there.As owners o\u2026","redirect_url":"https://www.adzuna.com/land/ad/3038470371?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=833AA9F12FC72DC1915D5A3226BA53EB134787D4","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"CAI"},"contract_time":"full_time","salary_max":288000},{"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"hospitality-catering-jobs","label":"Hospitality
+        & Catering Jobs"},"__CLASS__":"Adzuna::API::Response::Job","salary_min":288000,"title":"Manager,
+        Portfolio Experience | Mexico & Central America","location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"redirect_url":"https://www.adzuna.com/land/ad/3042482187?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=EA4E49C9D91CBEE8A6C26EFCE9FF55A0B2B17778","description":"\u2716
+        Discover safe, luxurious vacations with Inspirato. Create your free account
+        to see all of our destinations and accommodations within the Inspirato Collection.
+        We use your information to personalize your experience. By continuing, you
+        are agreeing to Inspirato\u2019s Privacy Policy . We\u2019re thrilled you\u2019ve
+        set up your account with us and we can\u2019t wait to share more with you
+        about the privacy and cleanliness of our luxury homes. A member of our team
+        will be reaching out to you with more information a\u2026","company":{"display_name":"Inspirato
+        LLC","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-04-10T21:40:55Z","longitude":-104.99,"salary_is_predicted":"0","salary_max":384000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDQyNDgyMTg3In0.bvNxUQUP8bpQ_VyNTYes4c74PNhQSta_j0V8jMMFQ1g","id":"3042482187","latitude":39.75},{"salary_min":240000,"title":"Headhunters
+        looking for Directors of Marketing (m/f)","location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"__CLASS__":"Adzuna::API::Response::Job","category":{"label":"PR,
+        Advertising & Marketing Jobs","tag":"pr-advertising-marketing-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_is_predicted":"0","salary_max":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIyOTkzOTQxNTg4In0.qM2tTjP5SJ6pSbMhu8fuo1jPwyJg4quphX5yloOhaoI","id":"2993941588","latitude":39.75,"description":"JobLeads
+        is America\u2019s first address for executive and specialist positions. Our
+        headhunters are currently looking for several Directors of Marketing (m/f)
+        candidates to fill various positions in Denver. Many headhunters are looking
+        for Directors of Marketing (m/f) candidates like you in Denver. Get to know
+        the best headhunters to reach the next step in your career.?","redirect_url":"https://www.adzuna.com/land/ad/2993941588?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=C8FD10F26D6B7A10AA497793A4DEC1FD8260CE55","created":"2022-03-23T13:21:53Z","company":{"display_name":"JobLeads","__CLASS__":"Adzuna::API::Response::Company"},"longitude":-104.99},{"salary_max":250,"salary_is_predicted":"0","latitude":39.75,"id":"3083617805","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA4MzYxNzgwNSIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.wlFJtn_X5aXS_gvph3pO8PejWNQjV3kyqEQkoW7G43M","company":{"display_name":"Meta","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-04-27T13:58:45Z","description":"Summary:
+        New Product Experimentation (NPE) is a community of entrepreneurs at Meta
+        building new experiences that will meaningfully improve people s lives. As
+        a Game Director at NPE, you will lead the development of a new social game
+        from concept to launch and beyond. This is a unique opportunity to join Meta
+        with significant freedom to take creative risks and you should be adept at
+        fast-paced experimentation and ready to launch, fail, and iterate quickly.Our
+        ideal candidate has the ability to l\u2026","redirect_url":"https://www.adzuna.com/land/ad/3083617805?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=1C6C3F4C69FFBA3F57415761C72B848BAEFC8BA0","longitude":-104.99,"title":"Game
+        Director Founder, New Product Experimentation","salary_min":200,"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"]},"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"creative-design-jobs","label":"Creative
+        & Design Jobs"},"__CLASS__":"Adzuna::API::Response::Job"},{"category":{"tag":"it-jobs","label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"__CLASS__":"Adzuna::API::Response::Job","location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"title":"Senior
+        Manager, Voice of the Customer Analytics (Remote)","salary_min":288000,"longitude":-104.99,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"DaVita
+        Inc."},"created":"2022-04-12T21:41:11Z","description":"Don\u2019t have a Jora
+        account? Register with, What Type 1 or more characters for results. Where
+        Type 1 or more characters for results. Senior Manager, Voice of the Customer
+        Analytics (Remote) 2000 16th St, Denver, Colorado, 80202-5117, United States
+        of America Do you want to make a positive impact with your work and thrive
+        in a fast-paced environment? The Sr. Manager, VoC Analytics will be responsible
+        for analyzing Patient Experience measurement data, pulling out impactful insights,
+        and building bu\u2026","redirect_url":"https://www.adzuna.com/land/ad/3048232596?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=E4BEB58893FB2933E53ABF15B88D470E5A93C6D6","latitude":39.75,"id":"3048232596","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0ODIzMjU5NiIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.gdBznarfcrFM9qnTn36bkqBRsQc_JMnfG9YtUtCNKH8","salary_max":384000,"salary_is_predicted":"0"},{"description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) The Baxter User Experience (UX) design
+        team supports the global development and advanced technology teams with interaction,
+        visual and industrial design as well as ethnographic research and usability
+        testing. Our designers work collaboratively with stakeholders and customers
+        to research, design and i\u2026","redirect_url":"https://www.adzuna.com/land/ad/3040665057?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=825D5B1D8BD6786084818114E180BEBE6C9F8C0C","company":{"display_name":"Hill
+        Rom","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-04-09T21:38:16Z","longitude":-104.99,"salary_is_predicted":"0","salary_max":288000,"id":"3040665057","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDQwNjY1MDU3In0.EPW2hSupkxDVyc2703MSoLq-0JkkzMB8tsf7XaYfS5g","latitude":39.75,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"creative-design-jobs","label":"Creative
+        & Design Jobs"},"__CLASS__":"Adzuna::API::Response::Job","salary_min":240000,"title":"Lead
+        UX Designer-Researcher","location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"}},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzkzOTM3NSIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.ut0QhzqfcjNmpulRJMOWILOdKQS7ucNvhKsbnz_XQMo","id":"2993939375","latitude":39.75,"salary_is_predicted":"0","salary_max":288000,"longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/2993939375?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=2655D4708C4432C69AAD2B3EC7E696F9DB913055","description":"Should
+        be able to analyze business requirements and implementing sound engineering
+        solutions that meet those requirements along with good problem solving and
+        time management skills. \u2022 Java and Spring MVC \u2022 Maven, Jenkins or
+        other build/deploy tools  Job Description: Great-West has requested to stand
+        up a couple SCRUM teams. Some of the work will be purely Java/Struts/Spring/Hibernate,
+        and others will be working with AngularJS. Creating this Job Order specifically
+        for AngularJS resources. Althou\u2026","company":{"display_name":"INENT, Inc.","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-03-23T13:21:43Z","location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"salary_min":240000,"title":"Java
+        lead","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"__CLASS__":"Adzuna::API::Response::Job"},{"__CLASS__":"Adzuna::API::Response::Job","category":{"tag":"admin-jobs","label":"Admin
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_min":200,"title":"Headhunters
+        looking for Managing Directors/CEOs (m/f)","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"redirect_url":"https://www.adzuna.com/land/ad/2136035371?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=3FE33AE0C03EE71C83731D036EE16DDBC0D18230","description":"JobLeads
+        is America\u2019s first address for executive and specialist positions. Our
+        headhunters are currently looking for several Managing Directors/CEOs (m/f)
+        candidates to fill various positions in Denver. Many headhunters are looking
+        for Managing Directors/CEOs (m/f) candidates like you in Denver. Get to know
+        the best headhunters to reach the next step in your career.?","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"JobLeads"},"created":"2021-04-23T02:24:34Z","longitude":-104.99,"salary_is_predicted":"0","salary_max":250,"id":2136035371,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoyMTM2MDM1MzcxLCJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyJ9.LqP5iOP5oV_ZZulyMyjhFqENw1iuec_fymQiJ3ooeeg","latitude":39.75},{"location":{"display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"salary_min":240000,"title":"Director
+        of Innovation, Value Based Care","__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Consultancy
+        Jobs","tag":"consultancy-jobs"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA3NDQ2MzcwMyIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.xf_Wk9f3r49Sy6-_7cYdhheVq-4QKcU64lCVfARaglk","id":"3074463703","latitude":39.75,"salary_is_predicted":"0","salary_max":288000,"longitude":-104.99,"description":"2000
+        16th St, Denver, Colorado, 80202, United States of America The Director of
+        Innovation, Value-Based Care will identify and build capabilities to support
+        the strategy to deliver value-based care to DaVita\u2019s Integrated Kidney
+        Care businesses. This position will focus on high-priority initiatives in
+        a rapidly growing strategic business and will play a key role as a thought
+        partner, internal consultant, and leader of large, highly visible strategic
+        projects to improve care for kidney care patie\u2026","redirect_url":"https://www.adzuna.com/land/ad/3074463703?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=4610EBBC1A1E2441063DB726B166F66094D1ABA0","created":"2022-04-23T13:52:30Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"DaVita
+        Inc."}},{"longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/3064381001?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=D091B98A74ECEE2096CA31E50023A2D523F40D81","description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) Red Bull North America Director Of
+        Finance SSC Denver , Colorado Apply Now The Director of Finance SSC will oversee
+        the management of Red BullDistribution Company shared services, including
+        multiple Accounts Receivablefunctions for US and Canada Distribution Companies.
+        This senior leadershipposition \u2026","company":{"display_name":"Red Bull
+        North America","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-04-19T21:46:07Z","id":"3064381001","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDY0MzgxMDAxIn0.O4uGQCzpuvK8rAvQvvL6XlzxQi3dGBPw-v-ZtGzQZl4","latitude":39.75,"salary_is_predicted":"0","salary_max":384000,"__CLASS__":"Adzuna::API::Response::Job","category":{"label":"Accounting
+        & Finance Jobs","tag":"accounting-finance-jobs","__CLASS__":"Adzuna::API::Response::Category"},"location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"salary_min":288000,"title":"Director
+        Of Finance SSC"},{"longitude":-104.99,"created":"2022-04-15T13:52:58Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Cuningham
+        Group Architecture Inc"},"description":"The Grow Studio at Cuningham is looking
+        to add a Senior Project Designer to lead architectural design on education
+        projects based out of our Denver office location. This is a great opportunity
+        to work with educators, communities, and contractor partners who trust us
+        to explore innovative design solutions that address their unique design challenges.
+        This is a job opportunity that is truly about forging lasting relationships
+        and continued collaboration with clients and teams who appreciate imagin\u2026","redirect_url":"https://www.adzuna.com/land/ad/3055753055?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=8E26DDC970D396BE5B366BCAD27C02568290649C","latitude":39.75,"id":"3055753055","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA1NTc1MzA1NSIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.PxKa6kGvc9kjogbteKwUOHBhDoBrkBeixbS53NbNn00","salary_max":288000,"salary_is_predicted":"0","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Creative
+        & Design Jobs","tag":"creative-design-jobs"},"__CLASS__":"Adzuna::API::Response::Job","location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"title":"Senior Project
+        Designer","salary_min":240000},{"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"__CLASS__":"Adzuna::API::Response::Job","salary_min":288000,"title":"Lead
+        Analyst - Analytics-Attribution and Measurement","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"description":"Don\u2019t have a Jora account? Register with, What
+        Type 1 or more characters for results. Where Type 1 or more characters for
+        results. Lead Analyst - Analytics-Attribution and Measurement Lead Analyst
+        - Analytics-Attribution and Measurement Company Description: Merkle is a leading
+        technology-enabled, data-driven customer experience management (CXM) company.
+        For over 30 years, Fortune 1,000 companies and leading nonprofit organizations
+        have partnered with us to build and maximize the value of their \u2026","redirect_url":"https://www.adzuna.com/land/ad/3075364494?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=6BE664901C5698FCD227EC6B2E3BB0C925B58B58","created":"2022-04-23T21:50:27Z","company":{"display_name":"Merkle
+        Inc","__CLASS__":"Adzuna::API::Response::Company"},"longitude":-104.99,"salary_is_predicted":"0","salary_max":384000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA3NTM2NDQ5NCIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.0o35llXyBelezkgee1knFoUXe_Uf0AoD8GIT3lQTK9s","id":"3075364494","latitude":39.75},{"title":"Senior
+        Management Consultant","salary_min":240000,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"category":{"label":"Consultancy Jobs","tag":"consultancy-jobs","__CLASS__":"Adzuna::API::Response::Category"},"__CLASS__":"Adzuna::API::Response::Job","salary_max":288000,"salary_is_predicted":"0","latitude":39.75,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzkyNTQ4NCIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.UhV8EyA2gT6NX0sLtvYeth8VBG5o3aNH17feGCPGpiQ","id":"2993925484","created":"2022-03-23T13:17:41Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Point
+        B"},"redirect_url":"https://www.adzuna.com/land/ad/2993925484?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=9932BEC64E64194CDA3F90E26BA3B139B53280D5","description":"Management
+        Consulting has been the foundation of Point B\u2019s employee-owned company
+        for 25 years. Our collaborative, forward looking leadership approach ensures
+        our customers are on the right path to success. What makes Point B different?
+        An employee-ownership model that gives you a voice in directing your career
+        and building our company. Diverse leadership opportunities to expand your
+        skills, along with the support needed to deliver great results. A unique culture
+        that recognizes the importance \u2026","longitude":-104.99},{"salary_is_predicted":"0","salary_max":384000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzODQ3OTQ1NiIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.HQtPAj5Shti6vsIhjehMQHQL4RAXOuOiW5iuQuMs5MA","id":"3038479456","latitude":39.75,"description":"2000
+        16th Street, Denver, Colorado, 80202, United States of America The Davita
+        Venture Group (DVG) is building a dedicated Pharma team that will help DaVita
+        navigate a dynamic renal pharma landscape where multiple new transformational
+        therapies are expected to launch in the next 5 years. This dedicated team
+        will oversee $1B in annual pharma spend and will own the strategy, contracting
+        and partnerships with our key pharma counterparties, while reporting regularly
+        to our CEO and working closely w\u2026","redirect_url":"https://www.adzuna.com/land/ad/3038479456?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=3FCF67B02D58CA9A38F68369B6BC82D30B60B18B","company":{"display_name":"DaVita
+        Inc.","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-04-08T21:42:02Z","longitude":-104.99,"salary_min":288000,"title":"Manager,
+        Pharmaceutical Partnerships & Strategy","location":{"area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado","__CLASS__":"Adzuna::API::Response::Location"},"__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"scientific-qa-jobs","label":"Scientific
+        & QA Jobs"}},{"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"title":"Director of Innovation, Care Delivery","salary_min":240000,"__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"latitude":39.75,"id":"3042476433","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0MjQ3NjQzMyIsInMiOiJ5QUNOYjJmRzdCR1RBN2ZlZDA0cEJnIn0.h3luKBuoR76uvR_h2eholodRg2PJlYcGtT8FWzE6hJ0","salary_max":288000,"salary_is_predicted":"0","longitude":-104.99,"company":{"display_name":"DaVita
+        Inc.","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-04-10T21:38:39Z","description":"Don\u2019t
+        have a Jora account? Register with, What Type 1 or more characters for results.
+        Where Type 1 or more characters for results. 2000 16th St, Denver, Colorado,
+        80202, United States of America The Director of Innovation, Care Delivery
+        will identify and build capabilities to support the strategy to deliver value-based
+        care to DaVita\u2019s Integrated Kidney Care businesses. This position will
+        focus on high-priority initiatives in a rapidly growing strategic business
+        and will play a key role as a th\u2026","redirect_url":"https://www.adzuna.com/land/ad/3042476433?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=B81A00E49ADB0727151E02AAA6724890879CF2B2"},{"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
+        Jobs"},"__CLASS__":"Adzuna::API::Response::Job","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Colorado","Denver"],"display_name":"Denver,
+        Colorado"},"salary_min":240000,"title":"Manager, Backend Engineering","longitude":-104.99,"redirect_url":"https://www.adzuna.com/land/ad/3082011838?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=1789B194EE7AAE6DB520032EC516ED22741C3472","description":"RE/MAX
+        is looking for a Software Engineering Manager to join our Enterprise Data
+        Services department, Seventy3, and lead a distributed team of talented engineers.Seventy3
+        is an essential team within REMAX, LLC that delivers critical data services
+        and products to solutions that consumers, agents and brokers love using. In
+        this role you will guide and mentor other Software and DevOps Engineers, ensuring
+        the high level of productivity and engagement. Success in this role is ensuring
+        the Seventy3 p\u2026","created":"2022-04-26T21:52:46Z","company":{"display_name":"RE/MAX
+        Holdings, Inc.","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDgyMDExODM4In0.Rt29DLnoBrs72BTnWVB7QFrdkoJBDCa-NUFd3HHujP0","id":"3082011838","latitude":39.75,"salary_is_predicted":"0","salary_max":288000},{"salary_min":200,"title":"VP
+        Engineering - Data","location":{"display_name":"Denver, Colorado","area":["US","Colorado","Denver"],"__CLASS__":"Adzuna::API::Response::Location"},"__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
+        Jobs"},"salary_is_predicted":"0","salary_max":250,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIzMDc2OTE0NjM3In0.jtlT8yw7bGvhUA41eckF_qQqkZ8j3ORAYq5y7xgh5nk","id":"3076914637","latitude":39.75,"description":"VP
+        Engineering - DataGeneral PurposeWe are looking for a highly motivated and
+        skilled VP of Engineering to lead our data-focused teams. You will become
+        a member and senior leader part of the broader DHI software engineering group.
+        The right person will have demonstrated a significant career progression of
+        leadership and technical responsibilities.This role will oversee our three
+        data-related teams; Data Science, Data Warehousing, and Business Insights
+        & Analytics. These teams are the primary ow\u2026","redirect_url":"https://www.adzuna.com/land/ad/3076914637?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=2936358E4D2348AD4734DC00646509E90D9D6808","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"DHI
+        Group"},"created":"2022-04-24T21:52:57Z","longitude":-104.99},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoieUFDTmIyZkc3QkdUQTdmZWQwNHBCZyIsImkiOiIyOTA4Mjc0OTkxIn0.XTkILRvyMS11yKZX8BZMtHsabYtwqQrXn9svxnP3aXw","id":"2908274991","latitude":39.75,"salary_is_predicted":"0","salary_max":250,"longitude":-104.99,"description":"Business
+        Title: Director, Due Diligence, M&A Strategy Requisition Number: 76855 - 17
+        Function: Advisory Area of Interest: Strategy State: CO City: Denver Description:
+        The KPMG Advisory practice is currently our fastest growing practice. We are
+        seeing tremendous client demand, and looking forward we don''t anticipate
+        that slowing down. In this ever-changing market environment, our professionals
+        must be adaptable and thrive in a collaborative, team-driven culture. At KPMG,
+        our people are our numbe\u2026","redirect_url":"https://www.adzuna.com/land/ad/2908274991?se=yACNb2fG7BGTA7fed04pBg&utm_medium=api&utm_source=5e859b54&v=8CEFC07D848F06FC525E9537F15AC9D0D76E7094","company":{"display_name":"KPMG","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-02-18T03:47:31Z","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Denver,
+        Colorado","area":["US","Colorado","Denver"]},"salary_min":250,"title":"Director,
+        Due Diligence, M&A Strategy","__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"Consultancy
+        Jobs","tag":"consultancy-jobs"}}],"__CLASS__":"Adzuna::API::Response::JobSearchResults","mean":107295.69,"count":2080}'
+  recorded_at: Wed, 27 Apr 2022 20:20:16 GMT
 recorded_with: VCR 6.1.0

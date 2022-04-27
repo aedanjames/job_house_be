@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'jobs api' do
   it "sends a list of jobs for a given state and city" do
     VCR.use_cassette("sf yerbs") do
-      get "/api/v1/jobs?state=colorado&city=denver"
+      get "/api/v1/jobs?where=denver,co"
 
       expect(response).to be_successful
 

@@ -1,6 +1,6 @@
 class Api::V1::JobsController < ApplicationController
   def index
-    jobs = JobFacade.find_jobs(params[:where])
+    jobs = JobFacade.find_jobs(params[:where], params[:what], params[:salary_min])
     render json: JobSerializer.new(jobs)
   end
 
