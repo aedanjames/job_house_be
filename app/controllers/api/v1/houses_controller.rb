@@ -1,7 +1,7 @@
-class HousesController < ApplicationController
+class Api::V1::HousesController < ApplicationController
   def index
-    @houses = HouseFacade.find_houses(price)
-    #30% of salary / 12
-    # 
+    @houses = HouseFacade.find_houses_first(params[:where], params[:max_price])
+    binding.pry
+    render json: JobHouseSerializer.new(@houses)
   end
 end

@@ -130,4 +130,10 @@ RSpec.describe 'house request' do
     expect(UserJobHouse.count).to eq(1)
     expect(UserJobHouse.first.house_id).to eq(1005221)
   end
+
+  it 'can get a list of houses', :vcr do
+    get '/api/v1/houses?where=texas&max_price=1000000'
+    houses = JSON.parse(response.body, symbolize_names: true)
+
+  end
 end
