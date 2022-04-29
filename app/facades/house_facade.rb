@@ -18,7 +18,7 @@ class HouseFacade
 
   def self.find_houses_first(where, max_price)
     houses = HouseService.search_houses(where, max_price)
-    binding.pry
+
     houses.map do |house_info|
       HousePoro.new(house_info)
     end
