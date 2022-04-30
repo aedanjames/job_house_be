@@ -4,9 +4,13 @@
 
 ## Available Endpoints
   + base `/api/v1`
-  + GET `/search/jobs?city=WHATEVER`
+
+  + Get Jobs index
+  + ![get_jobs](app/assets/images/get_jobs_url.png)
     + Returns a list of jobs matching the city param
       + Here we reach into a third party Job board API
+      adzuna link goes here
+      + ![get_jobs](app/assets/images/get_jobs_response.png)
   + Get `/users?email=someemailadress.com`
     + returns the specific user requested by email address, if one does not exist, creates a new one and returns that user
       + Here we store our user table for our front end program to control access via Google-Oauth2

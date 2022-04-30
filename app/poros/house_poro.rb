@@ -24,4 +24,9 @@ class HousePoro
     @photos = house_data[:photos]
     @id = house_data[:mlsId]
   end
+
+  def salary_calculator
+      salary  = (((@list_price * (0.005 * 6.022575)) * 12) / 0.3)
+  end
+
 end
