@@ -16,7 +16,7 @@
       + Here we store our user table for our front end program to control access via Google-Oauth2
   + Post `/jobs`
     + takes a formatted param with a `job`key and JSON body
-    + creates a job entry in our database, or locates on if it already exists, and assigns a relationship to an existing users
+    + creates a job entry in our database,  or locates on if it already exists, and assigns a relationship to an existing users
       + this endpoint store job data in the local database, this is required because the current free jobboard API does not have a search by ID endpoint Available to return specfic jobs for our users
   + Get `/jobs/id/houses`
     + returns an index of houses that meet the 30% income affordability criteria

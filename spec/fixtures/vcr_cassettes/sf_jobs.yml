@@ -19,11 +19,11 @@ http_interactions:
       message: OK
     headers:
       Date:
-      - Sat, 30 Apr 2022 15:32:14 GMT
+      - Wed, 04 May 2022 15:26:53 GMT
       Content-Type:
       - application/json; charset=utf8
       Content-Length:
-      - '18799'
+      - '14429'
       Connection:
       - keep-alive
       Server:
@@ -38,149 +38,112 @@ http_interactions:
       - '5.90117'
     body:
       encoding: UTF-8
-      string: '{"mean":264000,"count":13,"__CLASS__":"Adzuna::API::Response::JobSearchResults","results":[{"description":"We
+      string: '{"__CLASS__":"Adzuna::API::Response::JobSearchResults","results":[{"company":{"display_name":"samsung","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"created":"2021-12-09T01:35:16Z","__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"latitude":38.918677,"redirect_url":"https://www.adzuna.com/land/ad/2722725024?se=7AkyoL7L7BGK3-Lsd04pBg&utm_medium=api&utm_source=5e859b54&v=C3D7C7D559DFEC7183801FFE7647A60008EFA5A9","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"id":"2722725024","description":"We
         are seeking a highly skilled engineer to join the cloud and data center infrastructure
         team with at least 5 years of systems development, deployment, and related
         operations experience. The candidate must have experience with distributed
         systems, open source development, agile development methods, CI/CD, and devops
         Job Description Required: \u2022 Bachelor''s degree in Computer Science or
         equivalent. \u2022 Practical design, development and deployment experience
-        with evolving existing designs towards la\u2026","company":{"display_name":"samsung","__CLASS__":"Adzuna::API::Response::Company"},"redirect_url":"https://www.adzuna.com/land/ad/2722725024?se=SIADtZrI7BGBFExdt7GWCg&utm_medium=api&utm_source=5e859b54&v=C3D7C7D559DFEC7183801FFE7647A60008EFA5A9","id":"2722725024","created":"2021-12-09T06:35:16Z","salary_max":384000,"__CLASS__":"Adzuna::API::Response::Job","location":{"area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs","tag":"it-jobs"},"longitude":-84.263547,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcyNTAyNCIsInMiOiJTSUFEdFpySTdCR0JGRXhkdDdHV0NnIn0.64vHZE7_0eLBTUlWkObOFtrgxc5mMPIEriSxhUCzhaM","latitude":38.918677,"salary_is_predicted":"0","salary_min":288000,"title":"Java
-        Backend Developer"},{"created":"2022-04-22T05:52:04Z","id":"3070604976","description":"CBRE
-        Facilities Manager - Atwater, Ca in Atwater, CA Visa Senior Pricing Analyst
-        in Foster City, CA CBRE FM Engineering Operations Manager GWS Local in Santa
-        Clara, CA PetSmart Bather / Groomer Trainee in Lancaster, CA Featured Employers
-        Backend Software Engineer (Developer) - Python, Linux, ETL (154035) Company:
-        AMD Location: SanJose, CA Employment Type: Full Time Date Posted: 04/18/2022
-        Expire Date: 06/17/2022 Job Categories: Computers, Software, Engineering,
-        Healthcare, Practitioner and Tech\u2026","company":{"display_name":"AMD","__CLASS__":"Adzuna::API::Response::Company"},"title":"Backend
-        Software Engineer (Developer) - Python, Linux, ETL (154035)","latitude":38.918677,"salary_is_predicted":"0","salary_min":240000,"longitude":-84.263547,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiU0lBRHRackk3QkdCRkV4ZHQ3R1dDZyIsImkiOiIzMDcwNjA0OTc2In0.23DZsi3ip6656EpeWHXxcnREcUQMt3U7wEJihsopFB8","location":{"area":["US","Kentucky","Campbell
-        County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"__CLASS__":"Adzuna::API::Response::Job","contract_time":"full_time","redirect_url":"https://www.adzuna.com/land/ad/3070604976?se=SIADtZrI7BGBFExdt7GWCg&utm_medium=api&utm_source=5e859b54&v=9C7213A63FF9192BD4D606871F295F49B12DD6F0","category":{"label":"IT
-        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_max":288000},{"title":"Core
-        Java Developer/BE","salary_min":288000,"salary_is_predicted":"0","latitude":38.918677,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiU0lBRHRackk3QkdCRkV4ZHQ3R1dDZyIsImkiOiIyNzIyNzAzOTU2In0.dwLWLkd_LHt71o9oAKFA4JVCKLr5wnZ_P8dT11yQPsE","longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","location":{"area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"created":"2021-12-09T06:31:10Z","id":"2722703956","company":{"display_name":"EROS
-        Technologies Inc.","__CLASS__":"Adzuna::API::Response::Company"},"description":"EROS
+        with evolving existing designs towards la\u2026","salary_min":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcyNTAyNCIsInMiOiI3QWt5b0w3TDdCR0szLUxzZDA0cEJnIn0.LuG8EmTRUJUKcHs0_IfdRh7CRn2qvE4vSPK8jQceDTc","title":"Java
+        Backend Developer","salary_max":384000},{"category":{"tag":"it-jobs","label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"redirect_url":"https://www.adzuna.com/land/ad/2722703956?se=7AkyoL7L7BGK3-Lsd04pBg&utm_medium=api&utm_source=5e859b54&v=2EA5FA4DF6AF34628C6556496F05306AC638D7D0","contract_time":"full_time","id":"2722703956","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"__CLASS__":"Adzuna::API::Response::Job","created":"2021-12-09T01:31:10Z","salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"EROS
+        Technologies Inc."},"latitude":38.918677,"longitude":-84.263547,"title":"Core
+        Java Developer/BE","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcwMzk1NiIsInMiOiI3QWt5b0w3TDdCR0szLUxzZDA0cEJnIn0.w-D9IvmfJI8-r6U4qrXlHh0qs0P-RVRnV3x__Nf3uTs","salary_max":384000,"salary_min":288000,"description":"EROS
         Technologies was founded with a simple motive of offering the clients exactly
         what they want, how they want and when they want it. By leveraging for its
         clients its technological edge and right-sourcing advantage, EROS in a short
         period of time has grown to become one of the most trusted strategic technology
         partners. Treating every client as the top priority, we customize our solutions
         and services to align with the unique needs of each client. Job Description
-        No of positions: 4 Location:\u2026","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs","tag":"it-jobs"},"salary_max":384000,"contract_time":"full_time","redirect_url":"https://www.adzuna.com/land/ad/2722703956?se=SIADtZrI7BGBFExdt7GWCg&utm_medium=api&utm_source=5e859b54&v=2EA5FA4DF6AF34628C6556496F05306AC638D7D0"},{"contract_time":"full_time","redirect_url":"https://www.adzuna.com/land/ad/2993945232?se=SIADtZrI7BGBFExdt7GWCg&utm_medium=api&utm_source=5e859b54&v=15E8790E42CCE53273CFF697E01F808B3A907AD1","salary_max":288000,"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs","tag":"it-jobs"},"id":"2993945232","created":"2022-03-23T13:22:08Z","company":{"display_name":"Samsung
-        SDSA","__CLASS__":"Adzuna::API::Response::Company"},"description":"San Jose,
-        CA, USA, San Jose, CA Full-time Company Description Our Employees Are Among
-        The Most Talented People In Their Fields And The Key To Our Success At Samsung,
-        we encourage our employees to showcase their talent through our diverse corporate
-        culture. Our strength is our people. Each individual makes an impact to the
-        company and plays a vital role in contributing to the company\u2019s success.
-        Our employees are motivated and passionate. We foster innovative thinking
-        through an enthusiastic work\u2026","salary_min":240000,"salary_is_predicted":"0","latitude":38.918677,"title":"Data
-        analytics developer - Java backend, RESTful API, SQL","location":{"area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiU0lBRHRackk3QkdCRkV4ZHQ3R1dDZyIsImkiOiIyOTkzOTQ1MjMyIn0.KmWuAHgSzjKJ_EbIaw7w8_QVfjRN0ae9BCctunwg4Vk","longitude":-84.263547},{"description":"PetSmart
-        Retail Store Manager in Buena Park, CA CBRE Alliance Director in Mountain
-        View, CA Company: Thermo Fisher Scientific Location: Los Angeles, CA Employment
-        Type: Full Time Date Posted: 04/22/2022 Expire Date: 05/22/2022 Job Categories:
-        Architectural Services, Computers, Software, Construction, Mining and Trades,
-        Information Technology, Law Enforcement, and Security, Quality Control, Research
-        & Development, Writing/Authoring, Energy / Utilities Job Description Power
-        Platform Architect Rep\u2026","company":{"display_name":"Thermo Fisher","__CLASS__":"Adzuna::API::Response::Company"},"id":"3076913288","created":"2022-04-24T21:52:43Z","__CLASS__":"Adzuna::API::Response::Job","location":{"area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"longitude":-84.263547,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA3NjkxMzI4OCIsInMiOiJTSUFEdFpySTdCR0JGRXhkdDdHV0NnIn0.6Zvg994vSEBZVxiEFm52ogTLS3fhl5POWcTWkqfwohY","salary_is_predicted":"0","latitude":38.918677,"salary_min":240000,"title":"Power
-        Platform Architect","redirect_url":"https://www.adzuna.com/land/ad/3076913288?se=SIADtZrI7BGBFExdt7GWCg&utm_medium=api&utm_source=5e859b54&v=1D3FF61FD8978C748E5EF63627CB540D4F2AAF8C","contract_time":"full_time","salary_max":288000,"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs","tag":"it-jobs"}},{"title":"Software Engineer - Full Stack Software
-        Engineer","latitude":38.918677,"salary_is_predicted":"0","salary_min":240000,"longitude":-84.263547,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiU0lBRHRackk3QkdCRkV4ZHQ3R1dDZyIsImkiOiIyOTkzOTI1MTA1In0.2_TmsfpyTffJQBwBjPCeGg_a8dPJup-pBju3tVNs5cU","__CLASS__":"Adzuna::API::Response::Job","salary_max":288000,"location":{"area":["US","Kentucky","Campbell
-        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-03-23T13:17:36Z","id":"2993925105","description":"Hewlett
+        No of positions: 4 Location:\u2026"},{"category":{"tag":"it-jobs","label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"redirect_url":"https://www.adzuna.com/land/ad/2993945232?se=7AkyoL7L7BGK3-Lsd04pBg&utm_medium=api&utm_source=5e859b54&v=15E8790E42CCE53273CFF697E01F808B3A907AD1","contract_time":"full_time","id":"2993945232","location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"created":"2022-03-23T17:22:08Z","__CLASS__":"Adzuna::API::Response::Job","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Samsung
+        SDSA"},"salary_is_predicted":"0","longitude":-84.263547,"latitude":38.918677,"salary_min":240000,"description":"San
+        Jose, CA, USA, San Jose, CA Full-time Company Description Our Employees Are
+        Among The Most Talented People In Their Fields And The Key To Our Success
+        At Samsung, we encourage our employees to showcase their talent through our
+        diverse corporate culture. Our strength is our people. Each individual makes
+        an impact to the company and plays a vital role in contributing to the company\u2019s
+        success. Our employees are motivated and passionate. We foster innovative
+        thinking through an enthusiastic work\u2026","salary_max":288000,"title":"Data
+        analytics developer - Java backend, RESTful API, SQL","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5Mzk0NTIzMiIsInMiOiI3QWt5b0w3TDdCR0szLUxzZDA0cEJnIn0.pTRHZQpVBEUOHsjVlu-g_8oyBkXn6Qfyl4iIN5Lt55g"},{"latitude":38.918677,"longitude":-84.263547,"redirect_url":"https://www.adzuna.com/land/ad/2993925217?se=7AkyoL7L7BGK3-Lsd04pBg&utm_medium=api&utm_source=5e859b54&v=2B13D9FDD8507B9A91B185784281B20BB0E6E69C","salary_is_predicted":"0","company":{"display_name":"Hewlett
+        Packard Enterprise Development LP","__CLASS__":"Adzuna::API::Response::Company"},"__CLASS__":"Adzuna::API::Response::Job","category":{"label":"IT
+        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"created":"2022-03-23T17:17:37Z","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzkyNTIxNyIsInMiOiI3QWt5b0w3TDdCR0szLUxzZDA0cEJnIn0.aXbNJbb-JiLpSw7fWUO3gQqg16f7APKUc3MTccIOU8Y","title":"Full
+        Stack Software Engineer","salary_max":288000,"salary_min":240000,"description":"Hewlett
         Packard Enterprise is an innovative, dynamic company with a rich past and
         a promising future. Originally Hewlett-Packard Company, HPE has continuously
         reinvented itself. Today, HPE is one of the world''s leading technology companies
         and provides wired and wireless networking, servers, storage, IT and Cloud
         services for the next generation of IT infrastructure. Aruba is redefining
         the \"Intelligent Edge\" Aruba is creating new customer experiences by building
-        intelligent spaces and digital \u2026","company":{"display_name":"Hewlett
-        Packard Enterprise Development LP","__CLASS__":"Adzuna::API::Response::Company"},"redirect_url":"https://www.adzuna.com/land/ad/2993925105?se=SIADtZrI7BGBFExdt7GWCg&utm_medium=api&utm_source=5e859b54&v=26F8CDC00594736887C56F62D5E588610529ED8A"},{"created":"2022-03-23T13:17:37Z","id":"2993925217","description":"Hewlett
+        intelligent spaces and digital \u2026","id":"2993925217","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"}},{"salary_is_predicted":"0","company":{"display_name":"Hewlett
+        Packard Enterprise Development LP","__CLASS__":"Adzuna::API::Response::Company"},"__CLASS__":"Adzuna::API::Response::Job","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs","tag":"it-jobs"},"created":"2022-03-23T17:17:36Z","latitude":38.918677,"longitude":-84.263547,"redirect_url":"https://www.adzuna.com/land/ad/2993925105?se=7AkyoL7L7BGK3-Lsd04pBg&utm_medium=api&utm_source=5e859b54&v=26F8CDC00594736887C56F62D5E588610529ED8A","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"id":"2993925105","title":"Software
+        Engineer - Full Stack Software Engineer","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiN0FreW9MN0w3QkdLMy1Mc2QwNHBCZyIsImkiOiIyOTkzOTI1MTA1In0.LFBm1tvCo838x2RW9tPehmmMANnODflVCRaPly1gWnU","salary_max":288000,"salary_min":240000,"description":"Hewlett
         Packard Enterprise is an innovative, dynamic company with a rich past and
         a promising future. Originally Hewlett-Packard Company, HPE has continuously
         reinvented itself. Today, HPE is one of the world''s leading technology companies
         and provides wired and wireless networking, servers, storage, IT and Cloud
         services for the next generation of IT infrastructure. Aruba is redefining
         the \"Intelligent Edge\" Aruba is creating new customer experiences by building
-        intelligent spaces and digital \u2026","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Hewlett
-        Packard Enterprise Development LP"},"redirect_url":"https://www.adzuna.com/land/ad/2993925217?se=SIADtZrI7BGBFExdt7GWCg&utm_medium=api&utm_source=5e859b54&v=2B13D9FDD8507B9A91B185784281B20BB0E6E69C","title":"Full
-        Stack Software Engineer","salary_is_predicted":"0","latitude":38.918677,"salary_min":240000,"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs","tag":"it-jobs"},"longitude":-84.263547,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiU0lBRHRackk3QkdCRkV4ZHQ3R1dDZyIsImkiOiIyOTkzOTI1MjE3In0.5tBh5f1f5GWHFOxYdoEs57aIwPCVjglfVxPq-wGzBp4","__CLASS__":"Adzuna::API::Response::Job","salary_max":288000,"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"]}},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiU0lBRHRackk3QkdCRkV4ZHQ3R1dDZyIsImkiOiIyOTkzOTI0NzY4In0.3L_y2nPW2dN1dLl1R1gE7JN-HQji8TbXECRl-wWtlwo","longitude":-84.263547,"category":{"label":"Engineering
-        Jobs","tag":"engineering-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_max":288000,"__CLASS__":"Adzuna::API::Response::Job","location":{"area":["US","Kentucky","Campbell
-        County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"title":"Backend Software Engineer","salary_min":240000,"latitude":38.918677,"salary_is_predicted":"0","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"PayPal,
-        Inc."},"redirect_url":"https://www.adzuna.com/land/ad/2993924768?se=SIADtZrI7BGBFExdt7GWCg&utm_medium=api&utm_source=5e859b54&v=9B6BE3ADD33AF6702D7B971181F779922FB33D54","description":"Job
+        intelligent spaces and digital \u2026"},{"__CLASS__":"Adzuna::API::Response::Job","category":{"tag":"engineering-jobs","label":"Engineering
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"created":"2022-03-23T17:17:31Z","salary_is_predicted":"0","company":{"display_name":"PayPal,
+        Inc.","__CLASS__":"Adzuna::API::Response::Company"},"redirect_url":"https://www.adzuna.com/land/ad/2993924768?se=7AkyoL7L7BGK3-Lsd04pBg&utm_medium=api&utm_source=5e859b54&v=9B6BE3ADD33AF6702D7B971181F779922FB33D54","latitude":38.918677,"longitude":-84.263547,"id":"2993924768","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"title":"Backend
+        Software Engineer","salary_max":288000,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiN0FreW9MN0w3QkdLMy1Mc2QwNHBCZyIsImkiOiIyOTkzOTI0NzY4In0.EQOqIfNPKz3kH_53LB92-_858ScPoeqd6tR4XhsvPSk","salary_min":240000,"description":"Job
         Description At PayPal (NASDAQ: PYPL), we believe that every person has the
         right to participate fully in the global economy. Our mission is to democratize
         financial services to ensure that everyone, regardless of background or economic
         standing, has access to affordable, convenient, and secure products and services
         to take control of their financial lives. We\u2019re a purpose-driven company,
         and our beliefs are the foundation of how we conduct business every day. We\u2019re
-        guided by our core values\u2026","created":"2022-03-23T13:17:31Z","id":"2993924768"},{"salary_is_predicted":"0","latitude":38.918677,"salary_min":288000,"title":"PHP
-        Full Stack Developer","salary_max":384000,"__CLASS__":"Adzuna::API::Response::Job","location":{"area":["US","Kentucky","Campbell
-        County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"longitude":-84.263547,"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs","tag":"it-jobs"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcyOTg2MSIsInMiOiJTSUFEdFpySTdCR0JGRXhkdDdHV0NnIn0.RsXfj9XYctg0r5kweMljQeB3WgJV-hoPBic8icYSAPk","id":"2722729861","created":"2021-12-09T06:35:58Z","description":"At
+        guided by our core values\u2026"},{"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"French
+        Girsl App"},"salary_is_predicted":"0","created":"2021-12-09T01:35:58Z","category":{"label":"IT
+        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"__CLASS__":"Adzuna::API::Response::Job","longitude":-84.263547,"latitude":38.918677,"redirect_url":"https://www.adzuna.com/land/ad/2722729861?se=7AkyoL7L7BGK3-Lsd04pBg&utm_medium=api&utm_source=5e859b54&v=8243F5DF9EE3D482123D4C6D7327E5FE9DD86DFA","id":"2722729861","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County"},"salary_min":288000,"description":"At
         French Girls, we believe our product reflects who we are: creative, goofy,
         talented, and just a little bit irreverent. If you think have you the confidence
         and ability to contribute in a big way while working with others to achieve
         big things, apply now Job Description Do you love polished, clean UI that
         makes users feel like they\u2019re eating a candlelit dinner on the International
         Space Station? Are you excited about a user experience so easy and natural
-        that your pet llamalpaca could spend $\u2026","company":{"display_name":"French
-        Girsl App","__CLASS__":"Adzuna::API::Response::Company"},"redirect_url":"https://www.adzuna.com/land/ad/2722729861?se=SIADtZrI7BGBFExdt7GWCg&utm_medium=api&utm_source=5e859b54&v=8243F5DF9EE3D482123D4C6D7327E5FE9DD86DFA"},{"created":"2021-12-09T06:30:28Z","id":"2722696072","description":"Jobsbridge,
+        that your pet llamalpaca could spend $\u2026","salary_max":384000,"title":"PHP
+        Full Stack Developer","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcyOTg2MSIsInMiOiI3QWt5b0w3TDdCR0szLUxzZDA0cEJnIn0.Zbo5vtczg8mgQ7OAsyXz8Y81doV_s8i57Zv3PfxCovI"},{"redirect_url":"https://www.adzuna.com/land/ad/2722696072?se=7AkyoL7L7BGK3-Lsd04pBg&utm_medium=api&utm_source=5e859b54&v=C8CDF2943D22860616F4493F41A1EDAB7E7B2BDD","latitude":38.918677,"longitude":-84.263547,"__CLASS__":"Adzuna::API::Response::Job","category":{"label":"IT
+        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"created":"2021-12-09T01:30:28Z","salary_is_predicted":"0","company":{"display_name":"Jobsbridge","__CLASS__":"Adzuna::API::Response::Company"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjY5NjA3MiIsInMiOiI3QWt5b0w3TDdCR0szLUxzZDA0cEJnIn0.-Yk45dQLYqJWejRJ4v_ZAj21x9q1Nl2k87PpiafUprg","title":"Sr.
+        Java Applications Engineer","salary_max":384000,"salary_min":288000,"description":"Jobsbridge,
         Inc . is a fast growing Silicon Valley based I.T staffing and professional
         services company specializing in Web, Cloud & Mobility staffing solutions.
         Be it core Java, full-stack Java, Web/UI designers, Big Data or Cloud or Mobility
         developers/architects, we have them all. Job Description Description: Diverse
         experience utilizing a wide array Java tools in business, Web, and client-server
         environments including Java Platform, Cloud computing platforms like AWS.
-        Expertise and Strong u\u2026","redirect_url":"https://www.adzuna.com/land/ad/2722696072?se=SIADtZrI7BGBFExdt7GWCg&utm_medium=api&utm_source=5e859b54&v=C8CDF2943D22860616F4493F41A1EDAB7E7B2BDD","company":{"display_name":"Jobsbridge","__CLASS__":"Adzuna::API::Response::Company"},"title":"Sr.
-        Java Applications Engineer","latitude":38.918677,"salary_is_predicted":"0","salary_min":288000,"longitude":-84.263547,"category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs","tag":"it-jobs"},"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiU0lBRHRackk3QkdCRkV4ZHQ3R1dDZyIsImkiOiIyNzIyNjk2MDcyIn0.7lThJZ4rzIaf2VYWxkuP9B1PFYI27QDtGFGr-33_BBA","location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County","area":["US","Kentucky","Campbell County","California"]},"__CLASS__":"Adzuna::API::Response::Job","salary_max":384000},{"description":"Don\u2019t
-        have a Jora account? Register with, What Type 1 or more characters for results.
-        Where Type 1 or more characters for results. Manager, Software Development
-        Engineering - Extend Core Platform Services Do what you love. Love what you
-        do. At Workday, we help the world\u2019s largest organizations adapt to what\u2019s
-        next by bringing finance, HR, and planning into a single enterprise cloud.
-        We work hard, and we\u2019re serious about what we do. But we like to have
-        fun, too. We put people first, celebrate di\u2026","redirect_url":"https://www.adzuna.com/land/ad/3087620680?se=SIADtZrI7BGBFExdt7GWCg&utm_medium=api&utm_source=5e859b54&v=9DF97BD0B6EDBB8680AAF333B4E15CDC21CD524E","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Workday,
-        Inc."},"created":"2022-04-28T22:02:37Z","id":"3087620680","category":{"label":"IT
-        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"longitude":-84.263547,"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiU0lBRHRackk3QkdCRkV4ZHQ3R1dDZyIsImkiOiIzMDg3NjIwNjgwIn0.gCGdb2bw5h_Al2Uomyrpyz-gQTkEfwtmou1AqNLHMms","location":{"area":["US","Kentucky","Campbell
-        County","California"],"__CLASS__":"Adzuna::API::Response::Location","display_name":"California,
-        Campbell County"},"__CLASS__":"Adzuna::API::Response::Job","salary_max":288000,"title":"Manager,
-        Software Development Engineering - Extend Core Platform Services","latitude":38.918677,"salary_is_predicted":"0","salary_min":240000},{"title":"Software
-        Engineer- Orchestrator","salary_min":240000,"latitude":38.918677,"salary_is_predicted":"0","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzkyNTkyOCIsInMiOiJTSUFEdFpySTdCR0JGRXhkdDdHV0NnIn0.2stfj4JMPWodMDRlKavkH3ukIgKGpCbXMErZbga5MZ8","category":{"__CLASS__":"Adzuna::API::Response::Category","label":"IT
-        Jobs","tag":"it-jobs"},"longitude":-84.263547,"salary_max":288000,"__CLASS__":"Adzuna::API::Response::Job","location":{"display_name":"California,
-        Campbell County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"created":"2022-03-23T13:17:47Z","id":"2993925928","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Hewlett
-        Packard Enterprise Development LP"},"redirect_url":"https://www.adzuna.com/land/ad/2993925928?se=SIADtZrI7BGBFExdt7GWCg&utm_medium=api&utm_source=5e859b54&v=1113C66AFE83005A41DCAC8D7EB90FC1ED7D71AD","description":"Hewlett
+        Expertise and Strong u\u2026","location":{"display_name":"California, Campbell
+        County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"id":"2722696072"},{"id":"2993925928","location":{"display_name":"California,
+        Campbell County","area":["US","Kentucky","Campbell County","California"],"__CLASS__":"Adzuna::API::Response::Location"},"description":"Hewlett
         Packard Enterprise is an innovative, dynamic company with a rich past and
         a promising future. Originally Hewlett-Packard Company, HPE has continuously
         reinvented itself. Today, HPE is one of the world''s leading technology companies
         and provides wired and wireless networking, servers, storage, IT and Cloud
         services for the next generation of IT infrastructure. Aruba is redefining
         the \"Intelligent Edge\" Aruba is creating new customer experiences by building
-        intelligent spaces and digital \u2026"},{"location":{"display_name":"California,
-        Campbell County","__CLASS__":"Adzuna::API::Response::Location","area":["US","Kentucky","Campbell
-        County","California"]},"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiU0lBRHRackk3QkdCRkV4ZHQ3R1dDZyIsImkiOiIzMDYyMTI4MzgyIn0.FWwYGudx_BeHL9SRrG7HNre-Cnbm8mIOpV8FpHvAMvI","longitude":-84.263547,"salary_min":240000,"salary_is_predicted":"0","latitude":38.918677,"title":"Staff
-        Front-End / UI Lead Engineer","company":{"display_name":"VMware","__CLASS__":"Adzuna::API::Response::Company"},"description":"Front-End/UI
+        intelligent spaces and digital \u2026","salary_min":240000,"title":"Software
+        Engineer- Orchestrator","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5MzkyNTkyOCIsInMiOiI3QWt5b0w3TDdCR0szLUxzZDA0cEJnIn0.aua4PYafpFyw0in2-ED6BQ3UZmPgYyrU4uVRq5Nrorg","salary_max":288000,"created":"2022-03-23T17:17:47Z","category":{"tag":"it-jobs","label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"__CLASS__":"Adzuna::API::Response::Job","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Hewlett
+        Packard Enterprise Development LP"},"salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/2993925928?se=7AkyoL7L7BGK3-Lsd04pBg&utm_medium=api&utm_source=5e859b54&v=1113C66AFE83005A41DCAC8D7EB90FC1ED7D71AD","longitude":-84.263547,"latitude":38.918677},{"salary_min":240000,"description":"Front-End/UI
         Lead (Staff Engineer) The Elevator Pitch: Why will you enjoy this new opportunity?
         You share a passion for crafting software that has a significant impact for
         the world and future of cloud computing. You love solving problems and learning
         new things and are looking for a company that helps enable those ideas. Technologies
         come and go, but that excites you because of the endless possibilities it
         creates. You are looking for an opportunity to work for a company whose software
-        is util\u2026","id":"3062128382","created":"2022-04-18T21:53:27Z","salary_max":288000,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
-        Jobs"},"redirect_url":"https://www.adzuna.com/land/ad/3062128382?se=SIADtZrI7BGBFExdt7GWCg&utm_medium=api&utm_source=5e859b54&v=DF84A158974D761980BF4227045F8F7EA06EFC2C","contract_time":"part_time"}]}'
-  recorded_at: Sat, 30 Apr 2022 15:32:14 GMT
+        is util\u2026","salary_max":288000,"title":"Staff Front-End / UI Lead Engineer","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA2MjEyODM4MiIsInMiOiI3QWt5b0w3TDdCR0szLUxzZDA0cEJnIn0.YkYOTe1X8kPYBraWdGigIT53eJPiE80Cpq4zLTb9rog","created":"2022-04-18T21:53:27Z","__CLASS__":"Adzuna::API::Response::Job","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"VMware"},"salary_is_predicted":"0","longitude":-84.263547,"latitude":38.918677,"location":{"area":["US","Kentucky","Campbell
+        County","California"],"display_name":"California, Campbell County","__CLASS__":"Adzuna::API::Response::Location"},"id":"3062128382","category":{"tag":"it-jobs","label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category"},"redirect_url":"https://www.adzuna.com/land/ad/3062128382?se=7AkyoL7L7BGK3-Lsd04pBg&utm_medium=api&utm_source=5e859b54&v=DF84A158974D761980BF4227045F8F7EA06EFC2C","contract_time":"part_time"}],"count":10,"mean":264000}'
+  recorded_at: Wed, 04 May 2022 15:26:53 GMT
 recorded_with: VCR 6.1.0
