@@ -3,7 +3,7 @@ require 'rails_helper'
 RSpec.describe 'jobs api' do
   it "sends a list of jobs for a given state and city" do
     VCR.use_cassette("sf yerbs") do
-      get "/api/v1/jobs?state=colorado&city=denver"
+      get "/api/v1/jobs?where=denver,co"
 
       expect(response).to be_successful
 
@@ -58,6 +58,7 @@ RSpec.describe 'jobs api' do
     expect(response.status).to eq(200)
   end
 
+<<<<<<< HEAD
   it 'cant save a job with an invalid user' do
     job = Job.create!(salary: 9999999, location: "Houston, Texas", company: "Texas Tech", contact: "Brad Chad", api_job_id: 1111, title: "Tech Bro")
     user = User.create!(email: "someemail")
@@ -144,6 +145,19 @@ RSpec.describe 'jobs api' do
               }
     post "/api/v1/jobs", :params => { :job => responseject.to_json, :email => "someemail" }
     expect(response.status).to eq(200)
+=======
+    response = "{\'id\':\'3031241203\',\'salary\':\'264000\',\'city\':\'Denver\',\'state\':\'Colorado\',\'company\':\'Pinnacol Assurance\',\'contact\':\'https://www.adzuna.com/land/ad/3031241203?se=5nNA3FO_7BGb_FUCEt2eFw\\u0026utm_medium=api\\u0026utm_source=5e859b54\\u0026v=FDB8D528EA6A79B8D27E5BAD6BC29C8B1AFCC7E6\'}"
+    # job_data = JSON.parse(response, symbolize_names: true)
+    #  
+    post "/api/v1/jobs?job=#{response}"
+    jobject = Job.find_by(api_job_id: job_data[:id])
+    # user = User.find_by(email: job_data[:email])
+    # user_job = UserJob.find_by(job_id: jobject.id, user_id: user.id)
+    # expect(response).to be_successful
+    expect(jobject.api_job_id).to eq(job_data[:id].to_i)
+    # expect(user.email).to eq(job_data[:email])
+    # expect(user_job).to be_a(UserJob)
+>>>>>>> fc85f3f763c1216218f60bc60061f301582bfaf7
   end
 
   it 'can delete a job' do

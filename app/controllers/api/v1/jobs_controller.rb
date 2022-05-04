@@ -1,8 +1,12 @@
 class Api::V1::JobsController < ApplicationController
   def index
+<<<<<<< HEAD
     jobs = JobFacade.find_jobs(params[:where])
     #sad path; job not found
     #sad path; where param not found
+=======
+    jobs = JobFacade.find_jobs(params[:where], params[:what], params[:salary_min])
+>>>>>>> fc85f3f763c1216218f60bc60061f301582bfaf7
     render json: JobSerializer.new(jobs)
   end
 

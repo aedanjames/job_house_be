@@ -15,4 +15,11 @@ class HouseService
     response = conn.get("/properties/#{mls_id}")
     JSON.parse(response.body, symbolize_names: true)
   end
+
+  def self.search_houses(where, max_price)
+      response = conn.get("/properties?q=#{where}&maxprice=#{max_price}&count=true")
+      JSON.parse(response.body, symbolize_names: true)
+
+
+  end
 end
