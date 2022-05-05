@@ -10,6 +10,7 @@ Rails.application.routes.draw do
       get '/jobs/:id/houses', to: 'job_houses#index'
       get '/jobs/houses', to: 'job_houses#show'
       get '/houses', to: 'houses#index'
+      post '/houses', to: 'user_houses#create'
       resources :jobs, only: [:index, :show, :create]
     end
   end
