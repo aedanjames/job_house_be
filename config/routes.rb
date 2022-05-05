@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       get '/users', to: 'users#show'
+      get '/users/houses', to: 'user_houses#index'
       #resources :users, only: [:show]
       delete 'user/jobs/:job_id', to: 'user_jobs#destroy'
       post '/jobs/houses', to: 'job_houses#create'

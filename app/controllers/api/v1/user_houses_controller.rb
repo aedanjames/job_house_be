@@ -8,4 +8,11 @@ class Api::V1::UserHousesController < ApplicationController
       render response: 201
     end
   end
+
+  def index
+    user = User.find_by(email: params[:email])
+    houses = user.user_houses
+    saved_homes = HouseFacade.find_saved_homes(houses)
+    render json: JobHouseSerializer.new(saved_homes)
+  end
 end
