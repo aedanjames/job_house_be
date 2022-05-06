@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2022_04_19_215052) do
+ActiveRecord::Schema.define(version: 2022_05_04_162632) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,6 +22,19 @@ ActiveRecord::Schema.define(version: 2022_04_19_215052) do
     t.string "contact"
     t.bigint "api_job_id"
     t.string "title"
+  end
+
+  create_table "user_house_jobs", force: :cascade do |t|
+    t.bigint "user_house_id"
+    t.bigint "job_id"
+    t.index ["job_id"], name: "index_user_house_jobs_on_job_id"
+    t.index ["user_house_id"], name: "index_user_house_jobs_on_user_house_id"
+  end
+
+  create_table "user_houses", force: :cascade do |t|
+    t.bigint "user_id"
+    t.integer "house_id"
+    t.index ["user_id"], name: "index_user_houses_on_user_id"
   end
 
   create_table "user_job_houses", force: :cascade do |t|
@@ -42,6 +55,9 @@ ActiveRecord::Schema.define(version: 2022_04_19_215052) do
     t.string "password_digest"
   end
 
+  add_foreign_key "user_house_jobs", "jobs"
+  add_foreign_key "user_house_jobs", "user_houses"
+  add_foreign_key "user_houses", "users"
   add_foreign_key "user_job_houses", "user_jobs"
   add_foreign_key "user_jobs", "jobs"
   add_foreign_key "user_jobs", "users"

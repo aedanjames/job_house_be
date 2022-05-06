@@ -4,15 +4,19 @@
 
 ## Available Endpoints
   + base `/api/v1`
-  + GET `/search/jobs?city=WHATEVER`
+
+  + Get Jobs index
+  + ![get_jobs](app/assets/images/get_jobs_url.png)
     + Returns a list of jobs matching the city param
       + Here we reach into a third party Job board API
+      adzuna link goes here
+      + ![get_jobs](app/assets/images/get_jobs_response.png)
   + Get `/users?email=someemailadress.com`
     + returns the specific user requested by email address, if one does not exist, creates a new one and returns that user
       + Here we store our user table for our front end program to control access via Google-Oauth2
   + Post `/jobs`
     + takes a formatted param with a `job`key and JSON body
-    + creates a job entry in our database, or locates on if it already exists, and assigns a relationship to an existing users
+    + creates a job entry in our database,  or locates on if it already exists, and assigns a relationship to an existing users
       + this endpoint store job data in the local database, this is required because the current free jobboard API does not have a search by ID endpoint Available to return specfic jobs for our users
   + Get `/jobs/id/houses`
     + returns an index of houses that meet the 30% income affordability criteria
