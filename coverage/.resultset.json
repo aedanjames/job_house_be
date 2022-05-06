@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/spec/requests/api/v1/user_house_request_spec.rb": {
+      "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/spec/requests/api/v1/user_house_jobs_request_spec.rb": {
         "lines": [
           1,
           null,
@@ -12,32 +12,19 @@
           1,
           1,
           1,
-          null,
-          null,
           1,
           1,
           1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
-          1,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
+          50,
           null,
           null,
           null
@@ -122,7 +109,7 @@
           1,
           1,
           null,
-          2,
+          3,
           null,
           null,
           1,
@@ -351,6 +338,7 @@
           1,
           1,
           1,
+          1,
           null,
           null,
           null
@@ -373,53 +361,16 @@
           null
         ]
       },
-      "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/app/models/user_job.rb": {
+      "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/app/models/user_house.rb": {
         "lines": [
-          1,
           1,
           1,
           1,
           null
         ]
       },
-      "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/app/models/job.rb": {
+      "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/app/controllers/api/v1/house_jobs_controller.rb": {
         "lines": [
-          1,
-          1,
-          1,
-          1,
-          null,
-          1,
-          0,
-          null,
-          0,
-          null,
-          null,
-          0,
-          null,
-          null,
-          1,
-          0,
-          0,
-          0,
-          null,
-          null
-        ]
-      },
-      "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/app/controllers/api/v1/user_houses_controller.rb": {
-        "lines": [
-          1,
-          1,
-          1,
-          1,
-          0,
-          null,
-          1,
-          1,
-          null,
-          null,
-          null,
-          1,
           1,
           1,
           1,
@@ -430,14 +381,6 @@
       },
       "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/app/controllers/application_controller.rb": {
         "lines": [
-          1,
-          null
-        ]
-      },
-      "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/app/models/user_house.rb": {
-        "lines": [
-          1,
-          1,
           1,
           null
         ]
@@ -453,12 +396,12 @@
           null,
           null,
           1,
-          1,
-          1,
+          0,
+          0,
           null,
           null,
-          1,
-          1,
+          0,
+          0,
           null,
           null,
           null,
@@ -468,6 +411,12 @@
           0,
           0,
           null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
           null,
           null
         ]
@@ -516,6 +465,10 @@
           null,
           null,
           null,
+          null,
+          null,
+          1,
+          1,
           1,
           1,
           1,
@@ -531,13 +484,79 @@
           null,
           null,
           1,
-          0,
+          1,
           null,
           null,
           null
         ]
       },
-      "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/app/serializers/job_house_serializer.rb": {
+      "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/app/facades/job_facade.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          50,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/app/services/job_service.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/app/poros/job_poro.rb": {
+        "lines": [
+          1,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          1,
+          50,
+          50,
+          null,
+          50,
+          null,
+          null,
+          50,
+          50,
+          50,
+          50,
+          null,
+          null,
+          1,
+          50,
+          null,
+          null
+        ]
+      },
+      "/Users/rcl/turing/3module/projects/JOBHOUSE/job_house_be/app/serializers/job_serializer.rb": {
         "lines": [
           1,
           1,
@@ -546,6 +565,6 @@
         ]
       }
     },
-    "timestamp": 1651766249
+    "timestamp": 1651797797
   }
 }

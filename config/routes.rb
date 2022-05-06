@@ -12,6 +12,7 @@ Rails.application.routes.draw do
       get '/jobs/houses', to: 'job_houses#show'
       get '/houses', to: 'houses#index'
       post '/houses', to: 'user_houses#create'
+      get '/houses/jobs', to: 'house_jobs#index'
       resources :jobs, only: [:index, :show, :create]
     end
   end

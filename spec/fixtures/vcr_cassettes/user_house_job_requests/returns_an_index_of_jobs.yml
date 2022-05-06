@@ -1,0 +1,608 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api.simplyrets.com/properties/1005229
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Authorization:
+      - Basic c2ltcGx5cmV0czpzaW1wbHlyZXRz
+      Accept:
+      - application/json
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Access-Control-Allow-Headers:
+      - Content-Type, Authorization
+      Access-Control-Allow-Methods:
+      - GET, POST, DELETE, PUT, PATCH, OPTIONS
+      Access-Control-Allow-Origin:
+      - "*"
+      Access-Control-Expose-Headers:
+      - X-Total-Count, X-SimplyRETS-LastUpdate, X-SimplyRETS-Media-Type, Link
+      Content-Type:
+      - application/json; charset=utf-8
+      Date:
+      - Fri, 06 May 2022 00:32:10 GMT
+      Server:
+      - nginx/1.18.0
+      Vary:
+      - Accept, Accept-Language
+      X-Simplyrets-Media-Type:
+      - vnd.simplyrets-v0.1
+      X-Xss-Protection:
+      - 1; mode=block
+      Content-Length:
+      - '2482'
+      Connection:
+      - keep-alive
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        eyJwcml2YXRlUmVtYXJrcyI6IlRoaXMgcHJvcGVydHkgaXMgYSB0cmlhbCBwcm9wZXJ0eSB0byB0ZXN0IHRoZSBTaW1wbHlSRVRTLiBQcml2YXRlIGFnZW50IHJlbWFya3Mgd2lsbCBiZSBpbmNsdWRlZCBpbiB0aGlzIGZpZWxkIGZvciB1c2UgaW4gdGhlIFNpbXBseVJFVFMgUkVTVCBBUEkuIExvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0LCBjb25zZWN0ZXR1ciBhZGlwaXNjaW5nIGVsaXQsIHNlZCBkbyBlaXVzbW9kIHRlbXBvciBpbmNpZGlkdW50IHV0IGxhYm9yZSBldCBkb2xvcmUgbWFnbmEgYWxpcXVhLiBVdCBlbmltIGFkIG1pbmltIHZlbmlhbSwgcXVpcyBub3N0cnVkIGV4ZXJjaXRhdGlvbiB1bGxhbWNvIGxhYm9yaXMgbmlzaSB1dCBhbGlxdWlwIGV4IGVhIGNvbW1vZG8gY29uc2VxdWF0LiBEdWlzIGF1dGUgaXJ1cmUgZG9sb3IgaW4gcmVwcmVoZW5kZXJpdCBpbiB2b2x1cHRhdGUgdmVsaXQgZXNzZSBjaWxsdW0gZG9sb3JlIGV1IGZ1Z2lhdCBudWxsYSBwYXJpYXR1ci4gRXhjZXB0ZXVyIHNpbnQgb2NjYWVjYXQgY3VwaWRhdGF0IG5vbiBwcm9pZGVudCwgc3VudCBpbiBjdWxwYSBxdWkgb2ZmaWNpYSBkZXNlcnVudCBtb2xsaXQgYW5pbSBpZCBlc3QgbGFib3J1bS4iLCJzaG93aW5nQ29udGFjdE5hbWUiOm51bGwsInByb3BlcnR5Ijp7InJvb2YiOiJUaWxlIiwiY29vbGluZyI6bnVsbCwic3R5bGUiOiJSYW5jaCwgVHJhZGl0aW9uYWwiLCJhcmVhIjoxNTYyLCJiYXRoc0Z1bGwiOjIsImJhdGhzSGFsZiI6Niwic3RvcmllcyI6MywiZmlyZXBsYWNlcyI6MiwiZmxvb3JpbmciOm51bGwsImhlYXRpbmciOiJXb29kLEZpcmVwbGFjZSxTZWUgUmVtYXJrcyIsImJhdGhyb29tcyI6bnVsbCwiZm91bmRhdGlvbiI6IlNsYWIgb24gQnVpbGRlcnMgUGllciIsImxhdW5kcnlGZWF0dXJlcyI6IkdhcyBEcnllciBIb29rdXAsSW4gQ2xvc2V0LEluc2lkZSxTdGFja2FibGUiLCJvY2N1cGFudE5hbWUiOm51bGwsIm93bmVyTmFtZSI6bnVsbCwibG90RGVzY3JpcHRpb24iOiJMZXNzIFRoYW4gMS80IEFjcmUgTG90IiwicG9vbCI6IkFzc29jaWF0aW9uLENvbW11bml0eSBQb29sIiwic3ViVHlwZSI6IkNvbmRvbWluaXVtIiwiYmVkcm9vbXMiOjEsImludGVyaW9yRmVhdHVyZXMiOiIyIFN0YWlyY2FzZXMsIEFsYXJtIFN5c3RlbSAtIE93bmVkLCBCcmVha2Zhc3QgQmFyLCBEcmFwZXMvQ3VydGFpbnMvV2luZG93IENvdmVyLCBGaXJlL1Ntb2tlIEFsYXJtLCBIaWdoIENlaWxpbmcsIElzbGFuZCBLaXRjaGVuLCBSZWZyaWdlcmF0b3IgSW5jbHVkZWQiLCJsb3RTaXplIjoiMTIwWDE5NSIsImFyZWFTb3VyY2UiOiJFc3RpbWF0ZWQiLCJtYWludGVuYW5jZUV4cGVuc2UiOm51bGwsImFkZGl0aW9uYWxSb29tcyI6IkRlbixGb3llcixHYWxsZXJ5LExpYnJhcnksU3VuL0Zsb3JpZGEgUm9vbSBIZWF0ZWQiLCJleHRlcmlvckZlYXR1cmVzIjoiQmFjayBZYXJkIEZlbmNlZCIsIndhdGVyIjpudWxsLCJ2aWV3IjoiTmVpZ2hib3Job29kIiwibG90U2l6ZUFyZWEiOm51bGwsInN1YmRpdmlzaW9uIjoiQ3lwcmVzcyBQb2ludCBTZWMgMDEiLCJjb25zdHJ1Y3Rpb24iOiJJbiBDbG9zZXQsR2FzIERyeWVyIEhvb2t1cCxXYXNoZXIgSW5jbHVkZWQsU3RhY2thYmxlIiwicGFya2luZyI6eyJsZWFzZWQiOm51bGwsInNwYWNlcyI6MCwiZGVzY3JpcHRpb24iOiJBdHRhY2hlZCxBdXRvIEdhcmFnZSBEb29yLEtpdGNoZW4gTGV2ZWwsMS0yIFN0ZXAgRW50cnkifSwibG90U2l6ZUFyZWFVbml0cyI6bnVsbCwidHlwZSI6IlJFUyIsImdhcmFnZVNwYWNlcyI6NS4wMjQxMzE2NjczOTIyNDQsImJhdGhzVGhyZWVRdWFydGVyIjpudWxsLCJhY2Nlc3NpYmlsaXR5IjoiQXV0b21hdGljIEdhdGUiLCJhY3JlcyI6bnVsbCwib2NjdXBhbnRUeXBlIjpudWxsLCJzdWJUeXBlVGV4dCI6bnVsbCwieWVhckJ1aWx0IjoyMDA4fSwibWxzSWQiOjEwMDUyMjksInNob3dpbmdDb250YWN0UGhvbmUiOm51bGwsInRlcm1zIjoiT3duZXIgV2lsbCBGaW5hbmNlIiwic2hvd2luZ0luc3RydWN0aW9ucyI6IlRoZSBzaG93aW5nIGluc3RydWN0aW9ucyBmb3IgdGhpcyB0cmlhbCBwcm9wZXJ0eSBhcmUgYnJvdWdodCB0byB5b3UgYnkgdGhlIFNpbXBseVJFVFMgdGVhbS4gVGhpcyBmaWVsZCB3aWxsIGluY2x1ZGUgYW55IHNob3dpbmcgcmVtYXJrcyBmb3IgdGhlIGdpdmVuIGxpc3RpbmcgaW4geW91ciBSRVRTIGZlZWQuIEVuam95ISIsIm9mZmljZSI6eyJjb250YWN0Ijp7ImVtYWlsIjoiaW5mby1vZmZpY2VAZXhhbXBsZS5jb20iLCJvZmZpY2UiOiIoNjIzKSA4ODktNTQ4MiIsImNlbGwiOm51bGx9LCJuYW1lIjpudWxsLCJzZXJ2aW5nTmFtZSI6bnVsbCwiYnJva2VyaWQiOm51bGx9LCJsZWFzZVRlcm0iOm51bGwsImRpc2NsYWltZXIiOiJUaGlzIGluZm9ybWF0aW9uIGlzIGJlbGlldmVkIHRvIGJlIGFjY3VyYXRlLCBidXQgd2l0aG91dCB3YXJyYW50eS4iLCJzcGVjaWFsTGlzdGluZ0NvbmRpdGlvbnMiOm51bGwsIm9yaWdpbmFsTGlzdFByaWNlIjpudWxsLCJhZGRyZXNzIjp7ImNyb3NzU3RyZWV0IjoiQ2FueW9uIEhpbGwvIFNhZ2UiLCJzdGF0ZSI6IlRleGFzIiwiY291bnRyeSI6IlVuaXRlZCBTdGF0ZXMiLCJwb3N0YWxDb2RlIjoiNzcwNDMiLCJzdHJlZXROYW1lIjoiU291dGggMjk5MSBCcnlhbnQgU1QgUGwiLCJzdHJlZXROdW1iZXJUZXh0IjoiOTIyNzAiLCJjaXR5IjoiSG91c3RvbiIsInN0cmVldE51bWJlciI6OTIyNzAsImZ1bGwiOiI5MjI3MCBTb3V0aCAyOTkxIEJyeWFudCBTVCBQbCAjMTU3MyIsInVuaXQiOiIxNTczIn0sImFncmVlbWVudCI6IkV4Y2x1c2l2ZSBSaWdodCB0byBTZWxsIHdpdGggUmVzZXJ2YXRpb25zIiwibGlzdERhdGUiOiIyMDAxLTAzLTAxVDAyOjQyOjEyLjkwNDczWiIsImFnZW50Ijp7Im9mZmljZU1sc0lkIjpudWxsLCJsYXN0TmFtZSI6Ikhlcm1hbiIsImNvbnRhY3QiOnsiZW1haWwiOiJhZ2VudEBleGFtcGxlLmNvbSIsIm9mZmljZSI6Iig5MjIpIDgwNy00NTU2IiwiY2VsbCI6bnVsbH0sImFkZHJlc3MiOm51bGwsIm1vZGlmaWVkIjpudWxsLCJmaXJzdE5hbWUiOiJCYXJyZXR0IiwiaWQiOiJiaGVybWFuIn0sIm1vZGlmaWVkIjoiMTk5OS0wMy0wM1QxNDowNDoxMy4wODUxNTFaIiwic2Nob29sIjp7Im1pZGRsZVNjaG9vbCI6IkhBVURFIiwiaGlnaFNjaG9vbCI6IlN0cmF0Zm9yZCIsImVsZW1lbnRhcnlTY2hvb2wiOiJLSVJLIiwiZGlzdHJpY3QiOm51bGx9LCJwaG90b3MiOlsiaHR0cHM6Ly9zMy11cy13ZXN0LTIuYW1hem9uYXdzLmNvbS9jZG4uc2ltcGx5cmV0cy5jb20vcHJvcGVydGllcy90cmlhbC9ob21lNC5qcGciLCJodHRwczovL3MzLXVzLXdlc3QtMi5hbWF6b25hd3MuY29tL2Nkbi5zaW1wbHlyZXRzLmNvbS9wcm9wZXJ0aWVzL3RyaWFsL2hvbWUtaW5zaWRlLTQuanBnIl0sImxpc3RQcmljZSI6ODA2NTgsImludGVybmV0QWRkcmVzc0Rpc3BsYXkiOm51bGwsImxpc3RpbmdJZCI6IjM1OTAzNDcxIiwibWxzIjp7InN0YXR1cyI6IlBlbmRpbmciLCJhcmVhIjoiU3VtbWVyd29vZC9MYWtlc2hvcmUiLCJkYXlzT25NYXJrZXQiOjgyMSwib3JpZ2luYWxFbnRyeVRpbWVzdGFtcCI6bnVsbCwib3JpZ2luYXRpbmdTeXN0ZW1OYW1lIjpudWxsLCJzdGF0dXNUZXh0IjoiwrJcdTAwMGbDvFxywqUpMsO+wqRcdTAwMDJLJCIsImFyZWFNaW5vciI6bnVsbH0sImludGVybmV0RW50aXJlTGlzdGluZ0Rpc3BsYXkiOm51bGwsImdlbyI6eyJjb3VudHkiOiJXZXN0IiwibGF0IjoyOS44MzM0NTEsImxuZyI6LTk1Ljc0NDUxMywibWFya2V0QXJlYSI6IlN1bW1lcndvb2QvTGFrZXNob3JlIiwiZGlyZWN0aW9ucyI6IkZyb20gMjkwIGV4aXQgQmFya2VyIEN5cHJlc3MgdG8gbGVmdCBvbiBUdWNrZXJ0b24sIHJpZ2h0IG9uIERhbmJ1cnkgQnJpZGdlLCByaWdodCBvbiBCZW5kaW5nIFBvc3QsIHJpZ2h0IG9uIERyaWZ0d29vZCBQcmFpcmllIn0sInRheCI6eyJ0YXhZZWFyIjoxOTU4LCJ0YXhBbm51YWxBbW91bnQiOjk0MDgsImlkIjoiNTkzLTcyMy03ODEtODA1NiJ9LCJjb0FnZW50Ijp7Im9mZmljZU1sc0lkIjpudWxsLCJsYXN0TmFtZSI6bnVsbCwiY29udGFjdCI6eyJlbWFpbCI6ImNvYWdlbnRAZXhhbXBsZS5jb20iLCJvZmZpY2UiOiIoMTIwKSAzNTQtNTQ1OSIsImNlbGwiOm51bGx9LCJhZGRyZXNzIjpudWxsLCJtb2RpZmllZCI6bnVsbCwiZmlyc3ROYW1lIjpudWxsLCJpZCI6IlNSMTIzNCJ9LCJzYWxlcyI6eyJjbG9zZURhdGUiOiIxOTk0LTA1LTI5VDA4OjM3OjIzLjA1OTc1OVoiLCJvZmZpY2UiOnsiY29udGFjdCI6bnVsbCwibmFtZSI6IktlbGxlciBXaWxsaWFtcyBHcmVhdGVyIEhvdXN0b24iLCJzZXJ2aW5nTmFtZSI6IktlbGxlciBXaWxsaWFtcyBHcmVhdGVyIEhvdXN0b24iLCJicm9rZXJpZCI6IktXQ084MzQifSwiY2xvc2VQcmljZSI6ODkwMjg0MSwiYWdlbnQiOnsib2ZmaWNlTWxzSWQiOiJLV0NPODM0IiwibGFzdE5hbWUiOiJTYW50YW5hIiwiY29udGFjdCI6bnVsbCwiYWRkcmVzcyI6bnVsbCwibW9kaWZpZWQiOm51bGwsImZpcnN0TmFtZSI6IkFtYW5kYSIsImlkIjoiYXNhbnRhbmEifSwiY29udHJhY3REYXRlIjpudWxsfSwib3duZXJzaGlwIjpudWxsLCJsZWFzZVR5cGUiOiJUcmlwbGUgTmV0IiwidmlydHVhbFRvdXJVcmwiOm51bGwsInJlbWFya3MiOiJUaGlzIHByb3BlcnR5IGlzIGEgdHJpYWwgcHJvcGVydHkgdG8gdGVzdCB0aGUgU2ltcGx5UkVUUy4gVGhpcyBmaWVsZCB3aWxsIGluY2x1ZGUgcmVtYXJrcyBvciBkZXNjcmlwdGlvbnMgZnJvbSB5b3VyIFJFVFMgZmVlZCBpbnRlbmRlZCBmb3IgcHVibGljIHZpZXcuIExvcmVtIGlwc3VtIGRvbG9yIHNpdCBhbWV0LCBjb25zZWN0ZXR1ciBhZGlwaXNjaW5nIGVsaXQsIHNlZCBkbyBlaXVzbW9kIHRlbXBvciBpbmNpZGlkdW50IHV0IGxhYm9yZSBldCBkb2xvcmUgbWFnbmEgYWxpcXVhLiBVdCBlbmltIGFkIG1pbmltIHZlbmlhbSwgcXVpcyBub3N0cnVkIGV4ZXJjaXRhdGlvbiB1bGxhbWNvIGxhYm9yaXMgbmlzaSB1dCBhbGlxdWlwIGV4IGVhIGNvbW1vZG8gY29uc2VxdWF0LiBEdWlzIGF1dGUgaXJ1cmUgZG9sb3IgaW4gcmVwcmVoZW5kZXJpdCBpbiB2b2x1cHRhdGUgdmVsaXQgZXNzZSBjaWxsdW0gZG9sb3JlIGV1IGZ1Z2lhdCBudWxsYSBwYXJpYXR1ci4gRXhjZXB0ZXVyIHNpbnQgb2NjYWVjYXQgY3VwaWRhdGF0IG5vbiBwcm9pZGVudCwgc3VudCBpbiBjdWxwYSBxdWkgb2ZmaWNpYSBkZXNlcnVudCBtb2xsaXQgYW5pbSBpZCBlc3QgbGFib3J1bS4iLCJhc3NvY2lhdGlvbiI6eyJmcmVxdWVuY3kiOm51bGwsImZlZSI6MTAwMCwibmFtZSI6IlNpbXBseVJFVFMgSG9tZSBPd25lcnMgQXNzb2NpYXRpb24iLCJhbWVuaXRpZXMiOiJDbHViIEhvdXNlLENvbW11bml0eSBQb29sLEdhcmRlbi8gR3JlZW5iZWx0LyBUcmFpbHMsUGxheWdyb3VuZCxSZWNyZWF0aW9uIFJvb20sU2F1bmEvIFNwYS8gSG90IFR1YiJ9fQ==
+  recorded_at: Fri, 06 May 2022 00:32:10 GMT
+- request:
+    method: get
+    uri: https://api.adzuna.com/v1/api/jobs/us/search/1?app_id=5e859b54&app_key=9b7837242edf32ddec42da936025659e&results_per_page=50&salary_max=10000000&salary_min=97153&where=Houston
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.2.0
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Fri, 06 May 2022 00:32:11 GMT
+      Content-Type:
+      - application/json; charset=utf8
+      Content-Length:
+      - '68957'
+      Connection:
+      - keep-alive
+      Server:
+      - nginx/1.14.0 (Ubuntu)
+      Vary:
+      - Content-Type
+      Access-Control-Allow-Headers:
+      - Origin, X-Requested-With, Content-Type, Accept
+      Access-Control-Allow-Origin:
+      - "*"
+      X-Catalyst:
+      - '5.90117'
+    body:
+      encoding: UTF-8
+      string: '{"results":[{"created":"2022-05-05T06:03:30Z","salary_min":288000,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"sales-jobs","label":"Sales
+        Jobs"},"company":{"display_name":"Aimbridge Hospitality","__CLASS__":"Adzuna::API::Response::Company"},"location":{"area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County","__CLASS__":"Adzuna::API::Response::Location"},"salary_max":384000,"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMTA1NDk1Mzk0In0.OnnpZLW0g4DvcFvxTvpS_p31FE3SPA2i7zpK2N7FmoA","id":"3105495394","description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) Aimbridge Hospitality Area Director
+        Sales Houston , Texas Apply Now The Area Director of Sales is responsible
+        planning and managing the overall sales and marketing for a collection of
+        2-3 select service hotels. This role has the responsibility to achieve optimal
+        occupancy and ADR growth to maximize t\u2026","title":"Area Director Sales","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/3105495394?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=D5BE541D4C9427DD1D164E2C26815EAB3823D57A","contract_time":"full_time"},{"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"salary_max":288000,"created":"2022-03-21T21:22:00Z","company":{"display_name":"Sysco
+        Northeast Rdc","__CLASS__":"Adzuna::API::Response::Company"},"salary_min":240000,"category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs"},"redirect_url":"https://www.adzuna.com/land/ad/2989299025?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=0C5ABEE324A3A37985FE11F7EFBBBC24F8E2D754","title":"Manager,
+        Pricing Analytics - Corporate - US","salary_is_predicted":"0","contract_time":"full_time","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIyOTg5Mjk5MDI1In0.HecMvifBtCqLVY-tXQUB-CEgcjuHI5Rv6lapc6B6tIQ","__CLASS__":"Adzuna::API::Response::Job","description":"Company:
+        US6469 Sysco Payroll, Division of Sysco Resources Services, LLC Zip Code:
+        77077 Minimum Level of Education: Master\u2019s Degree Minimum Years of Experience:
+        4 Years Employment Type: Full Time Travel Percentage: Up to 25% Job Summary:
+        The manager of price strategy is primarily responsible for leading the steady
+        state cost passthrough activities for Sysco\u2019s nearly $1bn portfolio of
+        national account agreements. This role will be responsible for prioritizing
+        the actions of a team of 2-3 analys\u2026","id":"2989299025"},{"title":"Regional
+        Vice President","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/3101857896?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=377987A565CBD5E6826CA2FE0DFF2761514E2D33","id":"3101857896","description":"This
+        website is AudioEye enabled and is being optimized for accessibility. To open
+        the AudioEye Toolbar, press shift . The toolbar contains the following The
+        AudioEye Help Desk to report accessibility and usability related issues. The
+        AudioEye Certification Statement to explain the ongoing web accessibility
+        and usability enhancements for this website. The Player tool to listen to
+        this site read aloud. The Player is not intended as a substitute for your
+        screen reader. If you are unable to comple\u2026","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzEwMTg1Nzg5NiIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.6Qhs8BE4WW8oqBekanx0s8oQZSmn8uHQS9I7x4mAH7Q","salary_max":288000,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"salary_min":240000,"category":{"label":"HR
+        & Recruitment Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"hr-jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"BluSky
+        Restoration"},"created":"2022-05-03T21:57:21Z"},{"id":"3062123553","description":"IBM
+        Sr. Solutions Executive, Real World Evidence, Research & Analytics in Houston
+        , Texas Introduction At IBM, work is more than a job - it''s a calling: To
+        build. To design. To code. To consult. To think along with clients and sell.
+        To make markets. To invent. To collaborate. Not just to do something better,
+        but to attempt things you''ve never thought possible. Are you ready to lead
+        in this new era of technology and solve some of the world''s most challenging
+        problems? If so, lets talk. Your Role\u2026","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA2MjEyMzU1MyIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.B8gjDsBvVEdSfgQhrSxkMY57Li7mMcBzP1yyTHLVaZY","title":"Sr.
+        Solutions Executive, Real World Evidence, Research & Analytics","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/3062123553?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=00AF20FE37805FD568E70BCFE3A15E03E3545E36","category":{"label":"Sales
+        Jobs","tag":"sales-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_min":240000,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"IBM
+        Computing"},"created":"2022-04-18T21:52:46Z","salary_max":288000,"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"]}},{"id":"3032405721","description":"This
+        service is set to disconnect automatically after {0} minutes of inactivity.
+        Your session will end in {1} minutes. Click OK to reset the timer to {0} minutes.
+        You have been signed out. This service is set to sign out after {0} minutes
+        of inactivity. Job Description - VP, Business Development- Private Equity/REIT
+        (210006A5) Job Description VP, Business Development- Private Equity/REIT -
+        ( 210006A5 ) Description Location: US (REMOTE) We Give You A World of Potential
+        We have a unique opportuni\u2026","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzMjQwNTcyMSIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.Hn7EKxhuJuq8UpEmgFMmUWTmx2q_0xG5kVwfF-q3dv4","salary_is_predicted":"0","title":"VP,
+        Business Development- Private Equity/REIT","redirect_url":"https://www.adzuna.com/land/ad/3032405721?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=0D5B4A6B41634970551ABA7F281754512EA6359C","salary_min":240000,"category":{"label":"Sales
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"sales-jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Computershare
+        Limited"},"created":"2022-04-06T21:37:21Z","salary_max":288000,"location":{"area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County","__CLASS__":"Adzuna::API::Response::Location"}},{"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"salary_max":384000,"created":"2022-05-01T21:56:53Z","company":{"display_name":"Starbucks","__CLASS__":"Adzuna::API::Response::Company"},"category":{"label":"Hospitality
+        & Catering Jobs","tag":"hospitality-catering-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_min":288000,"redirect_url":"https://www.adzuna.com/land/ad/3095702916?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=6FF5BAA05AFEF6C8153276F4F259F7E438838006","title":"General
+        Manager","salary_is_predicted":"0","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA5NTcwMjkxNiIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.tVhFeWMVTrPTASL9_iXC_Ggfk5niWRa406r2xlOYSx0","__CLASS__":"Adzuna::API::Response::Job","description":"With
+        a career at HMSHost, you really benefit We offer: Health, dental and vision
+        insurance Generous paid time off (vacation, flex or sick) Holiday pay Meal
+        and Transportation Benefits 401(k) retirement plan with company match Company
+        paid life insurance Tuition reimbursement Employee assistance program Training
+        and exciting career growth opportunities Referral program \u2013 refer a friend
+        and earn a bonus Purpose The purpose of the General Manager I (GM) position
+        is to manage a QSR restaurant or sm\u2026","id":"3095702916"},{"description":"Business
+        Title: Director, Analytics Requisition Number: 84336 - 88 Function: Business
+        Support Services Area of Interest: State: TX City: Houston Description: Known
+        for being a great place to work and build a career, KPMG provides audit, tax
+        and advisory services for organizations in today''s most important industries.
+        Our growth is driven by delivering real results for our clients. It''s also
+        enabled by our culture, which encourages individual development, embraces
+        an inclusive environment, rewar\u2026","id":"3105493976","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzEwNTQ5Mzk3NiIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.pnIgOj1oBgSUFTHhcX0vYaLzkT6gBABdbGJ08Nse30U","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/3105493976?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=C83F0C5DDF050508F143243CFF902E916834CE1F","salary_is_predicted":"0","title":"Director,
+        Analytics","company":{"display_name":"KPMG","__CLASS__":"Adzuna::API::Response::Company"},"category":{"label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"salary_min":288000,"created":"2022-05-05T06:03:22Z","salary_max":384000,"location":{"area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County","__CLASS__":"Adzuna::API::Response::Location"}},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAxNzU1MjcyNSIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.JrlUrjKIX5A75mlbJHKe4CmKl2hHEZHsqS2s91F6oQs","__CLASS__":"Adzuna::API::Response::Job","description":"Pamela''s
+        List is seeking an experienced L&D RN $4,050 TAX-FREE: $1309 TAXABLE: $2691
+        HOURLY: $74.75 OVERTIME: $144.71 Do not miss out on this opportunity Minimum
+        of 2 years of experience ACLS/BLS/PALS/NIH","id":"3017552725","contract_type":"contract","redirect_url":"https://www.adzuna.com/land/ad/3017552725?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=478CB94583BA593FD6E14912C533EAFFE951982A","title":"L&D
+        RN DAYS 28196","salary_is_predicted":"0","created":"2022-04-02T03:10:05Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Pamela''s
+        List"},"salary_min":194400,"category":{"label":"Manufacturing Jobs","tag":"manufacturing-jobs","__CLASS__":"Adzuna::API::Response::Category"},"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"]},"salary_max":194400},{"redirect_url":"https://www.adzuna.com/land/ad/3002776689?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=5157C6844587C58CF588B92B0DCDD6412394E1D0","title":"Director
+        of Ethics & Compliance","salary_is_predicted":"0","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAwMjc3NjY4OSIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.Z7-QmO2GupRQJYFjg0DyjEAFG4OkKWQfB7TcwOnVIXs","__CLASS__":"Adzuna::API::Response::Job","description":"HCA,
+        Hospital Corporation of America Director of Ethics & Compliance Houston ,
+        Texas Apply Now Do you have the career opportunities you want in your current
+        role? We have an exciting opportunity for you to join the nation''s largest
+        provider of healthcare services as a Director of Ethics & Compliance. We offer
+        you an excellent total compensation package, including competitive salary,
+        excellent benefit package and growth opportunities. We believe in our team
+        and your ability to do excellent work \u2026","id":"3002776689","location":{"area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County","__CLASS__":"Adzuna::API::Response::Location"},"salary_max":288000,"created":"2022-03-27T05:23:16Z","company":{"display_name":"HCA,
+        Hospital Corporation of America","__CLASS__":"Adzuna::API::Response::Company"},"category":{"label":"Healthcare
+        & Nursing Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"healthcare-nursing-jobs"},"salary_min":240000},{"salary_max":288000,"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"]},"category":{"label":"Hospitality
+        & Catering Jobs","tag":"hospitality-catering-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_min":240000,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"The
+        Westin Galleria Houston"},"created":"2022-05-02T21:58:34Z","title":"Senior
+        Rooms Operations Manager","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/3099121613?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=DC4F3397B329874147723622661ADB2EBE38D22C","id":"3099121613","description":"Job
+        Summary Manages the execution of all operations in the rooms area departments
+        (e.g.,Front Office, Engineering/Maintenance,Housekeeping) and managing staff.
+        Strives to continually improve guest and employee satisfaction and maximize
+        the financial performance of the department. Monitors compliance with standards
+        and procedures. Leads specific team while assisting with meeting or exceeding
+        property goals. Candidate Profile Education And Experience High school diploma
+        or GED; 4 years experience\u2026","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA5OTEyMTYxMyIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.lYY8hF6oqgntzj16VYIxM3a-4DB40W106Zd--2M7vFA"},{"salary_is_predicted":"0","title":"Executive
+        Underwriter - Oil & Gas","redirect_url":"https://www.adzuna.com/land/ad/2985180880?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=8832AAFFC72540669661DA80CF78D92A6CDB9FC1","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIyOTg1MTgwODgwIn0.yZFpUtOlMaDH4kNLVJ3Ovvq-HquGafwRYT-VzsLAki4","id":"2985180880","description":"Crum
+        & Forster Company Overview Crum & Forster (C&F) , with a proud history dating
+        to 1822, provides specialty and standard commercial lines insurance products
+        through our admitted and surplus lines insurance companies. With more than
+        $3.1 billion in written premium as of 2020, C&F enjoys a financial strength
+        rating of \u201cA\u201d (Excellent) by A.M. Best. C&F is proud of its superior
+        customer service platform and its claims and risk engineering services are
+        recognized as among the best in the industry\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"salary_max":384000,"created":"2022-03-19T21:16:27Z","category":{"label":"Accounting
+        & Finance Jobs","tag":"accounting-finance-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_min":288000,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Crum
+        & Forster"}},{"salary_max":288000,"location":{"display_name":"Houston, Harris
+        County","area":["US","Texas","Harris County","Houston"],"__CLASS__":"Adzuna::API::Response::Location"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Alfa
+        Laval Mid Europe GmbH"},"category":{"tag":"sales-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Sales
+        Jobs"},"salary_min":240000,"created":"2022-04-23T13:53:02Z","redirect_url":"https://www.adzuna.com/land/ad/3074465103?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=99A8D0EABAE6A6CFCC955A35816B174B0F225942","salary_is_predicted":"0","title":"Senior
+        Sales Engineer Biobased Chemicals & Renewable Fuels","description":"At Alfa
+        Laval, we always go that extra mile to overcome the toughest challenges. Our
+        driving force is to accelerate success for our customers, people and planet.
+        You can only achieve that by having dedicated people with a curious mind.
+        Curiosity is the spark behind great ideas. And great ideas drive progress.
+        Who you are To thrive in this role, you are eager to learn, passionate about
+        sustainability and to make a difference through technology. You are a self-motivated
+        team player with the abili\u2026","id":"3074465103","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDc0NDY1MTAzIn0.dx41p2To8qvjry961XIXg8m8Luuy3d1lTP9K9LnNBLQ","__CLASS__":"Adzuna::API::Response::Job"},{"redirect_url":"https://www.adzuna.com/land/ad/2914252938?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=2BF4A4236CA5679C7AE9930984E1817AF684D62B","title":"Director
+        of Manufacturing","salary_is_predicted":"0","description":"We are seeking
+        a qualified, motivated individual to join our company as a Director of Manufacturing
+        . As the primary director of our production operations team, you oversee the
+        entirety of manufacturing procedures in our facilities, seeking out and identifying
+        processes that can be profitably improved and optimized. You develop manufacturing
+        plans and production schedules, establish and enforce safety protocols, and
+        improve organizational performance wherever possible. This is a senior role,
+        an\u2026","id":"2914252938","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjkxNDI1MjkzOCIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.31PGTo5s1QvXfD7K7F7fVu5ck_X2XBgQm_vfGbrdqPI","__CLASS__":"Adzuna::API::Response::Job","salary_max":384000,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"company":{"display_name":"Worldwide
+        Oilfield Machine ","__CLASS__":"Adzuna::API::Response::Company"},"category":{"label":"Manufacturing
+        Jobs","tag":"manufacturing-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_min":288000,"created":"2022-02-21T04:01:41Z"},{"contract_time":"full_time","redirect_url":"https://www.adzuna.com/land/ad/2722727532?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=83AEEB8187FD609F30404DD5CD3AB683C0CE0B10","title":"Chief
+        Nursing Officers needed for Texas, Houston and Austin area","salary_is_predicted":"0","description":"Chief
+        Nursing Officers needed for Texas, Houston and Austin area Houston, TX Full-time
+        Company Description Client is a general acute care hospital organization with
+        hospitals nationwide. Candidates must have strong hospital experience as CNE/CNO
+        in for profit setting preferred of at least 6 years. CNE/CNO must have strong
+        accomplishments as a nursing leader, strong communication and physician skills
+        a must. Client offers excellent compensation, benefits, relo. allowance, bonus
+        incentive. Job De\u2026","id":"2722727532","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcyNzUzMiIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.LHbwqZ3o485_mPl93OHG3ksAky1odbiprPQ5bXHWbhA","__CLASS__":"Adzuna::API::Response::Job","salary_max":384000,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"company":{"display_name":"Southern
+        Medical Recruiters","__CLASS__":"Adzuna::API::Response::Company"},"salary_min":288000,"category":{"label":"Healthcare
+        & Nursing Jobs","tag":"healthcare-nursing-jobs","__CLASS__":"Adzuna::API::Response::Category"},"created":"2021-12-09T01:35:46Z"},{"location":{"area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County","__CLASS__":"Adzuna::API::Response::Location"},"salary_max":288000,"created":"2022-04-09T21:38:30Z","company":{"display_name":"Baker
+        Concrete Construction, Inc.","__CLASS__":"Adzuna::API::Response::Company"},"category":{"label":"Consultancy
+        Jobs","tag":"consultancy-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_min":240000,"redirect_url":"https://www.adzuna.com/land/ad/3040665705?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=E1A8F1334025BE3A971407DDD1BFE936AD7DCAE5","salary_is_predicted":"0","title":"Senior
+        Project Engineer","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0MDY2NTcwNSIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.63iM6SgTZ5QWiqOozVkaTbFsC7AtA0l4Iyc64AXxJwk","__CLASS__":"Adzuna::API::Response::Job","description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) Baker Concrete Construction, Inc.
+        Senior Project Engineer Houston , Arizona Apply Now Company Name: Baker Concrete
+        Construction, Inc Location: Houston, AZ, US, 77060 Travel: Up to 50% Number
+        of Openings: 1 If you\u2019re driven to accomplish great things, Baker is
+        looking for you. As the nation\u2019s leading \u2026","id":"3040665705"},{"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIyOTkzOTI4NTM4In0.OUGmyo-weYTYCNKfN9tIvIodCCpXTGh0LYwV8TdDetg","id":"2993928538","description":"Posted:
+        10/29/2021 Industry: Chemical Engineering Job Number: 154.21LH Experience:
+        Job Description Director of Engineering/Chemical Engineer/Continuous Chemical/Engineering
+        Our client company is a world leader and a dominant frontrunner in the alternative
+        fuels industry. They are experiencing extraordinary growth and are seeking
+        a Director of Engineering to be based at their headquarters in the upper Midwest.
+        This Director will manage a rapidly growing group of corporate process engineers
+        whose\u2026","salary_is_predicted":"0","title":"Director of Engineering 154.21LH","redirect_url":"https://www.adzuna.com/land/ad/2993928538?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=D0AEB8660D11677CFE61707C44AA05587C1B9314","created":"2022-03-23T13:18:38Z","salary_min":240000,"category":{"label":"Engineering
+        Jobs","tag":"engineering-jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"CPS
+        Inc"},"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"salary_max":288000},{"salary_max":384000,"location":{"area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County","__CLASS__":"Adzuna::API::Response::Location"},"company":{"display_name":"Northrop
+        Grumman","__CLASS__":"Adzuna::API::Response::Company"},"category":{"label":"Engineering
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"engineering-jobs"},"salary_min":288000,"created":"2022-04-15T13:53:06Z","redirect_url":"https://www.adzuna.com/land/ad/3055754088?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=5D049A18FE8808C9BF39F985E41AB4F2B2E16A0A","title":"Principal
+        / Sr. Principal Mission Operations Development Engineer - Human Exploration
+        (Space/Sa[]","salary_is_predicted":"0","description":"US CITIZENSHIP REQUIRED
+        FOR THIS POSITION: Yes RELOCATION ASSISTANCE: Relocation assistance may be
+        available CLEARANCE TYPE: None TRAVEL: Yes, 10% of the Time Description Join
+        Northrop Grumman on our continued mission to push the boundaries of possible
+        across land, sea, air, space, and cyberspace. Enjoy a culture where your voice
+        is valued and start contributing to our team of passionate professionals providing
+        real-life solutions to our worlds biggest challenges. We take pride in creating
+        purp\u2026","id":"3055754088","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDU1NzU0MDg4In0.m_nIuurRn-gnPjyPqUYHlGkx6WjQVFg5_0NJlLKGoR0","__CLASS__":"Adzuna::API::Response::Job"},{"created":"2022-04-14T13:51:08Z","salary_min":288000,"category":{"label":"Sales
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"sales-jobs"},"company":{"display_name":"DaVita
+        Inc.","__CLASS__":"Adzuna::API::Response::Company"},"location":{"display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"],"__CLASS__":"Adzuna::API::Response::Location"},"salary_max":384000,"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA1MjU2MjIxMCIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.5tWW-aX4opoDFUMTl5m5VVTOI4VJoQ4cUFOfsXeXtQc","id":"3052562210","description":"2800
+        N Loop WestSuite 800, Houston, Texas, 77092, United States of America No Brag,
+        Just Fact Over the last decade, we set out to be the world''s greatest dialysis
+        company, and over the next decade, we''re poised to build the greatest healthcare
+        community the world has ever seen. When you join the DaVita Village, you''re
+        joining a winning team. Through our commitment to training, growth and quality,
+        we consistently achieve superior clinical outcomes while giving teammates
+        the opportunity to excel \u2026","salary_is_predicted":"0","title":"Director,
+        Business Development","redirect_url":"https://www.adzuna.com/land/ad/3052562210?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=9975F56AA77864E3408107C88861E4F1A8F6C851"},{"id":"2722709584","description":"LOCUM
+        CRNA: Certified Registered Nurse Anesthetist Leading Anesthesiology Group
+        in Houston, Texas is hiring 4 experienced CRNA\u2019s to work in a high-acuity
+        hospital in Beautiful Metro of Houston, Texas M-F position with 1-4 call times
+        per month with the option of working in the Cardiac Cath Lab, OR, CVICU at
+        3 different clinical sites Urgent Need for CRNAs to operate in newly built
+        facilities. Challenging position well-suited for the adrenaline junkie Practice
+        the full scope of CRNA care Plenty o\u2026","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIyNzIyNzA5NTg0In0.wumGBbZC3AP3lMPrEVu-4FDAqjW5j1ULld5Z7R--UQ0","title":"LOCUM
+        CRNA: Certified Registered Nurse Anesthetist","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/2722709584?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=8316C622B3BD42532D6A607DDEC5257731589FFB","category":{"tag":"healthcare-nursing-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Healthcare
+        & Nursing Jobs"},"salary_min":288000,"company":{"display_name":"PALM Health","__CLASS__":"Adzuna::API::Response::Company"},"created":"2021-12-09T01:32:56Z","salary_max":384000,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"}},{"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzMTIxMDkzMiIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.mIeqm7_SR3Y6pGmU-gVTyvkLIRzbQJ6JkgT9-MEomsc","id":"3031210932","description":"JOB
+        DESCRIPTION: Tasks and Responsibilities of Chief Engineer include (but are
+        not limited to): Responsible for all scheduled and unscheduled maintenance,
+        repair and administration of all ship board equipment and machinery including
+        the hull Responsible for accurately maintaining maintenance logs for all vessel
+        related equipment, such as engine room equipment, mechanical and electrical,
+        deck machinery and equipment, ship, hull, hotel facilities etc. Responsible
+        for the day to day organization o\u2026","title":"Chief Engineer","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/3031210932?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=96D1182EDB22E6AADF2545A1E89E218BD27681A5","created":"2022-04-06T13:34:28Z","salary_min":240000,"category":{"tag":"engineering-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Engineering
+        Jobs"},"company":{"display_name":"Chicago Bridge & Iron Company","__CLASS__":"Adzuna::API::Response::Company"},"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"salary_max":288000},{"salary_max":288000,"location":{"area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County","__CLASS__":"Adzuna::API::Response::Location"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"On
+        Time Talent Solutions"},"salary_min":240000,"category":{"label":"Scientific
+        & QA Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"scientific-qa-jobs"},"created":"2022-05-03T21:59:30Z","redirect_url":"https://www.adzuna.com/land/ad/3101865349?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=9B6B4193B296E6DFF832A49EAABC2BEDDE5799A2","salary_is_predicted":"0","title":"Total
+        Quality Management Director - Houston","description":"Total Quality Management
+        Director Houston, Texas Houston is a large metropolis in Texas, extending
+        to Galveston Bay. It\u2019s closely linked with the Space Center Houston,
+        the coastal visitor center at NASA\u2019s astronaut training and flight control
+        complex. Houston is known as the world capital of space exploration, the world
+        capital of air conditioning, the energy capital of the world, and the world
+        capital of petroleum exploration. Whether you are looking to relocate or are
+        a current resident, job \u2026","id":"3101865349","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMTAxODY1MzQ5In0.peNkLVSQi6rPVO1j0vZMiqpV1LLY6I2l49M4vwvJXV8","__CLASS__":"Adzuna::API::Response::Job"},{"description":"JOB
+        SUMMARY At Houston Methodist, the Vice President (VP) Real Estate position
+        is responsible for managing and operating a multimillion square foot portfolio
+        which includes corporate and multi-tenant medical office buildings (MOB),
+        ensuring high levels of tenant satisfaction and cost-effective operations.
+        This executive position is directly responsible for leasing and compliance,
+        operations, facilities management, tenant construction management, MOB and
+        corporate environmental services and Star\u2026","id":"3055755300","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA1NTc1NTMwMCIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.WQYGBuRZYY2fSp4Rl6iPSSc2_W4160XEYy7LLnGGFlI","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/3055755300?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=A1DA1420E9BA81D94C9380FF4305D3FC4B77FF2B","salary_is_predicted":"0","title":"Vice
+        President of Real Estate","company":{"display_name":"Houston Methodist","__CLASS__":"Adzuna::API::Response::Company"},"category":{"tag":"admin-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Admin
+        Jobs"},"salary_min":288000,"created":"2022-04-15T13:53:15Z","salary_max":384000,"location":{"area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County","__CLASS__":"Adzuna::API::Response::Location"}},{"salary_min":288000,"category":{"label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"KPMG
+        US LLP"},"created":"2022-04-03T21:32:36Z","salary_max":384000,"location":{"display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"],"__CLASS__":"Adzuna::API::Response::Location"},"id":"3023725209","description":"KPMG
+        is currently seeking a Associate Director, Data Analysis and Business Intelligence
+        to join our Data Strategy and Operations organization. Responsibilities: Understand
+        business stakeholder\u2019s data, BI, and Analytics requirements and provide
+        a solution grounded in data strategy Lead data analysis activities including
+        documenting data interfaces and data mappings; analyzing and interpreting
+        data; act as subject matter expert in BI and Analytics tools capabilities
+        Facilitate and lead project ma\u2026","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAyMzcyNTIwOSIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.w2byMGFq5DK1_cRwAqHQUg9Asaxs3Wcupk4YW0fN8ng","salary_is_predicted":"0","title":"Associate
+        Director, Data Analysis & Business Intelligence","redirect_url":"https://www.adzuna.com/land/ad/3023725209?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=DBFA05A227CBEB60726435C5B2500177BCB40C67"},{"location":{"area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County","__CLASS__":"Adzuna::API::Response::Location"},"salary_max":288000,"created":"2022-03-31T21:32:29Z","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
+        Jobs"},"salary_min":240000,"company":{"display_name":"Bowman Williams","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","title":"Senior
+        System Engineer \u2013 Projects & Azure","redirect_url":"https://www.adzuna.com/land/ad/3013634000?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=F5284D6E1145F1B314335F76508D80B796F1062F","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDEzNjM0MDAwIn0.Z9FMnNlE66dywWRtpiImUNv7HgUbTbouieH9SWoakNw","id":"3013634000","description":"Location
+        : Houston, TX / Salary : $80-000 - $120,000 We are a proactive Cloud and IT
+        services company servicing the local businesses for 2 decades. We have approximately
+        35 employees and are looking to grow the team by 3. For this opportunity,
+        we are looking for a Senior Systems Engineer \u2013 Projects & Azure in the
+        $100-$140K range. The Senior Systems Engineer \u2013 Projects & Azure would
+        be managing projects, doing hands-on project work and some escalation support.
+        The makeup of projects vs escalati\u2026"},{"title":"Digital Executive Producer","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/2993943685?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=452F92BB1F5E058FF346A139F01760C8A84149FF","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIyOTkzOTQzNjg1In0.m_93Z8Xd-im5crNHe4iPOmabnBeGQu_m4znMKzdLK0k","id":"2993943685","description":"\u201cA
+        Private Corporation Funded by the American People\u201d Click Here to apply
+        for this position (you must apply here to be considered) Houston Public Media
+        (Houston''s PBS and NPR affiliate) is in an exciting period of growth and
+        will be partnering with PBS Digital Studios on a new initiative, becoming
+        one of three Regional Digital Centers of Innovation (RDCI''s). Leading this
+        effort to create extraordinary new content that elevates voices of traditionally
+        underrepresented communities will be our new\u2026","location":{"display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"],"__CLASS__":"Adzuna::API::Response::Location"},"salary_max":288000,"created":"2022-03-23T13:22:02Z","salary_min":240000,"category":{"tag":"pr-advertising-marketing-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"PR,
+        Advertising & Marketing Jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Corporation
+        for Public Broadcasting"}},{"salary_min":240000,"category":{"label":"Accounting
+        & Finance Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"accounting-finance-jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Conselium
+        Executive Search"},"created":"2022-04-06T13:46:57Z","salary_max":288000,"location":{"display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"],"__CLASS__":"Adzuna::API::Response::Location"},"id":"3031240697","description":"Chief
+        Compliance Officer, Investment Company \u2013 Broker, Dealer Houston, TX We
+        are representing a rapidly growing investment firm in the Houston area, who
+        are looking to recruit a Chief Compliance Officer to manage their Broker Dealer
+        business. Responsibilities \u2022 Reporting to the Chief Operating Officer
+        with one direct report \u2022 Oversee the broker-dealer compliance program
+        functions including implementation of written supervisory procedures, policies,
+        training, annual testing, transaction monitori\u2026","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDMxMjQwNjk3In0.wzBRGE347dp4bcrFr4O-H1QKdSvwP5C0u6TLPVTOYWU","title":"Chief
+        Compliance Officer, Investment Company \u2013 Broker, Dealer Houston, TX","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/3031240697?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=A26FCAC6C047BEE6B47160245EDACE3EE12CCC41"},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMTAyMjE2OTA3In0.5GCelpyh75KRw0ZcLZM3R2jww-zrHSwOVJ_yOGf86H4","__CLASS__":"Adzuna::API::Response::Job","description":"HOST
+        HEALTHCARE PUTS OUR TRAVELER\u2019S COMFORT FIRST. We realize Travel healthcare
+        isn\u2019t just about finding the perfect job \u2013 it\u2019s about finding
+        your perfect lifestyle. Host Healthcare is ranked as the 1 Travel Healthcare
+        Company in the U.S., because we go to great lengths to take care of our Travelers.
+        If you\u2019re new to the world of travel healthcare, we specialize in ensuring
+        your transition is smooth and comfortable. WHY IS HOST HEALTHCARE RANKED THE
+        1 TRAVEL HEALTHCARE COMPANY:  Responsive, fri\u2026","id":"3102216907","contract_type":"contract","redirect_url":"https://www.adzuna.com/land/ad/3102216907?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=127B45D84142000A31F321B5C3CCD2F4BB77963F","title":"RN
+        CVOR job in Houston, TX","salary_is_predicted":"0","created":"2022-05-04T00:29:26Z","company":{"display_name":"Host
+        Healthcare","__CLASS__":"Adzuna::API::Response::Company"},"category":{"tag":"healthcare-nursing-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Healthcare
+        & Nursing Jobs"},"salary_min":163680,"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"]},"salary_max":163680},{"title":"Nurse
+        Manager (RN) - 10K Loan Repayment - Operating Room Unit - Ben Taub Hospital","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/3062123103?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=414AA1C5B2FD956AE5328167CA1A4E9EC6C694D5","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA2MjEyMzEwMyIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.Mpmo_PgD3OEBHX5uDOwTlkFajWpPUZ1BWNtf5VER-_0","id":"3062123103","description":"Job
+        Seekers, Welcome to NMA Career Center Use this area to filter your search
+        results. Each filter option allows for multiple selections. Oregon Health
+        & Science University (OHSU) - Casey Eye Institute University of California,
+        Irvine, School of Medicine University of California, Irvine, School of Medicine
+        Nurse Manager (RN) - 10K Loan Repayment - Operating Room Unit - Ben Taub Hospital
+        JOB SUMMARY: The Nurse Manager (NM) is accountable for the operational management
+        and care delivery of one or\u2026","location":{"display_name":"Houston, Harris
+        County","area":["US","Texas","Harris County","Houston"],"__CLASS__":"Adzuna::API::Response::Location"},"salary_max":288000,"created":"2022-04-18T21:52:41Z","category":{"label":"Healthcare
+        & Nursing Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"healthcare-nursing-jobs"},"salary_min":240000,"company":{"display_name":"National
+        Medical Association","__CLASS__":"Adzuna::API::Response::Company"}},{"created":"2022-05-05T06:03:32Z","salary_min":288000,"category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"ServiceNow,
+        Inc."},"location":{"area":["US","Texas","Harris County","Houston"],"display_name":"Houston,
+        Harris County","__CLASS__":"Adzuna::API::Response::Location"},"salary_max":384000,"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzEwNTQ5NTczMCIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.tMvFUFS2XR15st9pzV7FBpuHh0u_pTwZy6x-MFuV22Q","id":"3105495730","description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) ServiceNow, Inc. Director of Digital
+        Learning Platform Houston , Texas Apply Now We\u2019re not yesterday\u2019s
+        IT department, we''re Digital Technology. The world around us keeps changing
+        and so do we. We\u2019re redefining what it means to be IT with a mindset
+        centered on transformation, experience, AI-driven aut\u2026","title":"Director
+        of Digital Learning Platform","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/3105495730?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=9E2B77310C08E1D38398F81ED88EA91D4473A4F6"},{"adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA0NDczNTM5OSIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.drVJAUEdYd8Pj8QglLgyyzRNGhUrSJpuxkEC0cJfWUA","__CLASS__":"Adzuna::API::Response::Job","description":"Business
+        Title: Sr. Director, Client Process Agility Requisition Number: 83062 - 88
+        Function: Business Support Services Area of Interest: State: TX City: Houston
+        Description: Known for being a great place to work and build a career, KPMG
+        provides audit, tax and advisory services for organizations in today''s most
+        important industries. Our growth is driven by delivering real results for
+        our clients. It''s also enabled by our culture, which encourages individual
+        development, embraces an inclusive e\u2026","id":"3044735399","redirect_url":"https://www.adzuna.com/land/ad/3044735399?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=FFA8583EA0B5D1F2F16F7D5EC8EE344610EA425A","title":"Sr.
+        Director, Client Process Agility","salary_is_predicted":"0","created":"2022-04-11T21:41:07Z","company":{"display_name":"KPMG","__CLASS__":"Adzuna::API::Response::Company"},"salary_min":240000,"category":{"tag":"consultancy-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Consultancy
+        Jobs"},"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"]},"salary_max":288000},{"salary_max":384000,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"company":{"display_name":"Public
+        Storage","__CLASS__":"Adzuna::API::Response::Company"},"salary_min":288000,"category":{"label":"Sales
+        Jobs","tag":"sales-jobs","__CLASS__":"Adzuna::API::Response::Category"},"created":"2022-03-27T21:22:39Z","redirect_url":"https://www.adzuna.com/land/ad/3003917079?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=77CD857D907D4ECF2F718DCDEB52CA91FC0C9587","title":"Business
+        Development Director","salary_is_predicted":"0","description":"Public Storage
+        is recognized as one of America\u2019s Best Large Employers in 2022 by Forbes
+        and our employees have also voted us as a Great Place to Work , having Best
+        Career Growth , ranked us in the Top 5% for Work Culture , and in the Top
+        10% for Diversity and Inclusion. With more than 2,800 locations nationwide,
+        Public Storage is the leader in the self-storage industry, and given our number
+        of tenants, we may very well be the world''s largest landlord. We''ve experienced
+        unprecedented growth over\u2026","id":"3003917079","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDAzOTE3MDc5In0.R-_LgW0K0mokF8xZh_Hd_cAnbrX_oA44FLU0b8nfFQo","__CLASS__":"Adzuna::API::Response::Job"},{"location":{"display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"],"__CLASS__":"Adzuna::API::Response::Location"},"salary_max":288000,"created":"2022-04-04T21:34:40Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"EDP
+        Renewables"},"category":{"label":"Engineering Jobs","tag":"engineering-jobs","__CLASS__":"Adzuna::API::Response::Category"},"salary_min":240000,"redirect_url":"https://www.adzuna.com/land/ad/3026000581?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=CDFF3013090E8E7EC65EFC33E1E9A9BC526F97DA","title":"Director
+        of HV","salary_is_predicted":"0","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAyNjAwMDU4MSIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.T5qFn8Fugop-vqyD2zrUF8lGD5atSB2fdoIx35eMRJI","__CLASS__":"Adzuna::API::Response::Job","description":"Corporate
+        Headquarters 1501 McKinney St Ste 1300 Houston, TX 77010, USA Corporate Headquarters
+        1501 McKinney St Ste 1300 Houston, TX 77010, USA Develops, implements, and
+        maintains EDPR NA\u2019s overall corporate and field Electrical Operations
+        & Maintenance Program, including all Balance of Plant (BOP) electrical equipment
+        and assets. Provides support for electrical system commissioning of new projects,
+        oversight and coordination of BOP Electrical Equipment maintenance service
+        providers, and the co\u2026","id":"3026000581"},{"salary_max":150587,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"scientific-qa-jobs","label":"Scientific
+        & QA Jobs"},"salary_min":150587,"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Triage"},"created":"2022-04-26T12:26:37Z","salary_is_predicted":"0","title":"Nursing:
+        Cath Lab","redirect_url":"https://www.adzuna.com/land/ad/3080491266?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=6CA64C6AFB6EDF7D6217D2744AC4A3C371F4CE0D","contract_type":"contract","id":"3080491266","description":"TRAVEL
+        NURSING: CATH LAB HOUSTON, TX Location: &nbspHouston, TX Start Date: &nbsp3/17/2022
+        Shift Details: &nbsp10H Days ( 7:00 AM-5:00 PM ) &nbsp40 hours per week Length:
+        &nbsp26 WEEKS 26 weeksApply for specific facility details.Cath Lab RN","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDgwNDkxMjY2In0.gBcDQcqEgPWfhMHV2wbEGmOswHzdBuXxadOAm0lBQY4"},{"description":"Are
+        you ready to join one of the fastest growing broker-dealer networks in financial
+        services? (Cerulli Associates, 2020) At Atria, we support independent financial
+        professionals and financial institution investment programs so they, in turn,
+        can provide exceptional service to their clients and develop meaningful relationships
+        with them. We are looking for an VP, Branch Supervision. This role carries
+        out supervisory responsibilities in accordance with the organization''s policies
+        and applicable \u2026","id":"3023725462","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDIzNzI1NDYyIn0.oN_6PJsZeMFy6gD42NhQZmhGZnK_HuhqpbcV23svHls","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/3023725462?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=52B47AA7A71E5F8480B50AD4A1DFCB7D3FB997EC","salary_is_predicted":"0","title":"VP,
+        Branch Supervision","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Atria
+        Wealth Solutions"},"category":{"tag":"accounting-finance-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"Accounting
+        & Finance Jobs"},"salary_min":240000,"created":"2022-04-03T21:32:37Z","salary_max":288000,"location":{"display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"],"__CLASS__":"Adzuna::API::Response::Location"}},{"redirect_url":"https://www.adzuna.com/land/ad/2989227551?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=B1EB62A7B43A5EEB7B66658DE1F63DDC54521338","title":"Organizational
+        Change Management Manager","salary_is_predicted":"0","description":"This position
+        provides change management leadership for core strategic projects that successfully
+        advance Transformation for the Advance Auto Parts. The Organizational Change
+        Management Manager will play a key role in ensuring that changes are effectively
+        translated to all impacted audiences, driving mindset and behavior change
+        to enable project and business objectives. The Organizational Change Management
+        Manager\u200b partners closely with the Project Teams to understand the project
+        deeply and rec\u2026","id":"2989227551","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk4OTIyNzU1MSIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.5iyJRWr-q2LzyHv6_qny2KGu-Kk-rn_7cmTwH9_YxKs","__CLASS__":"Adzuna::API::Response::Job","salary_max":288000,"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"]},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Advance
+        Auto Parts"},"category":{"tag":"hr-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"HR
+        & Recruitment Jobs"},"salary_min":240000,"created":"2022-03-21T21:18:03Z"},{"location":{"area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County","__CLASS__":"Adzuna::API::Response::Location"},"salary_max":121440,"created":"2022-04-24T00:27:36Z","salary_min":121440,"category":{"label":"Healthcare
+        & Nursing Jobs","tag":"healthcare-nursing-jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"display_name":"Cross
+        Country Nurses","__CLASS__":"Adzuna::API::Response::Company"},"salary_is_predicted":"0","title":"Registered
+        Nurse - Operating Room job in Houston, TX","redirect_url":"https://www.adzuna.com/land/ad/3075560383?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=E0CE76C43D058DF8042079E11B92B17772E5EADA","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDc1NTYwMzgzIn0.gnPiqM0qjyl2mYTFENHH9E6YegEjY7pE_J237vwRWqw","contract_type":"contract","id":"3075560383","description":"The
+        benefits of taking a travel nursing job with Cross Country Nurses include:  Free
+        Private Housing or Generous Housing Allowance  Comprehensive Health Insurance
+        with Prescription Coverage  Dependent Health Insurance with Prescription Coverage  Competitive
+        Salaries  Referral Bonuses  Travel Reimbursement  Shift Differentials  401(k)
+        Retirement Plan  Direct Deposit/Free Checking  Unlimited Free CE Credits MINIMUM
+        REQUIREMENTS:  At Least 1 Year of Recent Acute Care Experience  ASN, BSN or
+        MSN Re\u2026"},{"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Aldridge"},"category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs"},"salary_min":240000,"created":"2022-05-04T21:58:59Z","salary_max":288000,"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"]},"description":"Aldridge
+        is hiring We are seeking a Project Manager with exceptional technical and
+        project experience to lead a dynamic team of professionals This role would
+        enable the success of implementation projects (both client-facing, and internal)
+        by dotting the i\u2019s and crossing the t\u2019s in the packaging and delivery
+        of our project engineers\u2019 expertise. The engineers bring the technical
+        chops and a growing understanding and aptitude for planning, communicating,
+        and coordinating, but the Project Manager w\u2026","id":"3104800006","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzEwNDgwMDAwNiIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.lptNsVo_v_We8bIUdc02gtnAKBKf4fDP-kZh3LC5bIo","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/3104800006?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=39263C52425F56F0CF059B83D3277AAEB0B058E6","title":"IT
+        Project Manager","salary_is_predicted":"0"},{"created":"2022-04-04T21:33:10Z","salary_min":288000,"category":{"label":"Engineering
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"engineering-jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Barrios
+        Technology Ltd."},"location":{"area":["US","Texas","Harris County","Houston"],"display_name":"Houston,
+        Harris County","__CLASS__":"Adzuna::API::Response::Location"},"salary_max":384000,"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDI1OTkzMzYxIn0.LnArMNww1NU_UndRtEWIuezUQNCid1dBGO1VuQHkXcA","id":"3025993361","description":"Our
+        long-term client relationship with NASA has led to a need for an Increment
+        Research Lead on the Human Space Flight Technical Integration (HSFTIC) contract
+        at Johnson Space Center (Houston, TX). HSFTIC supports multiple human spaceflight
+        programs by providing products and services for mission and program technical
+        integration activities. This includes the necessary infrastructure functions
+        for the International Space Station (ISS), Orion and Gateway programs, with
+        the potential for supportin\u2026","title":"Increment Research Lead","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/3025993361?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=9F6EBDEABA16BA26FD789994DE613723B1CA5040"},{"id":"3104999019","description":"Full
+        Stack Engineer If you are a Full Stack Engineer with experience, please read
+        on Top Reasons to Work with Us 1. We are an innovative company using artificial
+        intelligence to provide insight to millions of consumers 2. We offer competitive
+        salaries and great benefits including equity, 401(k) and unlimited PTO 3.
+        We have been recognized as one of the fastest growing companies in the industry
+        What You Will Be Doing - Coordinate with Product and Architect teams to develop
+        and enhance existing p\u2026","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzEwNDk5OTAxOSIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.WZDRNkuLrrcGFOPeZzbWLsgCvpS20Pp38l78PEWg8A4","title":"Full
+        Stack Engineer","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/3104999019?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=D9632946687D93FE359AB91F6ADD355B367A3015","salary_min":120000,"category":{"label":"IT
+        Jobs","tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"CyberCoders"},"created":"2022-05-04T23:37:44Z","salary_max":170000,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"}},{"salary_max":384000,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"Accenture"},"salary_min":288000,"category":{"label":"PR,
+        Advertising & Marketing Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"pr-advertising-marketing-jobs"},"created":"2022-04-07T21:38:23Z","redirect_url":"https://www.adzuna.com/land/ad/3035508193?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=2BC6B1CBA005F222E14252FCBFA9BBAD455C2712","salary_is_predicted":"0","title":"Mergers
+        & Acquisitions Strategy Senior Manager","description":"Mergers & Acquisitions
+        Strategy Senior Manager We Are: Accenture Strategy & Consulting. Through deep
+        industry expertise, analytics and insights, we empower clients to survive
+        and thrive in the new, the now and the unknown. To stay agile in a world dominated
+        by change, the C-suite must keep the core business running while simultaneously
+        identifying and investing in the new. Accenture Strategy enables leaders to
+        act quickly and confidently as they pivot to the future. Known for our ability
+        to exe\u2026","id":"3035508193","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzNTUwODE5MyIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.BmQE57nt5YmqCsmoGWaF5BVuqbSibvnB54Z5VE5vH9Q","__CLASS__":"Adzuna::API::Response::Job"},{"created":"2022-04-12T21:42:37Z","category":{"label":"Healthcare
+        & Nursing Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"healthcare-nursing-jobs"},"salary_min":240000,"company":{"display_name":"Action
+        Behavior Centers","__CLASS__":"Adzuna::API::Response::Company"},"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"]},"salary_max":288000,"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDQ4MjM2ODg5In0.t8DZRS8XoiSktE6hFdXJ6altcRo3_nDVfMkNyhsazhc","id":"3048236889","description":"Action
+        Behavior Centers Regional Director of Operations Houston , Texas Apply Now
+        The Regional Director of Operations ensures the success of ABC centers within
+        their region by providing operational oversight and support, coaching professional
+        development, multilevel problem solving and enhancing the vision of clinic
+        Operations Managers. Other areas of influence include ensuring fiscal responsibility,
+        performance reporting, and effective staffing (approving hires, performance
+        reviews and termina\u2026","salary_is_predicted":"0","title":"Regional Director
+        of Operations","redirect_url":"https://www.adzuna.com/land/ad/3048236889?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=CA9FBFF7DBEE71A912E955885F4E8A3EBC5FC23B"},{"id":"2993946937","description":"Bilingual
+        Attorney \u2013 Insurance Defense \u2013 Job Code 3412. Bilingual Attorney
+        \u2013 Insurance Defense \u2013 Job Code 3412 Information. Designation: Direct
+        hire. Location: Houston. Job Description:. This highly successful and well
+        regarded firm located in Houston is seeking an experienced Bilingual Insurance
+        Defense Attorney to join their busy team. Qualified candidates will have 3
+        years Insurance Defense litigation experience. Requirements are as follows:.
+        \u201d 3 years of insurance defense experience. \u201d Exce\u2026","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjk5Mzk0NjkzNyIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.PHLjIIAcghPwpChRQH-N2MMxDvrXgWz_QuNYUdVek08","title":"Bilingual
+        Attorney \u2013 Insurance Defense \u2013 Job Code 3412 Information","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/2993946937?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=0319058A4EC6D7AF32796628F57D36652DB24C89","salary_min":240000,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"legal-jobs","label":"Legal
+        Jobs"},"company":{"display_name":"Diversified Recruiting Services, L.L.C.","__CLASS__":"Adzuna::API::Response::Company"},"created":"2022-03-23T13:22:15Z","salary_max":288000,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"}},{"company":{"display_name":"CyberCoders","__CLASS__":"Adzuna::API::Response::Company"},"salary_min":100000,"category":{"label":"IT
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs"},"created":"2022-05-04T23:37:02Z","salary_max":130000,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"description":"REMOTE
+        - Cloud Engineer (AWS) If you are a Cloud Engineer with AWS experience, please
+        read on We are a leading software company working specifically in the commercial
+        real estate industry. We are a single provider of CRE solutions empowering
+        businesses to use technology to drive growth. We continue to come up with
+        innovative solutions, best practices and procedures that span across the entire
+        real estate life cycle that enable our customers to drive revenue, operations
+        and overall decisions for\u2026","id":"3104997635","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMTA0OTk3NjM1In0.gkqec-rK-gM_ItnbiAfC_F6NWLJITKxeNMbsVzRwDgc","__CLASS__":"Adzuna::API::Response::Job","redirect_url":"https://www.adzuna.com/land/ad/3104997635?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=803495742A835BE35620B21F591EF1A1F56F5EE1","title":"REMOTE
+        - Cloud Engineer (AWS)","salary_is_predicted":"0"},{"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDI5NDEzNDU5In0.648p5kcXjHeUYFJRUIN3yhmByUeBugy5xZn2LAZFiq4","id":"3029413459","description":"Job
+        Description - Executive Underwriter, Commercial Insurance Specialty (345522)
+        Job Description Executive Underwriter, Commercial Insurance Specialty ( Job
+        Number: 345522 ) Description Description Chubb is the world\u2019s largest
+        publicly traded property and casualty insurer. With operations in 54 countries,
+        Chubb provides commercial and personal property and casualty insurance, personal
+        accident and supplemental health insurance, reinsurance and life insurance
+        to a diverse group of clients. The c\u2026","title":"Executive Underwriter,
+        Commercial Insurance Specialty","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/3029413459?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=BD3DD64BC513D0DD34F02574F0DD5CB1A44E69F6","created":"2022-04-05T21:39:01Z","salary_min":288000,"category":{"label":"Sales
+        Jobs","__CLASS__":"Adzuna::API::Response::Category","tag":"sales-jobs"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"The
+        Chubb Corporation"},"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"salary_max":384000},{"id":"2722705142","description":"Warren
+        Recruiting\u2019s client, a national law firm with a growing footprint, is
+        seeking Partners in all practice areas including: Corporate, M&A, Litigation,
+        Environmental, IP, Real Estate, Labor & Employment and Estate Planning. Some
+        portable business is required ($500k). Compensation is $700,000 to $1,300,000.
+        This position is located in Houston, TX. We''re here to help you every step
+        of the way.","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMjcyMjcwNTE0MiIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.kOYXaE7TiEFbl1RKt0pNsIpT3wnxrujUIe6r4QW4tvg","title":"Partners
+        for Expanding Law Firm","salary_is_predicted":"0","redirect_url":"https://www.adzuna.com/land/ad/2722705142?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=998902899736BC681772C9A6F73F5975CABEC3DF","salary_min":288000,"category":{"label":"Legal
+        Jobs","tag":"legal-jobs","__CLASS__":"Adzuna::API::Response::Category"},"company":{"display_name":"WARREN
+        RECRUITING","__CLASS__":"Adzuna::API::Response::Company"},"created":"2021-12-09T01:31:19Z","salary_max":384000,"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"}},{"location":{"__CLASS__":"Adzuna::API::Response::Location","display_name":"Houston,
+        Harris County","area":["US","Texas","Harris County","Houston"]},"salary_max":170000,"created":"2022-05-02T23:33:38Z","company":{"display_name":"CyberCoders","__CLASS__":"Adzuna::API::Response::Company"},"category":{"tag":"it-jobs","__CLASS__":"Adzuna::API::Response::Category","label":"IT
+        Jobs"},"salary_min":130000,"redirect_url":"https://www.adzuna.com/land/ad/3099421155?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=4869A534AA61DF062B1A02FF59AD117B90A0844F","salary_is_predicted":"0","title":"Remote-
+        JavaScript Manager- JavaScript, Node, AWS","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDk5NDIxMTU1In0.6DVeqQl0teXO7UhUz6l4LDlJ4ICkm8WZkNKK8w0Su1c","__CLASS__":"Adzuna::API::Response::Job","description":"Remote-
+        JavaScript Manager- JavaScript, Node, AWS If you are a Remote- JavaScript
+        Manager- JavaScript, Node, AWS with experience, please read on What You Will
+        Be Doing We are looking to hire on a JavaScript Manager to join our team.
+        The ideal candidate will have an extensive background in JavaScript, with
+        strong knowledge of Node.js, TypeScript (preferred), and AWS. This is a fully
+        remote position with an established company within security. Qualifications:
+        - JavaScript experience 5 years - Nod\u2026","id":"3099421155"},{"location":{"area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County","__CLASS__":"Adzuna::API::Response::Location"},"salary_max":288000,"created":"2022-04-07T21:38:23Z","company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"ABB
+        Schweiz AG"},"salary_min":240000,"category":{"label":"Engineering Jobs","tag":"engineering-jobs","__CLASS__":"Adzuna::API::Response::Category"},"redirect_url":"https://www.adzuna.com/land/ad/3035508228?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=5404998CF3197AC1664399A1B915B9B8A5331A88","salary_is_predicted":"0","title":"Associate
+        Project Engineer","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzAzNTUwODIyOCIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.-_YlFyAnhduC08yegAGKF986-dEw1xgwmP2ceEUpw-o","__CLASS__":"Adzuna::API::Response::Job","description":"Associate
+        Project Engineer Take your next career step at ABB with a global team that
+        is energizing the transformation of society and industry to achieve a more
+        productive, sustainable future. At ABB, we have the clear goal of driving
+        diversity and inclusion across all dimensions: gender, LGBTQ, abilities, ethnicity
+        and generations. Together, we are embarking on a journey where each and every
+        one of us, individually and collectively, welcomes and celebrates individual
+        differences. Working as a A\u2026","id":"3035508228"},{"__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJpIjoiMzA5OTQyMDIxMSIsInMiOiI4TXJXOTlQTTdCR1RaOUVmV2gxcm5nIn0.qUtm61UGD1BCXpxfMWlo7cOxDG4bbfTmexArLsbn1DE","id":"3099420211","description":"REMOTE
+        Sr. React Frontend Software Developer If you are a REMOTE Sr. React Frontend
+        Software Developer with experience, please read on Top Reasons to Work with
+        Us Start-up environment working with fortune 500 companies Touch on multiple
+        industries - security, social media, video games, and traditional media agencies
+        Work in a polyglot environment, where you are able to pick up new technologies
+        and continue to grow Great compensation and benefits 100% REMOTE What You
+        Will Be Doing Work closely w\u2026","salary_is_predicted":"0","title":"REMOTE
+        Sr. React Frontend Software Developer","redirect_url":"https://www.adzuna.com/land/ad/3099420211?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=703B434CEFC7823E152B6C0A0D2882C08E26733E","created":"2022-05-02T23:33:20Z","salary_min":100000,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
+        Jobs"},"company":{"display_name":"CyberCoders","__CLASS__":"Adzuna::API::Response::Company"},"location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"salary_max":170000},{"salary_is_predicted":"0","title":"Senior
+        DevSecOps Engineer","redirect_url":"https://www.adzuna.com/land/ad/3058667502?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=6005CFBE64F23842667D7D343B12B7ACA296FA1C","__CLASS__":"Adzuna::API::Response::Job","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDU4NjY3NTAyIn0.7m4RnuX1BmAQn2lsJoFXADClujVF_vjwVPTZztS0twE","id":"3058667502","description":"Location
+        field must contain ''city, state'' or a zip code to perform a radius search
+        (e.g., Denver, CO or 46122 ). City and state must be separated by a comma
+        followed by a space (e.g., Houston, TX ) Halliburton Senior DevSecOps Engineer
+        Houston , Texas Apply Now We are looking for the right people \u2014 people
+        who want to innovate, achieve, grow and lead. We attract and retain the best
+        talent by investing in our employees and empowering them to develop themselves
+        and their careers. Experience the ch\u2026","location":{"__CLASS__":"Adzuna::API::Response::Location","area":["US","Texas","Harris
+        County","Houston"],"display_name":"Houston, Harris County"},"salary_max":288000,"created":"2022-04-16T21:43:25Z","category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
+        Jobs"},"salary_min":240000,"company":{"display_name":"Halliburton","__CLASS__":"Adzuna::API::Response::Company"}},{"redirect_url":"https://www.adzuna.com/land/ad/3088154114?se=8MrW99PM7BGTZ9EfWh1rng&utm_medium=api&utm_source=5e859b54&v=4A7078DC8219161039F015FA5EC041D9F69B9921","salary_is_predicted":"0","title":"Golang
+        with C#","description":"Desired Experience/Skills: 2 years of development
+        experience in one of the following: Golang, C++, C# .NET Fundamental understanding
+        of relational databases Experience with Messaging Systems like Kafka, NATS,
+        and MQTT In-depth expertise in microservices, Docker and Kubernetes Experience
+        interfacing with AWS via the command line and AWS Console Experience with
+        CI/CD pipeline automation tools (GitHub, Jenkins, etc ) Source control experience
+        including branching, merging and rebasing Experience wi\u2026","id":"3088154114","adref":"eyJhbGciOiJIUzI1NiJ9.eyJzIjoiOE1yVzk5UE03QkdUWjlFZldoMXJuZyIsImkiOiIzMDg4MTU0MTE0In0.7yZ1W-4JJ0ePmg1tiZTMiCutTLIXJ_zWiN65969Q23k","__CLASS__":"Adzuna::API::Response::Job","longitude":-95.49117,"salary_max":124800,"location":{"area":["US","Texas","Harris
+        County","Houston","Willowood"],"display_name":"Willowood, Houston","__CLASS__":"Adzuna::API::Response::Location"},"company":{"__CLASS__":"Adzuna::API::Response::Company","display_name":"SS33
+        Business Services LLC"},"salary_min":124800,"category":{"__CLASS__":"Adzuna::API::Response::Category","tag":"it-jobs","label":"IT
+        Jobs"},"created":"2022-04-29T01:51:07Z","latitude":29.91891}],"__CLASS__":"Adzuna::API::Response::JobSearchResults","mean":189269.32,"count":536}'
+  recorded_at: Fri, 06 May 2022 00:32:12 GMT
+recorded_with: VCR 6.1.0

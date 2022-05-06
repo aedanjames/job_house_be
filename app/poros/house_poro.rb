@@ -9,7 +9,9 @@ class HousePoro
               :view,
               :year_built,
               :photos,
-              :id
+              :id,
+              :city,
+              :state
 
   def initialize(house_data)
     @list_price = house_data[:listPrice]
@@ -23,10 +25,12 @@ class HousePoro
     @year_built = house_data[:property][:yearBuilt]
     @photos = house_data[:photos]
     @id = house_data[:mlsId]
+    @state = house_data[:address][:state]
+    @city = house_data[:address][:city]
   end
 
   def salary_calculator
-      salary  = (((@list_price * (0.005 * 6.022575)) * 12) / 0.3)
+      salary  = (((@list_price * (0.005 * 6.022575)) * 12) / 0.3).to_i
   end
 
 end

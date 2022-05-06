@@ -23,4 +23,10 @@ class HouseFacade
       HousePoro.new(house_info)
     end
   end
+
+  def self.get_house_jobs(house_id)
+    house = HouseService.get_single_house(house_id)
+    house_poro = HousePoro.new(house)
+    JobFacade.find_jobs(house_poro.city, nil,house_poro.salary_calculator)
+  end
 end
